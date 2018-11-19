@@ -1,0 +1,15 @@
+﻿<?xml version="1.0" ?>
+<GameObjectClass>
+  <BaseFile>Weapons\bomb_remote</BaseFile>
+  <Displayname>T2 Remote Cluster Grenades</Displayname>
+  <ShortDisplayName>G-RCL</ShortDisplayName>
+  <ItemInfo>Devastating ordinance that burst into smaller exploding bomblets, covering a wide area. These grenades are armed with remote triggers and can allow for perfect timing.</ItemInfo>
+
+  <StartingAmmoBoxes>5</StartingAmmoBoxes>
+  <AmmoBoxQuantity>50</AmmoBoxQuantity>
+  <Price>8</Price>
+  <TechChanceNumber>2</TechChanceNumber>
+  
+  <ProjectileClassfile>Projectiles\cluster_remote_grenade_payload</ProjectileClassfile>
+  
+</GameObjectClass>

@@ -1,0 +1,64 @@
+﻿<?xml version="1.0"?>
+<GameObjectClass>
+  <Type>WEAPON</Type>
+  <Displayname>T1 Blaster</Displayname>
+  <ShortDisplayName>B-MG</ShortDisplayName>
+  <ItemInfo>Dependable survival kit weapon, common as a personal defense solution for capsized starship crew. Comparable to the regular bullet spewing machine gun, the infinite ammo of the weapon allows it to stay useful even when all other weapons have run dry.</ItemInfo>
+
+  <Price>5</Price>
+  <TechChanceNumber>3</TechChanceNumber>
+  
+  
+  <ProjectilePrecision>.7</ProjectilePrecision>
+  <AutoFireCount>10</AutoFireCount>
+  <RateOfFire>0.04</RateOfFire>
+  <ReloadTime>0.5</ReloadTime>
+  <NumShotsPerReload>10</NumShotsPerReload>
+<!--   <SetDamageStat>0.6</SetDamageStat>   -->
+<!--   <ProjectilesPerShot>2</ProjectilesPerShot> -->
+
+  <ProjectileClassfile>Projectiles\blaster_bullet</ProjectileClassfile>
+  <LoadoutCategory>Shields</LoadoutCategory>
+  <AmmoAsPercent>true</AmmoAsPercent>
+  <MuzzleFlashEffect>_new_muzzle_blaster</MuzzleFlashEffect>
+  <NoMuzzleFlashRotation>true</NoMuzzleFlashRotation>
+  <FireRecoil>10</FireRecoil>
+  <InaccuracyAdditionCoolDown>0.2</InaccuracyAdditionCoolDown>
+  <InaccuracyAddition>0.05</InaccuracyAddition>
+  <InaccuracyAdditionLimit>0.2</InaccuracyAdditionLimit>
+  <ShakeCameraOnFire>0.005</ShakeCameraOnFire>
+  <RecoilCameraOnFire>0.02</RecoilCameraOnFire>
+  <RecoilCameraOnFireDuration>0.045</RecoilCameraOnFireDuration>
+  <SpineWeaponHeadTextureName>gunhead\wephead_laser01</SpineWeaponHeadTextureName>
+  <SpineWeaponTextureName>gunhead\wep_laser01</SpineWeaponTextureName>
+
+  <FireSound>EMPBlaster_Shot</FireSound>
+  
+  <StartingAmmoBoxes>1</StartingAmmoBoxes>
+  <AmmoBoxQuantity>60</AmmoBoxQuantity>
+  <NextRefillTime>2</NextRefillTime>
+  <RefillRate>.1</RefillRate>
+
+  <OnFireMuzzleLight>
+    <Type>Spotlight</Type>
+    <Position>
+      <Z>10</Z>
+    </Position>
+    <Color>
+      <X>0.5</X>
+      <Y>1</Y>
+      <Z>0.5</Z>
+      <W>1</W>
+    </Color>
+    <Direction>
+      <X>1</X>
+      <Y>0</Y>
+      <Z>0.3</Z>
+    </Direction>
+    <Strength>20</Strength>
+    <Radius>700</Radius>
+    <RadiusModifier>-200</RadiusModifier>
+    <InnerConeAngle>1</InnerConeAngle>
+    <OuterConeAngle>1.57</OuterConeAngle>
+  </OnFireMuzzleLight>
+</GameObjectClass>

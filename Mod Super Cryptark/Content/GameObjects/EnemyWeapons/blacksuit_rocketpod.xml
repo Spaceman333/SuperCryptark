@@ -1,0 +1,27 @@
+﻿<?xml version="1.0" ?>
+<GameObjectClass>
+  <Type>WEAPON</Type>
+  <RateOfFire>.15</RateOfFire>
+  <ProjectilesPerShot>1</ProjectilesPerShot>
+  <ProjectilePrecision>.1</ProjectilePrecision>
+  <ProjectileSpread>.5</ProjectileSpread>
+  <ProjectileClassfile>EnemyWeapons\blacksuit_rocket</ProjectileClassfile>
+  <AutoFireCount>5</AutoFireCount>
+  <NumShotsPerReload>5</NumShotsPerReload>
+  <ReloadTime>1</ReloadTime>
+  
+  <FireSound>grenade_fire</FireSound>
+  <MuzzleFlashEffect>_new_muzzle_grenade</MuzzleFlashEffect>
+  <FireRecoil>100</FireRecoil>
+  <OnFireMuzzleLight>
+    <Color>
+      <X>1</X>
+      <Y>0.8</Y>
+      <Z>0.5</Z>
+      <W>1</W>
+    </Color>
+    
+    <Radius>200</Radius>
+    <RadiusModifier>-10</RadiusModifier>
+  </OnFireMuzzleLight>
+</GameObjectClass>

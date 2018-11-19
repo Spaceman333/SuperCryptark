@@ -1,0 +1,53 @@
+<?xml version="1.0"?>
+<GameObjectClass>
+  <Type>WEAPON</Type>
+  <Displayname>T3 Corrosion Cannon</Displayname>
+  <ShortDisplayName>CORRO</ShortDisplayName>
+  <ItemInfo>Fires shells that explode into highly destructive lingering clouds of corrosive gas. The clouds can seep through walls and cover a wide area, quickly obliterating anything they touch. Very potent weapon!</ItemInfo>
+
+  <StartingAmmoBoxes>3</StartingAmmoBoxes>
+  <AmmoBoxQuantity>50</AmmoBoxQuantity>
+  <Price>20</Price>
+  <TechChanceNumber>1</TechChanceNumber>
+
+  <RateOfFire>1</RateOfFire>
+  <ProjectilesPerShot>1</ProjectilesPerShot>
+  <ProjectilePrecision>0.8</ProjectilePrecision>
+  <ProjectileClassfile>Projectiles\cannon_gas_bullet</ProjectileClassfile>
+  <LoadoutCategory>Cannons</LoadoutCategory>
+  
+  <MuzzleFlashEffect>_new_muzzle_autocannon</MuzzleFlashEffect>
+  <FireRecoil>7500</FireRecoil>
+  <ShakeCameraOnFire>0.65</ShakeCameraOnFire>
+  <RecoilCameraOnFire>1.5</RecoilCameraOnFire>
+  <RecoilCameraOnFireDuration>0.05</RecoilCameraOnFireDuration>
+  <FireBoneRecoil>25</FireBoneRecoil>
+  <CasingClassfile>Weapons\cannon_casing</CasingClassfile>
+  <SpineWeaponHeadTextureName>gunhead\wephead_cannon01</SpineWeaponHeadTextureName>
+  <SpineWeaponTextureName>gunhead\wep_cannon01</SpineWeaponTextureName>
+
+  <FireSound>Combat_M_AutoCannon_Shot</FireSound>
+
+  <OnFireMuzzleLight>
+    <Type>Spotlight</Type>
+    <Position>
+      <Z>10</Z>
+    </Position>
+    <Color>
+      <X>1</X>
+      <Y>0.8</Y>
+      <Z>0.5</Z>
+      <W>1</W>
+    </Color>
+    <Direction>
+      <X>1</X>
+      <Y>0</Y>
+      <Z>0.3</Z>
+    </Direction>
+    <Strength>20</Strength>
+    <Radius>700</Radius>
+    <RadiusModifier>-120</RadiusModifier>
+    <InnerConeAngle>1</InnerConeAngle>
+    <OuterConeAngle>1.57</OuterConeAngle>
+  </OnFireMuzzleLight>
+</GameObjectClass>

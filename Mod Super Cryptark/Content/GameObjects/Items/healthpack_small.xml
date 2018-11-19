@@ -1,0 +1,23 @@
+<?xml version="1.0"?>
+<GameObjectClass>
+  <Type>ITEM</Type>
+  <Displayname>Hull Repair Small</Displayname>
+  <ShortDisplayName>FIX-2</ShortDisplayName>
+  <LoadoutCategory>Item</LoadoutCategory>
+  <ItemInfo>This automated field-repair kit quickly deploys pressure-seal-foam, nano-platelets and emergency ribbing to maintain hull integrity until more permanent repairs can be made in hangar. This small kit restores 2 points of hull strength.</ItemInfo>
+  <HudTextureName>tag_item_healthsmall</HudTextureName>
+  
+  <Price>1</Price>
+  <TechChanceNumber>3</TechChanceNumber>
+
+  <StartItemQuantity>1</StartItemQuantity>
+  <InstantHealAmount>2</InstantHealAmount>
+  <RateOfUse>3</RateOfUse>
+  <ParticleEffect>_new_explosion_heal</ParticleEffect>
+  <ItemType>Health</ItemType>
+  <UseInSpace>true</UseInSpace>
+  <MapTextureName>map-rogue-health-item</MapTextureName>
+  <!--<CampaignModeOnly>true</CampaignModeOnly>-->
+
+  <OnUseSound>FX_ST_PickUp_Health</OnUseSound>
+</GameObjectClass>

@@ -1,0 +1,30 @@
+﻿<?xml version="1.0" ?>
+<GameObjectClass>
+  <Type>WEAPON</Type>
+  <Displayname>Hyper Translocator Mk5</Displayname>
+  <ShortDisplayName>TLOC5</ShortDisplayName>
+  <Price>60</Price>
+  <LoadoutCategory>Bombs</LoadoutCategory>
+  <StartingAmmoBoxes>1</StartingAmmoBoxes>
+  <AmmoBoxQuantity>5</AmmoBoxQuantity>
+  <ItemInfo>Shoots a fast reusable long range ethereal translocator beacon, allowing you to teleport to it when activated. Use this to travel long distances instantly. You may get stuck in walls while using this, so just use this device again to get unstuck.</ItemInfo>
+  <!--<HiddenInLoadout>true</HiddenInLoadout>-->
+
+  <ProjectileClassfile>Abilties\translocator_ultra</ProjectileClassfile>
+
+  <FireFromEntCenter>true</FireFromEntCenter>
+  <RecordProjectiles>true</RecordProjectiles>
+  <RemoveProjectilesOnSecondFire>true</RemoveProjectilesOnSecondFire>
+  <RecoverAmmoOnSecondFire>true</RecoverAmmoOnSecondFire>
+  <OnlyShootOnNewInput>true</OnlyShootOnNewInput>
+
+  <FireBoneRecoil>15</FireBoneRecoil>
+  <RateOfFire>0.5</RateOfFire>
+  <FireSound>Translocator_Shot</FireSound>
+
+  <MuzzleFlashEffect>_new_muzzle_lightning</MuzzleFlashEffect>
+  <FireRecoil>1000</FireRecoil>
+  <ShakeCameraOnFire>0.3</ShakeCameraOnFire>
+  <SpineWeaponHeadTextureName>gunhead\wephead_grenade01</SpineWeaponHeadTextureName>
+  <SpineWeaponTextureName>gunhead\wep_grenade01</SpineWeaponTextureName>
+</GameObjectClass>

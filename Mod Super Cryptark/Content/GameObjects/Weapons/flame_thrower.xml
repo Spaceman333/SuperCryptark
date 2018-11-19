@@ -1,0 +1,48 @@
+﻿<?xml version="1.0" ?>
+<GameObjectClass>
+  <Type>WEAPON</Type>
+  <Displayname>T3 Flamethrower</Displayname>
+  <ShortDisplayName>FLAME</ShortDisplayName>
+  <ItemInfo>Simple and short-ranged but undeniably potent in tight spaces, this brutish weapon sprays pressurized gouts of highly flammable liquid that stays airborne for a while, damaging anything that passes through.</ItemInfo>
+
+  <StartingAmmoBoxes>4</StartingAmmoBoxes>
+  <AmmoBoxQuantity>1000</AmmoBoxQuantity>
+  <Price>4</Price>
+  <TechChanceNumber>1</TechChanceNumber>
+ 
+  <RateOfFire>0.01</RateOfFire>
+  <ProjectilesPerShot>1</ProjectilesPerShot>
+  <ProjectilePrecision>.8</ProjectilePrecision>
+  <ProjectileSpread>0.4</ProjectileSpread>
+  <ProjectileClassfile>Projectiles\new_flame</ProjectileClassfile>
+  <LoadoutCategory>Projectors</LoadoutCategory>
+  <AimSpeedModifier>-2</AimSpeedModifier>
+  <MinAimSpeedFactor>0.9</MinAimSpeedFactor>
+  <FireRecoil>25</FireRecoil>
+  <ShakeCameraOnFire>0.3</ShakeCameraOnFire>
+  <SpineWeaponHeadTextureName>gunhead\wephead_flamer01</SpineWeaponHeadTextureName>
+  <SpineWeaponTextureName>gunhead\wep_flamer01</SpineWeaponTextureName>
+  <MuzzleFlashEffect>_new_muzzle_flamethrower</MuzzleFlashEffect>
+  <FiringLoop>Combat_M_FlameThrower_Loop</FiringLoop>
+  <StartFiringSound>Combat_M_FlameThrower_Start</StartFiringSound>
+  <ReleaseFiringSound>Combat_M_FlameThrower_End</ReleaseFiringSound>
+
+  <RecordProjectiles>true</RecordProjectiles>
+  <RemoveProjectilesOnSecondFire>true</RemoveProjectilesOnSecondFire>
+
+  <WeaponMeshEffects>
+    <string>flame_thrower_1</string>
+  </WeaponMeshEffects>
+  
+  <OnFireMuzzleLight>
+    <Color>
+      <X>1</X>
+      <Y>0.25</Y>
+      <Z>0</Z>
+      <W>1</W>
+    </Color>
+    
+    <Radius>200</Radius>
+    <RadiusModifier>-5</RadiusModifier>
+  </OnFireMuzzleLight>
+</GameObjectClass>

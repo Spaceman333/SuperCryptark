@@ -1,0 +1,38 @@
+﻿<?xml version="1.0"?>
+<GameObjectClass>
+  <Type>WEAPON</Type>
+  <Texture>Projectiles\slug01_orange</Texture>
+  
+  <!--<Solid>true</Solid>-->
+  <FakeProjectile>true</FakeProjectile>
+  
+  <CharacterCollide>true</CharacterCollide>
+  <ParticleEffectAmount>2</ParticleEffectAmount>
+  <HitForce>100</HitForce>
+  <MinRandRemoveAfterStarted>.5</MinRandRemoveAfterStarted>
+  <MaxRandRemoveAfterStarted>.7</MaxRandRemoveAfterStarted>
+  <ProjectileMinRandSpeed>150</ProjectileMinRandSpeed>
+  <ProjectileMaxRandSpeed>220</ProjectileMaxRandSpeed>
+  <LinearDamping>2</LinearDamping>
+  <DamagePerShot>0.325</DamagePerShot>
+  <ProjKeepVelocity>false</ProjKeepVelocity>
+  <ProjectileHitDebris>true</ProjectileHitDebris>
+  <OnFireProjectileLight>
+    <Type>Point</Type>
+    <Color>
+      <X>1</X>
+      <Y>0.5</Y>
+      <Z>0.1</Z>
+      <W>1</W>
+    </Color>
+    <Strength>3</Strength>
+    <Radius>100</Radius>
+  </OnFireProjectileLight>
+  
+  <ProjectileColor>
+    <X>1</X>
+    <Y>1</Y>
+    <Z>1</Z>
+  </ProjectileColor>
+  <SetLayer>FULLBRIGHT</SetLayer>
+</GameObjectClass>

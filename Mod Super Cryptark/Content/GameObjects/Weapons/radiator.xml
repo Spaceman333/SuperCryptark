@@ -1,0 +1,54 @@
+<?xml version="1.0"?>
+<GameObjectClass>
+  <Type>WEAPON</Type>
+  <Displayname>T2 Radium Pulse</Displayname>
+  <ShortDisplayName>RAD</ShortDisplayName>
+  <ItemInfo>Fires wide cone pulses of radiation that damages and pushes mobile targets even through walls. Exceptionally effective against hordes of moving enemies. Harmless against systems and turrets.</ItemInfo>
+
+  <Price>7</Price>
+  <StartingAmmoBoxes>2</StartingAmmoBoxes>
+  <AmmoBoxQuantity>200</AmmoBoxQuantity>
+  <TechChanceNumber>2</TechChanceNumber>
+
+  <LoadoutCategory>Shotguns</LoadoutCategory>
+
+  <ProjectilesPerShot>1</ProjectilesPerShot>
+  <NumShotsPerReload>1</NumShotsPerReload>
+  <AutoFireCount>1</AutoFireCount>
+  <ReloadTime>1</ReloadTime>
+  
+  <ProjectileClassfile>Projectiles\radiator_p</ProjectileClassfile>
+  
+  <RateOfFire>1.05</RateOfFire>
+  <ConeGun>true</ConeGun>
+  <FireBoneRecoil>0</FireBoneRecoil>
+  <ShakeCameraOnFire>.1</ShakeCameraOnFire>
+
+  <FireSound>Combat_ST_KnockBack</FireSound>
+  <MuzzleFlashEffect>_new_muzzle_blaster</MuzzleFlashEffect>
+  <NoMuzzleFlashRotation>true</NoMuzzleFlashRotation>
+  
+  <OnFireMuzzleLight>
+      <Type>Spotlight</Type>
+      <Position>
+        <Z>5</Z>
+      </Position>
+      <Color>
+        <X>0.01</X>
+        <Y>1</Y>
+        <Z>0</Z>
+        <W>1</W>
+      </Color>
+      <Direction>
+        <X>1</X>
+        <Y>0</Y>
+        <Z>0</Z>
+      </Direction>
+      <Strength>100</Strength>
+      <Radius>2000</Radius>
+    <RadiusModifier>-150</RadiusModifier>
+    <InnerConeAngle>0.1</InnerConeAngle>
+    <OuterConeAngle>.35</OuterConeAngle>
+    <FollowBoneName>muzzle</FollowBoneName>
+    </OnFireMuzzleLight>
+</GameObjectClass>

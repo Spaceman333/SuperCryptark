@@ -1,0 +1,46 @@
+﻿<?xml version="1.0" ?>
+<GameObjectClass>
+  <Type>SLOW_EXPLOSION</Type>
+  <ExplosionGrowRate>0.42</ExplosionGrowRate>
+  <ExplosionMaxRadius>888</ExplosionMaxRadius>
+  <RemoveAfterStarted>66</RemoveAfterStarted>
+  <SlowExplosionSparkCountMod>0.2</SlowExplosionSparkCountMod>
+  <ExplodeDamage>3</ExplodeDamage>
+  <SlowExplosionDamageRate>0.1</SlowExplosionDamageRate>
+  <ExplodeDamageObjectMultiply>4</ExplodeDamageObjectMultiply>
+  <NoOffscreen>true</NoOffscreen>
+  <UseSpatialSystem>false</UseSpatialSystem>
+  <DamageEnemies>true</DamageEnemies>
+  <DamageSystems>true</DamageSystems>
+  <DamagePlayer>true</DamagePlayer>
+  <DamageObjects>true</DamageObjects>
+
+  <AmbientSound>Combat_M_NuclearLoop</AmbientSound>
+  <OnAddSound>Combat_M_Rocket_Blast</OnAddSound>
+  <SpawnObjectOnAdd>Refractions\detpack_shockwave</SpawnObjectOnAdd>
+  <MeshEffects>
+    <string>slow_explosion_1</string>
+    <string>slow_explosion_2</string>
+  </MeshEffects>
+
+  <Light>
+    <Type>Point</Type>
+    <Color>
+      <X>0</X>
+      <Y>0.1</Y>
+      <Z>1</Z>
+      <W>1</W>
+    </Color>
+    <SpecularColor>
+      <X>0</X>
+      <Y>0.1</Y>
+      <Z>1</Z>
+      <W>1</W>
+    </SpecularColor>
+    <Strength>85</Strength>
+    <Shininess>8</Shininess>
+    <Radius>700</Radius>
+    <UseSpatialSystem>false</UseSpatialSystem>
+    <BoundingBoxUpdateRate>1</BoundingBoxUpdateRate>
+  </Light>
+</GameObjectClass>

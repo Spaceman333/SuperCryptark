@@ -1,0 +1,35 @@
+﻿<?xml version="1.0" ?>
+<GameObjectClass>
+  <Type>HAZARD_POD</Type>
+  <Displayname>Stasis Tank</Displayname>
+  <SpineAnimation>pod01</SpineAnimation>
+  <Health>1</Health>
+  <BoundingBoxBody>base_box</BoundingBoxBody>
+  <GibOnDeath>true</GibOnDeath>
+  <DebrisAmount>5</DebrisAmount>
+  <DebrisRandomOffset>
+    <X>3</X>
+    <Y>3</Y>
+  </DebrisRandomOffset>
+  <RandomDebrisDirection>true</RandomDebrisDirection>
+  <DebrisMinRandForceMod>0.1</DebrisMinRandForceMod>
+  <DebrisMaxRandForceMod>.7</DebrisMaxRandForceMod>
+  <DisableFollowBodyRotation>true</DisableFollowBodyRotation>
+  <SpineAnimationScale>1</SpineAnimationScale>
+
+  <SpawnObjectOnRemove>Liquid\slimepod</SpawnObjectOnRemove>
+  <SpawnAtBone>bones</SpawnAtBone>
+  <RemoveParticleEffect>_new_explosion_goo_large</RemoveParticleEffect>
+  <ParticleEffectBone>bones</ParticleEffectBone>
+  <OnRemoveSound>Combat_M_HazardPod_Explode</OnRemoveSound>
+  
+  <Solid>true</Solid>
+  <Static>true</Static>
+  <UseSpatialSystem>false</UseSpatialSystem>
+  <BoundingBoxWidth>12</BoundingBoxWidth>
+  <BoundingBoxHeight>20</BoundingBoxHeight>
+  
+  <SidebarTextureName>hazard_gootank</SidebarTextureName>
+  <MinimapDescription>Alien stasis tank filled with burning coolant.</MinimapDescription>
+  
+</GameObjectClass>

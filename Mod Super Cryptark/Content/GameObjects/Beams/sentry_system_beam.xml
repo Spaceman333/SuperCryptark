@@ -1,0 +1,13 @@
+﻿<?xml version="1.0" ?>
+<GameObjectClass>
+  <Type>BEAM</Type>
+  <MeshEffects>
+    <string>sentry_beam_1</string>
+    <string>sentry_beam_2</string>
+    <string>sentry_beam_3</string>
+    <string>sentry_beam_4</string>
+  </MeshEffects>
+  <BeamEndParticleEffect>_new_hit_sentry</BeamEndParticleEffect>
+  <UseSpatialSystem>false</UseSpatialSystem>
+  <BoundingBoxUpdateRate>0.05</BoundingBoxUpdateRate>
+</GameObjectClass>

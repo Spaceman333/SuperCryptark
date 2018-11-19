@@ -1,0 +1,11 @@
+﻿<?xml version="1.0"?>
+<GameObjectClass>
+  <Type>LIQUID</Type>
+  <LiquidAreaSize>
+    <X>8</X>
+    <Y>8</Y>
+  </LiquidAreaSize>
+  <LiquidAmount>10</LiquidAmount>
+  <FluidType>GreenSlime</FluidType>
+  <FluidForce>.5</FluidForce>
+</GameObjectClass>

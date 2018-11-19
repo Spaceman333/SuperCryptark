@@ -1,0 +1,62 @@
+﻿<?xml version="1.0" ?>
+<GameObjectClass>
+  <Type>WEAPON</Type>
+  <Solid>true</Solid>
+  <EclipseBody>true</EclipseBody>
+  <Width>2</Width>
+  <Height>2</Height>
+  <Scale>1.2</Scale>
+  <CharacterCollide>false</CharacterCollide>
+  <IgnoreGameobjectCollision>true</IgnoreGameobjectCollision>
+  <ProjectileRemoveOnCollision>false</ProjectileRemoveOnCollision>
+  <ProjectileRemoveOnBrushCollision>true</ProjectileRemoveOnBrushCollision>
+
+  <ProjectileSpeed>10</ProjectileSpeed>
+  <HitForce>800</HitForce>
+  <ProjectileZapDamage>5</ProjectileZapDamage>
+  <ZapTTL>0.1</ZapTTL>
+  <DamageAreaRadius>110</DamageAreaRadius>
+  <DamageRate>0.5</DamageRate>
+  
+  <AmbientSound>StormHammer_Loop</AmbientSound>
+
+  <RefractionMapName>bfg_refraction</RefractionMapName>
+  <RefractionScale>5</RefractionScale>
+  <RefractionAlpha>0</RefractionAlpha>
+  <RefractionAlphaMod>0.25</RefractionAlphaMod>
+  <MeshEffectRadius>16</MeshEffectRadius>
+  <ParticleEffect>_new_trail_bfg</ParticleEffect>
+
+  <MeshEffects>
+    <string>bfg_3</string>
+    <string>bfg_2</string>
+    <string>bfg_1</string>
+  </MeshEffects>
+
+  <ExplodeOnRemove>true</ExplodeOnRemove>
+  <ExplodeForce>800</ExplodeForce>
+  <ExplodeSize>110</ExplodeSize>
+  <ExplosionParticleEffect>_new_explosion_bfg</ExplosionParticleEffect>
+  <ExplosionRefraction>shockwave_2</ExplosionRefraction>
+  <ExplosionSound>Galvanic Fission_Explode</ExplosionSound>
+  <ExplodeDamage>110</ExplodeDamage>
+  
+  <Light>
+    <Type>Point</Type>
+    <Color>
+      <X>0</X>
+      <Y>0.1</Y>
+      <Z>1</Z>
+      <W>1</W>
+    </Color>
+    <SpecularColor>
+      <X>0</X>
+      <Y>0.1</Y>
+      <Z>1</Z>
+      <W>1</W>
+    </SpecularColor>
+    <Strength>6</Strength>
+    <Shininess>20</Shininess>
+    <Radius>800</Radius>
+  </Light>
+</GameObjectClass>

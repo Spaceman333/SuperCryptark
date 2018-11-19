@@ -1,0 +1,19 @@
+﻿<?xml version="1.0" ?>
+<GameObjectClass>
+  <Type>ZAPCABLE</Type>
+  <SpineAnimation>zapcable01</SpineAnimation>
+  <DisableSpineUpdate>true</DisableSpineUpdate>
+  <Health>4</Health>
+  <EclipseBody>true</EclipseBody>
+  <Width>1</Width>
+  <Height>1</Height>
+  <Solid>true</Solid>
+  <Static>true</Static>
+  <IgnoreCollision>true</IgnoreCollision>
+  <ZapFlailDelay>0.1</ZapFlailDelay>
+  <ZapFlailRandomMin>0.1</ZapFlailRandomMin>
+  <ZapFlailRandomMax>0.6</ZapFlailRandomMax>
+  <ZapFlailForceMin>-4000</ZapFlailForceMin>
+  <ZapFlailForceMax>4000</ZapFlailForceMax>
+  <ZapFlailOutwardForce>5000</ZapFlailOutwardForce>
+</GameObjectClass>

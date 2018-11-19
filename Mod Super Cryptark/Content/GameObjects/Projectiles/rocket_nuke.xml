@@ -1,0 +1,42 @@
+﻿<?xml version="1.0" ?>
+<GameObjectClass>
+  <BaseFile>Projectiles\rocket</BaseFile>
+  <Texture>Projectiles\rocket_black</Texture>
+  <RemoveAfterStarted>0</RemoveAfterStarted>
+  <SpawnObjectOnRemove>Hazards\nuke_explosion</SpawnObjectOnRemove>
+  <ExplodeDamage>40</ExplodeDamage>
+  <ExplodeForce>900</ExplodeForce>
+  <ExplodeSize>40</ExplodeSize>
+  <Scale>2.0</Scale>
+
+  <ProjectileFollowTarget>false</ProjectileFollowTarget>
+  
+  <OnExplodeLight>
+    <Type>Directional</Type>
+    <Position>
+      <Z>10</Z>
+    </Position>
+    <Color>
+      <X>1</X>
+      <Y>0.5</Y>
+      <Z>0.1</Z>
+      <W>1</W>
+    </Color>
+    <SpecularColor>
+      <X>1</X>
+      <Y>0.5</Y>
+      <Z>0.1</Z>
+      <W>1</W>
+    </SpecularColor>
+    <Direction>
+      <X>1</X>
+      <Y>0</Y>
+      <Z>0.5</Z>
+    </Direction>
+    <Strength>12</Strength>
+    <MaxStrength>12</MaxStrength>
+    <StrengthModifier>-0.3</StrengthModifier>
+    <RemoveOnZeroStrength>true</RemoveOnZeroStrength>
+    <Shininess>6</Shininess>
+  </OnExplodeLight>
+</GameObjectClass>

@@ -1,0 +1,10 @@
+﻿<?xml version="1.0" ?>
+<GameObjectClass>
+  <Type>WEAPON</Type>
+  <HitForce>40</HitForce>
+  <CharacterCollide>true</CharacterCollide>
+  <DamagePerShot>0.35</DamagePerShot>
+  <StunTime>2</StunTime>
+  <IgnoreBrushCollision>true</IgnoreBrushCollision>
+  <IgnoreDoorCollision>true</IgnoreDoorCollision>
+</GameObjectClass>

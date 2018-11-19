@@ -1,0 +1,68 @@
+<?xml version="1.0"?>
+<CharacterClass xmlns:xsi="http://www.w3.org/2001/XMLSchema-instance" xmlns:xsd="http://www.w3.org/2001/XMLSchema">
+  <SpineAnimation>player_drone</SpineAnimation>
+  <MinimapTextureName>map-helper</MinimapTextureName>
+  <MinimapScale>0.5</MinimapScale>
+
+  <Health>10</Health>
+  <Type>HelperDrone</Type>
+  <DisplayName>Boomslang Drone</DisplayName>
+  
+  <Inertia>35</Inertia>
+  <InertiaNoAirControlMultiply>0.1</InertiaNoAirControlMultiply>
+  <Swarmer>true</Swarmer>
+  <SwarmDisableSetGoal>true</SwarmDisableSetGoal>
+  <IgnoreBrushCollision>true</IgnoreBrushCollision>
+  <IgnoreSameTeamCollision>true</IgnoreSameTeamCollision>
+
+  <Width>3</Width>
+  <Height>3</Height>
+  
+  <Weapon1>Weapons\blaster</Weapon1>
+  
+  <Light>
+    <Type>Point</Type>
+    <Position>
+      <Z>100</Z>
+    </Position>
+    <Color>
+      <X>1</X>
+      <Y>1</Y>
+      <Z>.8</Z>
+      <W>1</W>
+    </Color>
+    <Direction>
+      <X>0</X>
+      <Y>0</Y>
+      <Z>1</Z>
+    </Direction>
+    <Strength>1</Strength>
+    <Radius>600</Radius>
+  </Light>
+
+  <!--
+  <AimingLight>
+    <Type>Spotlight</Type>
+    <Position>
+      <Z>20</Z>
+    </Position>
+    <Color>
+      <X>1</X>
+      <Y>1</Y>
+      <Z>.8</Z>
+      <W>1</W>
+    </Color>
+    <Direction>
+      <X>1</X>
+      <Y>0</Y>
+      <Z>0.4</Z>
+    </Direction>
+    <InnerConeAngle>0.4</InnerConeAngle>
+    <OuterConeAngle>0.6</OuterConeAngle>
+    <Strength>3</Strength>
+    <Radius>1000</Radius>
+  </AimingLight>-->
+  
+  <DefaultItems>
+  </DefaultItems>
+</CharacterClass>

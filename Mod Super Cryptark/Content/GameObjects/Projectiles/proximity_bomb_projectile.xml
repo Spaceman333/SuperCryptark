@@ -1,0 +1,55 @@
+﻿<?xml version="1.0" ?>
+<GameObjectClass>
+  <Type>WEAPON</Type>
+  
+  <SpineAnimation>mine_player</SpineAnimation>
+  <SpineAnimationScale>.75</SpineAnimationScale>
+  <CharacterCollide>false</CharacterCollide>
+  <ProjectileSpeed>30</ProjectileSpeed>
+  <SetFriction>true</SetFriction>
+  <Friction>0</Friction>
+  <Solid>true</Solid>
+  <LinearDamping>2</LinearDamping>
+  <DecalType>Bomb</DecalType>
+
+  <Restitution>0.8</Restitution>
+
+  <ExplodeOnRemove>true</ExplodeOnRemove>
+  <ExplodeForce>60</ExplodeForce>
+  <ExplodeSize>12</ExplodeSize>
+  <ExplosionParticleEffect>_new_explosion_small</ExplosionParticleEffect>
+  <ExplosionSound>Blast</ExplosionSound>
+  <ExplodeDamage>4</ExplodeDamage>
+  <ExplosionRefraction>shockwave_2</ExplosionRefraction>
+
+  <ProjectileTargetSeekRange>16</ProjectileTargetSeekRange>
+  <ProjectileRemoveOnCollision>false</ProjectileRemoveOnCollision>
+  <RemoveOnProjectileTargetFound>true</RemoveOnProjectileTargetFound>
+  <RemoveOnProjectileTargetFoundDelay>0.2</RemoveOnProjectileTargetFoundDelay>
+
+  <OnFireProjectileLight>
+    <Type>Point</Type>
+    <Color>
+      <X>1</X>
+      <Y>0.5</Y>
+      <Z>0.1</Z>
+      <W>1</W>
+    </Color>
+    <Radius>300</Radius>
+    <Strength>1</Strength>
+  </OnFireProjectileLight>
+
+  <OnExplodeLight>
+    <Type>Point</Type>
+    <Color>
+      <X>1</X>
+      <Y>0.5</Y>
+      <Z>0.1</Z>
+      <W>1</W>
+    </Color>
+    <Strength>25</Strength>
+    <Radius>2000</Radius>
+    <RadiusModifier>-200</RadiusModifier>
+  </OnExplodeLight>
+
+</GameObjectClass>

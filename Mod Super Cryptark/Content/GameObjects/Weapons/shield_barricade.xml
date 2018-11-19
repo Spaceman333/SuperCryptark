@@ -1,0 +1,56 @@
+﻿<?xml version="1.0"?>
+<GameObjectClass>
+  <Type>WEAPON</Type>
+  <Displayname>T1 Barricade Shield</Displayname>
+  <ShortDisplayName>S-BAR</ShortDisplayName>
+  <ItemInfo>This smart holo-emitter projects a temporary force-wall, blocking enemy fire while letting friendly fire pass through.</ItemInfo>
+
+  <Price>4</Price>
+  <TechChanceNumber>3</TechChanceNumber>
+  
+  <RateOfFire>0.25</RateOfFire>
+  <ProjectilesPerShot>1</ProjectilesPerShot>
+  <ProjectilePrecision>1</ProjectilePrecision>
+  <ProjectileClassfile>Projectiles\shield_barricade_p</ProjectileClassfile>
+  
+  <LoadoutCategory>Shields</LoadoutCategory>
+  <AmmoAsPercent>true</AmmoAsPercent>
+  <MuzzleFlashEffect>_new_muzzle_blaster</MuzzleFlashEffect>
+  <NoMuzzleFlashRotation>true</NoMuzzleFlashRotation>
+  <FireRecoil>100</FireRecoil>
+  <ShakeCameraOnFire>0.1</ShakeCameraOnFire>
+  <RecoilCameraOnFire>1</RecoilCameraOnFire>
+  <RecoilCameraOnFireDuration>0.075</RecoilCameraOnFireDuration>
+  <SpineWeaponHeadTextureName>gunhead\wephead_shield01</SpineWeaponHeadTextureName>
+  <SpineWeaponTextureName>gunhead\wep_shield01</SpineWeaponTextureName>
+
+  <FireSound>EMPBlaster_Shot</FireSound>
+  
+  <StartingAmmoBoxes>1</StartingAmmoBoxes>
+  <AmmoBoxQuantity>8</AmmoBoxQuantity>
+  <NextRefillTime>2</NextRefillTime>
+  <RefillRate>.1</RefillRate>
+
+  <OnFireMuzzleLight>
+    <Type>Spotlight</Type>
+    <Position>
+      <Z>10</Z>
+    </Position>
+    <Color>
+      <X>0.5</X>
+      <Y>1</Y>
+      <Z>0.5</Z>
+      <W>1</W>
+    </Color>
+    <Direction>
+      <X>1</X>
+      <Y>0</Y>
+      <Z>0.3</Z>
+    </Direction>
+    <Strength>20</Strength>
+    <Radius>700</Radius>
+    <RadiusModifier>-200</RadiusModifier>
+    <InnerConeAngle>1</InnerConeAngle>
+    <OuterConeAngle>1.57</OuterConeAngle>
+  </OnFireMuzzleLight>
+</GameObjectClass>

@@ -1,0 +1,7 @@
+<?xml version="1.0"?>
+<GameObjectClass>
+  <BaseFile>Weapons\shotgun</BaseFile>
+  <Displayname>Pirate Shotgun</Displayname>
+  <LoadoutCategory>Test</LoadoutCategory>
+  <RateOfFire>2</RateOfFire>
+</GameObjectClass>

@@ -1,0 +1,12 @@
+﻿<?xml version="1.0" ?>
+<GameObjectClass>
+  <Type>INCINERATOR_STATIONARY</Type>
+  <SpineAnimation>incinerator_stationary_long</SpineAnimation>
+
+  <Weapon1>EnemyWeapons\incinerator_basic</Weapon1>
+  <Weapon2>EnemyWeapons\incinerator_basic</Weapon2>
+  <Weapon3>EnemyWeapons\incinerator_basic</Weapon3>
+  <Weapon4>EnemyWeapons\incinerator_basic</Weapon4>
+  <CloseDuration>1</CloseDuration>
+  <OpenDuration>1</OpenDuration>
+</GameObjectClass>

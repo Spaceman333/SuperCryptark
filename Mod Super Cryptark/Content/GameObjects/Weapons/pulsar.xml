@@ -1,0 +1,60 @@
+<?xml version="1.0"?>
+<GameObjectClass>
+  <Type>WEAPON</Type>
+  <Displayname>T2 Pulsar</Displayname>
+  <ShortDisplayName>PULSE</ShortDisplayName>
+  <ItemInfo>Designed as a next-generation military service weapon, this powerful pulse rifle fires a rapid stream of burning plasma in short bursts. As a safety measure, its rate of fire decreases as its power cell drains to prevent blowout.</ItemInfo>
+
+  <Price>11</Price>
+  <TechChanceNumber>2</TechChanceNumber>
+  
+  <RateOfFire>0.005</RateOfFire>
+  <RateOfFireAddition>0.02</RateOfFireAddition>
+  <RateOfFireAdditionLimit>0.30</RateOfFireAdditionLimit>
+  <RateOfFireAdditionCoolDown>0.8</RateOfFireAdditionCoolDown>
+  <AmmoAsPercent>true</AmmoAsPercent>
+  <StartingAmmoBoxes>1</StartingAmmoBoxes>
+  <AmmoBoxQuantity>100</AmmoBoxQuantity>
+  <NextRefillTime>.25</NextRefillTime>
+  <RefillRate>0.8</RefillRate>
+  <ProjectilesPerShot>1</ProjectilesPerShot>
+  <ProjectilePrecision>1</ProjectilePrecision>
+  <ProjectileClassfile>Projectiles\pulsar_bullet</ProjectileClassfile>
+  <LoadoutCategory>Energy</LoadoutCategory>
+  
+  <FireSound>Combat_M_PulseGun_Shot</FireSound>
+  <NoMuzzleFlashRotation>true</NoMuzzleFlashRotation>
+  <MuzzleFlashEffect>_new_muzzle_blaster</MuzzleFlashEffect>
+  <FireRecoil>100</FireRecoil>
+  <InaccuracyAdditionCoolDown>0.8</InaccuracyAdditionCoolDown>
+  <InaccuracyAddition>0.18</InaccuracyAddition>
+  <InaccuracyAdditionLimit>1</InaccuracyAdditionLimit>
+  <ShakeCameraOnFire>0.05</ShakeCameraOnFire>
+  <RecoilCameraOnFire>1</RecoilCameraOnFire>
+  <RecoilCameraOnFireDuration>0.075</RecoilCameraOnFireDuration>
+  <SpineWeaponHeadTextureName>gunhead\wephead_laser01</SpineWeaponHeadTextureName>
+  <SpineWeaponTextureName>gunhead\wep_laser01</SpineWeaponTextureName>
+
+  <OnFireMuzzleLight>
+    <Type>Spotlight</Type>
+    <Position>
+      <Z>10</Z>
+    </Position>
+    <Color>
+      <X>0.5</X>
+      <Y>1</Y>
+      <Z>0.5</Z>
+      <W>1</W>
+    </Color>
+    <Direction>
+      <X>1</X>
+      <Y>0</Y>
+      <Z>0.3</Z>
+    </Direction>
+    <Strength>20</Strength>
+    <Radius>700</Radius>
+    <RadiusModifier>-200</RadiusModifier>
+    <InnerConeAngle>1</InnerConeAngle>
+    <OuterConeAngle>1.57</OuterConeAngle>
+  </OnFireMuzzleLight>
+</GameObjectClass>

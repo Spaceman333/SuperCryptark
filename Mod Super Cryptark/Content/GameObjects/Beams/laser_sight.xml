@@ -1,0 +1,14 @@
+﻿<?xml version="1.0" ?>
+<GameObjectClass>
+  <Type>BEAM</Type>
+  <Texture>Beams\laser_sight</Texture>
+  <BeamColor>
+    <X>0.68</X>
+    <Y>0.12</Y>
+    <Z>0.67</Z>
+    <W>0.7</W>
+  </BeamColor>
+  <BeamEndParticleEffect>_new_muzzle_aimlaserpurp</BeamEndParticleEffect>
+  <BeamStartParticleEffect>_new_muzzle_aimlaserpurp</BeamStartParticleEffect>
+  <SetLayer>FULLBRIGHT</SetLayer>
+</GameObjectClass>

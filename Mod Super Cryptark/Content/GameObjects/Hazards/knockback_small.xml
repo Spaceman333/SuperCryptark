@@ -1,0 +1,20 @@
+﻿<?xml version="1.0" encoding="utf-8" ?>
+<GameObjectClass>
+  <Type>KNOCKBACK</Type>
+  <RefractionMapName>shockwave_2</RefractionMapName>
+  <Scale>0.02</Scale>
+  <ScaleModifier>0.3</ScaleModifier>
+  <RemoveAfterStarted>0.8</RemoveAfterStarted>
+  <FadeOutDuration>0.5</FadeOutDuration>
+  <FadeOutStartDelay>0.5</FadeOutStartDelay>
+  <RemoveOnFadeOut>false</RemoveOnFadeOut>
+  
+  <ExplodeForce>110</ExplodeForce>
+  <ExplodeSize>40</ExplodeSize>
+
+  <ExplosionGrowRate>4</ExplosionGrowRate>
+
+  <MeshEffects>
+    <string>knockback_1</string>
+  </MeshEffects>
+</GameObjectClass>

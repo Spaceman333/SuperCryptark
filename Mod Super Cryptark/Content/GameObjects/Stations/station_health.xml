@@ -1,0 +1,46 @@
+<?xml version="1.0"?>
+<GameObjectClass>
+  <Displayname>Repair Supply Pod</Displayname>
+  <Type>STATION</Type>
+  <StationType>HEALTH</StationType>
+
+  <SpineAnimation>supply_pod_repair</SpineAnimation>
+  <ShowsInteractOutline>true</ShowsInteractOutline>
+
+  <ManualFadeOut>true</ManualFadeOut>
+  <FadeOutStartDelay>2</FadeOutStartDelay>
+  <FadeOutDuration>2.5</FadeOutDuration>
+  
+  <MinimapTextureName>station_health</MinimapTextureName>
+  <MinimapTextureScale>0.5</MinimapTextureScale>
+  <MinimapDescription>Will repair all hull strength on use.</MinimapDescription>
+  <ShowsInteractDisplayname>true</ShowsInteractDisplayname>
+  <RandomStartRotation>true</RandomStartRotation>
+
+  <Light>
+    <Type>Spotlight</Type>
+    <Position>
+      <Z>10</Z>
+    </Position>
+    <Color>
+      <X>0.3</X>
+      <Y>1</Y>
+      <Z>0</Z>
+      <W>1</W>
+    </Color>
+    <Direction>
+      <X>0</X>
+      <Y>-1</Y>
+      <Z>0.5</Z>
+    </Direction>
+    <MinRadius>100</MinRadius>
+    <MaxRadius>500</MaxRadius>
+    <RadiusCycleScale>4</RadiusCycleScale>
+    <OscillateRadius>true</OscillateRadius>
+    <Strength>5</Strength>
+    <FollowBoneName>light</FollowBoneName>
+    <FollowOwnRotation>true</FollowOwnRotation>
+    <InnerConeAngle>0.6</InnerConeAngle>
+    <OuterConeAngle>2.5</OuterConeAngle>
+  </Light>
+</GameObjectClass>

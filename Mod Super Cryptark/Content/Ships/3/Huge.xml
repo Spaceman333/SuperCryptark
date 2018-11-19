@@ -1,0 +1,62 @@
+﻿<?xml version="1.0"?>
+<ShipOption xmlns:xsi="http://www.w3.org/2001/XMLSchema-instance" xmlns:xsd="http://www.w3.org/2001/XMLSchema">
+
+  <Level>6</Level>
+  <Tier>3</Tier>
+  
+  <TechAdvances>20</TechAdvances>
+  <TechAdvancesArcade>20</TechAdvancesArcade>
+
+  <Classes>
+    <string>Cloaker</string>
+    <string>Warship</string>
+    <string>Factory</string>
+    <string>Heavy</string>
+    <string>Swarm</string>
+    <string>Miner</string>
+    <string>Sentry</string>
+    <string>Nuke</string>
+    <string>Scrapyard</string>
+    <string>Double</string>
+    <string>ScienceVessel</string>
+	<string>Reconstruct</string>
+  </Classes>
+
+  <ShipImagesNumber>10</ShipImagesNumber>
+  <ShipImages>
+    <string>ship03</string>
+    <string>ship04</string>
+    <string>ship05</string>
+    <string>ship06</string>
+    <string>ship07</string>
+    <string>ship08</string>
+    <string>ship09</string>
+    <string>ship10</string>
+  </ShipImages>
+
+  <LevelNames>
+    <string>hull_large01</string>
+    <string>hull_large02</string>
+    <string>hull_large03</string>
+    <string>hull_large04</string>
+    <string>hull_large05</string>
+    <string>hull_large06</string>
+    <string>hull_large07</string>
+    <string>hull_large08</string>
+    <string>hull_large09</string>
+  </LevelNames>
+
+  <SystemAmount>59</SystemAmount>
+  
+  <TimeMultiply>4.0</TimeMultiply>
+
+  <SpawnMultiply>0.85</SpawnMultiply>
+
+  <MinWave>4</MinWave>
+
+  <Bounty>840</Bounty>
+
+  <HealthStations>5</HealthStations>
+  <AmmoStations>5</AmmoStations>
+
+</ShipOption>

@@ -1,0 +1,22 @@
+﻿<?xml version="1.0" ?>
+<GameObjectClass>
+  <BaseFile>Weapons\rocket_launcher</BaseFile>
+  <Displayname>T2 Drunk Rocket</Displayname>
+  <ShortDisplayName>R-DNK</ShortDisplayName>
+  <ItemInfo>Officially recalled due to faulty guidance systems, these unpredictable small missiles can still be purchased from backchannels and are effective when fired in large volleys.</ItemInfo>
+
+  <StartingAmmoBoxes>4</StartingAmmoBoxes>
+  <AmmoBoxQuantity>200</AmmoBoxQuantity>
+  <Price>6</Price>
+  <TechChanceNumber>2</TechChanceNumber>
+  
+  <RateOfFire>0.2</RateOfFire>
+  <FireRecoil>25</FireRecoil>
+  <RecoilCameraOnFire>0.1</RecoilCameraOnFire>
+  <RecoilCameraOnFireDuration>0.02</RecoilCameraOnFireDuration>
+  <ShakeCameraOnFire>0.1</ShakeCameraOnFire>
+  <ProjectileClassfile>Projectiles\drunk_rocket</ProjectileClassfile>
+  <LoadoutCategory>Rockets</LoadoutCategory>
+  <SpineWeaponHeadTextureName>gunhead\wephead_rocket01</SpineWeaponHeadTextureName>
+  <SpineWeaponTextureName>gunhead\wep_rocket01</SpineWeaponTextureName>
+</GameObjectClass>

@@ -1,0 +1,13 @@
+﻿<?xml version="1.0" ?>
+<GameObjectClass>
+  <Type>BEAM</Type>
+  <Texture>Beams\mr_fixit_beam</Texture>
+  <BeamColor>
+    <X>1</X>
+    <Y>1</Y>
+    <Z>1</Z>
+    <W>0.8</W>
+  </BeamColor>
+  <SetLayer>FULLBRIGHT</SetLayer>
+  <FadeOutDuration>0.02</FadeOutDuration>
+</GameObjectClass>

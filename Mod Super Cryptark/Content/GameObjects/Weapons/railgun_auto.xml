@@ -1,0 +1,89 @@
+﻿<?xml version="1.0" ?>
+<GameObjectClass>
+  <Type>WEAPON</Type>
+  <Displayname>T2 Auto Plasma</Displayname>
+  <ShortDisplayName>AUPLS</ShortDisplayName>
+  <ItemInfo>Shoots rapidly a single chemical fueled plasma beam that pierces multiple enemies. Formidable and dependable, this weapon can be relied on against any opponent for extended combat operations, thanks to its large ammo capacity and fair damage.</ItemInfo>
+ 
+  <Price>9</Price>
+  <TechChanceNumber>2</TechChanceNumber>
+  
+  <StartingAmmoBoxes>3</StartingAmmoBoxes>
+  <AmmoBoxQuantity>500</AmmoBoxQuantity>
+  <RateOfFire>0.3</RateOfFire>
+  <FiringLoop></FiringLoop>
+
+  <LoadoutCategory>Projectors</LoadoutCategory>
+  <ProjectileClassfile>Projectiles\autorailgun_beam</ProjectileClassfile>   
+  
+  
+  <FireBoneRecoil>5</FireBoneRecoil>
+  <RayGun>true</RayGun>
+  <ProjectilesPerShot>1</ProjectilesPerShot>
+  <ProjectilePrecision>1</ProjectilePrecision>
+  <ProjectileRange>190</ProjectileRange>  
+  
+  <FireNoiseRadius>25</FireNoiseRadius>  
+  
+  <FireRecoil>280</FireRecoil>
+  <RecoilCameraOnFire>0.2</RecoilCameraOnFire>
+  <RecoilCameraOnFireDuration>0.09</RecoilCameraOnFireDuration>
+  <ShakeCameraOnFire>0.03</ShakeCameraOnFire>
+  <OnFireBeamClassfile>Beams\autorailgun</OnFireBeamClassfile>
+  <SpineWeaponHeadTextureName>gunhead\wephead_laser01</SpineWeaponHeadTextureName>
+  <SpineWeaponTextureName>gunhead\wep_laser01</SpineWeaponTextureName>
+
+  <FireSound>Combat_M_RailGun_Shot</FireSound>
+  <MuzzleFlashEffect>_new_muzzle_blaster</MuzzleFlashEffect>
+  
+  <OnFireMuzzleLight>
+    <Type>Spotlight</Type>
+    <Position>
+      <Z>10</Z>
+    </Position>
+    <Color>
+      <X>.4</X>
+      <Y>1</Y>
+      <Z>0.1</Z>
+      <W>1</W>
+    </Color>
+    <Direction>
+      <X>1</X>
+      <Y>0</Y>
+      <Z>0.3</Z>
+    </Direction>
+    <Strength>20</Strength>
+    <Radius>800</Radius>
+    <RadiusModifier>-200</RadiusModifier>
+    <InnerConeAngle>1</InnerConeAngle>
+    <OuterConeAngle>1.57</OuterConeAngle>
+  </OnFireMuzzleLight>
+
+  <RaygunImpactLight>
+    <Type>Spotlight</Type>
+    <Color>
+      <X>0.9</X>
+      <Y>0.3</Y>
+      <Z>0.1</Z>
+      <W>1</W>
+    </Color>
+    <Position>
+      <Z>40</Z>
+    </Position>
+    <Direction>
+      <X>0.9</X>
+      <Y>0.1</Y>
+      <Z>0.8</Z>
+    </Direction>
+    <Strength>20</Strength>
+    <InnerConeAngle>0.5</InnerConeAngle>
+    <OuterConeAngle>1.5</OuterConeAngle>
+    <Radius>300</Radius>
+    <RadiusModifier>-50</RadiusModifier>
+  </RaygunImpactLight>
+
+  <RaygunImpactParticleEffect>_new_hit_laser</RaygunImpactParticleEffect>
+
+  <!--<AimSpeedModifier>-5</AimSpeedModifier>
+  <MinAimSpeedFactor>0.1</MinAimSpeedFactor> -->
+</GameObjectClass>

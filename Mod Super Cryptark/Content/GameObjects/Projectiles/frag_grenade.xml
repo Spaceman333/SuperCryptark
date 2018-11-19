@@ -1,0 +1,19 @@
+﻿<?xml version="1.0" ?>
+<GameObjectClass>
+  <BaseFile>Projectiles\grenade</BaseFile>
+  <Texture>Projectiles\bomb_purple</Texture>
+  
+  <ExplodeForce>10</ExplodeForce>
+  <ExplodeSize>15</ExplodeSize>
+  <ExplosionParticleEffect>_new_explosion_small</ExplosionParticleEffect>
+  <ExplosionSound>Blast</ExplosionSound>
+  <ExplodeDamage>1</ExplodeDamage>
+
+  <Payload>true</Payload>
+  <PayloadType>PROJECTILE_FIRE</PayloadType>
+  <ProjectilesPerShot>30</ProjectilesPerShot>
+  <ProjectileSpread>1</ProjectileSpread>
+  <ProjectilePrecision>0.6</ProjectilePrecision>
+  <ProjectileClassfile>Projectiles\frag_bullet</ProjectileClassfile>
+  
+</GameObjectClass>

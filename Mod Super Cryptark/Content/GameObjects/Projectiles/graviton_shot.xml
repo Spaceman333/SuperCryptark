@@ -1,0 +1,134 @@
+﻿<?xml version="1.0"?>
+<GameObjectClass>
+  <Type>WEAPON</Type>
+  <Texture>Projectiles\bullet01_red</Texture>
+  
+  <Solid>true</Solid>
+  <EclipseBody>true</EclipseBody>
+  <Width>1</Width>
+  <Height>4</Height>
+  
+  <Friction>0</Friction>
+  <NoDebrisOnHit>true</NoDebrisOnHit>
+  
+  <CharacterCollide>true</CharacterCollide>
+  <ProjectilePiercing>true</ProjectilePiercing>
+  
+  <ProjectileRemoveOnCollision>false</ProjectileRemoveOnCollision>
+  <ProjectileRemoveOnCharacterCollision>false</ProjectileRemoveOnCharacterCollision>
+  <ProjectileRemoveOnGameObjectCollision>false</ProjectileRemoveOnGameObjectCollision>
+  <SetFriction>true</SetFriction>
+  <IgnoreProjectileRefectTeamSwitch>true</IgnoreProjectileRefectTeamSwitch>
+  <ProjectileRemoveOffscreen>false</ProjectileRemoveOffscreen>
+  
+  <IgnoreBrushCollision>true</IgnoreBrushCollision>
+  <IgnoreDoorCollision>true</IgnoreDoorCollision>
+  <AllowOtherProjectilesToRemove>false</AllowOtherProjectilesToRemove>
+  
+  <AllowProjectileOnProjectileCollision>true</AllowProjectileOnProjectileCollision>
+  <ProjectileRemovesOtherProjectiles>true</ProjectileRemovesOtherProjectiles>
+  
+  <Scale>1.6</Scale>
+  <CharacterCollide>true</CharacterCollide>
+  <ProjectileSpeed>330</ProjectileSpeed>
+  <ProjectileBoostMaxSpeed>500</ProjectileBoostMaxSpeed>
+  <ProjectileBoostForce>500</ProjectileBoostForce>
+  <ProjectileBoostStart>0.01</ProjectileBoostStart>
+  <HitForce>800000</HitForce>
+
+  <DamagePerShot>80</DamagePerShot>
+  <DamageRate>0.02</DamageRate>
+  <DamageAreaRadius>26</DamageAreaRadius>
+  <ProjKeepVelocity>false</ProjKeepVelocity>
+  <RemoveAfterStarted>8</RemoveAfterStarted>
+  <StunTime>8</StunTime>
+  
+  <ProjectileDoesKnockback>true</ProjectileDoesKnockback>
+  <KnockbackForce>8888888</KnockbackForce>
+  <KnockbackTime>8</KnockbackTime>
+  
+  <CameraShakeOnHit>60</CameraShakeOnHit>
+
+  
+  <AmbientSound>Javelin_Loop</AmbientSound>
+  
+  <ExplodeOnRemove>true</ExplodeOnRemove>
+  <ExplodeForce>8000</ExplodeForce>
+  <ExplodeSize>80</ExplodeSize>
+  <ExplosionParticleEffect>_new_explosion_large</ExplosionParticleEffect>
+  <ExplosionRefraction>shockwave_2</ExplosionRefraction>
+  <ExplosionSound>Combat_M_Rocket_Blast</ExplosionSound>
+  <ExplodeDamage>888</ExplodeDamage>
+  
+  <!-- <SpawnObjectOnRemove>Hazards\nuke_explosion</SpawnObjectOnRemove> -->
+  
+  <Restitution>1</Restitution>
+
+  <DecalType>Flame</DecalType>
+  
+  <ProjKeepVelocity>true</ProjKeepVelocity>
+  <ProjectileHitDebris>true</ProjectileHitDebris>
+  <ParticleEffect>_new_trail_bullet</ParticleEffect>
+  <RotateParticleEffect>true</RotateParticleEffect>
+  
+  <OnFireProjectileLight>
+    <Type>Point</Type>
+    <Color>
+      <X>1</X>
+      <Y>1</Y>
+      <Z>1</Z>
+      <W>1</W>
+    </Color>
+    <Strength>3</Strength>
+    <Radius>180</Radius>
+  </OnFireProjectileLight>
+
+  <OnRemoveLight>
+    <Type>Spotlight</Type>
+    <Color>
+      <X>1</X>
+      <Y>1</Y>
+      <Z>1</Z>
+      <W>1</W>
+    </Color>
+    <Position>
+      <Z>40</Z>
+    </Position>
+    <Direction>
+      <X>1</X>
+      <Y>0</Y>
+      <Z>0.3</Z>
+    </Direction>
+    <Strength>20</Strength>
+    <InnerConeAngle>0.5</InnerConeAngle>
+    <OuterConeAngle>1.5</OuterConeAngle>
+    <Radius>300</Radius>
+    <RadiusModifier>-100</RadiusModifier>
+  </OnRemoveLight>
+  
+  <Light>
+    <Type>Point</Type>
+    <Color>
+      <X>1</X>
+      <Y>1</Y>
+      <Z>1</Z>
+      <W>1</W>
+    </Color>
+    <SpecularColor>
+      <X>1</X>
+      <Y>1</Y>
+      <Z>1</Z>
+      <W>1</W>
+    </SpecularColor>
+    <Strength>6</Strength>
+    <Shininess>20</Shininess>
+    <Radius>800</Radius>
+  </Light>
+
+  <ProjectileColor>
+    <X>0.1</X>
+    <Y>0.1</Y>
+    <Z>0.1</Z>
+  </ProjectileColor>
+  <SetLayer>FULLBRIGHT</SetLayer>
+</GameObjectClass>

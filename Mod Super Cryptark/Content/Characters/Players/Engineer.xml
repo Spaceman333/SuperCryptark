@@ -1,0 +1,74 @@
+<?xml version="1.0"?>
+<CharacterClass xmlns:xsi="http://www.w3.org/2001/XMLSchema-instance" xmlns:xsd="http://www.w3.org/2001/XMLSchema">
+  <BaseFile>Player</BaseFile>
+  <SpineAnimation>suit_engineer</SpineAnimation>
+  <DisplayName>Jennet</DisplayName>
+  <PlayerType>Engineer</PlayerType>
+  <ArtifactCost>2</ArtifactCost>
+
+  <MaxHull>13</MaxHull>
+  <StartHull>11</StartHull>
+  
+  <ArmMovementScaleX>0.5</ArmMovementScaleX>
+  <ArmMovementScaleY>0.4</ArmMovementScaleY>
+
+  <Description>
+    Originally a civilian recreational chassis, this popular suit is easily modified for combat operations and is commonly seen in insurgent forces. While it lacks the weapon hardpoints available on military models, its robust frame is able to carry additional equipment with ease.
+
+-EXTRA BAGGAGE: 6 item slots..
+-CIVILIAN CHASSIS: Only 2 weapon slots.
+-KNOCKBACK PULSE: Push away incoming enemies and projectiles.
+-QUALITY AMMO (inbuilt): 20% extra damage from weapons.</Description>
+
+  <SkinAtlases>
+    <SkinAtlas>
+      <Name>Technical</Name>
+      <Atlas>suit_engineer</Atlas>
+    </SkinAtlas>
+    <SkinAtlas>
+      <Name>Classic Cherry</Name>
+      <Atlas>suit_engineer_02</Atlas>
+    </SkinAtlas>
+    <SkinAtlas>
+      <Name>Rental</Name>
+      <Atlas>suit_engineer_03</Atlas>
+    </SkinAtlas>
+    <SkinAtlas>
+      <Name>Zebra</Name>
+      <Atlas>suit_engineer_04</Atlas>
+    </SkinAtlas>
+  </SkinAtlases>
+
+  <StartLoadOut>
+    <string>Weapons\heavy_assault_machinegun</string>
+    <string>Items\none</string>
+    <string>Weapons\grenade_impact</string>
+    <string>Items\none</string>
+  </StartLoadOut>
+
+  <StartLoadOutAmounts>
+    <int>3</int>
+    <int>1</int>
+    <int>3</int>
+    <int>1</int>
+  </StartLoadOutAmounts>
+  
+  <StartItemLoadOut>
+    <string>Items\healthpack</string>
+    <string>Items\healthpack</string>
+    <string>Items\helperdrone</string>
+    <string>Items\none_item</string>
+    <string>Items\demo_bomb_remote</string>
+    <string>Items\demo_bomb_remote</string>
+  </StartItemLoadOut>
+
+  <StartLoadOutBase>
+    <string>Items\key</string>
+    <string>Weapons\shield</string>
+  </StartLoadOutBase>
+  
+  <PassiveItems>
+    <string>Items\quality_munitions</string>
+  </PassiveItems>
+  
+</CharacterClass>

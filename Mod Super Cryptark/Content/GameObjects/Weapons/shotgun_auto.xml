@@ -1,0 +1,20 @@
+﻿<?xml version="1.0" ?>
+<GameObjectClass>
+  <BaseFile>Weapons\shotgun</BaseFile>
+  <Displayname>T2 Shotgun Assault</Displayname>
+  <ShortDisplayName>SG-AS</ShortDisplayName>
+  <ItemInfo>Unrelenting nonstop scattershot firepower. An individual shot is over half weaker compared to a regular shotgun, but the rapid-fire makes up for the smaller shells.</ItemInfo>
+
+  <StartingAmmoBoxes>5</StartingAmmoBoxes>
+  <AmmoBoxQuantity>500</AmmoBoxQuantity>
+  <Price>6</Price>
+  <TechChanceNumber>2</TechChanceNumber>
+  
+  <RateOfFire>0.175</RateOfFire>
+  
+  <ProjectilesPerShot>5</ProjectilesPerShot>
+  <ProjectileSpread>0.05</ProjectileSpread>
+  <CasingClassfile>Weapons\shotgun_casing</CasingClassfile>
+  <SpineWeaponHeadTextureName>gunhead\wephead_shotgun01</SpineWeaponHeadTextureName>
+  <SpineWeaponTextureName>gunhead\wep_shotgun01</SpineWeaponTextureName>
+</GameObjectClass>

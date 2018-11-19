@@ -1,0 +1,15 @@
+<?xml version="1.0"?>
+<GameObjectClass>
+  <Displayname>T1 Heavy Machinegun Bounce</Displayname>
+  <BaseFile>Weapons\heavy_machinegun</BaseFile>
+  <ShortDisplayName>HMG-R</ShortDisplayName>
+  <ItemInfo>This heavy-caliber machinegun has been modified to fire ricochet-rounds. Autostabilizers are required to compensate for its prodigious recoil, hampering suit maneuverability.</ItemInfo>
+
+  <StartingAmmoBoxes>4</StartingAmmoBoxes>
+  <AmmoBoxQuantity>1000</AmmoBoxQuantity>
+  <Price>8</Price>
+  <TechChanceNumber>3</TechChanceNumber>
+  
+  <ProjectileClassfile>Projectiles\heavy_machinegun_bullet_bouncing</ProjectileClassfile>
+  <ProjectilePrecision>0.7</ProjectilePrecision>
+</GameObjectClass>

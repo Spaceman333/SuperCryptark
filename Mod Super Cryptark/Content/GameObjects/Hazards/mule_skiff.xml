@@ -1,0 +1,21 @@
+﻿<?xml version="1.0" ?>
+<GameObjectClass>
+  <Type>MULE_SKIFF</Type>
+  <Displayname>Mule Salvage Skiff</Displayname>
+  <SpineAnimation>mule</SpineAnimation>
+  <MinimapTextureName>map-mine</MinimapTextureName>
+  <SidebarTextureName>hazard_mine</SidebarTextureName>
+  <MinimapDescription>Mule salvage skiff.</MinimapDescription>
+
+  <Static>true</Static>
+  <Solid>true</Solid>
+  <Width>2</Width>
+  <Height>2</Height>
+
+  <Weapon1>EnemyWeapons\blaster_burst_mule</Weapon1>
+  <Weapon2>EnemyWeapons\blacksuit_rocketpod_mule</Weapon2>
+
+  <SpawnObjectOnRemove>Refractions\shockwave_2</SpawnObjectOnRemove>
+
+  
+</GameObjectClass>

@@ -1,0 +1,11 @@
+﻿<?xml version="1.0"?>
+<ShipOption xmlns:xsi="http://www.w3.org/2001/XMLSchema-instance" xmlns:xsd="http://www.w3.org/2001/XMLSchema">
+
+  <Tier>3</Tier>
+  <BaseFile>2\Large</BaseFile>
+  <MaxWave>5</MaxWave>
+  
+  <HealthStations>4</HealthStations>
+  <AmmoStations>4</AmmoStations>  
+  
+</ShipOption>

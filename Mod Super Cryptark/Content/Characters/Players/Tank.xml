@@ -1,0 +1,37 @@
+<?xml version="1.0"?>
+<CharacterClass xmlns:xsi="http://www.w3.org/2001/XMLSchema-instance" xmlns:xsd="http://www.w3.org/2001/XMLSchema">
+  <BaseFile>Player</BaseFile>
+  <SpineAnimation>gunhead</SpineAnimation>
+  <DisplayName>Tank</DisplayName>
+  <PlayerType>Tank</PlayerType>
+  <ArtifactCost>2</ArtifactCost>
+
+  <Description>- Slowly regenerates hull back to 3
+- No health kits to start with</Description>
+  
+  <DevOnly>true</DevOnly>
+
+  <StartLoadOut>
+    <string>Weapons\hushpuppy</string>
+    <string>Weapons\emp_blaster</string>
+    <string>Weapons\shield</string>
+    <string>Weapons\railgun</string>
+  </StartLoadOut>
+
+  <StartItemLoadOut>
+    <string>Items\none_item</string>
+    <string>Items\none_item</string>
+    <string>Items\none_item</string>
+    <string>Items\none_item</string>
+    
+    <string>Items\teleporter</string>
+    <string>Items\sensorsuite</string>
+  </StartItemLoadOut>
+  
+  <StartLoadOutBase>
+    <string>Weapons\blaster</string>
+    <string>Items\key</string>
+  </StartLoadOutBase>
+
+  <SpineAtlas>gunhead2</SpineAtlas>
+</CharacterClass>

@@ -1,0 +1,46 @@
+<?xml version="1.0"?>
+<CharacterClass xmlns:xsi="http://www.w3.org/2001/XMLSchema-instance" xmlns:xsd="http://www.w3.org/2001/XMLSchema">
+  <BaseFile>Player</BaseFile>
+  <SpineAnimation>gunhead</SpineAnimation>
+  <DisplayName>Scout</DisplayName>
+  <PlayerType>Scout</PlayerType>
+  <ArtifactCost>2</ArtifactCost>
+
+  <MaxHull>5</MaxHull>
+  <StartHull>5</StartHull>
+
+  <Description>- Ability is a constant very loud thrust
+- Contains munition engine
+- Starts with small repair kit</Description>
+
+  <DevOnly>true</DevOnly>
+
+  <StartLoadOut>
+    <string>Weapons\zipgun</string>
+    <string>Weapons\gauntlet</string>
+    <string>Weapons\shield_reflex</string>
+    <string>Weapons\grenade_impact</string>
+  </StartLoadOut>
+
+  <StartItemLoadOut>
+    <string>Items\healthpack_small</string>
+    <string>Items\healthpack_small</string>
+    <string>Items\none_item</string>
+    <string>Items\none_item</string>
+    
+    <string>Items\invisibility_potion</string>
+    <string>Items\teleporter</string>
+  </StartItemLoadOut>
+  
+  <StartLoadOutBase>
+    <string>Weapons\blaster</string>
+    <string>Items\healthpack_small</string>
+    <string>Items\key</string>
+  </StartLoadOutBase>
+
+  <PassiveItems>
+    <string>Items\munition_engine</string>
+  </PassiveItems>
+
+  <SpineAtlas>gunhead2</SpineAtlas>
+</CharacterClass>

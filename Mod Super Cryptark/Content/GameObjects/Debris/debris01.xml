@@ -1,0 +1,55 @@
+﻿<?xml version="1.0" ?>
+<GameObjectClass>
+  <Type>DEBRIS</Type>
+  <SpineAnimation>debris01</SpineAnimation>
+  <Health>1.5</Health>
+  <RemoveParticleEffect>_new_explosion_debris_large</RemoveParticleEffect>
+  <OnRemoveSound>Combat_M_Enemy_DeathExplode</OnRemoveSound>
+
+  <Solid>true</Solid>
+  <BoundingBoxBody>body_box</BoundingBoxBody>
+  <Density>2</Density>
+  <SetFriction>true</SetFriction>
+  <Friction>0.3</Friction>
+  <Restitution>0.3</Restitution>
+  <LinearDamping>0.5</LinearDamping>
+  <AngularDamping>0.1</AngularDamping>
+
+  <GibOnDeath>true</GibOnDeath>
+  <DebrisAmount>8</DebrisAmount>
+  <DebrisRandomOffset>
+    <X>3</X>
+    <Y>3</Y>
+  </DebrisRandomOffset>
+  <RandomDebrisDirection>true</RandomDebrisDirection>
+  <DebrisMinRandForceMod>0.1</DebrisMinRandForceMod>
+  <DebrisMaxRandForceMod>.7</DebrisMaxRandForceMod>
+
+  <SmallerDebris>
+    <string>debris_small01</string>
+    <string>debris_small02</string>
+    <string>debris_small03</string>
+    <string>debris_small04</string>
+    <string>debris_small05</string>
+    <string>debris_small06</string>
+    <string>debris_small07</string>
+    <string>debris_small08</string>
+    <string>debris_small09</string>
+    <string>debris_small10</string>
+  </SmallerDebris>
+  <NumSmallerDebris>3</NumSmallerDebris>
+  <MinDebrisSpawnBuffer>2</MinDebrisSpawnBuffer>
+  <MaxDebrisSpawnBuffer>5</MaxDebrisSpawnBuffer>
+  <OnRemoveLight>
+    <Type>Point</Type>
+    <Color>
+      <X>1</X>
+      <Y>0.5</Y>
+      <Z>0.1</Z>
+      <W>1</W>
+    </Color>
+    <Strength>25</Strength>
+    <Radius>2000</Radius>
+    <RadiusModifier>-200</RadiusModifier>
+  </OnRemoveLight>
+</GameObjectClass>

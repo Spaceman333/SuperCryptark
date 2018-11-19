@@ -1,0 +1,24 @@
+<?xml version="1.0"?>
+<GameObjectClass>
+  <BaseFile>Weapons\shotgun</BaseFile>
+  <Displayname>T2 Frag Shotgun</Displayname>
+  <ShortDisplayName>FRAGS</ShortDisplayName>
+  <ItemInfo>A monstrously upscaled scattergun, this beast of a weapon fires molten-hot shrapnel that cuts through its targets and bounces off walls.</ItemInfo>
+
+  <StartingAmmoBoxes>3</StartingAmmoBoxes>
+  <AmmoBoxQuantity>250</AmmoBoxQuantity>
+  <Price>5</Price>
+  
+  <TechChanceNumber>2</TechChanceNumber>
+  
+  <RateOfFire>1.1</RateOfFire>
+  <ProjectilesPerShot>15</ProjectilesPerShot>
+  <ProjectileSpread>0.04</ProjectileSpread>
+  <ProjectilePrecision>1</ProjectilePrecision>
+  <ProjectileClassfile>Projectiles\frag_bullet</ProjectileClassfile>
+  
+  <FireSound>Combat_M_FragGun_Shot</FireSound>
+  <FireBoneRecoil>12</FireBoneRecoil>
+  <MuzzleFlashEffect>_new_muzzle_grenade</MuzzleFlashEffect>
+  <FireRecoil>500</FireRecoil>
+</GameObjectClass>

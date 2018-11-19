@@ -1,0 +1,59 @@
+﻿<?xml version="1.0"?>
+<GameObjectClass>
+  <BaseFile>Projectiles\blaster_bullet</BaseFile>
+  
+  <ProjectileSpeed>130</ProjectileSpeed>
+  <HitForce>32000</HitForce>
+  <ProjectilePiercing>true</ProjectilePiercing>
+  <StunTime>6</StunTime>
+  <DamagePerShot>1</DamagePerShot>  
+  <NoOffscreen>true</NoOffscreen>
+  <Restitution>1</Restitution>
+  <ProjectileRicochetCount>12</ProjectileRicochetCount>
+  <!--<ProjKeepVelocity>true</ProjKeepVelocity>-->
+  <ProjectileSineFrequency>16</ProjectileSineFrequency>
+  <ProjectileSineStrength>0.3</ProjectileSineStrength>
+  <ProjectileFlipOddSine>true</ProjectileFlipOddSine>  
+  
+  <ProjectileRemoveOnCollision>false</ProjectileRemoveOnCollision>
+  <ProjectileRemoveOffscreen>false</ProjectileRemoveOffscreen>
+  <!--<ProjectileAllowInfiniteLifetime>true</ProjectileAllowInfiniteLifetime>-->
+  <RemoveAfterStarted>1.5</RemoveAfterStarted>
+  
+  <OnFireProjectileLight>
+    <Type>Point</Type>
+    <Color>
+      <X>1</X>
+      <Y>1</Y>
+      <Z>0.9</Z>
+      <W>1</W>
+    </Color>
+    <SpecularColor>
+      <X>1</X>
+      <Y>1</Y>
+      <Z>0.9</Z>
+      <W>1</W>
+    </SpecularColor>
+    <Strength>5</Strength>
+    <Radius>100</Radius>
+  </OnFireProjectileLight>
+  <OnRemoveLight>
+    <Type>Point</Type>
+    <Color>
+      <X>1</X>
+      <Y>0.6</Y>
+      <Z>1</Z>
+      <W>1</W>
+    </Color>
+    <Strength>2</Strength>
+    <Radius>1000</Radius>
+    <RadiusModifier>-200</RadiusModifier>
+  </OnRemoveLight>
+
+  <ProjectileColor>
+    <X>1</X>
+    <Y>0.2</Y>
+    <Z>1</Z>
+  </ProjectileColor>
+  <SetLayer>FULLBRIGHT</SetLayer>  
+</GameObjectClass>

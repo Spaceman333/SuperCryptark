@@ -1,0 +1,66 @@
+﻿<?xml version="1.0"?>
+<CharacterClass xmlns:xsi="http://www.w3.org/2001/XMLSchema-instance" xmlns:xsd="http://www.w3.org/2001/XMLSchema">
+
+  <SpineAnimation>sawblade</SpineAnimation>
+
+  <Health>3.8</Health>
+  <Type>Sawblade</Type>
+  <DisplayName>Sawblade</DisplayName>
+  <Density>2</Density>
+  <Width>11</Width>
+  <Height>11</Height>
+  <SpineAnimationScale>1</SpineAnimationScale>
+  
+  <SidebarTextureName>sawblade</SidebarTextureName>
+  <Description>Specialized salvage drone that attacks with spinning rendering blades.</Description>
+  
+  <AngularDamping>0.2</AngularDamping>
+  <LinearDamping>0.5</LinearDamping>
+  
+   <Maxspeed_Fly>25</Maxspeed_Fly>
+
+  <BaseMovementForce>4000</BaseMovementForce>
+
+  <Inertia>100</Inertia>
+  <InertiaNoAirControlMultiply>0.1</InertiaNoAirControlMultiply>
+
+  <FieldOfVision>360</FieldOfVision>
+  <DroneFactory>true</DroneFactory>
+  <AllowGrapple>true</AllowGrapple>
+
+  <SawbladeSpinAmount>.8</SawbladeSpinAmount>
+  <SawbladeMaxSpin>25</SawbladeMaxSpin>
+  <SawbladeLaunchDelay>0.9</SawbladeLaunchDelay>
+  <SawbladeLaunchForce>600000</SawbladeLaunchForce>
+  
+  <DamageOnContact>1</DamageOnContact>
+  <DamageOnContactForce>30000</DamageOnContactForce>
+  <DamageOnContactNoAirControlTime>1</DamageOnContactNoAirControlTime>
+
+  <Light>
+    <Type>Point</Type>
+    <Color>
+      <X>0.75</X>
+      <Y>0.6</Y>
+      <Z>1</Z>
+      <W>1</W>
+    </Color>
+    <Strength>2</Strength>
+    <Radius>150</Radius>
+    <FollowBoneName>root</FollowBoneName>
+  </Light>
+  
+  <OnRemoveLight>
+    <Type>Point</Type>
+    <Color>
+      <X>0.75</X>
+      <Y>0.6</Y>
+      <Z>1</Z>
+      <W>1</W>
+    </Color>
+    <Strength>20</Strength>
+    <Radius>1500</Radius>
+    <RadiusModifier>-150</RadiusModifier>
+  </OnRemoveLight>
+
+</CharacterClass>

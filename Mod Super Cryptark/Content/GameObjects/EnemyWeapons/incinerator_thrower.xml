@@ -1,0 +1,31 @@
+﻿<?xml version="1.0" ?>
+<GameObjectClass>
+  <Type>WEAPON</Type>
+  <RateOfFire>0.03</RateOfFire>
+  <ProjectilesPerShot>1</ProjectilesPerShot>
+  <ProjectilePrecision>.8</ProjectilePrecision>
+  <ProjectileClassfile>EnemyWeapons\incinerator_thrower_p</ProjectileClassfile>
+  <RecordProjectiles>true</RecordProjectiles>
+  <MuzzleFlashEffect>_new_muzzle_flamethrower</MuzzleFlashEffect>
+  <DamageSystems>false</DamageSystems>
+  
+  <!--<FiringLoop>Combat_M_FlameThrower_Loop</FiringLoop>
+  <StartFiringSound>Combat_M_FlameThrower_Start</StartFiringSound>
+  <ReleaseFiringSound>Combat_M_FlameThrower_End</ReleaseFiringSound>-->
+
+  <WeaponMeshEffects>
+    <string>flame_thrower_1</string>
+  </WeaponMeshEffects>
+
+  <OnFireMuzzleLight>
+    <Color>
+      <X>1</X>
+      <Y>0.25</Y>
+      <Z>0</Z>
+      <W>1</W>
+    </Color>
+
+    <Radius>200</Radius>
+    <RadiusModifier>-5</RadiusModifier>
+  </OnFireMuzzleLight>
+</GameObjectClass>

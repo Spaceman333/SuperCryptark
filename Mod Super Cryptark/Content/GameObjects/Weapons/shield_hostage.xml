@@ -1,0 +1,50 @@
+﻿<?xml version="1.0"?>
+<GameObjectClass>
+  <Type>WEAPON</Type>
+  <Displayname>T1 Hostage Grip</Displayname>
+  <ShortDisplayName>HOSTG</ShortDisplayName>
+  <ItemInfo>These short ranged tractor-clamps allow the wielder to grab a hapless enemy and use them as cover from hostile fire. Other weapons can be fired while an enemy is held.</ItemInfo>
+  <LoadoutCategory>Shields</LoadoutCategory>
+  
+  <Price>2</Price>
+  <TechChanceNumber>3</TechChanceNumber>
+
+  <AmmoAsPercent>true</AmmoAsPercent>
+  <AmmoBoxQuantity>1</AmmoBoxQuantity>
+  <NextRefillTime>.5</NextRefillTime>
+  <RefillRate>.1</RefillRate>
+
+  <Melee>true</Melee>
+  <MaxGrappleRange>60</MaxGrappleRange>
+  <SwapTeamDuringGrapple>true</SwapTeamDuringGrapple>
+  <GrappleOnFire>true</GrappleOnFire>
+  <GrappleDamage>1</GrappleDamage>
+  <FireBoneRecoil>0</FireBoneRecoil>
+
+  <MuzzleFlashEffect>_new_trail_zapper</MuzzleFlashEffect>
+  <NoMuzzleFlashRotation>true</NoMuzzleFlashRotation>
+
+  <MovementMultiplyAfterFiringTime>0.2</MovementMultiplyAfterFiringTime>
+  <MovementMultiplyAfterFiringAmount>0.2</MovementMultiplyAfterFiringAmount>
+  
+  <SpineWeaponHeadTextureName>gunhead\wephead_shield01</SpineWeaponHeadTextureName>
+  <SpineWeaponTextureName>gunhead\wep_shield01</SpineWeaponTextureName>
+
+  <FiringLoop>Combat_M_Shield_Loop</FiringLoop>
+  <StartFiringSound>Combat_M_Shield_On</StartFiringSound>
+  <ReleaseFiringSound>Combat_M_Shield_Off</ReleaseFiringSound>
+  
+  <OnFireMuzzleLight>
+    <Color>
+      <X>0.5</X>
+      <Y>1</Y>
+      <Z>.5</Z>
+      <W>1</W>
+    </Color>
+    <Radius>240</Radius>
+    <Strength>4</Strength>
+    <RadiusModifier>-100</RadiusModifier>
+    <FollowBoneName>muzzle</FollowBoneName>
+  </OnFireMuzzleLight>
+  
+</GameObjectClass>

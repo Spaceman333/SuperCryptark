@@ -1,0 +1,32 @@
+﻿<?xml version="1.0"?>
+<GameObjectClass>
+  <Type>ITEM</Type>
+  <Displayname>Cloaking Weave</Displayname>
+  <ShortDisplayName>CLOAK</ShortDisplayName>
+  <LoadoutCategory>Item</LoadoutCategory>
+  <ItemInfo>When activated with its one-shot power cell, this optical camouflage renders the wearer invisible to most visual and infrared spectrums. 90 second recharge time.</ItemInfo>
+  <HudTextureName>tag_item_cloak</HudTextureName>
+
+  <Price>10</Price>
+  
+  <StartItemQuantity>1</StartItemQuantity>
+  <ItemRecharges>true</ItemRecharges>
+  <RechargeRate>.75</RechargeRate>
+  <MaxCharge>60</MaxCharge>
+  <RateOfUse>2</RateOfUse>
+  <OnUseSound>Cloack_Activate</OnUseSound>
+  <ParticleEffect>_new_explosion_heal</ParticleEffect>
+  <UseInSpace>true</UseInSpace>
+  
+  <PowerupEffects>
+    <PowerupEffectClass>
+      <Type>Invisible</Type>
+      <Duration>240</Duration>
+      <RemoveOnFire>true</RemoveOnFire>
+    </PowerupEffectClass>
+  </PowerupEffects>
+  <TwoPlayerPowerup>true</TwoPlayerPowerup>
+  <ItemType>Invis</ItemType>
+  <TechChanceNumber>2</TechChanceNumber>
+  <OnLoadoutTrigger>weapon_cloak</OnLoadoutTrigger>
+</GameObjectClass>

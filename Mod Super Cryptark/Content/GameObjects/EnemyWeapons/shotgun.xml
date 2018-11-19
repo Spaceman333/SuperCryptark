@@ -1,0 +1,26 @@
+<?xml version="1.0"?>
+<GameObjectClass>
+  <Type>WEAPON</Type>
+  <ProjectilesPerShot>3</ProjectilesPerShot>
+  <ProjectileSpread>0.2</ProjectileSpread>
+  <ProjectilePrecision>0.9</ProjectilePrecision>
+  <ProjectileClassfile>EnemyWeapons\blaster_p</ProjectileClassfile>
+  <FireSound>mortarfire1</FireSound>
+  <RateOfFire>0.8</RateOfFire>
+  <MuzzleFlashEffect>_new_muzzle_enemyblaster</MuzzleFlashEffect>
+  <AIFiringTime>1</AIFiringTime>
+  <AIMinRandNextFiringTime>1</AIMinRandNextFiringTime>
+  <AIMaxRandNextFiringTime>2</AIMaxRandNextFiringTime>
+  
+  <OnFireMuzzleLight>
+    <Color>
+      <X>0</X>
+      <Y>0</Y>
+      <Z>1</Z>
+      <W>1</W>
+    </Color>
+    
+    <Radius>500</Radius>
+    <RadiusModifier>-10</RadiusModifier>
+  </OnFireMuzzleLight>
+</GameObjectClass>

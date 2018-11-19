@@ -1,0 +1,17 @@
+﻿<?xml version="1.0" ?>
+<GameObjectClass>
+  <Type>STASIS_ARM</Type>
+  <SpineAnimation>stasis_gel_arm</SpineAnimation>
+  <HealthBarScale>1.5</HealthBarScale>
+  
+  <Solid>true</Solid>
+  <Static>true</Static>
+  <IgnoreCollision>true</IgnoreCollision>
+  <Width>100</Width>
+  <Height>100</Height>
+  
+  <SprayerParticlesPerSpray>4</SprayerParticlesPerSpray>
+  <SprayerRate>0.05</SprayerRate>
+  <SprayerForce>0.4</SprayerForce>
+  <FluidType>GreenSlime</FluidType>
+</GameObjectClass>

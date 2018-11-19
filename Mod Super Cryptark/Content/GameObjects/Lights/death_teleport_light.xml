@@ -1,0 +1,27 @@
+﻿<?xml version="1.0" encoding="utf-8" ?>
+<GameObjectClass>
+  <Type>LIGHT</Type>
+  <Light>
+    <Position>
+      <Z>100</Z>
+    </Position>
+    <Color>
+      <X>0.2</X>
+      <Y>0.2</Y>
+      <Z>1</Z>
+      <W>1</W>
+    </Color>
+    <SpecularColor>
+      <X>0.5</X>
+      <Y>0.5</Y>
+      <Z>1</Z>
+      <W>1</W>
+    </SpecularColor>
+    <MinStrength>0</MinStrength>
+    <MaxStrength>6</MaxStrength>
+    <StrengthModifier>0.2</StrengthModifier>
+    <Radius>2200</Radius>
+  </Light>
+  <UseSpatialSystem>false</UseSpatialSystem>
+  <NoOffscreen>true</NoOffscreen>
+</GameObjectClass>

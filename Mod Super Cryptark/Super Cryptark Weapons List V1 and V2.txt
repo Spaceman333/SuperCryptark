@@ -1,0 +1,195 @@
+Cryptark Weapon Listing V1
+
+bfg
+blaster
+blasterbounce
+bomb_cluster
+bomb_frag
+bomb_nuke
+bomb_proximity
+bomb_remote
+bomb_remotecluster
+bomb_sticky
+boostram
+boostram_mega
+canister_shell_gun
+cannon_auto
+cannon_canister
+cannon_casing
+cannon_gas
+cannon_nuke
+chaingun
+chainsaw
+cuttingbeam
+cuttingbeam_spazer
+cycle_rifle
+emp_blaster
+emp_grenade
+emp_shotgun
+energy_spear
+flame_thrower
+flame_thrower_old
+flaregun
+gas_vent
+gasoline_gun
+gauntlet
+gauntlet_excalibur
+gauntlet_spinner
+gravity_gun
+grenade
+grenade_casing
+grenade_impact
+grenade_slime
+grenade_vortex
+heat_seeking_gun
+heavy_assault_machinegun
+heavy_bouncing_machinegun
+heavy_laser_casing
+heavy_machinegun
+heavy_piercing_machinegun
+helix
+hushpuppy
+laser
+laser_omega
+lightning_gun
+machinegun
+machinegun_assault
+machinegun_casing
+machinegun_smart
+napalm_gun
+prism_laser
+protonbeam
+pulsar
+radiator
+railgun
+railgun_auto
+recycler
+ricochet_gun
+rocket_cluster
+rocket_launcher
+rocket_launcher_drunk
+rocket_launcher_guidable
+rocket_launcher_remote_guidable
+rocket_nuke
+rocket_remote
+saw
+shield
+shield_barricade
+shield_hostage
+shield_reflect
+shield_reflex
+shield_repulsor
+shotgun
+shotgun_auto
+shotgun_casing
+shotgun_doom
+shotgun_eject
+shotgun_frag
+shotgun_slug
+shotgun_zap
+slimegun
+smg_casing
+stinger_pod
+stormhammer
+sweeper
+taser
+trenchgun
+vulcan_laser
+zipgun
+zipgun_smart
+
+
+Cryptark Weapon Listing V2
+
+T2 bfg
+T1 blaster
+T1 blasterbounce
+T1 bomb_cluster
+T1 bomb_frag
+T3 bomb_nuke
+T1 bomb_proximity
+T1 bomb_remote
+T1 bomb_remotecluster
+T2 bomb_sticky
+T2 boostram
+T3 boostram_mega
+T2 canister_shell_gun (TRIGUN)
+T1 cannon_auto
+T1 cannon_canister
+T3 cannon_gas
+T3 cannon_nuke
+T2 chaingun
+T1 chainsaw
+T1 cuttingbeam
+T1 cuttingbeam_spazer
+T1 cycle_rifle
+T1 emp_blaster
+T1 emp_grenade
+T1 emp_shotgun
+T1 energy_spear
+T2 flame_thrower
+T2 flame_thrower_old
+T2 flaregun
+T1 gas_vent
+T1 gasoline_gun
+T1gauntlet
+T3 gauntlet_excalibur
+T1 gauntlet_spinner
+T1 gravity_gun
+T1 grenade
+T1 grenade_impact (MORTAR)
+T1 grenade_slime (SLIMO)
+T1 grenade_vortex
+T2 heat_seeking_gun
+T1 heavy_assault_machinegun
+T1 heavy_bouncing_machinegun
+T1 heavy_machinegun
+T1 heavy_piercing_machinegun
+T2 helix
+T1 hushpuppy
+T1 laser
+T3 laser_omega
+T2 lightning_gun
+T1 machinegun
+T1 machinegun_assault
+T1 machinegun_casing
+T1 machinegun_smart
+T1 napalm_gun
+T1 prism_laser
+T1 protonbeam
+T2 pulsar
+T2 radiator
+T2 railgun
+T2 railgun_auto
+T1 recycler
+T1 ricochet_gun
+T2 rocket_cluster
+T1 rocket_launcher
+T1 rocket_launcher_drunk
+T1 rocket_launcher_guidable
+T1 rocket_launcher_remote_guidable
+T3 rocket_nuke
+T1 rocket_remote
+T1 saw
+T1 shield
+T1 shield_barricade
+T1 shield_hostage
+T2 shield_reflect
+T1 shield_reflex
+T1 shield_repulsor
+T1 shotgun
+T1 shotgun_auto
+T3 shotgun_doom
+T1 shotgun_eject
+T2 shotgun_frag
+T1 shotgun_slug
+T1 shotgun_zap
+T1 slimegun
+T2 stinger_pod
+T3 stormhammer
+T1 sweeper
+T1 taser
+T1 trenchgun
+T2 vulcan_laser
+T1 zipgun
+T1 zipgun_smart

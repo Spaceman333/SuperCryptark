@@ -1,0 +1,38 @@
+﻿<?xml version="1.0"?>
+<GameObjectClass>
+  <Type>WEAPON</Type>
+  <Displayname>T2 Wisp Sweeper</Displayname>
+  <ShortDisplayName>WISP</ShortDisplayName>
+  <ItemInfo>Unqiue auto shotgun weapon with peculiar weaving wisp pellets, excellent for clearing rooms with its wide spread.</ItemInfo>
+ 
+  <StartingAmmoBoxes>5</StartingAmmoBoxes>
+  <AmmoBoxQuantity>500</AmmoBoxQuantity>
+  <Price>3</Price>
+  <TechChanceNumber>2</TechChanceNumber>
+  
+  <RateOfFire>0.25</RateOfFire>
+  <ProjectilesPerShot>10</ProjectilesPerShot>
+  <ProjectileSpread>0.1</ProjectileSpread>
+  <ProjectilePrecision>0.6</ProjectilePrecision>
+  <ProjectileClassfile>Projectiles\sweeper_bullet</ProjectileClassfile>
+  <LoadoutCategory>Shotguns</LoadoutCategory>
+  
+  <FireSound>pulse_fire</FireSound>
+  <FireBoneRecoil>3</FireBoneRecoil>
+  <MuzzleFlashEffect>_new_muzzle_grenade</MuzzleFlashEffect>
+  <FireRecoil>250</FireRecoil>
+  <ShakeCameraOnFire>0.1</ShakeCameraOnFire>
+  <SpineWeaponHeadTextureName>gunhead\wephead_shotgun01</SpineWeaponHeadTextureName>
+  <SpineWeaponTextureName>gunhead\wep_shotgun01</SpineWeaponTextureName>
+
+  <OnFireMuzzleLight>
+    <Color>
+      <X>1</X>
+      <Y>0.8</Y>
+      <Z>0.6</Z>
+      <W>1</W>
+    </Color>
+    <Radius>250</Radius>
+    <RadiusModifier>-10</RadiusModifier>
+  </OnFireMuzzleLight>
+</GameObjectClass>

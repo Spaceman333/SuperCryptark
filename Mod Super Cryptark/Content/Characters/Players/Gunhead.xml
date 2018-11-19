@@ -1,0 +1,64 @@
+<?xml version="1.0"?>
+<CharacterClass xmlns:xsi="http://www.w3.org/2001/XMLSchema-instance" xmlns:xsd="http://www.w3.org/2001/XMLSchema">
+  <BaseFile>Player</BaseFile>
+  <SpineAnimation>gunhead</SpineAnimation>
+  <DisplayName>Gunhead</DisplayName>
+  <PlayerType>Gunhead</PlayerType>
+
+  <MaxHull>16</MaxHull>
+  <StartHull>13</StartHull>
+  
+  <Description>
+    This dependable military combat exosuit has served with distinction for decades. Though replaced by newer models, the Gunhead is still favoured by mercenary and pirate organizations for its modular components and large catalogue of aftermarket parts.
+
+-BOOST JET: Quickly dodge incoming projectiles.</Description>
+
+  <SkinAtlases>
+    <SkinAtlas>
+      <Name>Warshark</Name>
+      <Atlas>gunhead</Atlas>
+    </SkinAtlas>
+    <SkinAtlas>
+      <Name>Rental</Name>
+      <Atlas>gunhead_04</Atlas>
+    </SkinAtlas>
+    <SkinAtlas>
+      <Name>Tigersnake</Name>
+      <Atlas>gunhead_02</Atlas>
+    </SkinAtlas>
+    <SkinAtlas>
+      <Name>Comedian</Name>
+      <Atlas>gunhead_03</Atlas>
+    </SkinAtlas>
+  </SkinAtlases>
+
+  <StartLoadOut>
+    <string>Weapons\machinegun</string>
+    <string>Weapons\chainsaw</string>
+    <string>Weapons\shield</string>
+    <string>Weapons\grenade</string>
+  </StartLoadOut>
+  
+  <StartLoadOutAmounts>
+    <int>3</int>
+    <int>1</int>
+    <int>1</int>
+    <int>3</int>
+  </StartLoadOutAmounts>
+
+  <StartItemLoadOut>
+    <string>Items\healthpack</string>
+    <string>Items\healthpack</string>
+    <string>Items\none_item</string>
+    <string>Items\none_item</string>
+  </StartItemLoadOut>
+
+  <StartLoadOutBase>
+    <string>Weapons\blaster</string>
+    <string>Weapons\shotgun</string>
+    <string>Weapons\zipgun</string>
+    <string>Items\healthpack</string>
+    <string>Items\key</string>
+  </StartLoadOutBase>
+  
+</CharacterClass>

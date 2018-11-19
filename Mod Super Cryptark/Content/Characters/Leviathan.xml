@@ -1,0 +1,79 @@
+﻿<?xml version="1.0"?>
+<CharacterClass xmlns:xsi="http://www.w3.org/2001/XMLSchema-instance" xmlns:xsd="http://www.w3.org/2001/XMLSchema">
+  <Type>Leviathan</Type>
+  <SpineAnimation>tanker</SpineAnimation>
+  <Health>44</Health>
+  <DisplayName>Leviathan</DisplayName>
+  <MinimapTextureName>map-juggernaut</MinimapTextureName>
+  <MinimapScale>4</MinimapScale>
+  <SidebarTextureName>leviathan</SidebarTextureName>
+  <Description>Alpha Threat: Mobile factory drone that carries packs of smaller attackers.</Description>
+  
+  <CharacterAmbientSound>FX_Enemy_Leviathan_Loop</CharacterAmbientSound>
+  
+  <Density>6</Density>
+  <Inertia>177</Inertia>
+  <InertiaNoAirControlMultiply>0.1</InertiaNoAirControlMultiply>
+  <BaseMovementForce>11000</BaseMovementForce>
+  <Maxspeed_Fly>8</Maxspeed_Fly>
+  <ToWaypointTimeMultiply>2</ToWaypointTimeMultiply>
+  <HealthBarScale>1.5</HealthBarScale>
+  <MinCombatDistance>100</MinCombatDistance>
+  
+  <Maxspeed_Fly_Offscreen>8</Maxspeed_Fly_Offscreen>
+  <ForceMultiply_Fly_Offscreen>4</ForceMultiply_Fly_Offscreen>
+
+  <Width>20</Width>
+  <Height>12</Height>
+  <FieldOfVision>360</FieldOfVision>
+  <IgnoreSystemCollision>true</IgnoreSystemCollision>
+  <IgnoreSameTeamCollision>true</IgnoreSameTeamCollision>
+
+  <WallFixtureScale>0.5</WallFixtureScale>
+
+  <AbilityDelay>2</AbilityDelay>
+  <SecondaryAbilityDelay>10</SecondaryAbilityDelay>
+  <NumCharsToSpawn>8</NumCharsToSpawn>
+  <CharToSpawn>Gundog</CharToSpawn>
+
+  <SpawnObjectOnRemove>Refractions\shockwave_2</SpawnObjectOnRemove>
+  
+  <Light>
+    <Type>Point</Type>
+    <Color>
+      <X>0.5699841</X>
+      <Y>0.340267867</Y>
+      <Z>0.925</Z>
+      <W>1</W>
+    </Color>
+    <SpecularColor>
+      <X>1</X>
+      <Y>1</Y>
+      <Z>1</Z>
+      <W>1</W>
+    </SpecularColor>
+    <Strength>2</Strength>
+    <MinRadius>1000</MinRadius>
+    <MaxRadius>2000</MaxRadius>
+    <RadiusCycleScale>4</RadiusCycleScale>
+    <OscillateRadius>true</OscillateRadius>
+    <IsEnabled>true</IsEnabled>
+    <FollowOwnRotation>false</FollowOwnRotation>
+    <FollowBoneName>goo_tank</FollowBoneName>
+  </Light>
+  <OnRemoveLight>
+    <Type>Point</Type>
+    <Color>
+      <X>0.75</X>
+      <Y>0.6</Y>
+      <Z>1</Z>
+      <W>1</W>
+    </Color>
+    <Strength>20</Strength>
+    <Radius>2000</Radius>
+    <RadiusModifier>-150</RadiusModifier>
+  </OnRemoveLight>
+
+  <DefaultItems>
+  </DefaultItems>
+</CharacterClass>

@@ -1,0 +1,16 @@
+﻿<?xml version="1.0" ?>
+<GameObjectClass>
+  <Type>INCINERATOR_WHEEL</Type>
+  <SpineAnimation>incinerator_wheel</SpineAnimation>
+  
+  <Solid>true</Solid>
+  <Static>true</Static>
+  <EclipseBody>true</EclipseBody>
+  <Width>3</Width>
+  <Height>3</Height>
+
+  <Weapon1>EnemyWeapons\incinerator_basic</Weapon1>
+  <Weapon2>EnemyWeapons\incinerator_basic</Weapon2>
+  <Weapon3>EnemyWeapons\incinerator_basic</Weapon3>
+  <Weapon4>EnemyWeapons\incinerator_basic</Weapon4>
+</GameObjectClass>

@@ -1,0 +1,22 @@
+<?xml version="1.0"?>
+<GameObjectClass>
+  <Type>WEAPON</Type>
+  <ProjectilesPerShot>1</ProjectilesPerShot>
+  <ProjectilePrecision>0.9</ProjectilePrecision>
+  <ProjectileClassfile>EnemyWeapons\slow_p</ProjectileClassfile>
+  <FireSound>blaster_chargefire</FireSound>
+  <RateOfFire>0.75</RateOfFire>
+  <MuzzleFlashEffect>_new_muzzle_enemyblaster</MuzzleFlashEffect>
+  
+  <OnFireMuzzleLight>
+    <Color>
+      <X>0</X>
+      <Y>0</Y>
+      <Z>1</Z>
+      <W>1</W>
+    </Color>
+    <Strength>3</Strength>
+    <Radius>500</Radius>
+    <RadiusModifier>-10</RadiusModifier>
+  </OnFireMuzzleLight>
+</GameObjectClass>

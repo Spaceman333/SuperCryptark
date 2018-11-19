@@ -1,0 +1,21 @@
+<?xml version="1.0"?>
+<GameObjectClass>
+  <BaseFile>Weapons\shotgun</BaseFile>
+  <Displayname>T1 Dual Slugger</Displayname>
+  <ShortDisplayName>SLUG</ShortDisplayName>
+  <ItemInfo>This dual barrel weapon has been loaded with specialty splinter-slug rounds that burst on impact.</ItemInfo>
+
+  <StartingAmmoBoxes>4</StartingAmmoBoxes>
+  <AmmoBoxQuantity>250</AmmoBoxQuantity>
+  <Price>6</Price>
+  <TechChanceNumber>3</TechChanceNumber>
+<!--   <AmmoPerShot>1</AmmoPerShot> -->
+
+  <RateOfFire>0.9</RateOfFire> 
+  <ProjectilesPerShot>2</ProjectilesPerShot>
+  <ProjectilePrecision>.8</ProjectilePrecision>
+  <ProjectileSpread>0.2</ProjectileSpread>
+  <ProjectileClassfile>Projectiles\shotgun_slug</ProjectileClassfile>
+  
+  <FireSound>Combat_M_FragGun_Shot</FireSound>
+</GameObjectClass>

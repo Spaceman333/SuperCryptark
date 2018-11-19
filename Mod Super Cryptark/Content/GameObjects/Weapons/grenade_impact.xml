@@ -1,0 +1,26 @@
+<?xml version="1.0"?>
+<GameObjectClass>
+  <Type>WEAPON</Type>
+  <Displayname>T2 Protective Mortar</Displayname>
+  <ShortDisplayName>PROTE</ShortDisplayName>
+  <ItemInfo>A defensive cannon that fires a spread of 6 low-velocity explosive shells that detonate on impact. Excellent for close-range protection, even if the nearby explosions may result in minor disorientation.</ItemInfo>
+  
+  <StartingAmmoBoxes>4</StartingAmmoBoxes>
+  <AmmoBoxQuantity>50</AmmoBoxQuantity>
+  <Price>7</Price>
+  <TechChanceNumber>2</TechChanceNumber>
+
+  <LoadoutCategory>Cannons</LoadoutCategory>
+  
+  <ProjectilesPerShot>6</ProjectilesPerShot>
+  <ProjectileSpread>.25</ProjectileSpread>
+  <FireBoneRecoil>15</FireBoneRecoil>
+  <RateOfFire>1.6</RateOfFire>
+  <FireSound>grenade_fire</FireSound>
+  <ProjectileClassfile>Projectiles\grenade_impact</ProjectileClassfile>
+  <MuzzleFlashEffect>_new_muzzle_grenade</MuzzleFlashEffect>
+  <FireRecoil>1000</FireRecoil>
+  <ShakeCameraOnFire>0.3</ShakeCameraOnFire>
+  <SpineWeaponHeadTextureName>gunhead\wephead_grenade01</SpineWeaponHeadTextureName>
+  <SpineWeaponTextureName>gunhead\wep_grenade01</SpineWeaponTextureName>
+</GameObjectClass>

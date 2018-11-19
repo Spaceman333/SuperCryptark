@@ -1,0 +1,63 @@
+﻿<?xml version="1.0"?>
+<CharacterClass xmlns:xsi="http://www.w3.org/2001/XMLSchema-instance" xmlns:xsd="http://www.w3.org/2001/XMLSchema">
+
+  <SpineAnimation>heavy_sentinel</SpineAnimation>
+
+  <Health>9</Health>
+  <Type>Sentinel</Type>
+  <DisplayName>Heavy Sentinel</DisplayName>
+
+  <Width>7</Width>
+  <Height>8</Height>
+  <Density>8</Density>
+  <BaseMovementForce>8000</BaseMovementForce>
+  <Maxspeed_Fly>30</Maxspeed_Fly>
+  
+  <WallFixtureScale>0.5</WallFixtureScale>
+  
+  <SidebarTextureName>sentinel</SidebarTextureName>
+  <Description>Lumbering security drone equipped with protective energy shield and rapid fire phase blaster.</Description>
+
+  <BodyRotateToFocusPercent>1</BodyRotateToFocusPercent>
+
+  <Inertia>100</Inertia>
+  <InertiaNoAirControlMultiply>0.1</InertiaNoAirControlMultiply>
+  <DroneFactory>true</DroneFactory>
+  
+  <Weapon1FireDisabled>true</Weapon1FireDisabled>
+  <AllowGrapple>true</AllowGrapple>
+  <DisableOffscreenAI>true</DisableOffscreenAI>
+
+  <Weapon1>EnemyWeapons\sentinel_gun</Weapon1>
+  <Weapon2>EnemyWeapons\sentinel_shield</Weapon2>
+
+  <DefaultItems>
+  </DefaultItems>
+
+  <Light>
+    <Type>Point</Type>
+    <Color>
+      <X>0.75</X>
+      <Y>0.6</Y>
+      <Z>1</Z>
+      <W>1</W>
+    </Color>
+    <Strength>2</Strength>
+    <Radius>150</Radius>
+    <FollowBoneName>root</FollowBoneName>
+  </Light>
+  
+  <OnRemoveLight>
+    <Type>Point</Type>
+    <Color>
+      <X>0.75</X>
+      <Y>0.6</Y>
+      <Z>1</Z>
+      <W>1</W>
+    </Color>
+    <Strength>20</Strength>
+    <Radius>1500</Radius>
+    <RadiusModifier>-150</RadiusModifier>
+  </OnRemoveLight>
+  
+</CharacterClass>

@@ -1,0 +1,43 @@
+<?xml version="1.0"?>
+<GameObjectClass>
+  <Type>WEAPON</Type>
+  <Displayname>Ram Sting</Displayname>
+  <ShortDisplayName>STING</ShortDisplayName>
+  <ItemInfo>Originally a mining tool, this magnetically powered spike can easily shatter enemies as efficiently as any ore. Additionally, it makes very little noise and will not alert nearby enemies. Harmless against systems. For enemy unit use only. Weaker.</ItemInfo>
+  
+  <Price>1</Price>
+  <TechChanceNumber>2</TechChanceNumber>
+  
+  <!--
+  <AmmoAsPercent>true</AmmoAsPercent>
+  <StartingAmmoBoxes>1</StartingAmmoBoxes>
+  <AmmoBoxQuantity>4</AmmoBoxQuantity>
+  <NextRefillTime>2</NextRefillTime>
+  <RefillRate>.03</RefillRate>-->
+  
+  <!-- <LoadoutCategory>Test</LoadoutCategory> -->
+  <MeleeParticleEffect>_new_trail_blade02</MeleeParticleEffect>
+
+  <FireNoiseRadius>0</FireNoiseRadius>
+
+  <RefractionMapName>lunge_wave</RefractionMapName>
+  <UseRefractionOrigin>true</UseRefractionOrigin>
+  <RefractionAlphaMod>0.03</RefractionAlphaMod>
+  <RefractionOrigin>
+    <X>312</X>
+    <Y>108</Y>
+  </RefractionOrigin>
+
+  <AttackSound>saw</AttackSound>
+  <AttackAnimation>lunge</AttackAnimation>
+  <MeleeHitScale>3</MeleeHitScale>
+  <DamagePerShot>2</DamagePerShot>
+  <CameraShakeOnHit>1.5</CameraShakeOnHit>
+  <HitForce>10000</HitForce>
+  <HitNoiseRadius>25</HitNoiseRadius>
+  <Melee>true</Melee>
+  <InvulnerableDuringStrike>true</InvulnerableDuringStrike>
+  <SpineWeaponHeadTextureName>gunhead\wephead_spike01</SpineWeaponHeadTextureName>
+  <SpineWeaponTextureName>gunhead\wep_spike01</SpineWeaponTextureName>
+  <DecalType>Bullet</DecalType>
+</GameObjectClass>

@@ -1,0 +1,28 @@
+﻿<?xml version="1.0" ?>
+<GameObjectClass>
+  <Type>WEAPON</Type>
+  <Displayname>T3 Canister Trigun</Displayname>
+  <ShortDisplayName>TRICA</ShortDisplayName>
+  <ItemInfo>Triple autofire version of the canister gun. Less ammo, less accuracy, but thrice as much dakka and faster rate of fire.</ItemInfo>
+  
+  <StartingAmmoBoxes>4</StartingAmmoBoxes>
+  <AmmoBoxQuantity>250</AmmoBoxQuantity>
+  <Price>8</Price>
+  <TechChanceNumber>1</TechChanceNumber>
+  
+  <RateOfFire>0.32</RateOfFire>
+  <DamagePerShot>0</DamagePerShot>
+  <ProjectilesPerShot>3</ProjectilesPerShot>
+  <ProjectilePrecision>0.85</ProjectilePrecision>
+  <ProjectileSpread>0.25</ProjectileSpread>
+  <ProjectileClassfile>Projectiles\canister_shell</ProjectileClassfile>
+  
+  <FireSound>pulse_fire</FireSound>
+  <FireBoneRecoil>9</FireBoneRecoil>
+  <MuzzleFlashEffect>_new_muzzle_grenade</MuzzleFlashEffect>
+  <ShakeCameraOnFire>0.2</ShakeCameraOnFire>
+  <FireRecoil>2000</FireRecoil>
+  <LoadoutCategory>Cannons</LoadoutCategory>
+  <SpineWeaponHeadTextureName>gunhead\wephead_cannon01</SpineWeaponHeadTextureName>
+  <SpineWeaponTextureName>gunhead\wep_cannon01</SpineWeaponTextureName>
+</GameObjectClass>

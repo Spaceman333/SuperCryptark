@@ -1,0 +1,10 @@
+﻿<?xml version="1.0" ?>
+<GameObjectClass>
+  <BaseFile>Projectiles\machinegun_bullet</BaseFile>
+  <DamagePerShot>0.13</DamagePerShot>
+  <ProjectileSpeed>125</ProjectileSpeed>
+  <ProjectileFollowTarget>true</ProjectileFollowTarget>
+  <ProjectileTargetSeekRange>35</ProjectileTargetSeekRange>
+  <ProjectileFollowTargetMaxRotate>0.1</ProjectileFollowTargetMaxRotate>
+  <ProjectileFollowTargetRotateDelay>0.04</ProjectileFollowTargetRotateDelay>
+</GameObjectClass>

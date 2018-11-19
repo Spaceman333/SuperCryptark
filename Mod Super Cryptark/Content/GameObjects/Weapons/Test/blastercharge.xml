@@ -1,0 +1,67 @@
+<?xml version="1.0"?>
+<GameObjectClass>
+  <Type>WEAPON</Type>
+  <Displayname>Blaster</Displayname>
+  <ShortDisplayName>BLAST</ShortDisplayName>
+  <ItemInfo>ERROR: UNTESTED. DO NOTE USE. Probably a chargable version of the regular blaster gun.</ItemInfo>
+  <Price>5</Price>
+  <RateOfFire>0.075</RateOfFire>
+  <StartingAmmoBoxes>1</StartingAmmoBoxes>
+  <AmmoBoxQuantity>250</AmmoBoxQuantity>
+  
+  <RechargeRate>60</RechargeRate>
+  <MaxCharge>100</MaxCharge>
+  <MinimumCharge>10</MinimumCharge>
+  <FireOnRelease>true</FireOnRelease>
+  
+  <ProjectileClassfile>Projectiles\blaster_bullet</ProjectileClassfile>
+  
+  <!-- <LoadoutCategory>Test</LoadoutCategory> -->
+  
+  <MuzzleFlashEffect>_new_muzzle_blaster</MuzzleFlashEffect>
+  <FireRecoil>100</FireRecoil>
+  
+  <ShakeCameraOnFire>0.1</ShakeCameraOnFire>
+  <RecoilCameraOnFire>1</RecoilCameraOnFire>
+  <RecoilCameraOnFireDuration>0.075</RecoilCameraOnFireDuration>
+  <CasingClassfile>Weapons\machinegun_casing</CasingClassfile>
+  <SpineWeaponHeadTextureName>gunhead\wephead_machinegun01</SpineWeaponHeadTextureName>
+  <SpineWeaponTextureName>gunhead\wep_machinegun01</SpineWeaponTextureName>
+  
+  <FireSound>Combat_M_Player_MachineGun_Shot</FireSound>
+  
+  <WeaponChargeLightFalloff>0.25</WeaponChargeLightFalloff>
+  <OnWeaponChargeLight>
+    <Color>
+      <X>1</X>
+      <Y>1</Y>
+      <Z>0.5</Z>
+      <W>1</W>
+    </Color>
+    <MaxRadius>800</MaxRadius>
+    <MaxStrength>8</MaxStrength>
+  </OnWeaponChargeLight>
+
+  <OnFireMuzzleLight>
+    <Type>Spotlight</Type>
+    <Position>
+      <Z>10</Z>
+    </Position>
+    <Color>
+      <X>1</X>
+      <Y>0.8</Y>
+      <Z>0.5</Z>
+      <W>1</W>
+    </Color>
+    <Direction>
+      <X>1</X>
+      <Y>0</Y>
+      <Z>0.3</Z>
+    </Direction>
+    <Strength>20</Strength>
+    <Radius>700</Radius>
+    <RadiusModifier>-120</RadiusModifier>
+    <InnerConeAngle>1</InnerConeAngle>
+    <OuterConeAngle>1.57</OuterConeAngle>
+  </OnFireMuzzleLight>
+</GameObjectClass>

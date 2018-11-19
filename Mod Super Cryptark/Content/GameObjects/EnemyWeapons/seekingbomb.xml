@@ -1,0 +1,56 @@
+<?xml version="1.0"?>
+<GameObjectClass>
+  <Type>WEAPON</Type>
+  <FireBoneRecoil>15</FireBoneRecoil>
+  <FireSound>grenade_fire</FireSound>
+  <ProjectileClassfile>EnemyWeapons\seekingbomb_p</ProjectileClassfile>
+  <MuzzleFlashEffect>_new_muzzle_grenade</MuzzleFlashEffect>
+  
+  <RechargeRate>2</RechargeRate>
+  <MaxCharge>3</MaxCharge>
+  
+  <OnFireMuzzleLight>
+    <Type>Spotlight</Type>
+    <Position>
+      <Z>5</Z>
+    </Position>
+    <Color>
+      <X>0</X>
+      <Y>0.5</Y>
+      <Z>1</Z>
+      <W>1</W>
+    </Color>
+    <Direction>
+      <X>1</X>
+      <Y>0</Y>
+      <Z>0.3</Z>
+    </Direction>
+    <Strength>15</Strength>
+    <Radius>1200</Radius>
+    <RadiusModifier>-120</RadiusModifier>
+    <InnerConeAngle>0.5</InnerConeAngle>
+    <OuterConeAngle>1.7</OuterConeAngle>
+  </OnFireMuzzleLight>
+  
+  <OnWeaponChargeLight>
+    <Type>Spotlight</Type>
+    <Position>
+      <Z>5</Z>
+    </Position>
+    <Color>
+      <X>1</X>
+      <Y>0</Y>
+      <Z>0</Z>
+      <W>1</W>
+    </Color>
+    <Direction>
+      <X>1</X>
+      <Y>0</Y>
+      <Z>0.3</Z>
+    </Direction>
+    <MaxRadius>100</MaxRadius>
+    <Strength>5</Strength>
+    <FollowBoneName>muzzle</FollowBoneName>
+    <RemoveOnZeroRadius>false</RemoveOnZeroRadius>
+  </OnWeaponChargeLight>
+</GameObjectClass>

@@ -1,0 +1,17 @@
+﻿<?xml version="1.0" ?>
+<GameObjectClass>
+  <BaseFile>Projectiles\grenade</BaseFile>
+  <Texture>Projectiles\bomb_yellow</Texture>
+  <Payload>true</Payload>
+  <PayloadType>PROJECTILE_FIRE</PayloadType>
+  <ProjectilesPerShot>12</ProjectilesPerShot>
+  <ProjectileSpread>0.628</ProjectileSpread>
+  <ProjectilePrecision>0.6</ProjectilePrecision>
+  <ProjectileClassfile>Projectiles\cluster_grenade_projectile</ProjectileClassfile>
+  <ExplosionParticleEffect>_new_explosion_small</ExplosionParticleEffect>
+  <ExplosionSound>Combat_M_AutoCannon_Blast</ExplosionSound>
+  <ExplodeForce>10</ExplodeForce>
+  <ExplodeDamage>1.5</ExplodeDamage>
+  <ExplodeSize>16</ExplodeSize>
+  <Scale>1.4</Scale>
+</GameObjectClass>

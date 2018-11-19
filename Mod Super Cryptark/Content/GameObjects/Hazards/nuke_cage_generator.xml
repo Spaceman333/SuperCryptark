@@ -1,0 +1,38 @@
+﻿<?xml version="1.0" ?>
+<GameObjectClass>
+  <Type>CAGE_GENERATOR</Type>
+
+  <Solid>true</Solid>
+  <Static>true</Static>
+  <EclipseBody>true</EclipseBody>
+  <Width>4</Width>
+  <Height>4</Height>
+  <CharacterCollide>false</CharacterCollide>
+  <IgnoreProjectileCollision>true</IgnoreProjectileCollision>
+
+  <CageShield>Hazards\cage_generator_shield</CageShield>
+  <CageRadius>500</CageRadius>
+  <CageThickness>5</CageThickness>
+  <CageSegments>32</CageSegments>
+
+  <Light>
+    <Color>
+      <X>0.1</X>
+      <Y>0.3</Y>
+      <Z>1</Z>
+      <W>1</W>
+    </Color>
+    <SpecularColor>
+      <X>0.1</X>
+      <Y>0.3</Y>
+      <Z>1</Z>
+      <W>1</W>
+    </SpecularColor>
+    <MinStrength>2</MinStrength>
+    <Strength>1</Strength>
+    <MaxStrength>2</MaxStrength>
+    <OscillateStrength>true</OscillateStrength>
+    <StrengthCycleScale>30</StrengthCycleScale>
+    <Radius>700</Radius>
+  </Light>
+</GameObjectClass>

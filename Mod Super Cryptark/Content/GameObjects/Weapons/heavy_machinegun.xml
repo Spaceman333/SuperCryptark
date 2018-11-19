@@ -1,0 +1,57 @@
+<?xml version="1.0"?>
+<GameObjectClass>
+  <Type>WEAPON</Type>
+  <Displayname>T1 Heavy Machinegun</Displayname>
+  <ShortDisplayName>HMG</ShortDisplayName>
+  <ItemInfo>These repurposed heavy-caliber machineguns are commonly mounted on armoured military vehicles. Autostabilizers are required to compensate for their prodigious recoil, hampering suit maneuverability.
+  </ItemInfo>
+
+  <StartingAmmoBoxes>5</StartingAmmoBoxes>
+  <AmmoBoxQuantity>1000</AmmoBoxQuantity>
+  <Price>7</Price>
+  <TechChanceNumber>3</TechChanceNumber>
+  
+  <RateOfFire>0.11</RateOfFire>
+  <ProjectilesPerShot>1</ProjectilesPerShot>
+  <ProjectilePrecision>0.8</ProjectilePrecision>
+  <ProjectileClassfile>Projectiles\heavy_machinegun_bullet</ProjectileClassfile>
+  <LoadoutCategory>Machineguns</LoadoutCategory>
+
+  <MuzzleFlashEffect>_new_muzzle_machinegun</MuzzleFlashEffect>
+  <FireRecoil>100</FireRecoil>
+  <!--<InaccuracyAdditionLimit>0</InaccuracyAdditionLimit>
+  <AimSpeedModifier>-2</AimSpeedModifier>
+  <MinAimSpeedFactor>0.5</MinAimSpeedFactor> -->
+  <ShakeCameraOnFire>0.1</ShakeCameraOnFire>
+  <RecoilCameraOnFire>1</RecoilCameraOnFire>
+  <RecoilCameraOnFireDuration>0.075</RecoilCameraOnFireDuration>
+  <CasingClassfile>Weapons\machinegun_casing</CasingClassfile>
+  <SpineWeaponHeadTextureName>gunhead\wephead_machinegun01</SpineWeaponHeadTextureName>
+  <SpineWeaponTextureName>gunhead\wep_machinegun01</SpineWeaponTextureName>
+<!--   <MovementMultiplyAfterFiringTime>0.2</MovementMultiplyAfterFiringTime>
+  <MovementMultiplyAfterFiringAmount>0.1</MovementMultiplyAfterFiringAmount> -->
+  <FireSound>Combat_M_Player_HeavyMachineGun_Shot</FireSound>
+
+  <OnFireMuzzleLight>
+    <Type>Spotlight</Type>
+    <Position>
+      <Z>10</Z>
+    </Position>
+    <Color>
+      <X>1</X>
+      <Y>0.8</Y>
+      <Z>0.5</Z>
+      <W>1</W>
+    </Color>
+    <Direction>
+      <X>1</X>
+      <Y>0</Y>
+      <Z>0.3</Z>
+    </Direction>
+    <Strength>20</Strength>
+    <Radius>700</Radius>
+    <RadiusModifier>-120</RadiusModifier>
+    <InnerConeAngle>1</InnerConeAngle>
+    <OuterConeAngle>1.57</OuterConeAngle>
+  </OnFireMuzzleLight>
+</GameObjectClass>

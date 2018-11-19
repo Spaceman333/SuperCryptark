@@ -1,0 +1,50 @@
+﻿<?xml version="1.0" ?>
+<GameObjectClass>
+  <Type>TERMINAL</Type>
+  <Displayname>Key Terminal</Displayname>
+  <MinimapTextureName>map-terminal</MinimapTextureName>
+  <SpineAnimation>terminal</SpineAnimation>
+  <ShowsInteractOutline>true</ShowsInteractOutline>
+  <MinimapDescription>Gives a key when opened.</MinimapDescription>
+  <MinimapTextureScale>0.5</MinimapTextureScale>
+  <ShowsInteractDisplayname>true</ShowsInteractDisplayname>
+
+  <SendToBack>true</SendToBack>
+
+  <AmbientSound>FX_M_KeyTerminal_Loop</AmbientSound>
+
+    <Light>
+      <Type>Spotlight</Type>
+      <Position>
+         <Z>10</Z>
+      </Position>
+      <Color>
+        <X>.7</X>
+        <Y>0.5</Y>
+        <Z>0.1</Z>
+        <W>1</W>
+      </Color>
+      <SpecularColor>
+        <X>.7</X>
+        <Y>0.5</Y>
+        <Z>0.1</Z>
+        <W>1</W>
+      </SpecularColor>
+      <Direction>
+        <X>0</X>
+        <Y>1</Y>
+        <Z>0.5</Z>
+      </Direction>
+      <Strength>10</Strength>
+      <MinRadius>200</MinRadius>
+      <MaxRadius>600</MaxRadius>
+
+      <RadiusCycleScale>4</RadiusCycleScale>
+      <OscillateRadius>true</OscillateRadius>
+      <FollowBoneName>piston1</FollowBoneName>
+      <FollowOwnRotation>true</FollowOwnRotation>
+      <InnerConeAngle>0.6</InnerConeAngle>
+      <OuterConeAngle>2</OuterConeAngle>
+      <Shininess>20</Shininess>
+  </Light>
+</GameObjectClass>

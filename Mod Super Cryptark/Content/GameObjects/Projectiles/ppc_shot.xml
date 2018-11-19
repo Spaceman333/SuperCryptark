@@ -1,0 +1,79 @@
+﻿<?xml version="1.0"?>
+<GameObjectClass>
+  <Type>WEAPON</Type>
+  <Texture>Projectiles\bullet02_red</Texture>
+  <Scale>.1</Scale>
+  
+  <!--<Solid>true</Solid>-->
+  <FakeProjectile>true</FakeProjectile>
+  
+  <ParticleEffectAmount>2</ParticleEffectAmount>
+  <CharacterCollide>true</CharacterCollide>
+  <ProjectileMinRandSpeed>150</ProjectileMinRandSpeed>
+  <ProjectileMaxRandSpeed>400</ProjectileMaxRandSpeed>
+  <HitForce>200</HitForce>
+  <DamagePerShot>0.25</DamagePerShot>
+  <!-- <ProjectileRange>60</ProjectileRange> -->
+<!--   <LinearDamping>2</LinearDamping> -->
+  <DecalType>Bullet</DecalType>
+  <ProjKeepVelocity>true</ProjKeepVelocity>
+  <ProjectileHitDebris>true</ProjectileHitDebris>
+  <Additive>true</Additive>
+  
+  <ProjectileRemoveOnCollision>true</ProjectileRemoveOnCollision>
+  
+  <ExplodeOnRemove>true</ExplodeOnRemove>
+  <ExplodeForce>100</ExplodeForce>
+  <ExplodeSize>8</ExplodeSize>
+  <ExplosionParticleEffect>_new_explosion_med</ExplosionParticleEffect>
+  <ExplosionSound>Blast</ExplosionSound>
+  <ExplodeDamage>0.75</ExplodeDamage>
+  <ExplosionRefraction>shockwave_2</ExplosionRefraction>
+  
+  <ParticleEffect>background-new_trail_grenade</ParticleEffect>
+  <ParticleOffset>10</ParticleOffset>
+  <RemoveAfterStarted>1.5</RemoveAfterStarted>  
+  
+  
+  <OnFireProjectileLight>
+    <Type>Point</Type>
+    <Color>
+      <X>0.1</X>
+      <Y>0.6</Y>
+      <Z>1.0</Z>
+      <W>1</W>
+    </Color>
+    <Strength>1.8</Strength>
+    <Radius>100</Radius>
+  </OnFireProjectileLight>
+
+  <OnRemoveLight>
+    <Type>Spotlight</Type>
+    <Color>
+      <X>0.1</X>
+      <Y>0.2</Y>
+      <Z>1.0</Z>
+      <W>1</W>
+    </Color>
+    <Position>
+      <Z>40</Z>
+    </Position>
+    <Direction>
+      <X>1</X>
+      <Y>0</Y>
+      <Z>0.3</Z>
+    </Direction>
+    <Strength>20</Strength>
+    <InnerConeAngle>0.5</InnerConeAngle>
+    <OuterConeAngle>1.5</OuterConeAngle>
+    <Radius>200</Radius>
+    <RadiusModifier>-200</RadiusModifier>
+  </OnRemoveLight>
+
+  <ProjectileColor>
+    <X>0.1</X>
+    <Y>0.1</Y>
+    <Z>1</Z>
+  </ProjectileColor>
+  <SetLayer>FULLBRIGHT</SetLayer>
+</GameObjectClass>

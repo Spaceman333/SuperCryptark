@@ -1,0 +1,16 @@
+﻿<?xml version="1.0" ?>
+<GameObjectClass>
+  <BaseFile>Weapons\rocket_launcher</BaseFile>
+  
+  <Displayname>T2 Guided Rocket</Displayname>
+  <ShortDisplayName>R-GUI</ShortDisplayName>
+  <ItemInfo>After launching, this rocket can be wirelessly guided into targets. Requires more mental focus to use, but the manual flight control allows a rocket to be flown into places that a regular homing or dumbfire rocket cannot reach.</ItemInfo>
+
+  <StartingAmmoBoxes>4</StartingAmmoBoxes>
+  <AmmoBoxQuantity>25</AmmoBoxQuantity>
+  <Price>6</Price>
+  <TechChanceNumber>2</TechChanceNumber>
+  
+  <ProjectileClassfile>Projectiles\rocket_guided_p</ProjectileClassfile>
+  
+</GameObjectClass>

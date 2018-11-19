@@ -1,0 +1,20 @@
+<?xml version="1.0"?>
+<GameObjectClass>
+  <BaseFile>Weapons\grenade</BaseFile>
+  
+  <LoadoutCategory>Bombs</LoadoutCategory>
+  
+  <Displayname>T1 Vortex Bomb</Displayname>
+  <ShortDisplayName>GLVOR</ShortDisplayName>
+  <ItemInfo>This grenade explodes into a gravity vortex. May teleport the player into a random location in the ship if caught within.</ItemInfo>
+
+  <StartingAmmoBoxes>3</StartingAmmoBoxes>
+  <AmmoBoxQuantity>100</AmmoBoxQuantity>
+  <Price>3</Price>
+  
+  <TechChanceNumber>3</TechChanceNumber>
+  
+  
+  <ProjectileClassfile>Projectiles\grenade_vortex_p</ProjectileClassfile>
+ 
+</GameObjectClass>

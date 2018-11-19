@@ -1,0 +1,18 @@
+﻿<GameObjectClass>
+  <Type>ITEM</Type>
+  <Displayname>Armageddon Device</Displayname>
+  <ShortDisplayName>GEDON</ShortDisplayName>
+  <LoadoutCategory>Item</LoadoutCategory>
+  <ItemInfo>The ultimate superweapon. A fusion antimatter bomb capable of swallowing an entire ship with its enourmous blast radius, torching anything into nothingness almost instantly, including you. EXTREMELY DANGEROUS!!! MAKE SURE TO HAVE A FAST CLEAR ESCAPE PATH TO SPACE WHEN DETONATING THIS THING. YOU HAVE BEEN WARNED. RUN.</ItemInfo>
+  <HudTextureName>tag_item_nuke</HudTextureName>
+
+  <Price>888</Price>
+  <TechChanceNumber>1</TechChanceNumber>
+
+  <StartItemQuantity>1</StartItemQuantity>
+  <SpawnOnItemUse>Hazards\geddon_bomb</SpawnOnItemUse>
+  <RateOfUse>3</RateOfUse>
+  <ItemType>DemoBomb</ItemType>
+  <OnLoadoutTrigger>weapon_nuke</OnLoadoutTrigger>
+  <OnUseSound>Combat_ST_PlaceItem</OnUseSound>
+</GameObjectClass>

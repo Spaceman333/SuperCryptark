@@ -1,0 +1,19 @@
+﻿<?xml version="1.0" ?>
+<GameObjectClass>
+  <BaseFile>Projectiles\rocket</BaseFile>
+  <Texture>Projectiles\rocket_blue</Texture>
+  
+  <RemoveAfterStarted>9</RemoveAfterStarted>
+
+  <ProjectileFollowAim>true</ProjectileFollowAim>
+  <ProjectileTargetSeekRange>130</ProjectileTargetSeekRange>
+  <ProjectileFollowTargetMaxRotate>0.9</ProjectileFollowTargetMaxRotate>
+  <ProjectileFollowTargetRotateDelay>0.05</ProjectileFollowTargetRotateDelay>
+
+  <ProjectileBoostMaxSpeed>50</ProjectileBoostMaxSpeed>
+  <ProjectileBoostForce>80</ProjectileBoostForce>
+  <ProjectileBoostStart>0.25</ProjectileBoostStart>
+
+  <ProjectileFollowTarget>false</ProjectileFollowTarget>
+  
+</GameObjectClass>

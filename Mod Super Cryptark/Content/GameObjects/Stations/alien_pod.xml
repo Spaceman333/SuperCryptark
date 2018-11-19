@@ -1,0 +1,39 @@
+﻿<?xml version="1.0" ?>
+<GameObjectClass>
+  <Type>ALIEN_POD</Type>
+  <Displayname>Alien Pod</Displayname>
+  <MinimapTextureName>map-artifact</MinimapTextureName>
+  <SpineAnimation>terminal_finalepod</SpineAnimation>
+  <ShowsInteractDisplayname>true</ShowsInteractDisplayname>
+  <ShowsInteractOutline>true</ShowsInteractOutline>
+  <MinimapDescription>Contains a alien specimen.</MinimapDescription>
+  <MinimapTextureScale>0.5</MinimapTextureScale>
+
+  <AmbientSound>FX_M_KeyTerminal_Loop</AmbientSound>
+
+  <Light>
+    <Type>Point</Type>
+    <Color>
+      <X>0.975</X>
+      <Y>0.250714272</Y>
+      <Z>0.4369593</Z>
+      <W>1</W>
+    </Color>
+    <SpecularColor>
+      <X>0.942857146</X>
+      <Y>0.121224508</Y>
+      <Z>0.138831034</Z>
+      <W>1</W>
+    </SpecularColor>
+    <Direction>
+      <X>0</X>
+      <Y>0</Y>
+      <Z>0.4</Z>
+    </Direction>
+    <Shininess>25</Shininess>
+    <Radius>200</Radius>
+    <Strength>4</Strength>
+    <FollowBoneName>alien_body</FollowBoneName>
+  </Light>
+
+</GameObjectClass>

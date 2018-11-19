@@ -1,0 +1,20 @@
+﻿<?xml version="1.0" ?>
+<GameObjectClass>
+  <BaseFile>Weapons\machinegun</BaseFile>
+  <Displayname>T3 Advanced Smart Gun</Displayname>
+  <ShortDisplayName>SMART</ShortDisplayName>
+  <ItemInfo>High-tech targeting sensors and directional micro-thrusters enable this weapon to literally shoot around corners with pinpoint accuracy.</ItemInfo>
+
+  <StartingAmmoBoxes>3</StartingAmmoBoxes>
+  <AmmoBoxQuantity>2000</AmmoBoxQuantity>
+  <Price>7</Price>
+  <TechChanceNumber>1</TechChanceNumber>
+
+  <ProjectileClassfile>Projectiles\heat_seeking</ProjectileClassfile>
+  <RateOfFire>0.12</RateOfFire>
+  <FireSound>Combat_M_HeatSeekGun_Shot</FireSound>
+  
+  <SpineWeaponHeadTextureName>gunhead\wephead_machinegun01</SpineWeaponHeadTextureName>
+  <SpineWeaponTextureName>gunhead\wep_machinegun01</SpineWeaponTextureName>
+  <OnLoadoutTrigger>weapon_smart</OnLoadoutTrigger>
+</GameObjectClass>

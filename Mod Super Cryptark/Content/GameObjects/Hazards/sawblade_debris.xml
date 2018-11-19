@@ -1,0 +1,13 @@
+﻿<?xml version="1.0"?>
+<GameObjectClass>
+  <Type>GIB</Type>
+  <Health>0.01</Health>
+  <Solid>true</Solid>
+  <!--<Texture>debris_med01</Texture>-->
+  <Width>2</Width>
+  <Height>2</Height>
+  <Friction>0</Friction>
+  <Restitution>0.5</Restitution>
+  <RemoveParticleEffect>_new_death_debris</RemoveParticleEffect>
+  <StartIgnoreHitsTime>0</StartIgnoreHitsTime>
+</GameObjectClass>

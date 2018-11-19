@@ -1,0 +1,73 @@
+﻿<?xml version="1.0" ?>
+<GameObjectClass>
+  <Type>WEAPON</Type>
+  <Displayname>T2 Vulcan Laser</Displayname>
+  <ShortDisplayName>V-LAS</ShortDisplayName>
+  <ItemInfo>This repeating assault laser may be complex to maintain and service, but its performance easily matches more traditional machine gun weaponry. With a large power capacitor, the Vulcan Laser is capable of laying down prolonged sustained fire and is able to recharge its energy fairly quickly, but requires a long 5 seconds before the charging sequence begins after firing has ended.</ItemInfo>
+
+  <Price>20</Price>
+  
+  <RayGun>true</RayGun>
+  <ProjectileClassfile>Projectiles\vulcan_laser_beam</ProjectileClassfile>
+  <ProjectilePrecision>0.77</ProjectilePrecision>
+  <ProjectileRange>160</ProjectileRange>
+  <AmmoAsPercent>true</AmmoAsPercent>
+  <StartingAmmoBoxes>1</StartingAmmoBoxes>
+  <AmmoBoxQuantity>1000</AmmoBoxQuantity>
+  <NextRefillTime>5</NextRefillTime>
+  <RefillRate>4</RefillRate>
+  <LoadoutCategory>Energy</LoadoutCategory>
+  <FireRecoil>500</FireRecoil>
+  <TechChanceNumber>2</TechChanceNumber>
+
+  <MuzzleFlashEffect>_new_muzzle_blaster</MuzzleFlashEffect>
+  <NoMuzzleFlashRotation>true</NoMuzzleFlashRotation>
+  
+  <FireSound>VulcanLaser_Shot</FireSound>
+  <FiringLoop>Combat_M_LaserGun_Loop</FiringLoop>
+  <ReleaseFiringSound>Combat_M_ChainGun_WindDown</ReleaseFiringSound>
+  
+  <RecoilCameraOnFire>1</RecoilCameraOnFire>
+  <RecoilCameraOnFireDuration>0.075</RecoilCameraOnFireDuration>
+
+  <RateOfFire>0.15</RateOfFire>
+  <RateOfFireAddition>-0.06</RateOfFireAddition>
+  <RateOfFireAdditionLimit>-2.4</RateOfFireAdditionLimit>
+  <RateOfFireAdditionCoolDown>0.6</RateOfFireAdditionCoolDown>
+  <InaccuracyAddition>-0.08</InaccuracyAddition>
+  <InaccuracyAdditionLimit>-2.7</InaccuracyAdditionLimit>
+  <InaccuracyAdditionCoolDown>0.6</InaccuracyAdditionCoolDown>
+  <AimSpeedModifier>-12</AimSpeedModifier>
+  <MinAimSpeedFactor>0.35</MinAimSpeedFactor>
+  <ShakeCameraOnFire>0.01</ShakeCameraOnFire>
+  <ShakeCameraAddition>0.001</ShakeCameraAddition>
+  <ShakeCameraAdditionLimit>.01</ShakeCameraAdditionLimit>
+  <ShakeCameraAdditionCoolDown>0.1</ShakeCameraAdditionCoolDown>
+  <CasingClassfile>Weapons\heavy_laser_casing</CasingClassfile>
+  <SpineWeaponHeadTextureName>gunhead\wephead_laser01</SpineWeaponHeadTextureName>
+  <SpineWeaponTextureName>gunhead\wep_laser01</SpineWeaponTextureName>
+
+  <OnFireBeamClassfile>Beams\heavy_laser_beam</OnFireBeamClassfile>
+  <OnFireMuzzleLight>
+    <Type>Spotlight</Type>
+    <Position>
+      <Z>10</Z>
+    </Position>
+    <Color>
+      <X>1</X>
+      <Y>0.8</Y>
+      <Z>0.5</Z>
+      <W>1</W>
+    </Color>
+    <Direction>
+      <X>1</X>
+      <Y>0</Y>
+      <Z>0.3</Z>
+    </Direction>
+    <Strength>20</Strength>
+    <Radius>1000</Radius>
+    <RadiusModifier>-200</RadiusModifier>
+    <InnerConeAngle>1</InnerConeAngle>
+    <OuterConeAngle>1.57</OuterConeAngle>
+  </OnFireMuzzleLight>
+</GameObjectClass>

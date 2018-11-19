@@ -1,0 +1,8 @@
+﻿<?xml version="1.0" ?>
+<GameObjectClass>
+  <Type>WEAPON</Type>
+  <HitForce>50</HitForce>
+  <CharacterCollide>true</CharacterCollide>
+  <DamagePerShot>0.5</DamagePerShot>
+  
+</GameObjectClass>

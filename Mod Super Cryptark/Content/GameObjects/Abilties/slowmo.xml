@@ -1,0 +1,11 @@
+﻿<?xml version="1.0" ?>
+<GameObjectClass>
+  <Type>ITEM</Type>
+  <ItemType>Slowmo</ItemType>
+  <RechargeRate>0.2</RechargeRate>
+  <DepleteChargeMult>4</DepleteChargeMult>
+  <MaxCharge>300</MaxCharge>
+  <RateOfUse>0.50</RateOfUse>
+  <DrawChargeBar>true</DrawChargeBar>
+  <StartItemQuantity>1</StartItemQuantity>
+</GameObjectClass>

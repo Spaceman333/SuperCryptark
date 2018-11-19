@@ -1,0 +1,55 @@
+<?xml version="1.0"?>
+<GameObjectClass>
+  <Type>WEAPON</Type>
+  <Displayname>T1 Zipgun</Displayname>
+  <ShortDisplayName>ZIP</ShortDisplayName>
+  <ItemInfo>Though extremely ramshackle and cheap in its construction, few weapons can compare to the raw amount of hot lead this popular street-piece can spit out.</ItemInfo>
+
+  <StartingAmmoBoxes>3</StartingAmmoBoxes>
+  <AmmoBoxQuantity>2500</AmmoBoxQuantity>
+  <Price>2</Price>
+  <TechChanceNumber>3</TechChanceNumber>
+
+  <RateOfFire>0.02</RateOfFire>
+  <ProjectilesPerShot>1</ProjectilesPerShot>
+  <ProjectilePrecision>.9</ProjectilePrecision>
+  <ProjectileClassfile>Projectiles\zipgun_bullet</ProjectileClassfile>
+  <LoadoutCategory>Machineguns</LoadoutCategory>
+
+  <MuzzleFlashEffect>_new_muzzle_smg</MuzzleFlashEffect>
+  <FireRecoil>30</FireRecoil>
+  <InaccuracyAdditionCoolDown>0.3</InaccuracyAdditionCoolDown>
+  <InaccuracyAddition>0.1</InaccuracyAddition>
+  <InaccuracyAdditionLimit>.5</InaccuracyAdditionLimit>
+  <ShakeCameraOnFire>0.1</ShakeCameraOnFire>
+  <RecoilCameraOnFire>1</RecoilCameraOnFire>
+  <RecoilCameraOnFireDuration>0.075</RecoilCameraOnFireDuration>
+  <CasingClassfile>Weapons\smg_casing</CasingClassfile>
+  <SpineWeaponHeadTextureName>gunhead\wephead_machinegun01</SpineWeaponHeadTextureName>
+  <SpineWeaponTextureName>gunhead\wep_machinegun01</SpineWeaponTextureName>
+
+  <FireSound>Combat_M_PeaGun_Shot</FireSound>
+
+  <OnFireMuzzleLight>
+    <Type>Spotlight</Type>
+    <Position>
+      <Z>10</Z>
+    </Position>
+    <Color>
+      <X>1</X>
+      <Y>0.8</Y>
+      <Z>0.5</Z>
+      <W>1</W>
+    </Color>
+    <Direction>
+      <X>1</X>
+      <Y>0</Y>
+      <Z>0.3</Z>
+    </Direction>
+    <Strength>20</Strength>
+    <Radius>500</Radius>
+    <RadiusModifier>-200</RadiusModifier>
+    <InnerConeAngle>1</InnerConeAngle>
+    <OuterConeAngle>1.57</OuterConeAngle>
+  </OnFireMuzzleLight>
+</GameObjectClass>

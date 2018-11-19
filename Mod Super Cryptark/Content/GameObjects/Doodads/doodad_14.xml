@@ -1,0 +1,6 @@
+<?xml version="1.0"?>
+<GameObjectClass>
+  <SpineAnimation>doodad_14</SpineAnimation>
+  <LayerSelect>true</LayerSelect>
+  <BaseFile>Doodads\doodad_01</BaseFile>
+</GameObjectClass>

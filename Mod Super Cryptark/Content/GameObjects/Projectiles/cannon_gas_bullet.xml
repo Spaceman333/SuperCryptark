@@ -1,0 +1,63 @@
+﻿<?xml version="1.0"?>
+<GameObjectClass>
+  <Type>WEAPON</Type>
+  <Texture>Projectiles\bullet02_orange</Texture>
+  <Scale>2</Scale>
+  <Solid>true</Solid>
+  <CharacterCollide>true</CharacterCollide>
+  <ProjectileSpeed>150</ProjectileSpeed>
+  <HitForce>100</HitForce>
+  <DamagePerShot>1</DamagePerShot>
+  <ParticleEffect>_new_trail_bullet</ParticleEffect>
+  <RotateParticleEffect>true</RotateParticleEffect>
+  <DecalType>Bullet</DecalType>
+  
+  <ExplodeOnRemove>true</ExplodeOnRemove>
+
+  <ExplodeForce>1</ExplodeForce>
+  <ExplodeSize>5</ExplodeSize>
+  <ExplosionParticleEffect>_new_explosion_gas</ExplosionParticleEffect>
+  <ExplodeDamage>.35</ExplodeDamage>
+  <ExplosionSound>Combat_M_AutoCannon_Blast</ExplosionSound>
+
+  <Payload>true</Payload>
+  <PayloadType>PROJECTILE_FIRE</PayloadType>
+  <!--<RemoveAfterStarted>0.25</RemoveAfterStarted>-->
+  <ProjectilesPerShot>5</ProjectilesPerShot>
+  <ProjectileSpread>1</ProjectileSpread>
+  <ProjectilePrecision>1</ProjectilePrecision>
+  <ProjectileClassfile>Projectiles\cannon_gas_cloud</ProjectileClassfile>
+
+  
+  <OnFireProjectileLight>
+    <Type>Point</Type>
+    <Color>
+      <X>.75</X>
+      <Y>0.75</Y>
+      <Z>0.5</Z>
+      <W>1</W>
+    </Color>
+    <Strength>3</Strength>
+    <Radius>400</Radius>
+  </OnFireProjectileLight>
+
+  <OnExplodeLight>
+    <Color>
+      <X>.5</X>
+      <Y>1</Y>
+      <Z>.5</Z>
+      <W>1</W>
+    </Color>
+
+    <Strength>5</Strength>
+    <Radius>750</Radius>
+    <RadiusModifier>-100</RadiusModifier>
+  </OnExplodeLight>
+
+  <ProjectileColor>
+    <X>.5</X>
+    <Y>1</Y>
+    <Z>.5</Z>
+  </ProjectileColor>
+  <SetLayer>FULLBRIGHT</SetLayer>
+</GameObjectClass>

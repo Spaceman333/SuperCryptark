@@ -1,0 +1,7 @@
+<?xml version="1.0"?>
+<GameObjectClass>
+  <BaseFile>Weapons\machinegun_assault</BaseFile>
+  <Displayname>Pirate MG</Displayname>
+  <LoadoutCategory>Test</LoadoutCategory>
+  <ReloadTime>0.75</ReloadTime>
+</GameObjectClass>

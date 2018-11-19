@@ -1,0 +1,8 @@
+﻿<?xml version="1.0"?>
+<GameObjectClass>
+  <Type>ITEM</Type>
+  <ItemType>Blink</ItemType>
+  <ProjectileRange>30</ProjectileRange>
+  <RateOfFire>2</RateOfFire>
+  <ParticleEffect>_new_trail_telebeacon</ParticleEffect>
+</GameObjectClass>

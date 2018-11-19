@@ -1,0 +1,30 @@
+﻿<GameObjectClass>
+  <Type>ITEM</Type>
+  <Displayname>Kill Burst</Displayname>
+  <ShortDisplayName>KILLB</ShortDisplayName>
+  <LoadoutCategory>Item</LoadoutCategory>
+  <ItemInfo>Sends away a lethal killburst, instantly damaging opponents and debris in the surrounding area. Single use.</ItemInfo>
+  <HudTextureName>tag_item_knockback</HudTextureName>
+
+  <Price>0</Price>
+  <TechChanceNumber>2</TechChanceNumber>
+  
+  <StartItemQuantity>1</StartItemQuantity>
+  <RateOfUse>1</RateOfUse>
+  
+  <ItemType>KnockBack</ItemType>
+  <SpawnOnItemUse>Hazards\knockback</SpawnOnItemUse>
+  <UseInSpace>true</UseInSpace>
+  
+  <ExplodeForce>130</ExplodeForce>
+  <ExplodeSize>70</ExplodeSize>
+  <ExplodeDamage>20</ExplodeDamage>
+  <StunTime>1</StunTime>
+  
+  <DamageEnemies>true</DamageEnemies>
+  <DamageSystems>false</DamageSystems>
+  <DamagePlayer>false</DamagePlayer>
+  <DamageObjects>true</DamageObjects>
+  
+  <OnUseSound>Combat_ST_KnockBack</OnUseSound>
+</GameObjectClass>

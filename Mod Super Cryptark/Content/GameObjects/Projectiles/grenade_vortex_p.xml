@@ -1,0 +1,37 @@
+﻿<?xml version="1.0" ?>
+<GameObjectClass>
+  <BaseFile>Projectiles\grenade</BaseFile>
+  <Texture>Projectiles\bomb_purple</Texture>
+  <Scale>1.4</Scale>
+  
+  <SpawnObjectOnRemove>Hazards\vortexbomb</SpawnObjectOnRemove>
+  
+  <ExplodeOnRemove>true</ExplodeOnRemove>
+  <ExplodeForce>80</ExplodeForce>
+  <ExplodeSize>88</ExplodeSize>
+  <ExplosionParticleEffect>_new_explosion_small</ExplosionParticleEffect>
+  <ExplosionSound>Blast</ExplosionSound>
+  <ExplodeDamage>0.9</ExplodeDamage>
+  <StunTime>5</StunTime>
+  <KnockbackTime>5</KnockbackTime>
+  
+  <Payload>true</Payload>
+  <PayloadType>PROJECTILE_FIRE</PayloadType>
+  <ProjectilesPerShot>32</ProjectilesPerShot>
+  <ProjectileSpread>3</ProjectileSpread>
+  <ProjectilePrecision>0.6</ProjectilePrecision>
+  <ProjectileClassfile>Projectiles\blasterbounce_bullet_vortex</ProjectileClassfile>
+  
+  <OnExplodeLight>
+    <Type>Point</Type>
+    <Color>
+      <X>1</X>
+      <Y>0.5</Y>
+      <Z>0.1</Z>
+      <W>1</W>
+    </Color>
+    <Strength>20</Strength>
+    <Radius>2000</Radius>
+    <RadiusModifier>-200</RadiusModifier>
+  </OnExplodeLight>
+</GameObjectClass>

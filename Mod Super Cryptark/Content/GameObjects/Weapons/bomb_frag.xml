@@ -1,0 +1,25 @@
+<?xml version="1.0"?>
+<GameObjectClass>
+  <BaseFile>Weapons\Base\grenade</BaseFile>
+  <Type>WEAPON</Type>
+  <Displayname>T2 Frag Grenades</Displayname>
+  <ShortDisplayName>G-FRG</ShortDisplayName>
+  <ItemInfo>These offensive bombs are densely packed with lethal shrapnel. Grenades detonate after 1.5 seconds and can be ‘cooked’ for more precise timing.</ItemInfo>
+ 
+  <StartingAmmoBoxes>3</StartingAmmoBoxes>
+  <AmmoBoxQuantity>50</AmmoBoxQuantity>
+  <Price>5</Price>
+  <TechChanceNumber>2</TechChanceNumber>
+  
+  <LoadoutCategory>Bombs</LoadoutCategory>
+  
+  <FireBoneRecoil>15</FireBoneRecoil>
+  <RateOfFire>1</RateOfFire>
+  <FireSound>grenade_fire</FireSound>
+  <ProjectileClassfile>Projectiles\frag_grenade</ProjectileClassfile>
+  <MuzzleFlashEffect>_new_muzzle_grenade</MuzzleFlashEffect>
+  <FireRecoil>1000</FireRecoil>
+  <ShakeCameraOnFire>0.3</ShakeCameraOnFire>
+  <SpineWeaponHeadTextureName>gunhead\wephead_grenade01</SpineWeaponHeadTextureName>
+  <SpineWeaponTextureName>gunhead\wep_grenade01</SpineWeaponTextureName>
+</GameObjectClass>

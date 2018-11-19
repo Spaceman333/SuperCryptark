@@ -1,0 +1,31 @@
+﻿<?xml version="1.0" ?>
+<GameObjectClass>
+  <Type>WEAPON</Type>
+  <Solid>true</Solid>
+  <Texture>Projectiles\flame</Texture>
+  <CharacterCollide>true</CharacterCollide>
+  <ProjectileSpeed>310</ProjectileSpeed>
+  <ProjectilePiercing>true</ProjectilePiercing>
+  <ProjectileRemoveOnCollision>false</ProjectileRemoveOnCollision>
+  <HitForce>420</HitForce>
+  <AmbientSound>Combat_M_FlameThrower_Particle</AmbientSound>
+  <DamagePerShot>1.6</DamagePerShot>
+  <RemoveAfterStarted>1.25</RemoveAfterStarted>
+  <ParticleEffect>_new_hit_napalm</ParticleEffect>
+  <LinearDamping>4</LinearDamping>
+  <SetFriction>true</SetFriction>
+  <Friction>.3</Friction>
+  <Restitution>.8</Restitution>
+  <DecalType>Flame</DecalType>
+  <NoDebrisOnHit>true</NoDebrisOnHit>
+  <OnFireProjectileLight>
+    <Color>
+      <X>0.1</X>
+      <Y>0.5</Y>
+      <Z>1</Z>
+      <W>1</W>
+    </Color>
+    <Strength>1.6</Strength>
+    <Radius>200</Radius>
+  </OnFireProjectileLight>
+</GameObjectClass>

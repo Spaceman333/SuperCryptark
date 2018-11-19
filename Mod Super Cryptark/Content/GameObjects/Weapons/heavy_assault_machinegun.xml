@@ -1,0 +1,19 @@
+<?xml version="1.0"?>
+<GameObjectClass>
+  <Displayname>T1 Burst Heavy Machinegun</Displayname>
+  <BaseFile>Weapons\heavy_machinegun</BaseFile>
+  <ShortDisplayName>HMG-B</ShortDisplayName>
+  <ItemInfo>This heavy-caliber machinegun has been outfitted with a burst-capacitor for increased accuracy and controllability.  Autostabilizers are required to compensate for its prodigious recoil, hampering suit maneuverability.</ItemInfo>
+
+  <StartingAmmoBoxes>4</StartingAmmoBoxes>
+  <AmmoBoxQuantity>1000</AmmoBoxQuantity>
+  <Price>6</Price>
+  <TechChanceNumber>3</TechChanceNumber>
+  
+  <ProjectilePrecision>0.95</ProjectilePrecision>
+  <AutoFireCount>5</AutoFireCount>
+  <RateOfFire>0.065</RateOfFire>
+  <ReloadTime>.3</ReloadTime>
+  <NumShotsPerReload>5</NumShotsPerReload>
+  <SetDamageStat>1</SetDamageStat>
+</GameObjectClass>

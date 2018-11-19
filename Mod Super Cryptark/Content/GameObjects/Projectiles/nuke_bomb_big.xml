@@ -1,0 +1,44 @@
+﻿<?xml version="1.0" ?>
+<GameObjectClass>
+  <BaseFile>Projectiles\grenade</BaseFile>
+  <Texture>Projectiles\bomb_black</Texture>
+  <Scale>3.5</Scale>
+  
+  <SpawnObjectOnRemove>Hazards\doom_explosion</SpawnObjectOnRemove>
+
+  <ExplodeOnRemove>true</ExplodeOnRemove>
+  <ExplodeForce>2000</ExplodeForce>
+  <ExplodeSize>18</ExplodeSize>
+  <ExplosionParticleEffect>_new_explosion_small</ExplosionParticleEffect>
+  <ExplosionSound>Blast</ExplosionSound>
+  <ExplodeDamage>30</ExplodeDamage>
+
+  <OnExplodeLight>
+      <Type>Directional</Type>
+      <Position>
+        <Z>10</Z>
+      </Position>
+    <Color>
+      <X>1</X>
+      <Y>0.5</Y>
+      <Z>0.1</Z>
+      <W>1</W>
+    </Color>
+      <SpecularColor>
+        <X>1</X>
+        <Y>0.5</Y>
+        <Z>0.1</Z>
+        <W>1</W>
+      </SpecularColor>
+      <Direction>
+        <X>1</X>
+        <Y>0</Y>
+        <Z>0.5</Z>
+      </Direction>
+      <Strength>12</Strength>
+      <MaxStrength>12</MaxStrength>
+      <StrengthModifier>-0.3</StrengthModifier>
+      <RemoveOnZeroStrength>true</RemoveOnZeroStrength>
+      <Shininess>6</Shininess>
+  </OnExplodeLight>
+</GameObjectClass>

@@ -1,0 +1,7 @@
+﻿<?xml version="1.0"?>
+<GameObjectClass>
+  <BaseFile>Projectiles\blaster_bullet</BaseFile>
+  <Restitution>1</Restitution>
+  <ProjectileRicochetCount>9</ProjectileRicochetCount>
+  <ProjKeepVelocity>true</ProjKeepVelocity>
+</GameObjectClass>

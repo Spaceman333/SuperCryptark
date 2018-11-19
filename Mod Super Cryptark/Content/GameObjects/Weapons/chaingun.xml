@@ -1,0 +1,39 @@
+﻿<?xml version="1.0" ?>
+<GameObjectClass>
+  <BaseFile>Weapons\machinegun</BaseFile>
+  <Displayname>T3 Chaingun</Displayname>
+  <ShortDisplayName>CHAIN</ShortDisplayName>
+  <ItemInfo>The multiple barrels of this powerful rotary gun may be slow to react, but once spinning they deliver a hurricane of withering fire.</ItemInfo>
+
+  <StartingAmmoBoxes>2</StartingAmmoBoxes>
+  <AmmoBoxQuantity>5000</AmmoBoxQuantity>
+  <Price>10</Price>
+  <TechChanceNumber>1</TechChanceNumber>
+  
+  <ProjectileClassfile>Projectiles\chaingun_bullet</ProjectileClassfile>
+  <ProjectilePrecision>0.3</ProjectilePrecision>
+  <FireRecoil>500</FireRecoil>
+
+  <MuzzleFlashEffect>_new_muzzle_chaingun</MuzzleFlashEffect>
+  <FireSound>Combat_M_ChainGun_Shot</FireSound>
+  <FiringLoopAfterStartFiringSound>Combat_M_ChainGun_Loop</FiringLoopAfterStartFiringSound>
+  <StartFiringSound>Combat_M_ChainGun_WindUp</StartFiringSound>
+  <ReleaseFiringSound>Combat_M_ChainGun_WindDown</ReleaseFiringSound>
+  
+  <RateOfFire>0.09</RateOfFire>
+  <RateOfFireAddition>-0.2</RateOfFireAddition>
+  <RateOfFireAdditionLimit>-0.8</RateOfFireAdditionLimit>
+  <RateOfFireAdditionCoolDown>2.4</RateOfFireAdditionCoolDown>
+  <InaccuracyAddition>-0.15</InaccuracyAddition>
+  <InaccuracyAdditionLimit>-2.2</InaccuracyAdditionLimit>
+  <InaccuracyAdditionCoolDown>0.3</InaccuracyAdditionCoolDown>
+  <AimSpeedModifier>-3</AimSpeedModifier>
+  <MinAimSpeedFactor>0.11</MinAimSpeedFactor>
+  <ShakeCameraOnFire>0.05</ShakeCameraOnFire>
+  <ShakeCameraAddition>0.18</ShakeCameraAddition>
+  <ShakeCameraAdditionLimit>1</ShakeCameraAdditionLimit>
+  <ShakeCameraAdditionCoolDown>0.3</ShakeCameraAdditionCoolDown>
+  <CasingClassfile>Weapons\machinegun_casing</CasingClassfile>
+  <SpineWeaponHeadTextureName>gunhead\wephead_machinegun01</SpineWeaponHeadTextureName>
+  <SpineWeaponTextureName>gunhead\wep_machinegun01</SpineWeaponTextureName>
+</GameObjectClass>

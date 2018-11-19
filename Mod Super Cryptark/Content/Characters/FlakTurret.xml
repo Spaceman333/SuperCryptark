@@ -1,0 +1,42 @@
+﻿<?xml version="1.0"?>
+<CharacterClass xmlns:xsi="http://www.w3.org/2001/XMLSchema-instance" xmlns:xsd="http://www.w3.org/2001/XMLSchema">
+
+  <SpineAnimation>flak_turret</SpineAnimation>
+  <AimingBeamClassfile>Beams\laser_sight</AimingBeamClassfile>
+
+  <Health>20</Health>
+  <Type>FlakTurret</Type>
+  <DisplayName>Flak Turret</DisplayName>
+  
+  <SidebarTextureName>flak</SidebarTextureName>
+  <Description>Rapid tracking anti-aircraft turret anchored to the outside of the ship.</Description>
+
+  <Width>12</Width>
+  <Height>10</Height>
+  <AI_AimSpeed>.05</AI_AimSpeed>
+  <AI_DeactivateDelay>10</AI_DeactivateDelay>
+  <MinCombatDistance>500</MinCombatDistance>
+  <FieldOfVision>160</FieldOfVision>
+
+  <Weapon1>EnemyWeapons\flak_turret_gun</Weapon1>
+  
+  <MinimapTextureName>map-flak</MinimapTextureName>
+  <MinimapScale>3</MinimapScale>
+  <MinimapRotateIcon>true</MinimapRotateIcon>
+
+  <OnRemoveLight>
+    <Type>Point</Type>
+    <Color>
+      <X>0.75</X>
+      <Y>0.6</Y>
+      <Z>1</Z>
+      <W>1</W>
+    </Color>
+    <Strength>20</Strength>
+    <Radius>1500</Radius>
+    <RadiusModifier>-150</RadiusModifier>
+  </OnRemoveLight>
+  
+  <DefaultItems>
+  </DefaultItems>
+</CharacterClass>

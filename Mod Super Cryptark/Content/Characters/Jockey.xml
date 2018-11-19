@@ -1,0 +1,59 @@
+<?xml version="1.0"?>
+<CharacterClass xmlns:xsi="http://www.w3.org/2001/XMLSchema-instance" xmlns:xsd="http://www.w3.org/2001/XMLSchema">
+
+  <SpineAnimation>jockey</SpineAnimation>
+  <AimingBeamClassfile>Beams\laser_sight</AimingBeamClassfile>
+
+  <Health>8</Health>
+  <Type>Jockey</Type>
+  <DisplayName>Jockey</DisplayName>
+  
+  <MinimapScale>1</MinimapScale>
+  
+  <SidebarTextureName>jockey</SidebarTextureName>
+  <Description>Wall mounted sniper turret that overwatches with a powerful energy cannon.</Description>
+  
+  <Width>15</Width>
+  <Height>15</Height>
+  <AI_AimSpeed>.1</AI_AimSpeed>
+  <AI_DeactivateDelay>10</AI_DeactivateDelay>
+  <MinCombatDistance>250</MinCombatDistance>
+  <OffscreenDistanceMultiply>2</OffscreenDistanceMultiply>
+  
+  <AnimationOffset>
+    <X>0</X>
+    <Y>140</Y>
+  </AnimationOffset>
+  <SentryFactory>true</SentryFactory>
+
+  <Weapon1>EnemyWeapons\turret_charge</Weapon1>
+
+  <Light>
+    <Type>Point</Type>
+    <Color>
+      <X>0.75</X>
+      <Y>0.6</Y>
+      <Z>1</Z>
+      <W>1</W>
+    </Color>
+    <Strength>2</Strength>
+    <Radius>150</Radius>
+    <FollowBoneName>gun</FollowBoneName>
+  </Light>
+  
+  <OnRemoveLight>
+    <Type>Point</Type>
+    <Color>
+      <X>0.75</X>
+      <Y>0.6</Y>
+      <Z>1</Z>
+      <W>1</W>
+    </Color>
+    <Strength>20</Strength>
+    <Radius>1500</Radius>
+    <RadiusModifier>-150</RadiusModifier>
+  </OnRemoveLight>
+  
+  <DefaultItems>
+  </DefaultItems>
+</CharacterClass>

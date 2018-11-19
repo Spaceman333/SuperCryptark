@@ -1,0 +1,35 @@
+﻿<?xml version="1.0" ?>
+<GameObjectClass>
+  <Type>WEAPON</Type>
+  
+  <!--<Solid>true</Solid>-->
+  <FakeProjectile>true</FakeProjectile>
+  
+  <Texture>Projectiles\flame</Texture>
+  <CharacterCollide>true</CharacterCollide>
+  <ProjectileMinRandSpeed>95</ProjectileMinRandSpeed>
+  <ProjectileMaxRandSpeed>125</ProjectileMaxRandSpeed>
+  <ProjectilePiercing>true</ProjectilePiercing>
+  <ProjectileRemoveOnCollision>false</ProjectileRemoveOnCollision>
+  <ProjectileRemoveOnCharacterCollision>false</ProjectileRemoveOnCharacterCollision>
+  <ProjectileRemoveOnGameObjectCollision>false</ProjectileRemoveOnGameObjectCollision>
+  <HitForce>10</HitForce>
+  <AmbientSound>Combat_M_FlameThrower_Particle</AmbientSound>
+  <DamagePerShot>0.75</DamagePerShot>
+  <RemoveAfterStarted>8.0</RemoveAfterStarted>
+  <ParticleEffect>_new_flamethrower_ignite</ParticleEffect>
+  <LinearDamping>0.1</LinearDamping>
+  <DecalType>Flame</DecalType>
+  <NoDebrisOnHit>true</NoDebrisOnHit>
+  <OnFireProjectileLight>
+    <Color>
+      <X>1</X>
+      <Y>0.5</Y>
+      <Z>0.3</Z>
+      <W>1</W>
+    </Color>
+    
+    <Strength>1</Strength>
+    <Radius>1000</Radius>
+  </OnFireProjectileLight>
+</GameObjectClass>

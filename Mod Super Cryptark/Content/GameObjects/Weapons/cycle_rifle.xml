@@ -1,0 +1,59 @@
+<?xml version="1.0"?>
+<GameObjectClass>
+  <Type>WEAPON</Type>
+  <Displayname>T1 Cycle Rifle</Displayname>
+  <ShortDisplayName>CYCLE</ShortDisplayName>
+  <ItemInfo>This semi-automatic light rifle can accurately fire high-velocity slugs and is favoured by marksmen.</ItemInfo>
+
+  <StartingAmmoBoxes>3</StartingAmmoBoxes>
+  <AmmoBoxQuantity>1000</AmmoBoxQuantity>
+  <Price>4</Price>
+  <TechChanceNumber>3</TechChanceNumber>
+  
+  <!--<NumShotsPerReload>6</NumShotsPerReload>
+  <ReloadTime>1</ReloadTime>
+  <ReloadSound>Combat_M_Shotgun_Reload</ReloadSound>-->
+
+  <!-- <OnlyShootOnNewInput>true</OnlyShootOnNewInput> -->
+  <RateOfFire>0.25</RateOfFire>
+  <ProjectilesPerShot>1</ProjectilesPerShot>
+  <ProjectilePrecision>1</ProjectilePrecision>
+  <ProjectileClassfile>Projectiles\cycle_rifle_bullet</ProjectileClassfile>
+  <LoadoutCategory>Machineguns</LoadoutCategory>
+
+  <MuzzleFlashEffect>_new_muzzle_machinegun</MuzzleFlashEffect>
+  <FireRecoil>200</FireRecoil>
+  <InaccuracyAdditionLimit>0</InaccuracyAdditionLimit>
+  <ShakeCameraOnFire>0.4</ShakeCameraOnFire>
+  <RecoilCameraOnFire>.5</RecoilCameraOnFire>
+  <RecoilCameraOnFireDuration>0.03</RecoilCameraOnFireDuration>
+  <FireBoneRecoil>25</FireBoneRecoil>
+  <CasingClassfile>Weapons\cannon_casing</CasingClassfile>
+  <SpineWeaponHeadTextureName>gunhead\wephead_cannon01</SpineWeaponHeadTextureName>
+  <SpineWeaponTextureName>gunhead\wep_cannon01</SpineWeaponTextureName>
+
+  <FireSound>Combat_M_Player_HeavyMachineGun_Shot</FireSound>
+
+  <OnFireMuzzleLight>
+    <Type>Spotlight</Type>
+    <Position>
+      <Z>10</Z>
+    </Position>
+    <Color>
+      <X>1</X>
+      <Y>0.8</Y>
+      <Z>0.5</Z>
+      <W>1</W>
+    </Color>
+    <Direction>
+      <X>1</X>
+      <Y>0</Y>
+      <Z>0.3</Z>
+    </Direction>
+    <Strength>20</Strength>
+    <Radius>700</Radius>
+    <RadiusModifier>-120</RadiusModifier>
+    <InnerConeAngle>1</InnerConeAngle>
+    <OuterConeAngle>1.57</OuterConeAngle>
+  </OnFireMuzzleLight>
+</GameObjectClass>

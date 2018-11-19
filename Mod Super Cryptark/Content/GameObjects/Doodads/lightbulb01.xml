@@ -1,0 +1,46 @@
+<?xml version="1.0"?>
+<GameObjectClass>
+  <SpineAnimation>lightbulb01</SpineAnimation>
+  <LayerSelect>true</LayerSelect>
+  <Width>2</Width>
+  <Height>2</Height>
+  <Solid>true</Solid>
+  <Static>true</Static>
+  <Health>.5</Health>
+  <GibOnDeath>true</GibOnDeath>
+  <HideHealth>true</HideHealth>
+
+  <RemoveParticleEffect>_new_death_debris</RemoveParticleEffect>
+  <OnRemoveSound>Combat_M_Enemy_Hit</OnRemoveSound>
+
+  <DebrisAmount>5</DebrisAmount>
+  <DebrisRandomOffset>
+    <X>2</X>
+    <Y>2</Y>
+  </DebrisRandomOffset>
+  <RandomDebrisDirection>true</RandomDebrisDirection>
+  
+  <Light>
+    <Type>Point</Type>
+    <Position>
+      <Z>100</Z>
+    </Position>
+    <Color>
+      <X>.75</X>
+      <Y>.5</Y>
+      <Z>1</Z>
+      <W>1</W>
+    </Color>
+    <Direction>
+      <X>0</X>
+      <Y>0</Y>
+      <Z>1</Z>
+    </Direction>
+    <Strength>2.5</Strength>
+    <MinRadius>2000</MinRadius>
+    <MaxRadius>3500</MaxRadius>
+    <RadiusCycleScale>4</RadiusCycleScale>
+    <OscillateRadius>true</OscillateRadius>
+    <FollowBoneName>light</FollowBoneName>
+  </Light>
+</GameObjectClass>

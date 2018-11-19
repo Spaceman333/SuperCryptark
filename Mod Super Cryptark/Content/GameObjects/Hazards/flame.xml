@@ -1,0 +1,5 @@
+﻿<?xml version="1.0" ?>
+<GameObjectClass>
+  <BaseFile>Projectiles\flame</BaseFile>
+  <RemoveAfterStarted>0.2</RemoveAfterStarted>
+</GameObjectClass>

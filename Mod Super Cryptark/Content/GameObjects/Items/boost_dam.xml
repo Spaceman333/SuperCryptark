@@ -1,0 +1,27 @@
+﻿<?xml version="1.0"?>
+<GameObjectClass>
+  <Type>ITEM</Type>
+  <Displayname>Extreme Damage</Displayname>
+  <ShortDisplayName>X-DAM</ShortDisplayName>
+  <LoadoutCategory>Item</LoadoutCategory>
+  <ItemInfo>Single-use super power overcharge core. Gives 666% Damage Boost for 3 minutes.</ItemInfo>
+  
+  <Price>16</Price>
+  <TechChanceNumber>2</TechChanceNumber>
+  
+  <StartItemQuantity>2</StartItemQuantity>  
+  
+  <HudTextureName>tag_item_laser</HudTextureName>
+  <OnUseSound>Combat_M_Player_Boost</OnUseSound>
+  <SpawnOnItemUse>Hazards\knockback</SpawnOnItemUse>  
+  <UseInSpace>true</UseInSpace>
+  
+  <PowerupEffects>
+    <PowerupEffectClass>
+      <Type>DamageMod</Type>
+      <OverwritesSameType>false</OverwritesSameType>
+      <Amount>6.66</Amount>
+      <Duration>180</Duration>
+    </PowerupEffectClass>
+  </PowerupEffects>
+</GameObjectClass>

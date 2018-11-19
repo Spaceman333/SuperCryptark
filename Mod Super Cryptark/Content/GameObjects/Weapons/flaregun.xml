@@ -1,0 +1,25 @@
+<?xml version="1.0"?>
+<GameObjectClass>
+  <Type>WEAPON</Type>
+  <Displayname>T2 Attention Flare</Displayname>
+  <ShortDisplayName>FLARE</ShortDisplayName>
+  <ItemInfo>Fires a long burning chemical flare that draws in nearby enemies and burns them. Attraction range is very large, so be sure to cloak or get out of the firing area immediately or simply prepare to battle large swarms of enemies that will come to the firing location.</ItemInfo>
+  
+  <StartingAmmoBoxes>3</StartingAmmoBoxes>
+  <AmmoBoxQuantity>250</AmmoBoxQuantity>
+  <Price>7</Price>
+  <TechChanceNumber>2</TechChanceNumber>
+
+  <LoadoutCategory>Projectors</LoadoutCategory>
+
+  <FireNoiseRadius>500</FireNoiseRadius>
+  <FireBoneRecoil>15</FireBoneRecoil>
+  <RateOfFire>1</RateOfFire>
+  <FireSound>grenade_fire</FireSound>
+  <ProjectileClassfile>Projectiles\flare</ProjectileClassfile>
+  <MuzzleFlashEffect>_new_muzzle_grenade</MuzzleFlashEffect>
+  <FireRecoil>200</FireRecoil>
+  <ShakeCameraOnFire>0.1</ShakeCameraOnFire>
+  <SpineWeaponHeadTextureName>gunhead\wephead_grenade01</SpineWeaponHeadTextureName>
+  <SpineWeaponTextureName>gunhead\wep_grenade01</SpineWeaponTextureName>
+</GameObjectClass>

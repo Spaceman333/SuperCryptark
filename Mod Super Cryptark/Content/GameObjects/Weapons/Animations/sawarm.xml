@@ -1,0 +1,10 @@
+﻿<?xml version="1.0" ?>
+<GameObjectClass>
+  <Type>WEAPON_ANIMATION</Type>
+  <SpineAnimation>sawarm</SpineAnimation>
+  <SpineAnimationScale>1.5</SpineAnimationScale>
+  <FollowBoneRotation>true</FollowBoneRotation>
+  <FollowFacing>true</FollowFacing>
+  <RemoveAfterStarted>0.25</RemoveAfterStarted>
+  <SetLayer>FULLBRIGHT</SetLayer>
+</GameObjectClass>

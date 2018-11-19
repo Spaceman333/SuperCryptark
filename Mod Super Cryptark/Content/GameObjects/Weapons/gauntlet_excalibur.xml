@@ -1,0 +1,61 @@
+﻿<?xml version="1.0"?>
+<GameObjectClass>
+  <Type>WEAPON</Type>
+  <Displayname>T3-CN Excalibur</Displayname>
+  <ShortDisplayName>EXCAL</ShortDisplayName>
+  <ItemInfo>When you want to cleave the entire visible area absolutely, positively dead, the excalibur ultimate doom flail will deliver. WARNING: DO NOT TRY TO USE THIS WEAPON NEAR A SHIELD SECURITY SYSTEM, CATASTROPHIC SELF-DAMAGE WILL RESULT.</ItemInfo>
+
+  <Price>450</Price>
+  <TechChanceNumber>1</TechChanceNumber>
+  
+  <!-- <AmmoAsPercent>true</AmmoAsPercent> -->
+  <StartingAmmoBoxes>2</StartingAmmoBoxes>
+  <AmmoBoxQuantity>25</AmmoBoxQuantity>
+<!--   <NextRefillTime>2</NextRefillTime>
+  <RefillRate>.01</RefillRate> -->
+  
+  <LoadoutCategory>Melee</LoadoutCategory>
+
+  <ProjectileClassfile>Projectiles\sawarm_excal_p</ProjectileClassfile>
+  <WeaponAnimation>Weapons\Animations\sawarm</WeaponAnimation>
+  <SetLayer>FULLBRIGHT</SetLayer>
+  <SpineWeaponHeadTextureName>gunhead\wephead_laser01</SpineWeaponHeadTextureName>
+  <SpineWeaponTextureName>gunhead\wep_laser01</SpineWeaponTextureName>
+  <DecalType>None</DecalType>
+  <NoFiringTime>0.2</NoFiringTime>
+  <RateOfFire>1</RateOfFire>
+  
+  <MuzzleFlashEffect>_new_muzzle_lightning</MuzzleFlashEffect>
+  <NoMuzzleFlashRotation>true</NoMuzzleFlashRotation>
+
+  <OnFireMuzzleLight>
+    <Type>Directional</Type>
+    <Position>
+      <Z>10</Z>
+    </Position>
+    <Color>
+      <X>1</X>
+      <Y>1</Y>
+      <Z>0.1</Z>
+      <W>1</W>
+    </Color>
+    <SpecularColor>
+      <X>1</X>
+      <Y>1</Y>
+      <Z>0.1</Z>
+      <W>1</W>
+    </SpecularColor>
+    <Direction>
+      <X>1</X>
+      <Y>0</Y>
+      <Z>0.5</Z>
+    </Direction>
+    <Strength>7</Strength>
+    <MaxStrength>7</MaxStrength>
+    <StrengthModifier>-0.4</StrengthModifier>
+    <RemoveOnZeroStrength>true</RemoveOnZeroStrength>
+    <Shininess>6</Shininess>
+  </OnFireMuzzleLight>
+
+  <FireSound>Combat_M_RailGun_Shot</FireSound>
+</GameObjectClass>

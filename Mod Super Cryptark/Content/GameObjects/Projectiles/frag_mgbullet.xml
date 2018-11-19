@@ -1,0 +1,49 @@
+﻿<?xml version="1.0"?>
+<GameObjectClass>
+  <Type>WEAPON</Type>
+  <Texture>Projectiles\slug01_orange</Texture>
+  
+  <!--<Solid>true</Solid>-->
+  <FakeProjectile>true</FakeProjectile>
+  
+  <CharacterCollide>true</CharacterCollide>
+  <HitForce>130</HitForce>
+  <RemoveAfterStarted>5</RemoveAfterStarted>
+  <ProjectileMinRandSpeed>200</ProjectileMinRandSpeed>
+  <ProjectileMaxRandSpeed>230</ProjectileMaxRandSpeed>
+  <ProjectilePiercing>true</ProjectilePiercing>
+  <LinearDamping>0.5</LinearDamping>
+  <ProjectileRicochetCount>9</ProjectileRicochetCount>
+  <DamagePerShot>1</DamagePerShot>
+  <Restitution>1</Restitution>
+  <SetFriction>true</SetFriction>
+  <Friction>0</Friction>
+  <ProjKeepVelocity>false</ProjKeepVelocity>
+  <ProjectileHitDebris>true</ProjectileHitDebris>
+  <ParticleEffect>_new_trail_frag</ParticleEffect>
+  
+  <ProjectileDoesKnockback>true</ProjectileDoesKnockback>  
+  <KnockbackForce>30</KnockbackForce>
+  <KnockbackTime>1.2</KnockbackTime>
+
+  <OnFireProjectileLight>
+    <Type>Point</Type>
+    <Color>
+      <X>1</X>
+      <Y>.6</Y>
+      <Z>0.6</Z>
+      <W>1</W>
+    </Color>
+    <Strength>2</Strength>
+    <Radius>150</Radius>
+  </OnFireProjectileLight>
+
+  <AmbientSound>Combat_M_FragGun_BulletSwish</AmbientSound>
+
+  <ProjectileColor>
+    <X>1</X>
+    <Y>1</Y>
+    <Z>1</Z>
+  </ProjectileColor>
+  <SetLayer>FULLBRIGHT</SetLayer>
+</GameObjectClass>

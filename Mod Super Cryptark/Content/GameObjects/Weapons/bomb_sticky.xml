@@ -1,0 +1,20 @@
+﻿<?xml version="1.0" ?>
+<GameObjectClass>
+  <BaseFile>Weapons\Base\grenade</BaseFile>
+  <Displayname>T2 Sticky Grenades</Displayname>
+  <ShortDisplayName>G-STK</ShortDisplayName>
+  <ItemInfo>Coated in an adhesive gel, these grenades attach themselves to their target before exploding. Grenades detonate after 1.5 seconds and can be ‘cooked’ for more precise timing. 4 projectiles are launched at once, spreading over a wide area, making this an excellent weapon for destroying multiple targets at once.</ItemInfo>
+  
+  <ProjectileClassfile>Projectiles\sticky_grenade_projectile</ProjectileClassfile>
+
+  <StartingAmmoBoxes>4</StartingAmmoBoxes>
+  <AmmoBoxQuantity>50</AmmoBoxQuantity>
+  <Price>8</Price>
+  <TechChanceNumber>2</TechChanceNumber>
+  
+  <ProjectilesPerShot>4</ProjectilesPerShot>
+  <ProjectileSpread>0.6</ProjectileSpread>
+  
+  <SpineWeaponHeadTextureName>gunhead\wephead_grenade01</SpineWeaponHeadTextureName>
+  <SpineWeaponTextureName>gunhead\wep_grenade01</SpineWeaponTextureName>
+</GameObjectClass>

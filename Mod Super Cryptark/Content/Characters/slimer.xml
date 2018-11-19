@@ -1,0 +1,65 @@
+<?xml version="1.0"?>
+<CharacterClass xmlns:xsi="http://www.w3.org/2001/XMLSchema-instance" xmlns:xsd="http://www.w3.org/2001/XMLSchema">
+
+  <SpineAnimation>slimer</SpineAnimation>
+
+  <SpineAtlas>slimer</SpineAtlas>
+  
+  <Health>5</Health>
+  <Type>Slimer</Type>
+  <DisplayName>Slimer</DisplayName>
+
+  <Density>1.5</Density>
+  <Inertia>30</Inertia>
+  <BaseMovementForce>2000</BaseMovementForce>
+  <Maxspeed_Fly>35</Maxspeed_Fly>
+  <Width>9</Width>
+  <Height>9</Height>
+  <AIJukeCombatMovement>true</AIJukeCombatMovement>
+
+  <SidebarTextureName>slimer</SidebarTextureName>
+  <Description>Simple minded drone that sprays coolant fluid on unwanted heat sources.
+</Description>
+  
+  <DroneFactory>true</DroneFactory>
+  <AllowGrapple>true</AllowGrapple>
+  
+  <MinCombatDistance>60</MinCombatDistance>
+
+  <WallFixtureScale>0.5</WallFixtureScale>
+  <FieldOfVision>360</FieldOfVision>
+  
+  <Weapon1>EnemyWeapons\slimer</Weapon1>
+
+  <NoLiquidWeapon>EnemyWeapons\slimer_flame</NoLiquidWeapon>
+  
+  <DefaultItems>
+  </DefaultItems>
+
+  <Light>
+    <Type>Point</Type>
+    <Color>
+      <X>0.75</X>
+      <Y>0.6</Y>
+      <Z>1</Z>
+      <W>1</W>
+    </Color>
+    <Strength>2</Strength>
+    <Radius>150</Radius>
+    <FollowBoneName>dome</FollowBoneName>
+  </Light>
+  
+  <OnRemoveLight>
+    <Type>Point</Type>
+    <Color>
+      <X>0.75</X>
+      <Y>0.6</Y>
+      <Z>1</Z>
+      <W>1</W>
+    </Color>
+    <Strength>20</Strength>
+    <Radius>1500</Radius>
+    <RadiusModifier>-150</RadiusModifier>
+  </OnRemoveLight>
+  
+</CharacterClass>

@@ -1,0 +1,5 @@
+﻿<?xml version="1.0" ?>
+<GameObjectClass>
+  <BaseFile>Hazards\pod</BaseFile>
+  <SpineAnimation>pod02</SpineAnimation>
+</GameObjectClass>

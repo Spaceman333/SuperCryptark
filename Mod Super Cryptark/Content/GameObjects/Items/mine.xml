@@ -1,0 +1,62 @@
+﻿<?xml version="1.0" ?>
+<GameObjectClass>
+  <Type>HAZARD_MINE</Type>
+  <SpineAnimation>mine_player</SpineAnimation>
+  
+  <Solid>true</Solid>
+  <EclipseBody>true</EclipseBody>
+  <Width>2</Width>
+  <Height>2</Height>
+  <Health>2</Health>
+  <LinearDamping>5</LinearDamping>
+  <AngularDamping>10</AngularDamping>
+  <MineTrackSpeed>800</MineTrackSpeed>
+  <MineTrackRange>30</MineTrackRange>
+  <MineTriggerRange>6</MineTriggerRange>
+  <MineDetonateRange>3</MineDetonateRange>
+  <MineDetonateDelay>1</MineDetonateDelay>
+  <CharacterCollide>true</CharacterCollide>
+
+  <ExplodeOnRemove>true</ExplodeOnRemove>
+  <ExplodeForce>5</ExplodeForce>
+  <ExplodeSize>18</ExplodeSize>
+  <ExplosionParticleEffect>_new_explosion_med</ExplosionParticleEffect>
+  <ExplosionSound>Blast</ExplosionSound>
+  <ExplodeDamage>3</ExplodeDamage>
+  <ExplosionRefraction>shockwave_2</ExplosionRefraction>
+
+  <Light>
+    <Color>
+      <X>1</X>
+      <Y>0</Y>
+      <Z>0</Z>
+      <W>1</W>
+    </Color>
+    <SpecularColor>
+      <X>1</X>
+      <Y>0</Y>
+      <Z>0</Z>
+      <W>1</W>
+    </SpecularColor>
+    <MinStrength>2</MinStrength>
+    <Strength>5</Strength>
+    <MaxStrength>9</MaxStrength>
+    <OscillateStrength>true</OscillateStrength>
+    <StrengthCycleScale>30</StrengthCycleScale>
+    <Shininess>15</Shininess>
+    <Radius>500</Radius>
+  </Light>
+  
+  <OnExplodeLight>
+    <Color>
+      <X>1</X>
+      <Y>0.5</Y>
+      <Z>0.1</Z>
+      <W>1</W>
+    </Color>
+    
+    <Strength>2</Strength>
+    <Radius>900</Radius>
+    <RadiusModifier>-25</RadiusModifier>
+  </OnExplodeLight>
+</GameObjectClass>

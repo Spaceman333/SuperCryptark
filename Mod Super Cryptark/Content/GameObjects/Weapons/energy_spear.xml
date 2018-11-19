@@ -1,0 +1,30 @@
+﻿<?xml version="1.0" ?>
+<GameObjectClass>
+  <Type>WEAPON</Type>
+  <Displayname>T1 Thermal Javelin</Displayname>
+  <ShortDisplayName>JAVLN</ShortDisplayName>
+  <ItemInfo>By super-heating conductive rods into a rigid plasma state, these armour piercing spears melt through most materials instantly. After dissipating their kinetic energy, the stabilized rods can be recovered and fired again. This is a quiet weapon.</ItemInfo>
+
+  <StartingAmmoBoxes>5</StartingAmmoBoxes>
+  <AmmoBoxQuantity>10</AmmoBoxQuantity>
+  <Price>1</Price>
+  <TechChanceNumber>3</TechChanceNumber>
+  
+  <LoadoutCategory>Melee</LoadoutCategory>
+  <NumShotsPerReload>1</NumShotsPerReload>
+  <ReloadTime>0.1</ReloadTime>
+
+  <OnlyShootOnNewInput>true</OnlyShootOnNewInput>
+  <ProjectileClassfile>Projectiles\energy_spear_p</ProjectileClassfile>
+
+  <FireNoiseRadius>1</FireNoiseRadius>
+  
+  <FireBoneRecoil>15</FireBoneRecoil>
+  <RateOfFire>0.7</RateOfFire>
+  <FireSound>Javelin_Shot</FireSound>
+  <MuzzleFlashEffect>_new_muzzle_autocannon</MuzzleFlashEffect>
+  <FireRecoil>5000</FireRecoil>
+  <ShakeCameraOnFire>0.5</ShakeCameraOnFire>
+  <SpineWeaponHeadTextureName>gunhead\wephead_saw01</SpineWeaponHeadTextureName>
+  <SpineWeaponTextureName>gunhead\wep_saw01</SpineWeaponTextureName>
+</GameObjectClass>

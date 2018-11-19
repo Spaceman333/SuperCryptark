@@ -1,0 +1,21 @@
+﻿<?xml version="1.0" ?>
+<GameObjectClass>
+  <BaseFile>Weapons\rocket_launcher</BaseFile>
+  
+  <Displayname>T3 Nuke Rocket</Displayname>
+  <ShortDisplayName>R-NU</ShortDisplayName>
+  <ItemInfo>Though small, this miniaturized nuclear warhead is more than capable of reducing anything within its blast zone to radioactive dust. Compared to its similar cannon and grenade counterparts, the Rocket Nuke has the largest initial explosion blast radius, providing instant devastation before the nuclear fireball even begins to expand.</ItemInfo>
+
+  <StartingAmmoBoxes>3</StartingAmmoBoxes>
+  <AmmoBoxQuantity>20</AmmoBoxQuantity>
+  <Price>15</Price>
+  
+  <TechChanceNumber>1</TechChanceNumber>
+  
+  <ProjectileClassfile>Projectiles\rocket_nuke</ProjectileClassfile>
+  <RecordProjectiles>true</RecordProjectiles>
+  <RemoveProjectilesOnSecondFire>true</RemoveProjectilesOnSecondFire>
+  <OnlyShootOnNewInput>true</OnlyShootOnNewInput>
+  <OnLoadoutTrigger>weapon_nuke</OnLoadoutTrigger>
+  
+</GameObjectClass>

@@ -1,0 +1,17 @@
+﻿<?xml version="1.0" ?>
+<GameObjectClass>
+  <Type>SAWBLADE_SINGLE</Type>
+  <Displayname>Sawblade Hazard</Displayname>
+  <SpineAnimation>sawblade_singlesaw</SpineAnimation>
+  <SidebarTextureName>hazard_wallsaw</SidebarTextureName>
+  <MinimapDescription>Spinning sawblade attached to a track.</MinimapDescription>
+
+  <!--<NoFlipping>true</NoFlipping>-->
+  <Solid>true</Solid>
+  <Static>true</Static>
+  <Width>4</Width>
+  <Height>4</Height>
+  <IgnoreCollision>true</IgnoreCollision>
+  <AmbientSound>FX_SpinningSaw_Loop</AmbientSound>
+  <SawSpinSpeed>10</SawSpinSpeed>
+</GameObjectClass>

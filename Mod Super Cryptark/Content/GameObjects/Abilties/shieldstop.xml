@@ -1,0 +1,11 @@
+﻿<?xml version="1.0"?>
+<GameObjectClass>
+  <Type>ITEM</Type>
+  <ItemType>Shield</ItemType>
+  <CustomObjectSpawn>Abilties\shieldstop_object</CustomObjectSpawn>
+  <NoShieldDamage>true</NoShieldDamage>
+  
+  <FiringLoop>Shield_Aegis_Loop</FiringLoop>
+  <StartFiringSound>Shield_Aegis_Open</StartFiringSound>
+  <ReleaseFiringSound>Shield_Aegis_Close</ReleaseFiringSound>
+</GameObjectClass>

@@ -1,0 +1,22 @@
+﻿<?xml version="1.0" ?>
+<GameObjectClass>
+  <Type>WEAPON</Type>
+  <ProjectileIsCone>true</ProjectileIsCone>
+  <ConeArcAngle>.4</ConeArcAngle>
+  <ConeRadius>90</ConeRadius>
+  <ConeSegments>12</ConeSegments>
+  
+  <DamageOnContact>.01</DamageOnContact>
+  <DamageRate>.55</DamageRate>
+  <StunTime>10</StunTime>
+  <HitForce>5</HitForce>
+  <FollowBoneRotation>true</FollowBoneRotation>
+  <ConeEffectClassfile>MeshEffects\radiator_effect</ConeEffectClassfile>
+  
+  <MeshEffectRadius>80</MeshEffectRadius>
+  <DisableAfter>.50</DisableAfter>
+  <NoOffscreen>true</NoOffscreen>
+  
+  <ProjectileRemoveOnCollision>false</ProjectileRemoveOnCollision>
+  <CharacterCollide>true</CharacterCollide>
+</GameObjectClass>

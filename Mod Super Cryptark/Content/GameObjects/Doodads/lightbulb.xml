@@ -1,0 +1,10 @@
+<?xml version="1.0"?>
+<GameObjectClass>
+  <RandomIngameClass>
+    <string>Doodads\lightbulb01</string>
+    <string>Doodads\lightbulb02</string>
+    <string>Doodads\lightbulb03</string>
+    <string>Doodads\lightbulb04</string>
+    <string>Doodads\lightbulb05</string>
+  </RandomIngameClass>
+</GameObjectClass>

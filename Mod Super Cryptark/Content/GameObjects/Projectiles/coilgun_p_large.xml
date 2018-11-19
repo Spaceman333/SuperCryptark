@@ -1,0 +1,70 @@
+﻿<?xml version="1.0"?>
+<GameObjectClass>
+  <Type>WEAPON</Type>
+  <Texture>Projectiles\bullet01_yellow</Texture>
+  
+  <!--<Solid>true</Solid>-->
+  <FakeProjectile>true</FakeProjectile>
+  
+  <Scale>1.7</Scale>
+  <CharacterCollide>true</CharacterCollide>
+  <ProjectileSpeed>280</ProjectileSpeed>
+  <HitForce>3100</HitForce>
+  <DamagePerShot>28</DamagePerShot>
+  <ProjectilePiercing>true</ProjectilePiercing>
+  <NoOffscreen>true</NoOffscreen>
+  <ProjectileRemoveOnCollision>false</ProjectileRemoveOnCollision>
+  <ProjectileRemoveOffscreen>false</ProjectileRemoveOffscreen>
+  <StunTime>13</StunTime>
+  <RemoveAfterStarted>4</RemoveAfterStarted>
+  
+  <DamageRate>0.05</DamageRate>
+  <DamageAreaRadius>12</DamageAreaRadius>
+
+  <DecalType>Bullet</DecalType>
+  <ProjKeepVelocity>true</ProjKeepVelocity>
+  <ProjectileHitDebris>true</ProjectileHitDebris>
+  <ParticleEffect>_new_trail_bullet</ParticleEffect>
+  <RotateParticleEffect>true</RotateParticleEffect>
+  <OnFireProjectileLight>
+    <Type>Point</Type>
+    <Color>
+      <X>1</X>
+      <Y>0.5</Y>
+      <Z>0.1</Z>
+      <W>1</W>
+    </Color>
+    <Strength>3</Strength>
+    <Radius>200</Radius>
+  </OnFireProjectileLight>
+
+  <OnRemoveLight>
+    <Type>Spotlight</Type>
+    <Color>
+      <X>0.1</X>
+      <Y>0.5</Y>
+      <Z>1</Z>
+      <W>1</W>
+    </Color>
+    <Position>
+      <Z>40</Z>
+    </Position>
+    <Direction>
+      <X>1</X>
+      <Y>0</Y>
+      <Z>0.3</Z>
+    </Direction>
+    <Strength>20</Strength>
+    <InnerConeAngle>0.5</InnerConeAngle>
+    <OuterConeAngle>1.5</OuterConeAngle>
+    <Radius>300</Radius>
+    <RadiusModifier>-100</RadiusModifier>
+  </OnRemoveLight>
+
+  <ProjectileColor>
+    <X>1</X>
+    <Y>1</Y>
+    <Z>0.1</Z>
+  </ProjectileColor>
+  <SetLayer>FULLBRIGHT</SetLayer>
+</GameObjectClass>

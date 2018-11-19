@@ -1,0 +1,10 @@
+﻿<?xml version="1.0"?>
+<GameObjectClass>
+  <Type>FAN_DOODAD</Type>
+  <SpineAnimation>fan_large01</SpineAnimation>
+  <Static>true</Static>
+  <Width>35</Width>
+  <Height>35</Height>
+  <SetLayer>BACKGROUND</SetLayer>
+  <UseSpatialSystem>false</UseSpatialSystem>
+</GameObjectClass>

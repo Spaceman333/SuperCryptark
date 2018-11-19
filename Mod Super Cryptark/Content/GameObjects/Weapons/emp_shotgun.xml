@@ -1,0 +1,15 @@
+<?xml version="1.0"?>
+<GameObjectClass>
+  <BaseFile>Weapons\shotgun</BaseFile>
+  <Displayname>T1 Shotgun Stun</Displayname>
+  <ShortDisplayName>SG-ST</ShortDisplayName>
+  <ItemInfo>This shotgun has been loaded with advanced EMP shells that temporarily disable electronics for 9 seconds, while dealing minor damage.</ItemInfo>
+
+  <StartingAmmoBoxes>3</StartingAmmoBoxes>
+  <AmmoBoxQuantity>200</AmmoBoxQuantity>
+  <Price>6</Price>
+  <TechChanceNumber>3</TechChanceNumber>
+  
+  <ProjectileClassfile>Projectiles\shotgun_bullet_emp</ProjectileClassfile>
+  <OnLoadoutTrigger>weapon_emp</OnLoadoutTrigger>
+</GameObjectClass>

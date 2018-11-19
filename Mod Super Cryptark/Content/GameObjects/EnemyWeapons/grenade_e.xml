@@ -1,0 +1,27 @@
+<?xml version="1.0"?>
+<GameObjectClass>
+  <BaseFile>Weapons\Base\grenade</BaseFile>
+  <Type>WEAPON</Type>
+  <Displayname>Pirate HE Grenades</Displayname>
+  <ShortDisplayName>G-HE</ShortDisplayName>
+  <ItemInfo>Trust me, you do not want actual player weapons installed on enemy exosuits. This grenade is toned down from the players version, so that it would not kill you instantly.</ItemInfo>
+
+  <StartingAmmoBoxes>3</StartingAmmoBoxes>
+  <AmmoBoxQuantity>50</AmmoBoxQuantity>
+  <Price>5</Price>
+  <TechChanceNumber>2</TechChanceNumber>
+  
+  <LoadoutCategory>Test</LoadoutCategory>
+  
+  <FireNoiseRadius>15</FireNoiseRadius>   
+  <FireBoneRecoil>15</FireBoneRecoil>
+  <RateOfFire>1</RateOfFire>
+  <FireSound>grenade_fire</FireSound>
+  <ProjectileClassfile>Projectiles\grenade_e</ProjectileClassfile>
+  <CasingClassfile>Weapons\grenade_casing</CasingClassfile>
+  <MuzzleFlashEffect>_new_muzzle_grenade</MuzzleFlashEffect>
+  <FireRecoil>1000</FireRecoil>
+  <ShakeCameraOnFire>0.3</ShakeCameraOnFire>
+  <SpineWeaponHeadTextureName>gunhead\wephead_grenade01</SpineWeaponHeadTextureName>
+  <SpineWeaponTextureName>gunhead\wep_grenade01</SpineWeaponTextureName>
+</GameObjectClass>

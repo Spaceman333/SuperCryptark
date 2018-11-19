@@ -1,0 +1,47 @@
+<?xml version="1.0"?>
+<GameObjectClass>
+  <Type>SHIELD</Type>
+  <Displayname>T1 Blue Shield</Displayname>
+  <ShortDisplayName>S-BLU</ShortDisplayName>
+  <ItemInfo>This tried and true energy shield has been used by void explorers for decades, and provides reliable protection in an 180 degree arc. Absorbed impacts drain its power cell, which will automatically recharge when not in use. Can soak up to 50 hits and requires 5 seconds of idle time before recharging can begin.</ItemInfo>
+  
+  <Price>4</Price>
+  <TechChanceNumber>3</TechChanceNumber>
+  
+  <LoadoutCategory>Shields</LoadoutCategory>
+  <SpineAnimation>shield</SpineAnimation>
+  <SetLayer>FULLBRIGHT</SetLayer>
+  
+  <AmmoAsPercent>true</AmmoAsPercent>
+  <RefillRate>0.5</RefillRate>
+  <AmmoBoxQuantity>50</AmmoBoxQuantity>
+  <NextRefillTime>5</NextRefillTime>
+  
+  <SpineWeaponHeadTextureName>gunhead\wephead_shield01</SpineWeaponHeadTextureName>
+  <SpineWeaponTextureName>gunhead\wep_shield01</SpineWeaponTextureName>
+
+  <SpineAnimationScale>0.75</SpineAnimationScale>
+
+  <FiringLoop>Combat_M_Shield_Loop</FiringLoop>
+  <StartFiringSound>Combat_M_Shield_On</StartFiringSound>
+  <ReleaseFiringSound>Combat_M_Shield_Off</ReleaseFiringSound>
+
+  <Light>
+    <Color>
+      <X>0</X>
+      <Y>0.4</Y>
+      <Z>1</Z>
+      <W>1</W>
+    </Color>
+    <Radius>240</Radius>
+    
+    <Strength>5</Strength>
+    <IsEnabled>false</IsEnabled>
+  </Light>
+
+  <Solid>true</Solid>
+  <Width>6</Width>
+  <SolidArcBody>true</SolidArcBody>
+  <ArcRadians>4</ArcRadians>
+  <ArcSides>10</ArcSides>
+</GameObjectClass>

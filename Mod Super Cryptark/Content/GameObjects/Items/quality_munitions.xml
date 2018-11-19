@@ -1,0 +1,22 @@
+﻿<?xml version="1.0"?>
+<GameObjectClass>
+  <Type>ITEM</Type>
+  <Displayname>Damage Upgrade</Displayname>
+  <ShortDisplayName>DAMGE</ShortDisplayName>
+  <LoadoutCategory>Item</LoadoutCategory>
+  <ItemInfo>All equipped weapons have their damage power permanently increased by 25%. Passive item.</ItemInfo>
+  <StartItemQuantity>1</StartItemQuantity>
+
+  <Price>5</Price>
+  
+  <HudTextureName>tag_item_ammobox</HudTextureName>
+  <ItemType>None</ItemType>
+  <PassiveItem>true</PassiveItem>
+  <PowerupEffects>
+    <PowerupEffectClass>
+      <Type>DamageMod</Type>
+      <OverwritesSameType>false</OverwritesSameType>
+      <Amount>0.25</Amount>
+    </PowerupEffectClass>
+  </PowerupEffects>
+</GameObjectClass>

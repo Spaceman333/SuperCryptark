@@ -1,0 +1,29 @@
+﻿<?xml version="1.0"?>
+<GameObjectClass>
+  <Type>WEAPON</Type>
+  <Displayname>T1 Slime Projector</Displayname>
+  <ShortDisplayName>SLIME</ShortDisplayName>
+  <ItemInfo>Originally used to dissolve unwanted scrap metal in junk yards, this corrosive chemical ooze slows and eats through hostile drones with equal effectiveness. This is a silent weapon.</ItemInfo>
+
+  <StartingAmmoBoxes>2</StartingAmmoBoxes>
+  <AmmoBoxQuantity>5000</AmmoBoxQuantity>
+  <Price>4</Price>
+  <TechChanceNumber>3</TechChanceNumber>
+  <LiquidOnly>true</LiquidOnly>
+  
+  <RateOfFire>0.008</RateOfFire>
+  <ProjectilesPerShot>3</ProjectilesPerShot>
+  <ProjectilePrecision>.8</ProjectilePrecision>
+  <LoadoutCategory>Projectors</LoadoutCategory>
+  <MuzzleFlashEffect>_new_muzzle_googreen</MuzzleFlashEffect>
+  <SpineWeaponHeadTextureName>gunhead\wephead_flamer01</SpineWeaponHeadTextureName>
+  <SpineWeaponTextureName>gunhead\wep_flamer01</SpineWeaponTextureName>
+  <CreateFluidOnFire>true</CreateFluidOnFire>
+  <FluidType>BlueSlime</FluidType>
+
+  <FireNoiseRadius>0</FireNoiseRadius>
+  
+  <FiringLoop>Combat_M_SlimeGun_Shot_Loop</FiringLoop>
+  
+  <OnLoadoutTrigger>weapon_slimegun</OnLoadoutTrigger>
+</GameObjectClass>

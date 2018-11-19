@@ -1,0 +1,30 @@
+﻿<?xml version="1.0" ?>
+<GameObjectClass>
+  <Type>WEAPON</Type>
+  <Displayname>Translocator Basic</Displayname>
+  <ShortDisplayName>TLOC</ShortDisplayName>
+  <Price>3</Price>
+  <LoadoutCategory>Bombs</LoadoutCategory>
+  <StartingAmmoBoxes>1</StartingAmmoBoxes>
+  <AmmoBoxQuantity>5</AmmoBoxQuantity>
+  <ItemInfo>Shoots a slow reusable translocator beacon, allowing you to teleport to it when activated. Can be used to instantly telefrag mobile enemies.</ItemInfo>
+  <!--<HiddenInLoadout>true</HiddenInLoadout>-->
+
+  <ProjectileClassfile>Abilties\translocator</ProjectileClassfile>
+
+  <FireFromEntCenter>true</FireFromEntCenter>
+  <RecordProjectiles>true</RecordProjectiles>
+  <RemoveProjectilesOnSecondFire>true</RemoveProjectilesOnSecondFire>
+  <RecoverAmmoOnSecondFire>true</RecoverAmmoOnSecondFire>
+  <OnlyShootOnNewInput>true</OnlyShootOnNewInput>
+
+  <FireBoneRecoil>15</FireBoneRecoil>
+  <RateOfFire>0.5</RateOfFire>
+  <FireSound>Translocator_Shot</FireSound>
+
+  <MuzzleFlashEffect>_new_muzzle_lightning</MuzzleFlashEffect>
+  <FireRecoil>1000</FireRecoil>
+  <ShakeCameraOnFire>0.3</ShakeCameraOnFire>
+  <SpineWeaponHeadTextureName>gunhead\wephead_grenade01</SpineWeaponHeadTextureName>
+  <SpineWeaponTextureName>gunhead\wep_grenade01</SpineWeaponTextureName>
+</GameObjectClass>

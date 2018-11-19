@@ -1,0 +1,24 @@
+Cryptark Weapon Ammunition Distribution Guide:
+
+Acceptable values; these are the standardized amounts of ammo that any single ammobox of a weapon can contain. The game has a limit of 10000 ammo, so any ammobox amount needs to be divisible by that number to avoid lost ammo. 
+
+(Example: If a weapon's ammobox size is 3000, then at 9000 total ammo if another ammobox is added, 2000 ammo will be lost, due to 10000 total ammo limit being reached, with excess ammo being cut off, thus wasting money for no reason in Campaign Mode.)
+
+For Rogue Mode, the ammo is first defined with standardized <AmmoBoxQuantity> values listed below, then adjusted with <StartingAmmoBoxes> to get the final amount that a weapon should have when it is picked up in Rogue Mode's ammo/weapon pods.
+
+Standardized <AmmoBoxQuantity> values:
+1
+2
+5
+10
+25
+50
+100
+200
+250
+500
+1000
+2000
+2500
+5000
+10000

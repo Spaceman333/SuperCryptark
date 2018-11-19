@@ -1,0 +1,24 @@
+﻿<?xml version="1.0"?>
+<GameObjectClass>
+  <Type>WEAPON</Type>
+  <Texture>Projectiles\shotgun_bullet</Texture>
+  <Solid>true</Solid>
+  <CharacterCollide>true</CharacterCollide>
+  <HitForce>100</HitForce>
+  <ProjectileRange>50</ProjectileRange>
+  <RemoveAfterStarted>1</RemoveAfterStarted>
+  <ProjectileSpeed>250</ProjectileSpeed>
+  <LinearDamping>4</LinearDamping>
+  <DamagePerShot>0.6</DamagePerShot>
+  <OnFireProjectileLight>
+    <Color>
+      <X>1</X>
+      <Y>0.75</Y>
+      <Z>0.75</Z>
+      <W>1</W>
+    </Color>
+    
+    <Radius>75</Radius>
+  </OnFireProjectileLight>
+  <SetLayer>FULLBRIGHT</SetLayer>
+</GameObjectClass>

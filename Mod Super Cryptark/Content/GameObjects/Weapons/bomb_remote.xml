@@ -1,0 +1,30 @@
+﻿<?xml version="1.0" ?>
+<GameObjectClass>
+  <Type>WEAPON</Type>
+  <Displayname>T1 Remote Grenades</Displayname>
+  <ShortDisplayName>G-REM</ShortDisplayName>
+  <LoadoutCategory>Bombs</LoadoutCategory>
+  <ItemInfo>These high explosive grenades are armed with remote triggers and can allow for perfect timing.
+  </ItemInfo>
+
+  <StartingAmmoBoxes>5</StartingAmmoBoxes>
+  <AmmoBoxQuantity>50</AmmoBoxQuantity>
+  <Price>7</Price>
+  <TechChanceNumber>3</TechChanceNumber>
+  
+  <ProjectileClassfile>Projectiles\remote_mine_projectile</ProjectileClassfile>
+  
+  <RecordProjectiles>true</RecordProjectiles>
+  <RemoveProjectilesOnSecondFire>true</RemoveProjectilesOnSecondFire>
+  <OnlyShootOnNewInput>true</OnlyShootOnNewInput>
+  
+  <FireBoneRecoil>15</FireBoneRecoil>
+  <RateOfFire>1</RateOfFire>
+  <FireSound>grenade_fire</FireSound>
+  
+  <MuzzleFlashEffect>_new_muzzle_grenade</MuzzleFlashEffect>
+  <FireRecoil>1000</FireRecoil>
+  <ShakeCameraOnFire>0.3</ShakeCameraOnFire>
+  <SpineWeaponHeadTextureName>gunhead\wephead_grenade01</SpineWeaponHeadTextureName>
+  <SpineWeaponTextureName>gunhead\wep_grenade01</SpineWeaponTextureName>
+</GameObjectClass>

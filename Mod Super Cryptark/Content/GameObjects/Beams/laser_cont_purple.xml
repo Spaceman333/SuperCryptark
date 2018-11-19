@@ -1,0 +1,17 @@
+﻿<?xml version="1.0" ?>
+<GameObjectClass>
+  <Type>BEAM</Type>
+  <Texture>Beams\laser_beam</Texture>
+  <BeamColor>
+    <X>0.5</X>
+    <Y>0.1</Y>
+    <Z>1.0</Z>
+    <W>1</W>
+  </BeamColor>
+  <Scale>2.0</Scale>
+  <FadeOutDuration>0.5</FadeOutDuration>
+  <RemoveOnFadeOut>true</RemoveOnFadeOut>
+  <SetLayer>FULLBRIGHT</SetLayer>
+  <BeamEndParticleEffect>_new_muzzle_aimlasergreen</BeamEndParticleEffect>
+  <BeamStartParticleEffect>_new_muzzle_aimlasergreen</BeamStartParticleEffect>
+</GameObjectClass>

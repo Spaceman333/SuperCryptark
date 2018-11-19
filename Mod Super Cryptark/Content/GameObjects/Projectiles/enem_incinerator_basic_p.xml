@@ -1,0 +1,53 @@
+﻿<?xml version="1.0" ?>
+<GameObjectClass>
+  <Type>WEAPON</Type>
+  
+  <!--<Solid>true</Solid>-->
+  <FakeProjectile>true</FakeProjectile>
+  <FakeProjectileNoBounce>true</FakeProjectileNoBounce>
+  
+  <!--<EclipseBody>true</EclipseBody>-->
+  <Width>3</Width>
+  <Height>3</Height>
+  <CharacterCollide>true</CharacterCollide>
+  <ProjectileRemoveOnCollision>true</ProjectileRemoveOnCollision>
+  <ProjectileRemoveOnCharacterCollision>true</ProjectileRemoveOnCharacterCollision>
+  <ProjectileRemoveOnGameObjectCollision>true</ProjectileRemoveOnGameObjectCollision>
+  <ProjectileSpeed>120</ProjectileSpeed>
+  <HitForce>15</HitForce>
+  <AmbientSound>Combat_M_FlameThrower_Particle</AmbientSound>
+  <DamagePerShot>0.75</DamagePerShot>
+  <RemoveAfterStarted>0.8</RemoveAfterStarted>
+  <ParticleEffect>_new_trail_incinerator</ParticleEffect>
+  <LinearDamping>4</LinearDamping>
+  <SetFriction>true</SetFriction>
+  <Friction>.5</Friction>
+  <Restitution>.3</Restitution>
+  <DecalType>Flame</DecalType>
+  <NoDebrisOnHit>true</NoDebrisOnHit>
+  <ProjectilePrecision>.5</ProjectilePrecision>
+
+  
+  <OnFireProjectileLight>
+    <Color>
+      <X>.5</X>
+      <Y>0.7</Y>
+      <Z>1</Z>
+      <W>1</W>
+    </Color>
+    <Shininess>75</Shininess>
+    <Strength>1.25</Strength>
+    <Radius>1000</Radius>
+  </OnFireProjectileLight>
+  <OnFireMuzzleLight>
+    <Color>
+      <X>.5</X>
+      <Y>0.7</Y>
+      <Z>1</Z>
+      <W>1</W>
+    </Color>
+
+    <Radius>200</Radius>
+    <RadiusModifier>-5</RadiusModifier>
+  </OnFireMuzzleLight>
+</GameObjectClass>

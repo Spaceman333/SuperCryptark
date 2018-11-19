@@ -1,0 +1,9 @@
+﻿<?xml version="1.0"?>
+<GameObjectClass>
+  <BaseFile>EnemyWeapons\blaster_burst_mule</BaseFile>
+  <!--<Displayname>Mule Blaster</Displayname>
+  <LoadoutCategory>Test</LoadoutCategory> -->
+  
+  <ProjectileUseMuzzleAngle>true</ProjectileUseMuzzleAngle>
+  
+</GameObjectClass>

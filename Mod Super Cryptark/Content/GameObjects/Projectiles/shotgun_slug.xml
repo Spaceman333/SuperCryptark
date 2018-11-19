@@ -1,0 +1,66 @@
+﻿<?xml version="1.0"?>
+<GameObjectClass>
+  <Type>WEAPON</Type>
+  <Texture>Projectiles\slug01_orange</Texture>
+  <Scale>1.5</Scale>
+  <CharacterCollide>true</CharacterCollide>
+  <HitForce>500</HitForce>
+  
+  <!--<Solid>true</Solid>-->
+  <FakeProjectile>true</FakeProjectile>
+
+  <RemoveParticleEffect>_new_hit_spark</RemoveParticleEffect>
+  
+  <ProjectileRange>75</ProjectileRange>
+  <ProjectileSpeed>150</ProjectileSpeed>
+  <LinearDamping>1.75</LinearDamping>
+  <DamagePerShot>2</DamagePerShot>
+  <ProjKeepVelocity>false</ProjKeepVelocity>
+  <ProjectileHitDebris>true</ProjectileHitDebris>
+  <RemoveAfterStarted>1</RemoveAfterStarted>
+  <Payload>true</Payload>
+  <PayloadType>PROJECTILE_FIRE</PayloadType>
+  <ProjectilesPerShot>10</ProjectilesPerShot>
+  <ProjectileSpread>1</ProjectileSpread>
+  <ProjectilePrecision>1</ProjectilePrecision>
+  <ProjectileClassfile>Projectiles\shotgun_splinter</ProjectileClassfile>
+  
+  <RefractionMapName>bullet_wave</RefractionMapName>
+  <UseRefractionOrigin>true</UseRefractionOrigin>
+  <RefractionOrigin>
+    <X>108</X>
+    <Y>138</Y>
+  </RefractionOrigin>
+
+  <OnFireProjectileLight>
+    <Type>Point</Type>
+    <Color>
+      <X>1</X>
+      <Y>0.5</Y>
+      <Z>0.1</Z>
+      <W>1</W>
+    </Color>
+    <Strength>3</Strength>
+    <Radius>100</Radius>
+  </OnFireProjectileLight>
+
+  <OnRemoveLight>
+    <Type>Point</Type>
+    <Color>
+      <X>1</X>
+      <Y>0.6</Y>
+      <Z>.7</Z>
+      <W>1</W>
+    </Color>
+    <Strength>20</Strength>
+    <Radius>500</Radius>
+    <RadiusModifier>-100</RadiusModifier>
+  </OnRemoveLight>
+
+  <ProjectileColor>
+    <X>1</X>
+    <Y>1</Y>
+    <Z>1</Z>
+  </ProjectileColor>
+  <SetLayer>FULLBRIGHT</SetLayer>
+</GameObjectClass>

@@ -1,0 +1,13 @@
+﻿<?xml version="1.0" ?>
+<GameObjectClass>
+  <BaseFile>Projectiles\grenade</BaseFile>
+  <Texture>Projectiles\bomb_blue</Texture>
+  <ExplodeDamage>.5</ExplodeDamage>
+  <ExplodeSize>30</ExplodeSize>
+  <ExplodeForce>100</ExplodeForce>
+  <StunTime>30</StunTime>
+  <ExplosionParticleEffect>_new_explosion_small</ExplosionParticleEffect>
+  <SpawnObjectOnRemove>Hazards\emp_small</SpawnObjectOnRemove>
+
+  <ExplosionSound>Combat_M_EMP_Blast</ExplosionSound>
+</GameObjectClass>

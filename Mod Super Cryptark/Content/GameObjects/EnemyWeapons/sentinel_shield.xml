@@ -1,0 +1,44 @@
+﻿<?xml version="1.0"?>
+<GameObjectClass>
+  <Type>SHIELD</Type>
+  <SpineAnimation>shield_heavy_sentinel</SpineAnimation>
+
+  <NoShieldDamage>true</NoShieldDamage>
+
+  <SpineAnimationScale>1</SpineAnimationScale>
+
+  <FiringLoop>Combat_M_Shield_Loop</FiringLoop>
+  <StartFiringSound>Combat_M_Shield_On</StartFiringSound>
+  <ReleaseFiringSound>Combat_M_Shield_Off</ReleaseFiringSound>
+
+  <SetLayer>FULLBRIGHT</SetLayer>
+  <Light>
+    <Type>Point</Type>
+    <Position>
+      <Z>5</Z>
+    </Position>
+    <Color>
+      <X>1</X>
+      <Y>0</Y>
+      <Z>.9</Z>
+      <W>1</W>
+    </Color>
+    <SpecularColor>
+      <X>1</X>
+      <Y>0.3</Y>
+      <Z>0.9</Z>
+      <W>1</W>
+    </SpecularColor>
+    <Strength>2</Strength>
+    <Shininess>9</Shininess>
+    <Radius>500</Radius>
+  </Light>
+  
+  <ShieldFollowBone>head</ShieldFollowBone>
+
+  <Solid>true</Solid>
+  <Width>6</Width>
+  <SolidArcBody>true</SolidArcBody>
+  <ArcRadians>4</ArcRadians>
+  <ArcSides>10</ArcSides>
+</GameObjectClass>

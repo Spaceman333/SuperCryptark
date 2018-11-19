@@ -1,0 +1,7 @@
+﻿<?xml version="1.0" ?>
+<GameObjectClass>
+  <Type>ALARMTRIGGER</Type>
+  <SpineAnimation>detpack</SpineAnimation>
+  <Static>true</Static>
+  <NoOffscreen>true</NoOffscreen>
+</GameObjectClass>

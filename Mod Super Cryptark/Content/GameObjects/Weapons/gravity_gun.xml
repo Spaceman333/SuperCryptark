@@ -1,0 +1,78 @@
+﻿<?xml version="1.0" ?>
+<GameObjectClass>
+  <Type>WEAPON</Type>
+  <LoadoutCategory>Melee</LoadoutCategory>
+  <ProjectileClassfile>Projectiles\gravity_gun_beam</ProjectileClassfile>
+  <Displayname>T1 Gravity Tractor</Displayname>
+  <ShortDisplayName>GRAVT</ShortDisplayName>
+  <ItemInfo>By creating a concentrated gravity tunnel, this device pulls in mobile targets that can then be catapulted away with tremendous force. Cannot grab turrets or systems, however you can slam caught moving enemies at them to cause damage.</ItemInfo>
+
+  <Price>2</Price>
+  <StartingAmmoBoxes>1</StartingAmmoBoxes>
+  <TechChanceNumber>3</TechChanceNumber>
+
+  <RateOfFire>1</RateOfFire>
+  <AmmoAsPercent>true</AmmoAsPercent>
+  <AmmoBoxQuantity>1</AmmoBoxQuantity>
+  <NextRefillTime>.05</NextRefillTime>
+  <RefillRate>.1</RefillRate>
+
+  <FireBoneRecoil>80</FireBoneRecoil>
+  <RayGun>true</RayGun>
+  <ProjectilesPerShot>1</ProjectilesPerShot>
+  <ProjectilePrecision>1</ProjectilePrecision>
+  <ProjectileRange>90</ProjectileRange>
+  <ProjectileGrappleOnHit>true</ProjectileGrappleOnHit>
+  <GrappleRangeModifier>-1</GrappleRangeModifier>
+  <MinGrappleRange>6</MinGrappleRange>
+  <ThrowGrappled>true</ThrowGrappled>
+  <ThrowForce>2500000</ThrowForce>
+  <GrappleDamage>20</GrappleDamage>
+  
+  <FireRecoil>100</FireRecoil>
+  <RecoilCameraOnFire>2</RecoilCameraOnFire>
+  <RecoilCameraOnFireDuration>0.2</RecoilCameraOnFireDuration>
+  <ShakeCameraOnFire>0.5</ShakeCameraOnFire>
+  <SpineWeaponHeadTextureName>gunhead\wephead_laser01</SpineWeaponHeadTextureName>
+  <SpineWeaponTextureName>gunhead\wep_laser01</SpineWeaponTextureName>
+
+  <FireSound>TractorBeam_Shot</FireSound>
+  <FiringLoopAfterStartFiringSound>TractorBeam_GrabLoop</FiringLoopAfterStartFiringSound>
+  <!--<StartFiringSound>Combat_M_RailGun_BuildUp</StartFiringSound>-->
+
+  <WeaponChargeLightFalloff>0.25</WeaponChargeLightFalloff>
+
+  <OnGrappleBeamClassfile>Beams\gravity_gun_beam</OnGrappleBeamClassfile>
+  <OnFireBeamClassfile>Beams\gravity_gun_miss_beam</OnFireBeamClassfile>
+
+  <OnFireMuzzleLight>
+    <Type>Spotlight</Type>
+    <Position>
+      <Z>10</Z>
+    </Position>
+    <Color>
+      <X>0</X>
+      <Y>0.2</Y>
+      <Z>1</Z>
+      <W>1</W>
+    </Color>
+    <SpecularColor>
+      <X>0</X>
+      <Y>0.2</Y>
+      <Z>1</Z>
+      <W>1</W>
+    </SpecularColor>
+    <Direction>
+      <X>1</X>
+      <Y>0</Y>
+      <Z>0.3</Z>
+    </Direction>
+    <Strength>20</Strength>
+    <Shininess>0</Shininess>
+    <Radius>1000</Radius>
+    <RadiusModifier>-100</RadiusModifier>
+    <InnerConeAngle>0.7</InnerConeAngle>
+    <OuterConeAngle>1</OuterConeAngle>
+  </OnFireMuzzleLight>
+
+</GameObjectClass>

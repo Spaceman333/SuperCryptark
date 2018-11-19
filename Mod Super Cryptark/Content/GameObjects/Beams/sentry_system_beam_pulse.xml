@@ -1,0 +1,21 @@
+﻿<?xml version="1.0" ?>
+<GameObjectClass>
+  <Type>BEAM</Type>
+  <BeamColor>
+    <X>0</X>
+    <Y>0.5</Y>
+    <Z>1</Z>
+    <W>1</W>
+  </BeamColor>
+  <SetLayer>FULLBRIGHT</SetLayer>
+  <FadeOutDuration>1.25</FadeOutDuration>
+  <MeshEffects>
+    <string>sentry_beam_1</string>
+    <string>sentry_beam_2</string>
+    <string>sentry_beam_3</string>
+    <string>sentry_beam_4</string>
+  </MeshEffects>
+  <BeamEndParticleEffect>_new_hit_sentry</BeamEndParticleEffect>
+  <UseSpatialSystem>false</UseSpatialSystem>
+  <BoundingBoxUpdateRate>0.05</BoundingBoxUpdateRate>
+</GameObjectClass>

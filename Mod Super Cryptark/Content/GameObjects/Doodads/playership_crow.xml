@@ -1,0 +1,5 @@
+﻿<?xml version="1.0" ?>
+<GameObjectClass>
+  <Type>PLAYERSHIP_DOODAD</Type>
+  <SpineAnimation>playership_crow</SpineAnimation>
+</GameObjectClass>

@@ -1,0 +1,22 @@
+﻿<?xml version="1.0"?>
+<GameObjectClass>
+  <Type>ITEM</Type>
+  <Displayname>Aegis Shell</Displayname>
+  <ShortDisplayName>AEGIS</ShortDisplayName>
+  <LoadoutCategory>Item</LoadoutCategory>
+  <ItemInfo>This emergency energy shield has a one-shot power cell, but will protect the wearer from all directions for 5 minutes as well as allow their own weapons to fire through it. May fail randomly.</ItemInfo>
+  <StartItemQuantity>1</StartItemQuantity>
+
+  <Price>2</Price>
+  
+  <HudTextureName>tag_item_shield</HudTextureName>
+  <ItemType>Shield</ItemType>
+
+  <CustomObjectSpawn>Items\full_shield_object</CustomObjectSpawn>
+  <PowerupEffects>
+    <PowerupEffectClass>
+      <Type>None</Type>
+      <Duration>300</Duration>
+    </PowerupEffectClass>
+  </PowerupEffects>
+</GameObjectClass>

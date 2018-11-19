@@ -1,0 +1,17 @@
+<?xml version="1.0"?>
+<GameObjectClass>
+  <BaseFile>Weapons\machinegun</BaseFile>
+  <Displayname>T2 Smart Machinegun</Displayname>
+  <ShortDisplayName>MG-S</ShortDisplayName>
+  <ItemInfo>This advanced machinegun has been modified with a targeting CPU and smart-munitions that home in on potential threats.</ItemInfo>
+
+  <StartingAmmoBoxes>2</StartingAmmoBoxes>
+  <AmmoBoxQuantity>2000</AmmoBoxQuantity>
+  <Price>5</Price>
+  <TechChanceNumber>2</TechChanceNumber>
+  
+  <ProjectilePrecision>.65</ProjectilePrecision>
+  <RateOfFire>0.065</RateOfFire>
+  <ProjectileClassfile>Projectiles\machinegun_bullet_smart</ProjectileClassfile>
+  <OnLoadoutTrigger>weapon_smart</OnLoadoutTrigger>
+</GameObjectClass>

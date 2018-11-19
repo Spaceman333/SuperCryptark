@@ -1,0 +1,67 @@
+﻿<?xml version="1.0" ?>
+<GameObjectClass>
+  <Type>CAGE_GENERATOR</Type>
+  <Displayname>Cage Mine</Displayname>
+  <SpineAnimation>cage_generator</SpineAnimation>
+  <SendToBack>true</SendToBack>
+  <MinimapTextureName>map-mine</MinimapTextureName>
+  <SidebarTextureName>hazard_cagemine</SidebarTextureName>
+  <MinimapDescription>This field generator creates an impassable cage when triggered.</MinimapDescription>
+  
+  <Solid>true</Solid>
+  <Static>true</Static>
+  <EclipseBody>true</EclipseBody>
+  <Width>4</Width>
+  <Height>4</Height>
+  <CharacterCollide>false</CharacterCollide>
+  <IgnoreProjectileCollision>true</IgnoreProjectileCollision>
+
+  <CageShield>Hazards\cage_generator_shield</CageShield>
+  <CageRadius>30</CageRadius>
+  <CageThickness>5</CageThickness>
+  <CageSegments>32</CageSegments>
+
+  <InteractionCodeLength>4</InteractionCodeLength>
+  <ContinuousInteraction>true</ContinuousInteraction>
+  <InteractionDistance>20</InteractionDistance>
+  <InteractThroughWalls>true</InteractThroughWalls>
+  <DisableInteractOnCodeComplete>true</DisableInteractOnCodeComplete>
+  <GibOnDeath>true</GibOnDeath>
+  <RemoveParticleEffect>_new_death_enemy</RemoveParticleEffect>
+  <SpawnObjectOnRemove>Refractions\detpack_shockwave</SpawnObjectOnRemove>
+  <OnRemoveSound>Combat_M_Enemy_DeathExplode</OnRemoveSound>
+  
+  <OnRemoveLight>
+    <Type>Point</Type>
+    <Color>
+      <X>0.75</X>
+      <Y>0.6</Y>
+      <Z>1</Z>
+      <W>1</W>
+    </Color>
+    <Strength>20</Strength>
+    <Radius>1500</Radius>
+    <RadiusModifier>-150</RadiusModifier>
+  </OnRemoveLight>
+  
+  <Light>
+    <Color>
+      <X>0.1</X>
+      <Y>0.3</Y>
+      <Z>1</Z>
+      <W>1</W>
+    </Color>
+    <SpecularColor>
+      <X>0.1</X>
+      <Y>0.3</Y>
+      <Z>1</Z>
+      <W>1</W>
+    </SpecularColor>
+    <MinStrength>2</MinStrength>
+    <Strength>1</Strength>
+    <MaxStrength>2</MaxStrength>
+    <OscillateStrength>true</OscillateStrength>
+    <StrengthCycleScale>30</StrengthCycleScale>
+    <Radius>700</Radius>
+  </Light>
+</GameObjectClass>

@@ -1,0 +1,54 @@
+<?xml version="1.0"?>
+<GameObjectClass>
+  <Type>WEAPON</Type>
+  <Displayname>T1 Eject Recoiler</Displayname>
+  <ShortDisplayName>EJECT</ShortDisplayName>
+  <ItemInfo>Experimental recoil device that can forcefully push a user through thin walls and certain corners, allowing escape into space or breaking into locked rooms without a key. Fires a counterweight stream to produce the recoil that can be used to knock away enemies really far. Unreliable, though can prove useful. Most surprisingly, this device is THE fastest way to travel around, if you don't mind looking in the opposite direction of your destination.</ItemInfo>
+
+  <StartingAmmoBoxes>4</StartingAmmoBoxes>
+  <AmmoBoxQuantity>2000</AmmoBoxQuantity>
+  <Price>2</Price>
+  <TechChanceNumber>3</TechChanceNumber>
+  
+  <RateOfFire>0.02</RateOfFire>
+  <ProjectilesPerShot>3</ProjectilesPerShot>
+  <ProjectileSpread>0.4</ProjectileSpread>
+  <ProjectilePrecision>0.6</ProjectilePrecision>
+  <ProjectileClassfile>Projectiles\shotgun_eject</ProjectileClassfile>
+  <LoadoutCategory>Shotguns</LoadoutCategory>
+  
+  <FireSound>Combat_M_FragGun_Shot</FireSound>
+  <FireBoneRecoil>1</FireBoneRecoil>
+  <MuzzleFlashEffect>_new_muzzle_shotgun</MuzzleFlashEffect>
+  <CasingClassfile>Weapons\shotgun_casing</CasingClassfile>
+  <FireRecoil>888000</FireRecoil>
+  
+  <RecoilCameraOnFire>0.01</RecoilCameraOnFire>
+  <RecoilCameraOnFireDuration>0.01</RecoilCameraOnFireDuration>
+  <ShakeCameraOnFire>0.01</ShakeCameraOnFire>
+  <SpineWeaponHeadTextureName>gunhead\wephead_shotgun01</SpineWeaponHeadTextureName>
+  <SpineWeaponTextureName>gunhead\wep_shotgun01</SpineWeaponTextureName>
+
+  <OnFireMuzzleLight>
+    <Type>Spotlight</Type>
+    <Position>
+      <Z>10</Z>
+    </Position>
+    <Color>
+      <X>1</X>
+      <Y>0.8</Y>
+      <Z>0.5</Z>
+      <W>1</W>
+    </Color>
+    <Direction>
+      <X>1</X>
+      <Y>0</Y>
+      <Z>0.3</Z>
+    </Direction>
+    <Strength>20</Strength>
+    <Radius>700</Radius>
+    <RadiusModifier>-120</RadiusModifier>
+    <InnerConeAngle>1</InnerConeAngle>
+    <OuterConeAngle>1.57</OuterConeAngle>
+  </OnFireMuzzleLight>
+</GameObjectClass>

@@ -1,0 +1,33 @@
+﻿<?xml version="1.0" ?>
+<GameObjectClass>
+  <Type>WEAPON</Type>
+  <AIFiringTime>0.5</AIFiringTime>
+  <AINextFiringTime>1.75</AINextFiringTime>
+  <RateOfFire>0.03</RateOfFire>
+  <ProjectilesPerShot>1</ProjectilesPerShot>
+  <ProjectilePrecision>.8</ProjectilePrecision>
+  <ProjectileClassfile>EnemyWeapons\slimer_flame_p</ProjectileClassfile>
+  <MuzzleFlashEffect>_new_muzzle_flamethrower</MuzzleFlashEffect>
+  <FiringLoop>Combat_M_FlameThrower_Loop</FiringLoop>
+  <StartFiringSound>Combat_M_FlameThrower_Start</StartFiringSound>
+  <ReleaseFiringSound>Combat_M_FlameThrower_End</ReleaseFiringSound>
+
+  <RecordProjectiles>true</RecordProjectiles>
+  <RemoveProjectilesOnSecondFire>true</RemoveProjectilesOnSecondFire>
+
+  <WeaponMeshEffects>
+    <string>flame_thrower_1</string>
+  </WeaponMeshEffects>
+
+  <OnFireMuzzleLight>
+    <Color>
+      <X>1</X>
+      <Y>0.25</Y>
+      <Z>0</Z>
+      <W>1</W>
+    </Color>
+
+    <Radius>200</Radius>
+    <RadiusModifier>-5</RadiusModifier>
+  </OnFireMuzzleLight>
+</GameObjectClass>

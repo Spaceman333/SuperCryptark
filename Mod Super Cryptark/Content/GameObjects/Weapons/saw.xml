@@ -1,0 +1,41 @@
+<?xml version="1.0"?>
+<GameObjectClass>
+  <Type>WEAPON</Type>
+  <Displayname>T1 Ripper Saw</Displayname>
+  <ShortDisplayName>RISAW</ShortDisplayName>
+  <ItemInfo>This high powered link-saw doesn't cut as much as it rips objects apart. As long as contact is maintained, the target is also stunned. Although ammo is infinite, the saw can overheat, requiring pauses between ripping operations.</ItemInfo>
+  <Price>3</Price>
+  <LoadoutCategory>Melee</LoadoutCategory>
+  <TechChanceNumber>3</TechChanceNumber>
+  
+  <MeleeHitScale>9</MeleeHitScale>
+  <MeleeHitScaleVector>
+    <X>12</X>
+    <Y>3</Y>
+  </MeleeHitScaleVector>
+  
+  <DamagePerShot>1.5</DamagePerShot>
+  <MeleeStrikeTime>0.2</MeleeStrikeTime>
+  <StunTime>3</StunTime>
+  <FireNoiseRadius>25</FireNoiseRadius>
+  <CameraShakeOnHit>1.5</CameraShakeOnHit>
+  <HitForce>1</HitForce>
+  <HitNoiseRadius>35</HitNoiseRadius>
+  <Melee>true</Melee>
+  <SpineWeaponHeadTextureName>gunhead\wephead_spike01</SpineWeaponHeadTextureName>
+  <SpineWeaponTextureName>gunhead\wep_spike01</SpineWeaponTextureName>
+  <DecalType>Bullet</DecalType>
+  <FireBoneRecoil>0</FireBoneRecoil>
+  <MeleeParticleEffect>_new_trail_blade</MeleeParticleEffect>
+  
+  <FiringLoop>Combat_Gauntlet_Loop</FiringLoop>
+  <ShakeCameraOnFire>0.5</ShakeCameraOnFire>
+
+  <!--<InvulnerableDuringStrike>true</InvulnerableDuringStrike>-->
+  <AmmoPerShot>0.2</AmmoPerShot>
+  <AmmoAsPercent>true</AmmoAsPercent>
+  <StartingAmmoBoxes>1</StartingAmmoBoxes>
+  <AmmoBoxQuantity>100</AmmoBoxQuantity>
+  <NextRefillTime>3</NextRefillTime>
+  <RefillRate>0.5</RefillRate>
+</GameObjectClass>

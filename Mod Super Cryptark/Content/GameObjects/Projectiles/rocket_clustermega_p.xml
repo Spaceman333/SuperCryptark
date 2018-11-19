@@ -1,0 +1,31 @@
+﻿<?xml version="1.0" ?>
+<GameObjectClass>
+  <BaseFile>Projectiles\rocket</BaseFile>
+  
+  <Texture>Projectiles\rocket_red</Texture>
+
+  <ProjectileRemoveOnCollision>false</ProjectileRemoveOnCollision>
+  <ProjectileFollowTarget>false</ProjectileFollowTarget>
+  <Scale>1.8</Scale>
+  <Payload>true</Payload>
+  <PayloadType>PROJECTILE_FIRE</PayloadType>
+  <RemoveAfterStarted>9</RemoveAfterStarted>
+  <ProjectilesPerShot>30</ProjectilesPerShot>
+  <ProjectileSpread>0.4</ProjectileSpread>
+  <ProjectilePrecision>0.8</ProjectilePrecision>
+  <ProjectileClassfile>Projectiles\stinger_rocket</ProjectileClassfile>
+  
+  <ProjectileSpeed>20</ProjectileSpeed>
+  <ProjectileBoostMaxSpeed>60</ProjectileBoostMaxSpeed>
+  <ProjectileBoostForce>100</ProjectileBoostForce>
+  <ProjectileBoostStart>0.6</ProjectileBoostStart>
+
+  <ExplodeOnRemove>true</ExplodeOnRemove>
+  <ExplodeForce>400</ExplodeForce>
+  <ExplodeSize>26</ExplodeSize>
+  <ExplosionParticleEffect>_new_explosion_large</ExplosionParticleEffect>
+  <ExplosionRefraction>shockwave_2</ExplosionRefraction>
+  <ExplosionSound>Combat_M_Rocket_Blast</ExplosionSound>
+  <ExplodeDamage>22</ExplodeDamage>
+
+</GameObjectClass>

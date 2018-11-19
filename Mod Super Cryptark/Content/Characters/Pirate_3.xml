@@ -1,0 +1,14 @@
+﻿<?xml version="1.0"?>
+<CharacterClass xmlns:xsi="http://www.w3.org/2001/XMLSchema-instance" xmlns:xsd="http://www.w3.org/2001/XMLSchema">
+
+  <BaseFile>Pirate</BaseFile>
+  <SpineAnimation>suit_boxy</SpineAnimation>
+
+  <DisplayName>Salamander</DisplayName>
+  
+  <Weapon1>EnemyWeapons\blaster_burst</Weapon1>
+  <Weapon2>EnemyWeapons\shield_e</Weapon2>
+  <Weapon3>EnemyWeapons\gundog</Weapon3>
+  <Weapon4>EnemyWeapons\bomb</Weapon4>
+
+</CharacterClass>

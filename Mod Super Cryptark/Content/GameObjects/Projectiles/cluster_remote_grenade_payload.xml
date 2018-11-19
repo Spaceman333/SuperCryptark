@@ -1,0 +1,17 @@
+﻿<?xml version="1.0" ?>
+<GameObjectClass>
+  <BaseFile>Projectiles\grenade</BaseFile>
+  <Texture>Projectiles\bomb</Texture>
+  <Payload>true</Payload>
+  <PayloadType>PROJECTILE_FIRE</PayloadType>
+  <RemoveAfterStarted>0</RemoveAfterStarted>
+  <ProjectilesPerShot>12</ProjectilesPerShot>
+  <ProjectileSpread>0.6</ProjectileSpread>
+  <ProjectilePrecision>0.6</ProjectilePrecision>
+  <ProjectileClassfile>Projectiles\cluster_grenade_projectile</ProjectileClassfile>
+  <ProjectileRemoveOnCharacterCollision>false</ProjectileRemoveOnCharacterCollision>
+  <ProjectileRemoveOnGameObjectCollision>false</ProjectileRemoveOnGameObjectCollision>
+  <ExplodeForce>10</ExplodeForce>
+  <ExplodeDamage>1.5</ExplodeDamage>
+  <ExplodeSize>16</ExplodeSize>
+</GameObjectClass>

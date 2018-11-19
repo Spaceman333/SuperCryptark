@@ -1,0 +1,8 @@
+﻿<?xml version="1.0"?>
+<GameObjectClass>
+
+  <BaseFile>Projectiles\heavy_machinegun_bullet</BaseFile>
+  <ProjKeepVelocity>true</ProjKeepVelocity>
+  <ProjectileRicochetCount>18</ProjectileRicochetCount>
+  <Restitution>0.99</Restitution>
+</GameObjectClass>

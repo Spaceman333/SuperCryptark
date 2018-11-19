@@ -1,0 +1,12 @@
+﻿<?xml version="1.0" ?>
+<GameObjectClass>
+  <Type>CRUSHER_CHILD</Type>
+  <FollowBoneRotation>true</FollowBoneRotation>
+  <NoFlipping>true</NoFlipping>
+  <!--
+  <DamageOnContact>1</DamageOnContact>
+  <DamageOnContactForce>30000</DamageOnContactForce>
+  <DamageOnContactNoAirControlTime>1</DamageOnContactNoAirControlTime>
+  <StunnedContactDamage>false</StunnedContactDamage>
+  -->
+</GameObjectClass>

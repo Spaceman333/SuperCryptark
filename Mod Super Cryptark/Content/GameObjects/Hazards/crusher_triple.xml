@@ -1,0 +1,22 @@
+﻿<?xml version="1.0" ?>
+<GameObjectClass>
+  <Type>CRUSHER_TRIPLE</Type>
+  <Displayname>Triple Crusher Hazard</Displayname>
+  <SpineAnimation>crusher_triple</SpineAnimation>
+  <SidebarTextureName>hazard_mine</SidebarTextureName>
+  <MinimapDescription>Room with pistons that crush anything in their paths.</MinimapDescription>
+
+  <Solid>true</Solid>
+  <Static>true</Static>
+  <Width>4</Width>
+  <Height>4</Height>
+  <IgnoreCollision>true</IgnoreCollision>
+  <NoFlipping>true</NoFlipping>
+  
+  <AmbientSound>FX_Hazard_Crusher_BeltLong</AmbientSound>
+
+  <CrusherDamageOnContact>1</CrusherDamageOnContact>
+  <DamageOnContactForce>15000</DamageOnContactForce>
+  <DamageOnContactNoAirControlTime>0.8</DamageOnContactNoAirControlTime>
+  <OffscreenDistanceMultiply>2</OffscreenDistanceMultiply>
+</GameObjectClass>

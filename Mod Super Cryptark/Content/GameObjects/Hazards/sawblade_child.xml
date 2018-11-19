@@ -1,0 +1,8 @@
+﻿<?xml version="1.0" ?>
+<GameObjectClass>
+  <Type>SAWBLADE_CHILD</Type>
+  <DamageOnContact>1</DamageOnContact>
+  <DamageOnContactForce>5000</DamageOnContactForce>
+  <DamageOnContactNoAirControlTime>.15</DamageOnContactNoAirControlTime>
+  <StunnedContactDamage>false</StunnedContactDamage>
+</GameObjectClass>

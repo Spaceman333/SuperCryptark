@@ -1,0 +1,23 @@
+﻿<?xml version="1.0" ?>
+<GameObjectClass>
+  <BaseFile>Projectiles\rocket</BaseFile>
+  <Texture>Projectiles\rocket</Texture>
+  <MinNewRandTargetDelay>0.1</MinNewRandTargetDelay>
+  <MaxNewRandTargetDelay>0.4</MaxNewRandTargetDelay>
+  <Scale>.7</Scale>
+  <RandTargetRange>10</RandTargetRange>
+  <ProjectileSpeed>100</ProjectileSpeed>
+  <ProjectileFollowTarget>false</ProjectileFollowTarget>
+  
+  <ProjectileBoostMaxSpeed>200</ProjectileBoostMaxSpeed>
+  <ProjectileBoostForce>250</ProjectileBoostForce>
+  <ProjectileBoostStart>0.1</ProjectileBoostStart>
+  
+  <ExplodeOnRemove>true</ExplodeOnRemove>
+  <ExplodeForce>10</ExplodeForce>
+  <ExplodeSize>20</ExplodeSize>
+  <ExplosionParticleEffect>_new_explosion_med</ExplosionParticleEffect>
+  <ExplosionSound>Blast</ExplosionSound>
+  <ExplodeDamage>2</ExplodeDamage>
+  
+</GameObjectClass>

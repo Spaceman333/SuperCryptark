@@ -1,0 +1,65 @@
+﻿<?xml version="1.0" ?>
+<GameObjectClass>
+  <Type>WEAPON</Type>
+  <Solid>true</Solid>
+  <CharacterCollide>true</CharacterCollide>
+  <ProjectileSpeed>60</ProjectileSpeed>
+  
+  <ProjectileRemoveOnCollision>true</ProjectileRemoveOnCollision>
+  <ProjectileRemoveOffscreen>false</ProjectileRemoveOffscreen>
+  <NoOffscreen>true</NoOffscreen>
+
+  <EclipseBody>true</EclipseBody>
+  <Width>2</Width>
+  <Height>2</Height>
+
+  <Density>1.5</Density>
+
+  <LinearDamping>.5</LinearDamping>
+  
+  <ExplodeOnRemove>true</ExplodeOnRemove>
+  <ExplodeForce>30</ExplodeForce>
+  <ExplodeSize>7</ExplodeSize>
+  <ExplosionParticleEffect>_new_explosion_enemybomb</ExplosionParticleEffect>
+  <ExplosionSound>Combat_M_Enemy_Bomb_Explosion_01</ExplosionSound>
+  <ExplodeDamage>1</ExplodeDamage>
+  <ExplosionRefraction>shockwave_2</ExplosionRefraction>
+  <SetLayer>FULLBRIGHT</SetLayer>
+
+  <ParticleEffect>_new_trail_enemycannon</ParticleEffect>
+  <ParticleEffectAmount>5</ParticleEffectAmount>
+  <RemoveAfterStarted>1.5</RemoveAfterStarted>
+  <AmbientSound>Combat_M_Enemy_Bomb_Loop</AmbientSound>
+
+  <Payload>true</Payload>
+  <PayloadType>PROJECTILE_FIRE</PayloadType>
+  <ProjectilesPerShot>8</ProjectilesPerShot>
+  <ProjectileSpread>1</ProjectileSpread>
+  <ProjectilePrecision>.6</ProjectilePrecision>
+  <ProjectileClassfile>EnemyWeapons\blaster_p</ProjectileClassfile>
+
+  <OnFireProjectileLight>
+    <Type>Point</Type>
+    <Color>
+      <X>0.75</X>
+      <Y>0.6</Y>
+      <Z>1</Z>
+      <W>1</W>
+    </Color>
+    <Strength>2</Strength>
+    <Radius>400</Radius>
+  </OnFireProjectileLight>
+
+  <OnExplodeLight>
+    <Type>Point</Type>
+    <Color>
+      <X>0.5</X>
+      <Y>0.5</Y>
+      <Z>1</Z>
+      <W>1</W>
+    </Color>
+    <Strength>20</Strength>
+    <Radius>1500</Radius>
+    <RadiusModifier>-100</RadiusModifier>
+  </OnExplodeLight>
+</GameObjectClass>

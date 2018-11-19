@@ -1,0 +1,34 @@
+﻿<?xml version="1.0" encoding="utf-8" ?>
+<GameObjectClass>
+  <Type>LIGHT</Type>
+  <Light>
+    <Type>Directional</Type>
+    <Position>
+      <Z>10</Z>
+    </Position>
+    <Color>
+      <X>1</X>
+      <Y>0</Y>
+      <Z>0</Z>
+      <W>1</W>
+    </Color>
+    <SpecularColor>
+      <X>1</X>
+      <Y>0</Y>
+      <Z>0</Z>
+      <W>1</W>
+    </SpecularColor>
+    <Direction>
+      <X>0</X>
+      <Y>-1</Y>
+      <Z>0.5</Z>
+    </Direction>
+    <MinStrength>0</MinStrength>
+    <MaxStrength>6</MaxStrength>
+    <StrengthCycleScale>3</StrengthCycleScale>
+    <OscillateStrength>true</OscillateStrength>
+    <UseOwnTime>true</UseOwnTime>
+    <DisableRandomTime>true</DisableRandomTime>
+  </Light>
+  <RemoveAfterStarted>2</RemoveAfterStarted>
+</GameObjectClass>

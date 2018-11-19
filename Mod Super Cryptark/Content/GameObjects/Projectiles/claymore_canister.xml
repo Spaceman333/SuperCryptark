@@ -1,0 +1,21 @@
+﻿<?xml version="1.0" ?>
+<GameObjectClass>
+  <Type>WEAPON</Type>
+  <Texture>Projectiles\canister_shell</Texture>
+  <Solid>true</Solid>
+  <CharacterCollide>false</CharacterCollide>
+  <ProjectileRicochetCount>500</ProjectileRicochetCount>
+  <ProjectileSpeed>45</ProjectileSpeed>
+  <WeaponTrailEffect>weapontrail</WeaponTrailEffect>
+  <Restitution>1</Restitution>
+  <SetFriction>true</SetFriction>
+  <Friction>0</Friction>
+  <Payload>true</Payload>
+  <PayloadType>PROJECTILE_FIRE</PayloadType>
+  <RemoveAfterStarted>0.75</RemoveAfterStarted>
+  <PayloadTracksOwnerRotation>true</PayloadTracksOwnerRotation>
+  <ProjectilesPerShot>8</ProjectilesPerShot>
+  <ProjectileSpread>0.2</ProjectileSpread>
+  <ProjectilePrecision>0.6</ProjectilePrecision>
+  <ProjectileClassfile>Projectiles\canister_bullet</ProjectileClassfile>
+</GameObjectClass>

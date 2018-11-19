@@ -1,0 +1,20 @@
+﻿<?xml version="1.0" ?>
+<GameObjectClass>
+  <Type>BEAM</Type>
+  <Texture>Beams\railgun</Texture>
+  <BeamColor>
+    <X>1</X>
+    <Y>0.7</Y>
+    <Z>0.0</Z>
+    <W>1</W>
+  </BeamColor>
+  <FadeOutDuration>0.07</FadeOutDuration>
+  <BeamEndParticleEffect>_new_hit_laser</BeamEndParticleEffect>
+  <MeshEffects>
+    <string>railgun_1</string>
+    <string>railgun_2</string>
+    <string>railgun_3</string>
+  </MeshEffects>
+  <Additive>true</Additive>
+  <SetLayer>FULLBRIGHT</SetLayer>
+</GameObjectClass>

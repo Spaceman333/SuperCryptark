@@ -1,0 +1,8 @@
+﻿<?xml version="1.0" ?>
+<GameObjectClass>
+  <BaseFile>Projectiles\rocket</BaseFile>
+  <Texture>Projectiles\rocket_yellow</Texture>
+  <RemoveAfterStarted>9</RemoveAfterStarted>
+  <ProjectileRemoveOnCollision>false</ProjectileRemoveOnCollision>
+  <ProjectileFollowTarget>false</ProjectileFollowTarget>
+</GameObjectClass>

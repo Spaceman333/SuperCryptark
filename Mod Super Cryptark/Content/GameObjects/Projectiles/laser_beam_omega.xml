@@ -1,0 +1,24 @@
+﻿<?xml version="1.0" ?>
+<GameObjectClass>
+  <Type>WEAPON</Type>
+  <HitForce>9000</HitForce>
+  <CharacterCollide>true</CharacterCollide>
+  <DamagePerShot>33</DamagePerShot>
+  <!-- <ParticleEffect>_new_trail_railgun</ParticleEffect> -->
+  <IgnoreBrushCollision>true</IgnoreBrushCollision>
+  <IgnoreDoorCollision>true</IgnoreDoorCollision>
+  <NoOffscreen>true</NoOffscreen>
+  
+  <ProjectileRemoveOnCollision>false</ProjectileRemoveOnCollision>
+  <ProjectileRemoveOnCharacterCollision>false</ProjectileRemoveOnCharacterCollision>
+  <ProjectileRemoveOnGameObjectCollision>false</ProjectileRemoveOnGameObjectCollision>
+  <ProjectilePiercing>true</ProjectilePiercing>
+  <ProjectileRemoveOffscreen>false</ProjectileRemoveOffscreen>
+  <AllowProjectileOnProjectileCollision>true</AllowProjectileOnProjectileCollision>
+  <ProjectileRemovesOtherProjectiles>true</ProjectileRemovesOtherProjectiles>
+  
+  <DamageEnemies>true</DamageEnemies>
+  <DamageSystems>true</DamageSystems>
+  <DamageObjects>true</DamageObjects>
+  
+</GameObjectClass>
