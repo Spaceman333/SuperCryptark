@@ -2,13 +2,13 @@
   <AmbientColor>
     <X>0.67</X>
     <Y>0.72</Y>
-    <Z>0.68</Z>
+    <Z>0.58</Z>
     <W>1</W>
   </AmbientColor>
   <BackgroundColor>
-    <X>0.71</X>
-    <Y>0.21</Y>
-    <Z>0.37</Z>
+    <X>0.41</X>
+    <Y>0.01</Y>
+    <Z>0.17</Z>
     <W>1</W>
   </BackgroundColor>
   <DirectionalLights>
