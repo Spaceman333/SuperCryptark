@@ -35,6 +35,14 @@
   <LightSchemes>
     <string>scout01</string>
     <string>scout02</string>
+	<string>dir_scout01</string>
+	<string>dir_scout02</string>
+	<string>cloaker01</string>
+	<string>dir_cloaker01</string>
+	<string>hazard01</string>
+	<string>dir_hazard01</string>
+	<string>nightvision</string>
+	<string>dir_nightvision</string>
   </LightSchemes>
 
   <IncludedSystems>

@@ -1,8 +1,8 @@
 <?xml version="1.0"?>
 <GameObjectClass>
   <Type>ITEM</Type>
-  <Displayname>Hull Repair</Displayname>
-  <ShortDisplayName>FIX-5</ShortDisplayName>
+  <Displayname>FIX Repair 5</Displayname>
+  <ShortDisplayName>HP5</ShortDisplayName>
   <LoadoutCategory>Item</LoadoutCategory>
   <ItemInfo>This automated field-repair kit quickly deploys pressure-seal-foam, nano-platelets and emergency ribbing to maintain hull integrity until more permanent repairs can be made in hangar. This standard kit restores 5 points of hull strength.</ItemInfo>
   <HudTextureName>tag_item_health</HudTextureName>
@@ -12,7 +12,7 @@
   
   <StartItemQuantity>1</StartItemQuantity>
   <InstantHealAmount>5</InstantHealAmount>
-  <RateOfUse>3</RateOfUse>
+  <RateOfUse>1</RateOfUse>
   <ParticleEffect>_new_explosion_heal</ParticleEffect>
   <ItemType>Health</ItemType>
   <UseInSpace>true</UseInSpace>

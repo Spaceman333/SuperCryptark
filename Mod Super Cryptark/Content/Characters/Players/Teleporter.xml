@@ -6,7 +6,7 @@
   <PlayerType>Teleporter</PlayerType>
   <ArtifactCost>2</ArtifactCost>
 
-  <MaxHull>9</MaxHull>
+  <MaxHull>11</MaxHull>
   <StartHull>9</StartHull>
   
   <Description>
@@ -16,19 +16,19 @@
   
   <SkinAtlases>
     <SkinAtlas>
-      <Name>Crabbe</Name>
+      <Name>Softshell</Name>
       <Atlas>suit_crab</Atlas>
     </SkinAtlas>
     <SkinAtlas>
-      <Name>Rental</Name>
+      <Name>Command</Name>
       <Atlas>suit_crab_04</Atlas>
     </SkinAtlas>
     <SkinAtlas>
-      <Name>Poison Dart</Name>
+      <Name>Aquatic</Name>
       <Atlas>suit_crab_02</Atlas>
     </SkinAtlas>
     <SkinAtlas>
-      <Name>Scarab</Name>
+      <Name>Mothra</Name>
       <Atlas>suit_crab_03</Atlas>
     </SkinAtlas>
   </SkinAtlases>

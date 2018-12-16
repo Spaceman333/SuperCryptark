@@ -1,13 +1,13 @@
 ﻿<GameObjectClass>
   <Type>ITEM</Type>
-  <Displayname>Happy Box Huge</Displayname>
+  <Displayname>CON Happy Box Huge</Displayname>
   <ShortDisplayName>BOX-5</ShortDisplayName>
   <LoadoutCategory>Item</LoadoutCategory>
   <ItemInfo>Super Happy! Teleports in an hull repair pod to your location that can be used to heal yourself fully. Healing costs in Campaign, but is fully free in Rogue. 5 Uses!</ItemInfo>
   <HudTextureName>tag_wep_mgun</HudTextureName>
 
   <Price>24</Price>
-  <TechChanceNumber>2</TechChanceNumber>
+  <TechChanceNumber>1</TechChanceNumber>
 
   <!--<CampaignModeOnly>true</CampaignModeOnly>-->
   <StartItemQuantity>5</StartItemQuantity>

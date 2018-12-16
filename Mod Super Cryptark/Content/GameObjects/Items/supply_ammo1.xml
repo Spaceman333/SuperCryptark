@@ -1,6 +1,6 @@
 ﻿<GameObjectClass>
   <Type>ITEM</Type>
-  <Displayname>Ammo Box Small</Displayname>
+  <Displayname>CON Ammo Box Small</Displayname>
   <ShortDisplayName>AMMO1</ShortDisplayName>
   <LoadoutCategory>Item</LoadoutCategory>
   <ItemInfo>Teleports in an ammo supply unit to your location. Can be used in Rogue Mode to replenish all ammo for free.</ItemInfo>

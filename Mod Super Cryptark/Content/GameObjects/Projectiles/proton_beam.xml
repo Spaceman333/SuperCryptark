@@ -39,8 +39,8 @@
       <W>1</W>
     </Color>
     
-    <Strength>2</Strength>
-    <Radius>200</Radius>
+    <Strength>6</Strength>
+    <Radius>600</Radius>
   </OnFireProjectileLight>
 
 </GameObjectClass>

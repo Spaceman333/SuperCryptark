@@ -1,10 +1,10 @@
 ﻿<?xml version="1.0"?>
 <GameObjectClass>
   <Type>ITEM</Type>
-  <Displayname>Extreme Rate of Fire</Displayname>
+  <Displayname>CON Extreme Rate of Fire</Displayname>
   <ShortDisplayName>X-ROF</ShortDisplayName>
   <LoadoutCategory>Item</LoadoutCategory>
-  <ItemInfo>Single-use super power overcharge core. Gives 220% Rate of Fire Boost for 2 minutes. WARNING: WILL DRAIN AMMO VERY QUICKLY!</ItemInfo>
+  <ItemInfo>Single-use consumable super power overcharge core. Gives 220% Rate of Fire Boost for 2 minutes. WARNING: WILL DRAIN AMMO VERY QUICKLY!</ItemInfo>
   
   <Price>6</Price>
   <TechChanceNumber>2</TechChanceNumber>

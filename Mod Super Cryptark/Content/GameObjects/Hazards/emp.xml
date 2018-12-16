@@ -1,7 +1,7 @@
 ﻿<?xml version="1.0" ?>
 <GameObjectClass>
   <Type>EMP</Type>
-  <ExplosionGrowRate>5</ExplosionGrowRate>
+  <ExplosionGrowRate>4</ExplosionGrowRate>
   <ExplosionMaxRadius>60</ExplosionMaxRadius>
   <SlowExplosionDamageRate>0.3</SlowExplosionDamageRate>
   <RemoveAfterStarted>1</RemoveAfterStarted>
@@ -30,8 +30,8 @@
       <Z>1</Z>
       <W>1</W>
     </SpecularColor>
-    <MaxStrength>10</MaxStrength>
-    <Shininess>4</Shininess>
+    <MaxStrength>2</MaxStrength>
+    <Shininess>2</Shininess>
     <Radius>1</Radius>
     <UseSpatialSystem>false</UseSpatialSystem>
     <BoundingBoxUpdateRate>1</BoundingBoxUpdateRate>

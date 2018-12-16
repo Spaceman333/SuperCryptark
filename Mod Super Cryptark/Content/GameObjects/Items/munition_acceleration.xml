@@ -1,8 +1,8 @@
 ﻿<?xml version="1.0"?>
 <GameObjectClass>
   <Type>ITEM</Type>
-  <Displayname>Velocity Upgrade</Displayname>
-  <ShortDisplayName>VELCT</ShortDisplayName>
+  <Displayname>UPG Velocity Plus</Displayname>
+  <ShortDisplayName>VELOC</ShortDisplayName>
   <LoadoutCategory>Item</LoadoutCategory>
   <ItemInfo>All equipped weapons have their projectile velocity permanently increased by 30%. Passive item.</ItemInfo>
   <StartItemQuantity>1</StartItemQuantity>

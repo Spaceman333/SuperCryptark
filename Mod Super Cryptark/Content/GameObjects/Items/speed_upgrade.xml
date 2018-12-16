@@ -1,7 +1,7 @@
 ﻿<?xml version="1.0"?>
 <GameObjectClass>
   <Type>ITEM</Type>
-  <Displayname>Speed Upgrade</Displayname>
+  <Displayname>UPG Speed Plus</Displayname>
   <ShortDisplayName>SPEED</ShortDisplayName>
   <LoadoutCategory>Item</LoadoutCategory>
   <ItemInfo>Permanently increases exosuit movement speed by 60%, allowing for faster travel. Passive item.</ItemInfo>

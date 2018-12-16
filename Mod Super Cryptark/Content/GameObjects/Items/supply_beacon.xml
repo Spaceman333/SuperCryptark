@@ -1,6 +1,6 @@
 ﻿<GameObjectClass>
   <Type>ITEM</Type>
-  <Displayname>Happy Box Small</Displayname>
+  <Displayname>CON Happy Box Small</Displayname>
   <ShortDisplayName>BOX-1</ShortDisplayName>
   <LoadoutCategory>Item</LoadoutCategory>
   <ItemInfo>Teleports in an hull repair pod to your location that can be used to heal yourself fully. Healing costs in Campaign, but is fully free in Rogue. 1 Use.</ItemInfo>

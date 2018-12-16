@@ -17,6 +17,7 @@
   
   <ProjectilesPerShot>3</ProjectilesPerShot>
   <ProjectileSpread>0.8</ProjectileSpread>
+  <ProjectilePrecision>1</ProjectilePrecision>
   <FireBoneRecoil>15</FireBoneRecoil>
   <RateOfFire>1.6</RateOfFire>
   <FireSound>grenade_fire</FireSound>

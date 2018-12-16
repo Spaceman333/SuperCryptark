@@ -7,7 +7,7 @@
   <ArtifactCost>2</ArtifactCost>
 
   <MaxHull>18</MaxHull>
-  <StartHull>14</StartHull>
+  <StartHull>16</StartHull>
   
   <ArmMovementScaleX>0.5</ArmMovementScaleX>
   <ArmMovementScaleY>0.4</ArmMovementScaleY>
@@ -20,19 +20,19 @@
 
   <SkinAtlases>
     <SkinAtlas>
-      <Name>Construction</Name>
+      <Name>Bubblegum</Name>
       <Atlas>suit_pyro</Atlas>
     </SkinAtlas>
     <SkinAtlas>
-      <Name>Dragonskin</Name>
+      <Name>Crocodile</Name>
       <Atlas>suit_pyro_02</Atlas>
     </SkinAtlas>
     <SkinAtlas>
-      <Name>Rental</Name>
+      <Name>Command</Name>
       <Atlas>suit_pyro_03</Atlas>
     </SkinAtlas>
     <SkinAtlas>
-      <Name>Hotrod</Name>
+      <Name>Overheat</Name>
       <Atlas>suit_pyro_04</Atlas>
     </SkinAtlas>
   </SkinAtlases>

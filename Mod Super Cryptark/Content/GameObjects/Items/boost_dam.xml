@@ -1,10 +1,10 @@
 ﻿<?xml version="1.0"?>
 <GameObjectClass>
   <Type>ITEM</Type>
-  <Displayname>Extreme Damage</Displayname>
+  <Displayname>CON Extreme Damage</Displayname>
   <ShortDisplayName>X-DAM</ShortDisplayName>
   <LoadoutCategory>Item</LoadoutCategory>
-  <ItemInfo>Single-use super power overcharge core. Gives 666% Damage Boost for 3 minutes.</ItemInfo>
+  <ItemInfo>Single-use consumable super power overcharge core. Gives 666% Damage Boost for 3 minutes.</ItemInfo>
   
   <Price>16</Price>
   <TechChanceNumber>2</TechChanceNumber>

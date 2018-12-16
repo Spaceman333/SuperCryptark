@@ -49,13 +49,13 @@
       <Z>0</Z>
       <W>1</W>
     </SpecularColor>
-    <MinStrength>2</MinStrength>
-    <Strength>5</Strength>
-    <MaxStrength>9</MaxStrength>
+    <MinStrength>1</MinStrength>
+    <Strength>3</Strength>
+    <MaxStrength>5</MaxStrength>
     <OscillateStrength>true</OscillateStrength>
-    <StrengthCycleScale>30</StrengthCycleScale>
-    <Shininess>15</Shininess>
-    <Radius>500</Radius>
+    <StrengthCycleScale>20</StrengthCycleScale>
+    <Shininess>5</Shininess>
+    <Radius>300</Radius>
   </Light>
   
   <OnExplodeLight>
@@ -67,7 +67,7 @@
     </Color>
     
     <Strength>2</Strength>
-    <Radius>900</Radius>
+    <Radius>400</Radius>
     <RadiusModifier>-25</RadiusModifier>
   </OnExplodeLight>
 </GameObjectClass>

@@ -1,18 +1,18 @@
 ﻿<?xml version="1.0"?>
 <GameObjectClass>
   <Type>WEAPON</Type>
-  <Displayname>T1 Fidget Spinner</Displayname>
+  <Displayname>T2 Fidget Spinner</Displayname>
   <ShortDisplayName>FIDGE</ShortDisplayName>
-  <ItemInfo>This Gauntlet's strange cousin provides an effective way to smack things far away and leave them dazed and stunned for 4 seconds. While it can stop projectiles better than the Gauntlet, it does not deal much damage at all as the Gauntlet would. It is an excellent defensive tool.</ItemInfo>
+  <ItemInfo>This Gauntlet's strange cousin provides an effective way to smack things far away and leave them dazed and stunned for 20 seconds. While it can stop projectiles better than the Gauntlet, it does not deal much damage at all as the Gauntlet would. It is an excellent defensive tool.</ItemInfo>
 
-  <Price>6</Price>
-  <TechChanceNumber>3</TechChanceNumber>
+  <Price>8</Price>
+  <TechChanceNumber>2</TechChanceNumber>
 
   <AmmoAsPercent>true</AmmoAsPercent>
   <StartingAmmoBoxes>1</StartingAmmoBoxes>
   <AmmoBoxQuantity>50</AmmoBoxQuantity>
   <NextRefillTime>2</NextRefillTime>
-  <RefillRate>.02</RefillRate>
+  <RefillRate>.5</RefillRate>
   
   <LoadoutCategory>Melee</LoadoutCategory>
 

@@ -1,13 +1,13 @@
 ﻿<GameObjectClass>
   <Type>ITEM</Type>
-  <Displayname>Ammo Box Huge</Displayname>
+  <Displayname>CON Ammo Box Huge</Displayname>
   <ShortDisplayName>AMMO5</ShortDisplayName>
   <LoadoutCategory>Item</LoadoutCategory>
   <ItemInfo>Quintuple reloads! Teleports in an ammo supply unit to your location. Can be used in Rogue Mode to replenish all ammo for free a whopping five times.</ItemInfo>
   <HudTextureName>tag_wep_mgun</HudTextureName>
 
   <Price>14</Price>
-  <TechChanceNumber>2</TechChanceNumber>
+  <TechChanceNumber>1</TechChanceNumber>
 
   <!--<CampaignModeOnly>true</CampaignModeOnly>-->
   <StartItemQuantity>5</StartItemQuantity>

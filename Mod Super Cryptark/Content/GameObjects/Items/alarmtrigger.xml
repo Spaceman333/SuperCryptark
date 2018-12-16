@@ -1,12 +1,12 @@
 ﻿<GameObjectClass>
   <Type>ITEM</Type>
-  <Displayname>Alarm Lure</Displayname>
+  <Displayname>CON Alarm Lure</Displayname>
   <ShortDisplayName>ALURE</ShortDisplayName>
   <LoadoutCategory>Item</LoadoutCategory>
-  <ItemInfo>This remotely triggered device mimics the signal of an alien distress alarm, drawing enemies towards it. Perfect bait for a well laid trap.</ItemInfo>
+  <ItemInfo>This consumable remotely triggered device mimics the signal of an alien distress alarm, drawing enemies towards it. Perfect bait for a well laid trap.</ItemInfo>
 
   <Price>4</Price>
-  <TechChanceNumber>2</TechChanceNumber>
+  <TechChanceNumber>3</TechChanceNumber>
   
   <HudTextureName>tag_item_alarm</HudTextureName>
   

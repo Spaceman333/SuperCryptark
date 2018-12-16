@@ -1,6 +1,6 @@
 ﻿<GameObjectClass>
   <Type>ITEM</Type>
-  <Displayname>Vacuum Burst</Displayname>
+  <Displayname>USE VacBurst</Displayname>
   <ShortDisplayName>VACUB</ShortDisplayName>
   <LoadoutCategory>Item</LoadoutCategory>
   <ItemInfo>Release a vacuum blast that sucks in nearby enemies and projectiles. Projectiles will also change teams, so be careful. 3 second recharge time. Its free for a reason.</ItemInfo>
@@ -19,8 +19,8 @@
   <UseInSpace>true</UseInSpace>
   
   <ExplodeForce>-200</ExplodeForce>
-  <ExplodeSize>80</ExplodeSize>
-  <StunTime>1</StunTime>
+  <ExplodeSize>100</ExplodeSize>
+  <StunTime>5</StunTime>
   
   <OnUseSound>Combat_ST_KnockBack</OnUseSound>
 </GameObjectClass>

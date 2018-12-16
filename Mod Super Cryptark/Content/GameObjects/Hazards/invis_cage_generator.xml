@@ -44,11 +44,11 @@
       <Z>1</Z>
       <W>1</W>
     </SpecularColor>
-    <MinStrength>2</MinStrength>
-    <Strength>1</Strength>
-    <MaxStrength>2</MaxStrength>
+    <MinStrength>1</MinStrength>
+    <Strength>2</Strength>
+    <MaxStrength>3</MaxStrength>
     <OscillateStrength>true</OscillateStrength>
-    <StrengthCycleScale>30</StrengthCycleScale>
-    <Radius>700</Radius>
+    <StrengthCycleScale>20</StrengthCycleScale>
+    <Radius>400</Radius>
   </Light>
 </GameObjectClass>

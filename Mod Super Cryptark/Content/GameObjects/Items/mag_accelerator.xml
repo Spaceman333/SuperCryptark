@@ -1,10 +1,10 @@
 ﻿<?xml version="1.0"?>
 <GameObjectClass>
   <Type>ITEM</Type>
-  <Displayname>Magnetic Accelerators</Displayname>
-  <ShortDisplayName>MAGAC</ShortDisplayName>
+  <Displayname>USE Magnetic Rails</Displayname>
+  <ShortDisplayName>MAGRA</ShortDisplayName>
   <LoadoutCategory>Item</LoadoutCategory>
-  <ItemInfo>This specialized addon temporarily increases the velocity of all launched projectiles by 200% on demand. 35 second recharge time, 30 seconds of active time. Reusable.</ItemInfo>
+  <ItemInfo>This specialized addon temporarily increases the velocity of all launched projectiles by 180% on demand. 35 second recharge time, 30 seconds of active time. Reusable.</ItemInfo>
 
   <Price>10</Price>
   <TechChanceNumber>2</TechChanceNumber>
@@ -24,9 +24,9 @@
 	<PowerupEffectClass>
       <Type>ProjectileSpeedMod</Type>
       <OverwritesSameType>false</OverwritesSameType>
-      <Amount>2.0</Amount>
+      <Amount>1.8</Amount>
       <Duration>30</Duration>
-	  <HudDraw>false</HudDraw>
+	  <HudDraw>true</HudDraw>
     </PowerupEffectClass>
   </PowerupEffects>
 </GameObjectClass>

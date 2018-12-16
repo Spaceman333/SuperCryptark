@@ -37,9 +37,9 @@
       <Z>0</Z>
       <W>1</W>
     </SpecularColor>
-    <Strength>10</Strength>
-    <Shininess>4</Shininess>
-    <Radius>1</Radius>
+    <Strength>2</Strength>
+    <Shininess>2</Shininess>
+    <Radius>100</Radius>
     <UseSpatialSystem>false</UseSpatialSystem>
     <BoundingBoxUpdateRate>1</BoundingBoxUpdateRate>
   </Light>

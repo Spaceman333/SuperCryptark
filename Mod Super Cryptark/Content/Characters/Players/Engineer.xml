@@ -6,8 +6,8 @@
   <PlayerType>Engineer</PlayerType>
   <ArtifactCost>2</ArtifactCost>
 
-  <MaxHull>13</MaxHull>
-  <StartHull>11</StartHull>
+  <MaxHull>14</MaxHull>
+  <StartHull>12</StartHull>
   
   <ArmMovementScaleX>0.5</ArmMovementScaleX>
   <ArmMovementScaleY>0.4</ArmMovementScaleY>
@@ -22,19 +22,19 @@
 
   <SkinAtlases>
     <SkinAtlas>
-      <Name>Technical</Name>
+      <Name>Barney</Name>
       <Atlas>suit_engineer</Atlas>
     </SkinAtlas>
     <SkinAtlas>
-      <Name>Classic Cherry</Name>
+      <Name>Futbol</Name>
       <Atlas>suit_engineer_02</Atlas>
     </SkinAtlas>
     <SkinAtlas>
-      <Name>Rental</Name>
+      <Name>Command</Name>
       <Atlas>suit_engineer_03</Atlas>
     </SkinAtlas>
     <SkinAtlas>
-      <Name>Zebra</Name>
+      <Name>Poacher</Name>
       <Atlas>suit_engineer_04</Atlas>
     </SkinAtlas>
   </SkinAtlases>

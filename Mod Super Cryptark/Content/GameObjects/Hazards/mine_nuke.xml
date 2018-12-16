@@ -45,8 +45,8 @@
       <Z>0.1</Z>
       <W>1</W>
     </Color>
-    <Strength>3</Strength>
-    <Radius>500</Radius>
+    <Strength>1</Strength>
+    <Radius>400</Radius>
   </Light>
   
   <OnExplodeLight>
@@ -58,7 +58,7 @@
     </Color>
     
     <Strength>2</Strength>
-    <Radius>900</Radius>
+    <Radius>600</Radius>
     <RadiusModifier>-25</RadiusModifier>
   </OnExplodeLight>
 </GameObjectClass>

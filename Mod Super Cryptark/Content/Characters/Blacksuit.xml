@@ -27,7 +27,8 @@
   <WanderSpeedMod>0.8</WanderSpeedMod>
   <AIJukeCombatMovement>true</AIJukeCombatMovement>
   <DeathAnimation>death</DeathAnimation>
-  <SpawnObjectOnRemove>Refractions\shockwave_2</SpawnObjectOnRemove>
+  <!-- <SpawnObjectOnRemove>Refractions\shockwave_2</SpawnObjectOnRemove> -->
+  <SpawnObjectOnRemove>Hazards\detpack_explosion</SpawnObjectOnRemove>
   <LungeRange>35</LungeRange>
   
   <Weapon1FireDisabled>true</Weapon1FireDisabled>

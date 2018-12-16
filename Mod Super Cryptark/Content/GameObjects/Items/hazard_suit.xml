@@ -1,7 +1,7 @@
 ﻿<?xml version="1.0"?>
 <GameObjectClass>
   <Type>ITEM</Type>
-  <Displayname>Hazard Coating</Displayname>
+  <Displayname>UPG Hazard Suit</Displayname>
   <ShortDisplayName>HAZRD</ShortDisplayName>
   <LoadoutCategory>Item</LoadoutCategory>
   <ItemInfo>A mandatory safety feature on most offworld mining facilities; this specialized undercoating protects the hull and pilot from fire and chemical corrosives. Passive Item.</ItemInfo>

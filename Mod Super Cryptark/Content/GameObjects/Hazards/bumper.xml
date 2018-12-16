@@ -31,11 +31,11 @@
       <Z>.8</Z>
       <W>1</W>
     </Color>
-    <Shininess>75</Shininess>
-    <MinRadius>800</MinRadius>
-    <MaxRadius>1500</MaxRadius>
+    <Shininess>10</Shininess>
+    <MinRadius>400</MinRadius>
+    <MaxRadius>800</MaxRadius>
     <RadiusCycleScale>3</RadiusCycleScale>
     <OscillateRadius>true</OscillateRadius>
-    <Strength>3.5</Strength>
+    <Strength>2</Strength>
   </Light>
 </GameObjectClass>

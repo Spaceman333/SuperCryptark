@@ -32,10 +32,32 @@
     <A>255</A>
   </ShipColor>
   <LightSchemes>
-    <string>warship01</string>
-    <string>warship02</string>
-    <string>warship03</string>
-    <string>warship04</string>
+	<string>cloaker01</string>
+	<string>dir_cloaker01</string>
+	<string>hazard01</string>
+	<string>dir_hazard01</string>
+	<string>nightvision</string>
+	<string>dir_nightvision</string>
+	<string>clinical</string>
+	<string>dir_clinical</string>
+	<string>automated01</string>
+	<string>dir_automated01</string>
+	<string>gunmetal</string>
+	<string>dir_gunmetal</string>
+	<string>hazard01</string>
+	<string>dir_hazard01</string>
+	<string>factory_brown</string>
+	<string>dir_factory_brown</string>
+	<string>minty</string>
+	<string>dir_minty</string>
+	<string>olive_blue</string>
+	<string>dir_olive_blue</string>
+	<string>toxic</string>
+	<string>dir_toxic</string>
+	<string>watermelon</string>
+	<string>dir_watermelon</string>
+	<string>wine_pink</string>
+	<string>dir_wine_pink</string>
   </LightSchemes>
 
   <IncludedSystems>

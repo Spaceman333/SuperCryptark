@@ -1,10 +1,10 @@
 ﻿<?xml version="1.0"?>
 <GameObjectClass>
   <Type>ITEM</Type>
-  <Displayname>Extreme Projectile Accelerator</Displayname>
+  <Displayname>CON Extreme Projectile Accelerator</Displayname>
   <ShortDisplayName>X-PAL</ShortDisplayName>
   <LoadoutCategory>Item</LoadoutCategory>
-  <ItemInfo>Single-use super power overcharge core. Gives 300% Projectile Velocity for 3 minutes.</ItemInfo>
+  <ItemInfo>Single-use consumable super power overcharge core. Gives 300% Projectile Velocity for 3 minutes.</ItemInfo>
   
   <Price>4</Price>
   <TechChanceNumber>2</TechChanceNumber>

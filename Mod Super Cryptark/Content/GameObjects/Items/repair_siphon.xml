@@ -1,13 +1,13 @@
 ﻿<?xml version="1.0"?>
 <GameObjectClass>
   <Type>ITEM</Type>
-  <Displayname>Repair Siphon</Displayname>
+  <Displayname>SPC Repair Siphon</Displayname>
   <ShortDisplayName>REPSI</ShortDisplayName>
   <LoadoutCategory>Item</LoadoutCategory>
   <ItemInfo>A modified hacking module, this device jacks into Key Terminals to repair damaged suit hull instead of collecting Key Codes. Careful consideration must be taken to navigate without the use of Keys.</ItemInfo>
   <StartItemQuantity>1</StartItemQuantity>
   
-  <Price>10</Price>
+  <Price>2</Price>
   
   <HudTextureName>tag_item_repairsiphon</HudTextureName>
   <ItemType>None</ItemType>

@@ -9,8 +9,8 @@
 
   <InteractionCodeLength>8</InteractionCodeLength>
   <ContinuousInteraction>true</ContinuousInteraction>
-  <InteractionDistance>9</InteractionDistance>
-  <TimerOnCodeComplete>8</TimerOnCodeComplete>
+  <InteractionDistance>12</InteractionDistance>
+  <TimerOnCodeComplete>9</TimerOnCodeComplete>
   <DisableInteractOnCodeComplete>true</DisableInteractOnCodeComplete>
   
   <MinimapTextureName>map-detpack</MinimapTextureName>
@@ -19,17 +19,17 @@
   <Light>
     <Type>Point</Type>
     <Color>
-      <X>0</X>
-      <Y>0.1</Y>
-      <Z>1</Z>
+      <X>1</X>
+      <Y>0.5</Y>
+      <Z>0.1</Z>
       <W>1</W>
     </Color>
-    <Strength>4</Strength>
-    <Shininess>40</Shininess>
-    <Radius>200</Radius>
-    <MinRadius>50</MinRadius>
-    <MaxRadius>800</MaxRadius>
-    <RadiusCycleScale>6</RadiusCycleScale>
+    <Strength>1</Strength>
+    <Shininess>1</Shininess>
+    <Radius>150</Radius>
+    <MinRadius>100</MinRadius>
+    <MaxRadius>1200</MaxRadius>
+    <RadiusCycleScale>8</RadiusCycleScale>
     <RemoveOnZeroRadius>false</RemoveOnZeroRadius>
   </Light>
 
@@ -39,15 +39,15 @@
       <Z>10</Z>
     </Position>
     <Color>
-      <X>0</X>
-      <Y>0.1</Y>
-      <Z>1</Z>
+      <X>1</X>
+      <Y>0.5</Y>
+      <Z>0.1</Z>
       <W>1</W>
     </Color>
     <SpecularColor>
-      <X>0</X>
-      <Y>0.1</Y>
-      <Z>1</Z>
+      <X>1</X>
+      <Y>0.5</Y>
+      <Z>0.1</Z>
       <W>1</W>
     </SpecularColor>
     <Direction>
@@ -55,11 +55,11 @@
       <Y>0.1</Y>
       <Z>1</Z>
     </Direction>
-    <Strength>12</Strength>
-    <MaxStrength>15</MaxStrength>
-    <StrengthModifier>-0.3</StrengthModifier>
+    <Strength>30</Strength>
+    <MaxStrength>80</MaxStrength>
+    <StrengthModifier>-0.5</StrengthModifier>
     <RemoveOnZeroStrength>true</RemoveOnZeroStrength>
-    <Shininess>6</Shininess>
+    <Shininess>2</Shininess>
   </OnRemoveLight>
   
 </GameObjectClass>

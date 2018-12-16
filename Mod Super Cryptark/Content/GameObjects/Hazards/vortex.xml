@@ -14,8 +14,8 @@
       <Z>1</Z>
       <W>1</W>
     </Color>
-    <Strength>30</Strength>
-    <Radius>100</Radius>
+    <Strength>2</Strength>
+    <Radius>500</Radius>
     <UseSpatialSystem>false</UseSpatialSystem>
     <BoundingBoxUpdateRate>1</BoundingBoxUpdateRate>
   </Light>

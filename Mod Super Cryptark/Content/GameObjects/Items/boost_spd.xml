@@ -1,10 +1,10 @@
 ﻿<?xml version="1.0"?>
 <GameObjectClass>
   <Type>ITEM</Type>
-  <Displayname>Extreme Speed</Displayname>
+  <Displayname>CON Extreme Speed</Displayname>
   <ShortDisplayName>X-SPD</ShortDisplayName>
   <LoadoutCategory>Item</LoadoutCategory>
-  <ItemInfo>Single-use super power overcharge core. Gives 250% Speed Boost for 2 minutes.</ItemInfo>
+  <ItemInfo>Single-use consumable super power overcharge core. Gives 250% Speed Boost for 2 minutes.</ItemInfo>
   
   <Price>4</Price>
   <TechChanceNumber>2</TechChanceNumber>

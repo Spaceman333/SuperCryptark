@@ -7,7 +7,7 @@
   <ArtifactCost>2</ArtifactCost>
 
   <MaxHull>20</MaxHull>
-  <StartHull>16</StartHull>
+  <StartHull>18</StartHull>
   
   <ArmMovementScaleX>0.5</ArmMovementScaleX>
   <ArmMovementScaleY>0.4</ArmMovementScaleY>
@@ -19,19 +19,19 @@
 
   <SkinAtlases>
     <SkinAtlas>
-      <Name>Oskar</Name>
+      <Name>Mind Storm</Name>
       <Atlas>suit_enforcer</Atlas>
     </SkinAtlas>
     <SkinAtlas>
-      <Name>Rental</Name>
+      <Name>Command</Name>
       <Atlas>suit_enforcer_03</Atlas>
     </SkinAtlas>
     <SkinAtlas>
-      <Name>Bluebottle</Name>
+      <Name>Repair Man</Name>
       <Atlas>suit_enforcer_02</Atlas>
     </SkinAtlas>
     <SkinAtlas>
-      <Name>Digital</Name>
+      <Name>Mr Earth</Name>
       <Atlas>suit_enforcer_04</Atlas>
     </SkinAtlas>
   </SkinAtlases>

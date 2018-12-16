@@ -8,5 +8,5 @@
   </MeshEffects>
   <BeamEndParticleEffect>_new_muzzle_aimlaserred</BeamEndParticleEffect>
   <BeamStartParticleEffect>_new_muzzle_aimlaserred</BeamStartParticleEffect>
-  <FadeOutDuration>0.01</FadeOutDuration>
+  <FadeOutDuration>0.1</FadeOutDuration>
 </GameObjectClass>

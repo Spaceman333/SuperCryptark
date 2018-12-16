@@ -34,6 +34,20 @@
     <string>sentry02</string>
     <string>sentry03</string>
     <string>sentry04</string>
+	<string>dir_sentry01</string>
+    <string>dir_sentry02</string>
+    <string>dir_sentry03</string>
+    <string>dir_sentry04</string>
+	<string>nightvision</string>
+	<string>dir_nightvision</string>
+	<string>gunmetal</string>
+	<string>dir_gunmetal</string>
+	<string>toxic</string>
+	<string>dir_toxic</string>
+	<string>watermelon</string>
+	<string>dir_watermelon</string>
+	<string>wine_pink</string>
+	<string>dir_wine_pink</string>
   </LightSchemes>
 
   <IncludedSystems>

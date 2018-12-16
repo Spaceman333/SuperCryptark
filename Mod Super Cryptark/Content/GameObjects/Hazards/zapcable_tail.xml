@@ -27,6 +27,6 @@
       <W>1</W>
     </Color>
     <Strength>2</Strength>
-    <Radius>400</Radius>
+    <Radius>200</Radius>
   </Light>
 </GameObjectClass>

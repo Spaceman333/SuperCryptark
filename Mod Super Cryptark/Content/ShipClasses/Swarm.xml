@@ -34,6 +34,18 @@
     <string>swarm02</string>
     <string>swarm03</string>
     <string>swarm04</string>
+    <string>dir_swarm01</string>
+    <string>dir_swarm02</string>
+    <string>dir_swarm03</string>
+    <string>dir_swarm04</string>
+	<string>nightvision</string>
+	<string>dir_nightvision</string>
+	<string>toxic</string>
+	<string>dir_toxic</string>
+	<string>watermelon</string>
+	<string>dir_watermelon</string>
+	<string>wine_pink</string>
+	<string>dir_wine_pink</string>
   </LightSchemes>
 
   <IncludedSystems>

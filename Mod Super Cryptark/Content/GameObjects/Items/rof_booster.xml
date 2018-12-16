@@ -1,7 +1,7 @@
 ﻿<?xml version="1.0"?>
 <GameObjectClass>
   <Type>ITEM</Type>
-  <Displayname>RoF Intensifier</Displayname>
+  <Displayname>USE Reloader</Displayname>
   <ShortDisplayName>ROFAC</ShortDisplayName>
   <LoadoutCategory>Item</LoadoutCategory>
   <ItemInfo>This specialized addon temporarily gives 50% increased rate of fire to the suits weapon systems on demand. 35 second recharge time, 30 seconds of active time. Reusable.</ItemInfo>
@@ -26,7 +26,7 @@
       <OverwritesSameType>false</OverwritesSameType>
       <Amount>-0.5</Amount>
       <Duration>30</Duration>
-	  <HudDraw>false</HudDraw>
+	  <HudDraw>true</HudDraw>
     </PowerupEffectClass>
   </PowerupEffects>
 </GameObjectClass>

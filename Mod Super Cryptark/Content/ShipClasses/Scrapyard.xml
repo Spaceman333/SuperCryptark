@@ -32,6 +32,14 @@
   <LightSchemes>
     <string>scrapyard01</string>
     <string>scrapyard02</string>
+    <string>dir_scrapyard01</string>
+    <string>dir_scrapyard02</string>
+	<string>nightvision</string>
+	<string>dir_nightvision</string>
+	<string>hazard01</string>
+	<string>dir_hazard01</string>
+	<string>factory_brown</string>
+	<string>dir_factory_brown</string>
   </LightSchemes>
 
   <IncludedSystems>

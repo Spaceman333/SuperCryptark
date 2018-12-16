@@ -1,13 +1,14 @@
 ﻿<?xml version="1.0"?>
 <GameObjectClass>
   <Type>ITEM</Type>
-  <Displayname>Cloaking Shadow</Displayname>
-  <ShortDisplayName>SHADW</ShortDisplayName>
+  <Displayname>USE Shadow</Displayname>
+  <ShortDisplayName>SHDOW</ShortDisplayName>
   <LoadoutCategory>Item</LoadoutCategory>
   <ItemInfo>This advanced cloaking devices hides the user for 30 seconds and does not reveal on attacks. 90 second recharge time.</ItemInfo>
   <HudTextureName>tag_item_cloak</HudTextureName>
 
   <Price>60</Price>
+  <TechChanceNumber>1</TechChanceNumber>
   
   <StartItemQuantity>1</StartItemQuantity>
   <ItemRecharges>true</ItemRecharges>

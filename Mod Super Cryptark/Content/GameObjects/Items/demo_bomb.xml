@@ -1,6 +1,6 @@
 ﻿<GameObjectClass>
   <Type>ITEM</Type>
-  <Displayname>Nuclear Bomb M</Displayname>
+  <Displayname>NUK Nuclear Bomb M</Displayname>
   <ShortDisplayName>NUKM3</ShortDisplayName>
   <LoadoutCategory>Item</LoadoutCategory>
   <ItemInfo>This miniaturized nuclear explosive must be manually armed and will detonate after 5 seconds, immolating anything caught within the blast-zone. Medium size and 3 uses.</ItemInfo>

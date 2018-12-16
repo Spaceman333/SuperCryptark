@@ -1,7 +1,7 @@
 ﻿<?xml version="1.0"?>
 <GameObjectClass>
   <Type>ITEM</Type>
-  <Displayname>Nitro Thruster</Displayname>
+  <Displayname>USE Nitrous</Displayname>
   <ShortDisplayName>NITRO</ShortDisplayName>
   <LoadoutCategory>Item</LoadoutCategory>
   <ItemInfo>This specialized addon temporarily gives 250% increased speed to suit thrusters on demand. 35 second recharge time, 30 seconds of active time. Reusable.</ItemInfo>
@@ -26,6 +26,7 @@
       <OverwritesSameType>false</OverwritesSameType>
       <Amount>2.5</Amount>
       <Duration>30</Duration>
+	  <HudDraw>true</HudDraw>
     </PowerupEffectClass>
 <!--     <PowerupEffectClass>
       <Type>RateOfFireMod</Type>

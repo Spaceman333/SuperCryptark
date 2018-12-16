@@ -16,9 +16,9 @@
   <ProjAllowSpin>true</ProjAllowSpin>
   <ProjectileDoesKnockback>true</ProjectileDoesKnockback>
   <KnockbackForce>88888</KnockbackForce>
-  <KnockbackTime>4</KnockbackTime>
-  <DamagePerShot>0.01</DamagePerShot>
-  <StunTime>4</StunTime>
+  <KnockbackTime>20</KnockbackTime>
+  <DamagePerShot>0.1</DamagePerShot>
+  <StunTime>20</StunTime>
   
   <CameraShakeOnHit>0.3</CameraShakeOnHit>
   <RemoveAfterStarted>0.2</RemoveAfterStarted>

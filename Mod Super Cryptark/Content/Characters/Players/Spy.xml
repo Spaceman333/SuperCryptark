@@ -9,8 +9,8 @@
   <ArmMovementScaleX>0.5</ArmMovementScaleX>
   <ArmMovementScaleY>0.4</ArmMovementScaleY>
 
-  <MaxHull>7</MaxHull>
-  <StartHull>7</StartHull>
+  <MaxHull>15</MaxHull>
+  <StartHull>11</StartHull>
 
   <Description>
     This slim infiltration suit has found underground success with warring corporations for its clandestine abilities. Though not armoured for prolonged combat, it is equipped with advanced stealth gadgets and a short ranged teleporter, allowing canny pilots to slip through weak spots in defences.
@@ -20,19 +20,19 @@
 
   <SkinAtlases>
     <SkinAtlas>
-      <Name>Deniable Ops</Name>
+      <Name>Gentle Touch</Name>
       <Atlas>suit_spy</Atlas>
     </SkinAtlas>
     <SkinAtlas>
-      <Name>Bloodwasp</Name>
+      <Name>Vengeance</Name>
       <Atlas>suit_spy_02</Atlas>
     </SkinAtlas>
     <SkinAtlas>
-      <Name>Rental</Name>
+      <Name>Command</Name>
       <Atlas>suit_spy_03</Atlas>
     </SkinAtlas>
     <SkinAtlas>
-      <Name>Stalker</Name>
+      <Name>Guerrilla</Name>
       <Atlas>suit_spy_04</Atlas>
     </SkinAtlas>
   </SkinAtlases>

@@ -30,8 +30,8 @@
       <W>1</W>
     </Color>
 
-    <Strength>30</Strength>
-    <Radius>600</Radius>
+    <Strength>2</Strength>
+    <Radius>800</Radius>
     <RadiusModifier>5</RadiusModifier>
   </Light>
 </GameObjectClass>

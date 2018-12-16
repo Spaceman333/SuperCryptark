@@ -6,9 +6,9 @@
   <NoOffscreen>true</NoOffscreen>
   <SpawnObjectOnRemove>Hazards\detpack_explosion</SpawnObjectOnRemove>
 
-  <InteractionCodeLength>4</InteractionCodeLength>
+  <InteractionCodeLength>3</InteractionCodeLength>
   <ContinuousInteraction>true</ContinuousInteraction>
-  <InteractionDistance>4.5</InteractionDistance>
+  <InteractionDistance>8</InteractionDistance>
   <TimerOnCodeComplete>5</TimerOnCodeComplete>
   <DisableInteractOnCodeComplete>true</DisableInteractOnCodeComplete>
 
@@ -23,9 +23,9 @@
       <Z>0.5</Z>
       <W>1</W>
     </Color>
-    <Strength>4</Strength>
-    <Shininess>40</Shininess>
-    <Radius>100</Radius>
+    <Strength>1</Strength>
+    <Shininess>1</Shininess>
+    <Radius>150</Radius>
     <MinRadius>100</MinRadius>
     <MaxRadius>400</MaxRadius>
     <RadiusCycleScale>6</RadiusCycleScale>

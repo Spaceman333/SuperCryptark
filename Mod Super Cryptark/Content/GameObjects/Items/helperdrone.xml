@@ -1,6 +1,6 @@
 ﻿<GameObjectClass>
   <Type>ITEM</Type>
-  <Displayname>Boomslang Drone</Displayname>
+  <Displayname>AI Boomslang Drone</Displayname>
   <ShortDisplayName>DRONE</ShortDisplayName>
   <LoadoutCategory>Item</LoadoutCategory>
   <ItemInfo>Lightweight and nimble, these buddy drones give mobile fire support to their controllers. Equipped with an energy blaster, they will doggedly engage nearby threats.</ItemInfo>

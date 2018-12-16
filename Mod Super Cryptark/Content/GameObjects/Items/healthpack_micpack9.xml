@@ -1,13 +1,13 @@
 <?xml version="1.0"?>
 <GameObjectClass>
   <Type>ITEM</Type>
-  <Displayname>Micro Repair 9 Pack</Displayname>
-  <ShortDisplayName>FIX9P</ShortDisplayName>
+  <Displayname>FIX Repair 1 x 9</Displayname>
+  <ShortDisplayName>HP1X9</ShortDisplayName>
   <LoadoutCategory>Item</LoadoutCategory>
   <ItemInfo>This automated field-repair kit quickly deploys pressure-seal-foam, nano-platelets and emergency ribbing to maintain hull integrity until more permanent repairs can be made in hangar. This pack of 9 micro kits restore 1 points of hull strength.</ItemInfo>
-  <HudTextureName>tag_item_health</HudTextureName>
+  <HudTextureName>tag_item_healthsmall</HudTextureName>
   
-  <Price>5</Price>
+  <Price>7</Price>
   <TechChanceNumber>2</TechChanceNumber>
   
   <StartItemQuantity>9</StartItemQuantity>

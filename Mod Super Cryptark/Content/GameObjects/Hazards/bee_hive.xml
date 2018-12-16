@@ -25,9 +25,9 @@
       <Z>1</Z>
       <W>1</W>
     </Color>
-    <Strength>20</Strength>
-    <Radius>1500</Radius>
-    <RadiusModifier>-150</RadiusModifier>
+    <Strength>2</Strength>
+    <Radius>500</Radius>
+    <RadiusModifier>-50</RadiusModifier>
   </OnRemoveLight>
   
 </GameObjectClass>

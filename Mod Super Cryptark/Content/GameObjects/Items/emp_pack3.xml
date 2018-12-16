@@ -1,0 +1,21 @@
+﻿<GameObjectClass>
+  <Type>ITEM</Type>
+  <Displayname>CON EM Pulse 3 Pack</Displayname>
+  <ShortDisplayName>EMP-3</ShortDisplayName>
+  <LoadoutCategory>Item</LoadoutCategory>
+  <ItemInfo>Single-use consumable burst emitter will fire off a large EM pulse field, deactivating any enemy units trapped inside for 50 seconds. 3 uses.</ItemInfo>
+  <HudTextureName>tag_item_emp</HudTextureName>
+
+  <Price>2</Price>
+  <TechChanceNumber>3</TechChanceNumber>
+  
+  <StartItemQuantity>3</StartItemQuantity>
+  <RateOfUse>1</RateOfUse>
+  <UseInSpace>true</UseInSpace>  
+  
+  <SpawnOnItemUse>Hazards\emp</SpawnOnItemUse>
+  <ItemType>EmpBomb</ItemType>
+  <OnLoadoutTrigger>weapon_emp</OnLoadoutTrigger>
+  
+  <OnUseSound>Combat_M_EMP_Blast</OnUseSound>
+</GameObjectClass>

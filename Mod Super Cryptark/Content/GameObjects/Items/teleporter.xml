@@ -1,9 +1,9 @@
 ﻿<GameObjectClass>
   <Type>ITEM</Type>
-  <Displayname>Teleport Beacon</Displayname>
+  <Displayname>USE Recall Beacon</Displayname>
   <ShortDisplayName>TBEAC</ShortDisplayName>
   <LoadoutCategory>Item</LoadoutCategory>
-  <ItemInfo>After placing and activating this local-warp buoy, the user can then teleport back to it when triggered again. Practical for quickly backtracking large spaces, or escaping a deadly situation. Recharges in 3 seconds for another use.</ItemInfo>
+  <ItemInfo>After placing and activating this local-warp recall buoy, the user can then teleport back to it when triggered again. Practical for quickly backtracking large spaces, or escaping a deadly situation. Recharges in 3 seconds for another use.</ItemInfo>
   <HudTextureName>tag_item_teleport</HudTextureName>
 
   <Price>1</Price>

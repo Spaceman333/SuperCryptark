@@ -19,7 +19,7 @@
       <Type>DamageMod</Type>
       <OverwritesSameType>false</OverwritesSameType>
       <Amount>0.3</Amount>
-	  <HudDraw>false</HudDraw>
+	  <HudDraw>true</HudDraw>
     </PowerupEffectClass>
     <PowerupEffectClass>
       <Type>PrecisionMod</Type>

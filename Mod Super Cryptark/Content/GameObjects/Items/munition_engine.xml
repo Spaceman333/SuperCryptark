@@ -1,7 +1,7 @@
 ﻿<?xml version="1.0"?>
 <GameObjectClass>
   <Type>ITEM</Type>
-  <Displayname>Loader Upgrade</Displayname>
+  <Displayname>UPG Loader Plus</Displayname>
   <ShortDisplayName>LOADR</ShortDisplayName>
   <LoadoutCategory>Item</LoadoutCategory>
   <ItemInfo>The rate of fire of all equipped weapons is permanently increased by 25%. Passive Item.</ItemInfo>
@@ -17,6 +17,7 @@
     <PowerupEffectClass>
       <Type>RateOfFireMod</Type>
       <OverwritesSameType>false</OverwritesSameType>
+	  <HudDraw>false</HudDraw>
       <Amount>-0.25</Amount>
     </PowerupEffectClass>
   </PowerupEffects>

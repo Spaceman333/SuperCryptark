@@ -1,10 +1,10 @@
 ﻿<?xml version="1.0"?>
 <GameObjectClass>
   <Type>ITEM</Type>
-  <Displayname>Extreme Godforce</Displayname>
+  <Displayname>CON Extreme Godforce</Displayname>
   <ShortDisplayName>X-GOD</ShortDisplayName>
   <LoadoutCategory>Item</LoadoutCategory>
-  <ItemInfo>Single-use hyper power overcharge core. Gives an All-Aspect God Combat Boost for 3 minutes. Includes: Damage, Rate of Fire, Accuracy, Projectile Velocity, Movement Speed and a Max Heal. All of these bonuses stack over existing bonuses and upgrades. WARNING: FIRING WEAPONS WITH GODFORCE WILL DRAIN YOUR AMMO REALLY FAST!</ItemInfo>
+  <ItemInfo>Single-use consumable hyper power overcharge core. Gives an All-Aspect God Combat Boost for 3 minutes. Includes: Damage, Rate of Fire, Accuracy, Projectile Velocity, Movement Speed and a Max Heal. All of these bonuses stack over existing bonuses and upgrades. WARNING: FIRING WEAPONS WITH GODFORCE WILL DRAIN YOUR AMMO REALLY FAST!</ItemInfo>
   
   <Price>33</Price>
   <TechChanceNumber>2</TechChanceNumber>

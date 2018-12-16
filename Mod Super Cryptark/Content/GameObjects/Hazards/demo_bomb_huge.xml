@@ -8,7 +8,7 @@
 
   <InteractionCodeLength>5</InteractionCodeLength>
   <ContinuousInteraction>true</ContinuousInteraction>
-  <InteractionDistance>4.5</InteractionDistance>
+  <InteractionDistance>8</InteractionDistance>
   <TimerOnCodeComplete>5</TimerOnCodeComplete>
   <DisableInteractOnCodeComplete>true</DisableInteractOnCodeComplete>
   
@@ -23,11 +23,11 @@
       <Z>0.5</Z>
       <W>1</W>
     </Color>
-    <Strength>4</Strength>
-    <Shininess>40</Shininess>
-    <Radius>100</Radius>
+    <Strength>1</Strength>
+    <Shininess>1</Shininess>
+    <Radius>150</Radius>
     <MinRadius>100</MinRadius>
-    <MaxRadius>400</MaxRadius>
+    <MaxRadius>800</MaxRadius>
     <RadiusCycleScale>6</RadiusCycleScale>
     <RemoveOnZeroRadius>false</RemoveOnZeroRadius>
   </Light>
@@ -54,11 +54,11 @@
       <Y>0</Y>
       <Z>0.5</Z>
     </Direction>
-    <Strength>12</Strength>
-    <MaxStrength>12</MaxStrength>
+    <Strength>16</Strength>
+    <MaxStrength>16</MaxStrength>
     <StrengthModifier>-0.3</StrengthModifier>
     <RemoveOnZeroStrength>true</RemoveOnZeroStrength>
-    <Shininess>6</Shininess>
+    <Shininess>8</Shininess>
   </OnRemoveLight>
   
 </GameObjectClass>

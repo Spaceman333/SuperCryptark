@@ -5,8 +5,8 @@
   <DisplayName>Gunhead</DisplayName>
   <PlayerType>Gunhead</PlayerType>
 
-  <MaxHull>16</MaxHull>
-  <StartHull>13</StartHull>
+  <MaxHull>17</MaxHull>
+  <StartHull>14</StartHull>
   
   <Description>
     This dependable military combat exosuit has served with distinction for decades. Though replaced by newer models, the Gunhead is still favoured by mercenary and pirate organizations for its modular components and large catalogue of aftermarket parts.
@@ -15,19 +15,19 @@
 
   <SkinAtlases>
     <SkinAtlas>
-      <Name>Warshark</Name>
+      <Name>Charshark</Name>
       <Atlas>gunhead</Atlas>
     </SkinAtlas>
     <SkinAtlas>
-      <Name>Rental</Name>
+      <Name>Command</Name>
       <Atlas>gunhead_04</Atlas>
     </SkinAtlas>
     <SkinAtlas>
-      <Name>Tigersnake</Name>
+      <Name>Predator</Name>
       <Atlas>gunhead_02</Atlas>
     </SkinAtlas>
     <SkinAtlas>
-      <Name>Comedian</Name>
+      <Name>Soldier</Name>
       <Atlas>gunhead_03</Atlas>
     </SkinAtlas>
   </SkinAtlases>

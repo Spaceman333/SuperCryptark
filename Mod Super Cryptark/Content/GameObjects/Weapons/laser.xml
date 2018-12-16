@@ -1,8 +1,8 @@
 ﻿<?xml version="1.0" ?>
 <GameObjectClass>
   <Type>WEAPON</Type>
-  <Displayname>T1 Laser</Displayname>
-  <ShortDisplayName>LASER</ShortDisplayName>
+  <Displayname>T1 Laser 500nm</Displayname>
+  <ShortDisplayName>LAS-G</ShortDisplayName>
   <ItemInfo>This weaponized industrial laser is able to slice through most materials with ease, provided the user sustain target focus. This is a quiet weapon.</ItemInfo>
 
   <Price>16</Price>

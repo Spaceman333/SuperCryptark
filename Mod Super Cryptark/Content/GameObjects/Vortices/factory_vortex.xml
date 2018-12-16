@@ -23,9 +23,9 @@
       <Z>1</Z>
       <W>1</W>
     </Color>
-    <Strength>30</Strength>
-    <Radius>50</Radius>
-    <RadiusModifier>5</RadiusModifier>
+    <Strength>2</Strength>
+    <Radius>20</Radius>
+    <RadiusModifier>2</RadiusModifier>
     <UseSpatialSystem>false</UseSpatialSystem>
     <BoundingBoxUpdateRate>1</BoundingBoxUpdateRate>
   </Light>

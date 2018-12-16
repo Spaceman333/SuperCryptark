@@ -32,6 +32,16 @@
   <LightSchemes>
     <string>nuke01</string>
     <string>nuke02</string>
+    <string>dir_nuke01</string>
+    <string>dir_nuke02</string>
+	<string>nightvision</string>
+	<string>dir_nightvision</string>
+	<string>hazard01</string>
+	<string>dir_hazard01</string>
+	<string>minty</string>
+	<string>dir_minty</string>
+	<string>olive_blue</string>
+	<string>dir_olive_blue</string>
   </LightSchemes>
 
   <IncludedSystems>

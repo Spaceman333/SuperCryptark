@@ -1,6 +1,6 @@
 ﻿<GameObjectClass>
   <Type>ITEM</Type>
-  <Displayname>Capsule Turret</Displayname>
+  <Displayname>AI Capsule Turret</Displayname>
   <ShortDisplayName>TURET</ShortDisplayName>
   <LoadoutCategory>Item</LoadoutCategory>
   <ItemInfo>These portable autonomous defence turrets are common sights on stations where security manpower is short. Equipped with an powerful laser and armour plating, they collapse for easy redeployment to trouble zones.

@@ -1,25 +1,25 @@
 ﻿<GameObjectClass>
   <Type>ITEM</Type>
-  <Displayname>Kill Burst</Displayname>
-  <ShortDisplayName>KILLB</ShortDisplayName>
+  <Displayname>CON Kill Burst 3x</Displayname>
+  <ShortDisplayName>KILL3</ShortDisplayName>
   <LoadoutCategory>Item</LoadoutCategory>
-  <ItemInfo>Sends away a lethal killburst, instantly damaging opponents and debris in the surrounding area. Single use.</ItemInfo>
+  <ItemInfo>A single use consumable device that sends away a lethal killburst, instantly damaging opponents and debris in the surrounding area. Not effective against systems. 3 Uses.</ItemInfo>
   <HudTextureName>tag_item_knockback</HudTextureName>
 
   <Price>0</Price>
   <TechChanceNumber>2</TechChanceNumber>
   
-  <StartItemQuantity>1</StartItemQuantity>
+  <StartItemQuantity>3</StartItemQuantity>
   <RateOfUse>1</RateOfUse>
   
   <ItemType>KnockBack</ItemType>
-  <SpawnOnItemUse>Hazards\knockback</SpawnOnItemUse>
+  <SpawnOnItemUse>Hazards\killburst</SpawnOnItemUse>
   <UseInSpace>true</UseInSpace>
   
-  <ExplodeForce>130</ExplodeForce>
-  <ExplodeSize>70</ExplodeSize>
+  <ExplodeForce>200</ExplodeForce>
+  <ExplodeSize>110</ExplodeSize>
   <ExplodeDamage>20</ExplodeDamage>
-  <StunTime>1</StunTime>
+  <StunTime>5</StunTime>
   
   <DamageEnemies>true</DamageEnemies>
   <DamageSystems>false</DamageSystems>

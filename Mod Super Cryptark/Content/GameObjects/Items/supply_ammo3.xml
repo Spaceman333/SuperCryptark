@@ -1,6 +1,6 @@
 ﻿<GameObjectClass>
   <Type>ITEM</Type>
-  <Displayname>Ammo Box Medium</Displayname>
+  <Displayname>CON Ammo Box Medium</Displayname>
   <ShortDisplayName>AMMO3</ShortDisplayName>
   <LoadoutCategory>Item</LoadoutCategory>
   <ItemInfo>Triple reloads! Teleports in an ammo supply unit to your location. Can be used in Rogue Mode to replenish all ammo for free, thrice.</ItemInfo>

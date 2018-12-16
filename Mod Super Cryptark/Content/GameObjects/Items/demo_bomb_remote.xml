@@ -1,6 +1,6 @@
 ﻿<GameObjectClass>
   <Type>ITEM</Type>
-  <Displayname>Remote Nuclear Bomb M</Displayname>
+  <Displayname>NUK R-Nuclear Bomb M</Displayname>
   <ShortDisplayName>RNUKM</ShortDisplayName>
   <LoadoutCategory>Item</LoadoutCategory>
   <ItemInfo>This miniaturized nuclear explosive must be manually armed but can be remotely detonated at any time, immolating anything caught within the blast-zone. Medium size and 3 uses.</ItemInfo>

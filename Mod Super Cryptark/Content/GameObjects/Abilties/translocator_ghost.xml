@@ -3,7 +3,7 @@
   <Type>WEAPON</Type>
   <SpineAnimation>telebeacon</SpineAnimation>
   <Solid>true</Solid>
-  <ProjectileSpeed>80</ProjectileSpeed>
+  <ProjectileSpeed>100</ProjectileSpeed>
   <SetFriction>true</SetFriction>
   <Friction>0.1</Friction>
   <LinearDamping>1</LinearDamping>

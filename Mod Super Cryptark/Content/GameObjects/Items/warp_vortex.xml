@@ -1,9 +1,9 @@
 ﻿<GameObjectClass>
   <Type>ITEM</Type>
-  <Displayname>Warp Vortex</Displayname>
+  <Displayname>USE Warp Vortex</Displayname>
   <ShortDisplayName>WARP</ShortDisplayName>
   <LoadoutCategory>Item</LoadoutCategory>
-  <ItemInfo>Engages a random warp vortex, teleporting a player caught in the center to a random location on the map. 6 second recharge time.</ItemInfo>
+  <ItemInfo>Engages a reusable random warp vortex, teleporting a player caught in the center to a random location on the map. 6 second recharge time.</ItemInfo>
   <HudTextureName>tag_item_knockback</HudTextureName>
   
   <Price>2</Price>

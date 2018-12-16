@@ -29,6 +29,7 @@
   </ShipColor>
   <LightSchemes>
     <string>inferno</string>
+    <string>dir_inferno</string>
   </LightSchemes>
 
   <IncludedSystems>

@@ -39,9 +39,9 @@
       <Z>1</Z>
       <W>1</W>
     </Color>
-    <Strength>20</Strength>
-    <Radius>1500</Radius>
-    <RadiusModifier>-150</RadiusModifier>
+    <Strength>10</Strength>
+    <Radius>500</Radius>
+    <RadiusModifier>-50</RadiusModifier>
   </OnRemoveLight>
   
   <Light>
@@ -57,11 +57,11 @@
       <Z>1</Z>
       <W>1</W>
     </SpecularColor>
-    <MinStrength>2</MinStrength>
-    <Strength>1</Strength>
-    <MaxStrength>2</MaxStrength>
+    <MinStrength>1</MinStrength>
+    <Strength>2</Strength>
+    <MaxStrength>3</MaxStrength>
     <OscillateStrength>true</OscillateStrength>
     <StrengthCycleScale>30</StrengthCycleScale>
-    <Radius>700</Radius>
+    <Radius>400</Radius>
   </Light>
 </GameObjectClass>

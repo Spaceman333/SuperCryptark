@@ -1,0 +1,41 @@
+﻿<?xml version="1.0"?>
+<GameObjectClass>
+  <Type>ITEM</Type>
+  <Displayname>CON Safety Coat 3x</Displayname>
+  <ShortDisplayName>SAFE3</ShortDisplayName>
+  <LoadoutCategory>Item</LoadoutCategory>
+  <ItemInfo>This single use consumable safety coating protects the hull and pilot from flames and chemical corrosives temporarily for 2 minutes and heals one hull point. 3 uses.</ItemInfo>
+  
+  <Price>3</Price>
+  <TechChanceNumber>2</TechChanceNumber>
+
+  <StartItemQuantity>3</StartItemQuantity>
+  <HudTextureName>tag_item_hazard</HudTextureName>
+  <InstantHealAmount>1</InstantHealAmount>
+  <RateOfUse>1</RateOfUse>
+  <OnUseSound>Cloack_Activate</OnUseSound>
+  <ParticleEffect>_new_explosion_heal</ParticleEffect>  
+  <ItemType>None</ItemType>
+  <UseInSpace>true</UseInSpace>
+
+  <PowerupEffects>
+    <PowerupEffectClass>
+      <Type>DensityMod</Type>
+      <OverwritesSameType>false</OverwritesSameType>
+      <Amount>2</Amount>
+	  <Duration>120</Duration>
+    </PowerupEffectClass>
+    <PowerupEffectClass>
+      <Type>ResistFire</Type>
+      <OverwritesSameType>false</OverwritesSameType>
+      <HudDraw>false</HudDraw>
+	  <Duration>120</Duration>
+    </PowerupEffectClass>
+    <PowerupEffectClass>
+      <Type>ResistSlime</Type>
+      <OverwritesSameType>false</OverwritesSameType>
+      <HudDraw>false</HudDraw>
+	  <Duration>120</Duration>
+    </PowerupEffectClass>
+   </PowerupEffects>
+</GameObjectClass>

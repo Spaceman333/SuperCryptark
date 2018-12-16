@@ -26,12 +26,12 @@
       <Z>.7</Z>
       <W>1</W>
     </Color>
-    <Shininess>75</Shininess>
-    <MinRadius>700</MinRadius>
-    <MaxRadius>1000</MaxRadius>
+    <Shininess>60</Shininess>
+    <MinRadius>500</MinRadius>
+    <MaxRadius>700</MaxRadius>
     <RadiusCycleScale>3</RadiusCycleScale>
     <OscillateRadius>true</OscillateRadius>
-    <Strength>4</Strength>
+    <Strength>2</Strength>
     <FollowBoneName>plasball</FollowBoneName>
     <FollowOwnRotation>true</FollowOwnRotation>
   </Light>

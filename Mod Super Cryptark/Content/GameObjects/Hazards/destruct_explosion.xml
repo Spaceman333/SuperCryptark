@@ -29,8 +29,8 @@
       <Z>0</Z>
       <W>1</W>
     </SpecularColor>
-    <Strength>10</Strength>
-    <Shininess>4</Shininess>
+    <Strength>1</Strength>
+    <Shininess>2</Shininess>
     <Radius>1</Radius>
   </Light>
 </GameObjectClass>

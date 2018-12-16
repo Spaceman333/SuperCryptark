@@ -1,7 +1,7 @@
 ﻿<?xml version="1.0"?>
 <GameObjectClass>
   <Type>ITEM</Type>
-  <Displayname>Stability Upgrade</Displayname>
+  <Displayname>UPG Stability Plus</Displayname>
   <ShortDisplayName>STABL</ShortDisplayName>
   <LoadoutCategory>Item</LoadoutCategory>
   <ItemInfo>This device drastically reduces the impact of explosives and blows in combat. The wearer is able to maintain their position and isn’t knocked off course. Passive Item. Its free due to its limited usefulness.</ItemInfo>

@@ -2,10 +2,10 @@
 <GameObjectClass>
   <Type>EMP</Type>
 
-  <ExplosionGrowRate>15</ExplosionGrowRate>
+  <ExplosionGrowRate>8</ExplosionGrowRate>
   <ExplosionMaxRadius>30</ExplosionMaxRadius>
   <SlowExplosionDamageRate>0.25</SlowExplosionDamageRate>
-  <RemoveAfterStarted>0.7</RemoveAfterStarted>
+  <RemoveAfterStarted>0.6</RemoveAfterStarted>
   <StunTime>30</StunTime>
   <NoOffscreen>true</NoOffscreen>
 
@@ -31,8 +31,8 @@
       <Z>1</Z>
       <W>1</W>
     </SpecularColor>
-    <MaxStrength>8</MaxStrength>
-    <Shininess>4</Shininess>
+    <MaxStrength>1</MaxStrength>
+    <Shininess>2</Shininess>
     <Radius>1</Radius>
   </Light>
 </GameObjectClass>
