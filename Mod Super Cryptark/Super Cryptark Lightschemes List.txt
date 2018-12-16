@@ -132,3 +132,20 @@
 	<string>dir_watermelon</string>
 	<string>wine_pink</string>
 	<string>dir_wine_pink</string>
+	
+	// LIGHTSCHEMES RESEARCH DATA:
+	bg color			0.8				0.8				0.1
+	ambient color		0.1				0.8				0.8
+	Result:				too dark		too bright		good, but maybe 0.7 is better max range.
+	
+	No info on directional lights yet.
+	Observations so far: 
+	- They have a direction defined with x,y,z coords, but I have no idea why z exists here. 
+	Its actually even used for real. Is this game 2.5D or something?
+	- Version 1.2 uses default directional light values. I think they were too bright back then, 
+	but I have not tested them with the new ambient/bg lights to see how its working out.
+	-vars Radius, Strenght and Shininess have me confused as to how to use them and what are their ranges.
+	Looks like its more trial and error time for me. : (
+	-Despite being "directional" lights, which I assume work like the sun, blasting a wide area with uniform light
+	from an infinite distance, the definitions include things like Position and Cone angle, aka properties that
+	are more common for a "point" light, rather than a "directional" one. This is wierd and confuses me.
