@@ -1,0 +1,40 @@
+<?xml version="1.0"?>
+<GameObjectClass>
+  <Type>SHIELD</Type>
+
+  <SpineAnimation>shield</SpineAnimation>
+  <SetLayer>FULLBRIGHT</SetLayer>
+  
+  <AmmoAsPercent>true</AmmoAsPercent>
+  <RefillRate>0.5</RefillRate>
+  <AmmoBoxQuantity>20</AmmoBoxQuantity>
+  <NextRefillTime>5</NextRefillTime>
+  
+  <SpineWeaponHeadTextureName>gunhead\wephead_shield01</SpineWeaponHeadTextureName>
+  <SpineWeaponTextureName>gunhead\wep_shield01</SpineWeaponTextureName>
+
+  <SpineAnimationScale>0.75</SpineAnimationScale>
+
+  <FiringLoop>Combat_M_Shield_Loop</FiringLoop>
+  <StartFiringSound>Combat_M_Shield_On</StartFiringSound>
+  <ReleaseFiringSound>Combat_M_Shield_Off</ReleaseFiringSound>
+
+  <Light>
+    <Color>
+      <X>0</X>
+      <Y>0.4</Y>
+      <Z>1</Z>
+      <W>1</W>
+    </Color>
+    <Radius>240</Radius>
+    
+    <Strength>5</Strength>
+    <IsEnabled>false</IsEnabled>
+  </Light>
+
+  <Solid>true</Solid>
+  <Width>6</Width>
+  <SolidArcBody>true</SolidArcBody>
+  <ArcRadians>4</ArcRadians>
+  <ArcSides>10</ArcSides>
+</GameObjectClass>

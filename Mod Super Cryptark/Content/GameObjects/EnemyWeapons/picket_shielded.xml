@@ -1,0 +1,36 @@
+﻿<?xml version="1.0"?>
+<GameObjectClass>
+  <Type>WEAPON</Type>
+  <ProjectilesPerShot>1</ProjectilesPerShot>
+  <ProjectilePrecision>0.6</ProjectilePrecision>
+  <ProjectileClassfile>EnemyWeapons\blaster_p</ProjectileClassfile>
+  <FireSound>guard_fire</FireSound>
+  <RateOfFire>0.15</RateOfFire>
+  <NumShotsPerReload>8</NumShotsPerReload>
+  <ReloadTime>2</ReloadTime>
+  <MuzzleFlashEffect>_new_muzzle_enemyblaster</MuzzleFlashEffect>
+  <FireBoneRecoil>50</FireBoneRecoil>
+
+  <OnFireMuzzleLight>
+    <Type>Spotlight</Type>
+    <Position>
+      <Z>10</Z>
+    </Position>
+    <Color>
+      <X>0.65</X>
+      <Y>0.5</Y>
+      <Z>1</Z>
+      <W>1</W>
+    </Color>
+    <Direction>
+      <X>1</X>
+      <Y>0</Y>
+      <Z>0.3</Z>
+    </Direction>
+    <Strength>20</Strength>
+    <Radius>1000</Radius>
+    <RadiusModifier>-100</RadiusModifier>
+    <InnerConeAngle>1</InnerConeAngle>
+    <OuterConeAngle>1.57</OuterConeAngle>
+  </OnFireMuzzleLight>
+</GameObjectClass>

@@ -1,0 +1,24 @@
+﻿<?xml version="1.0"?>
+<GameObjectClass>
+  <Type>WEAPON</Type>
+  <Displayname>T1 Gasoline Streamer</Displayname>
+  <ShortDisplayName>GASOL</ShortDisplayName>
+  <ItemInfo>Pours streams of gasoline that ignites when hit with explosive attacks. Alternatively, to make it sound cool and radical, this gun shoots fossilized space dinosaurs in compressed liquid form that explodes when exploded. BOOM!</ItemInfo>
+  <Price>2</Price>
+  <RateOfFire>0.001</RateOfFire>
+  <StartingAmmoBoxes>2</StartingAmmoBoxes>
+  <AmmoBoxQuantity>5000</AmmoBoxQuantity>
+  <ProjectilesPerShot>3</ProjectilesPerShot>
+  <ProjectilePrecision>.9</ProjectilePrecision>
+  <LoadoutCategory>Projectors</LoadoutCategory>
+  <FluidForceMultiply>0.4</FluidForceMultiply>
+  
+  <SpineWeaponHeadTextureName>gunhead\wephead_machinegun01</SpineWeaponHeadTextureName>
+  <SpineWeaponTextureName>gunhead\wep_machinegun01</SpineWeaponTextureName>
+  <CreateFluidOnFire>true</CreateFluidOnFire>
+  <FluidType>Gasoline</FluidType>
+
+  <FiringLoop>Combat_M_SlimeGun_Shot_Loop</FiringLoop>
+  
+  <TechChanceNumber>2</TechChanceNumber>
+</GameObjectClass>

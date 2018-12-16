@@ -1,0 +1,13 @@
+﻿<?xml version="1.0" ?>
+<GameObjectClass>
+  <BaseFile>Projectiles\grenade</BaseFile>
+  <Texture>Projectiles\bomb_green</Texture>
+  <ProjectileRemoveOnCollision>false</ProjectileRemoveOnCollision>
+  <ProjectileAttachToCharacters>true</ProjectileAttachToCharacters>
+  <ProjectileAttachToBrushes>true</ProjectileAttachToBrushes>
+  <ProjectileAttachToSystems>true</ProjectileAttachToSystems>
+  <ParticleEffect>background-new_trail_sticky</ParticleEffect>
+  <Scale>0.9</Scale>
+  <ExplodeDamage>6</ExplodeDamage>
+  <ProjectileSpeed>70</ProjectileSpeed>
+</GameObjectClass>

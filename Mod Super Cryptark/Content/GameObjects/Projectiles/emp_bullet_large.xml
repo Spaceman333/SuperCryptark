@@ -1,0 +1,34 @@
+﻿<?xml version="1.0" ?>
+<GameObjectClass>
+  <BaseFile>Projectiles\blaster_bullet</BaseFile>
+  <StunTime>45</StunTime>
+  <ProjectileSpeed>220</ProjectileSpeed>
+  <DamagePerShot>0.2</DamagePerShot>
+  <Scale>2.5</Scale>
+  <HitForce>300</HitForce>
+  <OnFireProjectileLight>
+    <Type>Point</Type>
+    <Color>
+      <X>0</X>
+      <Y>0.4</Y>
+      <Z>1</Z>
+      <W>1</W>
+    </Color>
+    <SpecularColor>
+      <X>0.2</X>
+      <Y>0.7</Y>
+      <Z>1</Z>
+      <W>1</W>
+    </SpecularColor>
+    <Strength>3</Strength>
+    <Shininess>20</Shininess>
+    <Radius>300</Radius>
+  </OnFireProjectileLight>
+
+  <ProjectileColor>
+    <X>.1</X>
+    <Y>.6</Y>
+    <Z>1</Z>
+  </ProjectileColor>
+  <SetLayer>FULLBRIGHT</SetLayer>
+</GameObjectClass>

@@ -1,0 +1,6 @@
+﻿<?xml version="1.0" ?>
+<GameObjectClass>
+  <BaseFile>Projectiles\grenade</BaseFile>
+  <Texture>Projectiles\bomb_yellow</Texture>
+  <RemoveAfterStarted>9</RemoveAfterStarted>
+</GameObjectClass>

@@ -1,0 +1,28 @@
+﻿<?xml version="1.0"?>
+<ShipOption xmlns:xsi="http://www.w3.org/2001/XMLSchema-instance" xmlns:xsd="http://www.w3.org/2001/XMLSchema">
+
+  <Level>4</Level>
+  <Tier>2</Tier>
+  <BaseFile>1\Medium Size</BaseFile>
+  
+  <Classes>
+    <string>Cloaker</string>
+    <string>Warship</string>
+    <string>Factory</string>
+    <string>Heavy</string>
+    <string>Swarm</string>
+    <string>Miner</string>
+    <string>Sentry</string>
+    <string>Nuke</string>
+    <string>Scrapyard</string>
+    <string>Double</string>
+    <string>ScienceVessel</string>
+  </Classes>
+  
+  <SystemAmount>11</SystemAmount>
+
+  <SpawnMultiply>0.6</SpawnMultiply>
+  
+  <HealthStations>3</HealthStations>
+
+</ShipOption>

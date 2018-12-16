@@ -1,0 +1,22 @@
+<?xml version="1.0"?>
+<GameObjectClass>
+  <RandomIngameClass>
+    <string>Debris\debris01</string>
+    <string>Debris\debris02</string>
+    <string>Debris\debris03</string>
+    <string>Debris\debris04</string>
+    <string>Debris\debris05</string>
+    <string>Debris\debris06</string>
+    <string>Debris\debris07</string>
+    <string>Debris\debris_small01</string>
+    <string>Debris\debris_small02</string>
+    <string>Debris\debris_small03</string>
+    <string>Debris\debris_small04</string>
+    <string>Debris\debris_small05</string>
+    <string>Debris\debris_small06</string>
+    <string>Debris\debris_small07</string>
+    <string>Debris\debris_small08</string>
+    <string>Debris\debris_small09</string>
+    <string>Debris\debris_small10</string>
+  </RandomIngameClass>
+</GameObjectClass>

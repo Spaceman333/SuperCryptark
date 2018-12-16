@@ -1,0 +1,49 @@
+﻿<?xml version="1.0" ?>
+<GameObjectClass>
+  <Type>WEAPON</Type>
+  <Texture>Projectiles\machinegun_bullet</Texture>
+  <Scale>2</Scale>
+  
+  <!--<Solid>true</Solid>-->
+  <FakeProjectile>true</FakeProjectile>
+  
+  <CharacterCollide>true</CharacterCollide>
+  <ProjectileSpeed>350</ProjectileSpeed>
+  <ParticleEffectAmount>10</ParticleEffectAmount>
+  <HitForce>150</HitForce>
+  <DamagePerShot>3.5</DamagePerShot>
+  
+  <RemoveAfterStarted>3</RemoveAfterStarted>  
+  
+  <ParticleEffect>_new_trail_enemyblaster</ParticleEffect>
+  <RemoveParticleEffect>_new_hit_enemyblaster</RemoveParticleEffect>
+  <SetLayer>FULLBRIGHT</SetLayer>
+  <OnFireProjectileLight>
+    <Type>Point</Type>
+    <Color>
+      <X>.5</X>
+      <Y>1</Y>
+      <Z>0.5</Z>
+      <W>1</W>
+    </Color>
+    <Strength>2</Strength>
+    <Radius>200</Radius>
+  </OnFireProjectileLight>
+  <ProjectileColor>
+    <X>0.5</X>
+    <Y>1.0</Y>
+    <Z>0.5</Z>
+  </ProjectileColor>
+  <OnRemoveLight>
+    <Type>Point</Type>
+    <Color>
+      <X>.5</X>
+      <Y>1</Y>
+      <Z>0.5</Z>
+      <W>1</W>
+    </Color>
+    <Strength>20</Strength>
+    <Radius>500</Radius>
+    <RadiusModifier>-100</RadiusModifier>
+  </OnRemoveLight>
+</GameObjectClass>

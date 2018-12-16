@@ -1,0 +1,11 @@
+﻿<?xml version="1.0"?>
+<GameObjectClass>
+  <Type>FAN_DOODAD</Type>
+  <SpineAnimation>fan_med02</SpineAnimation>
+  <Solid>true</Solid>
+  <Static>true</Static>
+  <EclipseBody>true</EclipseBody>
+  <Width>10</Width>
+  <Height>10</Height>
+  <SetLayer>FOREGROUND</SetLayer>
+</GameObjectClass>

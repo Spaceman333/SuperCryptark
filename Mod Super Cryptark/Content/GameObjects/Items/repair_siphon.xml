@@ -1,0 +1,21 @@
+﻿<?xml version="1.0"?>
+<GameObjectClass>
+  <Type>ITEM</Type>
+  <Displayname>SPC Repair Siphon</Displayname>
+  <ShortDisplayName>REPSI</ShortDisplayName>
+  <LoadoutCategory>Item</LoadoutCategory>
+  <ItemInfo>A modified hacking module, this device jacks into Key Terminals to repair damaged suit hull instead of collecting Key Codes. Careful consideration must be taken to navigate without the use of Keys.</ItemInfo>
+  <StartItemQuantity>1</StartItemQuantity>
+  
+  <Price>2</Price>
+  
+  <HudTextureName>tag_item_repairsiphon</HudTextureName>
+  <ItemType>None</ItemType>
+  <PassiveItem>true</PassiveItem>
+  <CampaignModeOnly>true</CampaignModeOnly>
+  <PowerupEffects>
+    <PowerupEffectClass>
+      <Type>KeyToHealth</Type>
+    </PowerupEffectClass>
+  </PowerupEffects>
+</GameObjectClass>

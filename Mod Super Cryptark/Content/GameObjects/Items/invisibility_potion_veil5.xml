@@ -1,0 +1,30 @@
+﻿<?xml version="1.0"?>
+<GameObjectClass>
+  <Type>ITEM</Type>
+  <Displayname>CON Veil Pack 5</Displayname>
+  <ShortDisplayName>VEIL5</ShortDisplayName>
+  <LoadoutCategory>Item</LoadoutCategory>
+  <ItemInfo>This pack of consumable advanced cloaking devices hides the user for 40 seconds. Caution! Reveals on attacks, so do not fire your weapon or activate a nuke if you want to stay hidden. 5 Uses.</ItemInfo>
+  <HudTextureName>tag_item_cloak</HudTextureName>
+
+  <Price>10</Price>
+  <TechChanceNumber>2</TechChanceNumber>
+  
+  <StartItemQuantity>5</StartItemQuantity>
+  <RateOfUse>1</RateOfUse>
+  <OnUseSound>Cloack_Activate</OnUseSound>
+  <ParticleEffect>_new_explosion_heal</ParticleEffect>
+  <UseInSpace>true</UseInSpace>
+  
+  <PowerupEffects>
+    <PowerupEffectClass>
+      <Type>Invisible</Type>
+      <Duration>40</Duration>
+      <RemoveOnFire>true</RemoveOnFire>
+    </PowerupEffectClass>
+  </PowerupEffects>
+  <TwoPlayerPowerup>true</TwoPlayerPowerup>
+  <ItemType>Invis</ItemType>
+  <TechChanceNumber>2</TechChanceNumber>
+  <OnLoadoutTrigger>weapon_cloak</OnLoadoutTrigger>
+</GameObjectClass>

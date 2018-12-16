@@ -1,0 +1,58 @@
+﻿<?xml version="1.0"?>
+<CharacterClass xmlns:xsi="http://www.w3.org/2001/XMLSchema-instance" xmlns:xsd="http://www.w3.org/2001/XMLSchema">
+
+  <SpineAnimation>mrfixit</SpineAnimation>
+
+  <Health>4</Health>
+  <Type>MrFixit</Type>
+  <DisplayName>Mr. Fixit</DisplayName>
+
+  <Width>8</Width>
+  <Height>10</Height>
+  
+  <SidebarTextureName>mrfixit</SidebarTextureName>
+  <Description>Support drone quick to restore other damaged drones to fighting strength.</Description>
+  
+  <HealAmount>0.15</HealAmount>
+  <HealDelay>0.2</HealDelay>
+  <HealRange>65</HealRange>
+
+  <Density>1.5</Density>
+  <Inertia>30</Inertia>
+  <BaseMovementForce>2000</BaseMovementForce>
+  <Maxspeed_Fly>30</Maxspeed_Fly>
+  <MinCombatDistance>100</MinCombatDistance>
+  <OnFireBeamClassfile>Beams\mr_fixit_beam</OnFireBeamClassfile>
+  
+  <AllowGrapple>true</AllowGrapple>
+  <FieldOfVision>360</FieldOfVision>
+  
+  <BodyRotateToFocusPercent>1</BodyRotateToFocusPercent>
+
+  <Light>
+    <Type>Point</Type>
+    <Color>
+      <X>0.75</X>
+      <Y>0.6</Y>
+      <Z>1</Z>
+      <W>1</W>
+    </Color>
+    <Strength>2</Strength>
+    <Radius>150</Radius>
+    <FollowBoneName>muzzle</FollowBoneName>
+  </Light>
+  
+  <OnRemoveLight>
+    <Type>Point</Type>
+    <Color>
+      <X>0.75</X>
+      <Y>0.6</Y>
+      <Z>1</Z>
+      <W>1</W>
+    </Color>
+    <Strength>20</Strength>
+    <Radius>1500</Radius>
+    <RadiusModifier>-150</RadiusModifier>
+  </OnRemoveLight>
+
+</CharacterClass>

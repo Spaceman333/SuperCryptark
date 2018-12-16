@@ -1,0 +1,24 @@
+﻿<?xml version="1.0"?>
+<GameObjectClass>
+  <Type>ITEM</Type>
+  <Displayname>UPG Loader Plus</Displayname>
+  <ShortDisplayName>LOADR</ShortDisplayName>
+  <LoadoutCategory>Item</LoadoutCategory>
+  <ItemInfo>The rate of fire of all equipped weapons is permanently increased by 25%. Passive Item.</ItemInfo>
+  <StartItemQuantity>1</StartItemQuantity>
+
+  <Price>5</Price>
+  <TechChanceNumber>2</TechChanceNumber>
+
+  <HudTextureName>tag_item_speedloader</HudTextureName>
+  <ItemType>None</ItemType>
+  <PassiveItem>true</PassiveItem>
+  <PowerupEffects>
+    <PowerupEffectClass>
+      <Type>RateOfFireMod</Type>
+      <OverwritesSameType>false</OverwritesSameType>
+	  <HudDraw>false</HudDraw>
+      <Amount>-0.25</Amount>
+    </PowerupEffectClass>
+  </PowerupEffects>
+</GameObjectClass>

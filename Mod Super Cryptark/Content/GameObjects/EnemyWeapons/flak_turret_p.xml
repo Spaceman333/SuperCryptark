@@ -1,0 +1,60 @@
+﻿<?xml version="1.0"?>
+<GameObjectClass>
+  <Type>WEAPON</Type>
+  
+  <!--<Solid>true</Solid>-->
+  <FakeProjectile>true</FakeProjectile>
+  
+  <!--<EclipseBody>true</EclipseBody>-->
+  <Width>2</Width>
+  <Height>2</Height>
+  <ParticleEffect>_new_trail_enemyblaster</ParticleEffect>
+  <ParticleEffectAmount>3</ParticleEffectAmount>
+  <CharacterCollide>true</CharacterCollide>
+
+  <ProjectileSpeed>90</ProjectileSpeed>
+  
+  <HitForce>100</HitForce>
+  <DamagePerShot>1</DamagePerShot>
+
+  <DecalType>Bullet</DecalType>
+  <RemoveAfterStarted>7</RemoveAfterStarted>
+
+  <ProjectileFollowTarget>true</ProjectileFollowTarget>
+  <ProjectileTargetSeekRange>150</ProjectileTargetSeekRange>
+  <ProjectileFollowTargetMaxRotate>0.03</ProjectileFollowTargetMaxRotate>
+  <ProjectileFollowTargetRotateDelay>0.01</ProjectileFollowTargetRotateDelay>
+  <RemoveParticleEffect>_new_hit_enemyblaster</RemoveParticleEffect>
+  
+  <OnFireProjectileLight>
+    <Type>Point</Type>
+    <Color>
+      <X>.75</X>
+      <Y>0.75</Y>
+      <Z>0.5</Z>
+      <W>1</W>
+    </Color>
+    <Strength>2</Strength>
+    <Radius>500</Radius>
+  </OnFireProjectileLight>
+
+  <OnRemoveLight>
+    <Type>Point</Type>
+    <Color>
+      <X>1</X>
+      <Y>0.5</Y>
+      <Z>0.1</Z>
+      <W>1</W>
+    </Color>
+    <Strength>20</Strength>
+    <Radius>1000</Radius>
+    <RadiusModifier>-200</RadiusModifier>
+  </OnRemoveLight>
+
+  <ProjectileColor>
+    <X>0.75</X>
+    <Y>0.75</Y>
+    <Z>0.5</Z>
+  </ProjectileColor>
+  <SetLayer>FULLBRIGHT</SetLayer>
+</GameObjectClass>

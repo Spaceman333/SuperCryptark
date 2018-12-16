@@ -1,0 +1,17 @@
+<?xml version="1.0"?>
+<GameObjectClass>
+  <BaseFile>Weapons\zipgun</BaseFile>
+  <Displayname>T1 Zipgun - Smart</Displayname>
+  <ShortDisplayName>ZIP-S</ShortDisplayName>
+  <ItemInfo>While extremely out of character for its humble stature, this customized subgun has been equipped with a targeting CPU and smart-munitions that home in on potential threats.</ItemInfo>
+
+  <StartingAmmoBoxes>3</StartingAmmoBoxes>
+  <AmmoBoxQuantity>2500</AmmoBoxQuantity>
+  <Price>3</Price>
+  <TechChanceNumber>3</TechChanceNumber>
+  
+  <ProjectilePrecision>.8</ProjectilePrecision>
+  <RateOfFire>0.0275</RateOfFire>
+  <ProjectileClassfile>Projectiles\zipgun_bullet_smart</ProjectileClassfile>
+  <OnLoadoutTrigger>weapon_smart</OnLoadoutTrigger>
+</GameObjectClass>

@@ -1,0 +1,19 @@
+﻿<?xml version="1.0" ?>
+<GameObjectClass>
+  <Type>WEAPON</Type>
+  <ProjectileIsCone>true</ProjectileIsCone>
+  <ConeArcAngle>1.9</ConeArcAngle>
+  <ConeRadius>24</ConeRadius>
+  <ConeSegments>8</ConeSegments>
+  <HitForce>320</HitForce>
+  <FollowBoneRotation>true</FollowBoneRotation>
+  <ConeEffectClassfile>MeshEffects\shield_repulsor_effect</ConeEffectClassfile>
+  <MeshEffectRadius>20</MeshEffectRadius>
+  <DisableAfter>.2</DisableAfter>
+  <NoOffscreen>true</NoOffscreen>
+  
+  <DontRemoveOtherProjectileOnCollision>true</DontRemoveOtherProjectileOnCollision>
+  <ProjectileRemoveOnCollision>false</ProjectileRemoveOnCollision>
+  <CharacterCollide>true</CharacterCollide>
+  <AllowProjectileOnProjectileCollision>true</AllowProjectileOnProjectileCollision>
+</GameObjectClass>

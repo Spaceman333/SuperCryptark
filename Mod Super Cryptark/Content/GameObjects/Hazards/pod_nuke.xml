@@ -1,0 +1,35 @@
+﻿<?xml version="1.0" ?>
+<GameObjectClass>
+  <Type>HAZARD_POD</Type>
+  <Displayname>Hazard Pod</Displayname>
+  <SpineAnimation>pod01</SpineAnimation>
+  <SpineAtlas>pod01_nuke</SpineAtlas>
+  <Health>0.1</Health>
+  <!--<GibOnDeath>true</GibOnDeath>-->
+  <DisableFollowBodyRotation>true</DisableFollowBodyRotation>
+  <SpineAnimationScale>1 </SpineAnimationScale>
+
+  <SpawnObjectOnRemove>Hazards\nuke_explosion</SpawnObjectOnRemove>
+  <RemoveParticleEffect>_new_death_debris</RemoveParticleEffect>
+  <OnRemoveSound>Combat_M_Enemy_Hit</OnRemoveSound>
+  
+  <Solid>true</Solid>
+  <BoundingBoxBody>tank_box</BoundingBoxBody>
+  <Static>true</Static>
+  
+  <Light>
+    <Position>
+      <Z>10</Z>
+    </Position>
+    <Color>
+      <X>1</X>
+      <Y>0</Y>
+      <Z>0</Z>
+      <W>1</W>
+    </Color>
+    <Strength>2</Strength>
+    <Radius>500</Radius>
+    <FollowBoneName>light</FollowBoneName>
+    <RemoveOnZeroRadius>false</RemoveOnZeroRadius>
+  </Light>
+</GameObjectClass>

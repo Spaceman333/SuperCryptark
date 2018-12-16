@@ -1,0 +1,54 @@
+<?xml version="1.0"?>
+<GameObjectClass>
+  <Type>WEAPON</Type>
+  <Displayname>T2 Autocannon</Displayname>
+  <ShortDisplayName>AUTCN</ShortDisplayName>
+  <ItemInfo>Originally mounted on light vehicles, these light cannons can prove devastating when mounted on a pioneer suit, though the recoil and reduced precision require some getting used to.</ItemInfo>
+
+  <StartingAmmoBoxes>3</StartingAmmoBoxes>
+  <AmmoBoxQuantity>500</AmmoBoxQuantity>
+  <Price>5</Price>
+  <TechChanceNumber>2</TechChanceNumber>
+  
+  <RateOfFire>0.23</RateOfFire>
+  <ProjectilesPerShot>1</ProjectilesPerShot>
+  <ProjectilePrecision>0.6</ProjectilePrecision>
+  <AimSpeedModifier>-10</AimSpeedModifier>
+  <MinAimSpeedFactor>0.1</MinAimSpeedFactor>
+  <ProjectileClassfile>Projectiles\autocannon_bullet</ProjectileClassfile>
+  <LoadoutCategory>Cannons</LoadoutCategory>
+  <MuzzleFlashEffect>_new_muzzle_autocannon</MuzzleFlashEffect>
+  <FireRecoil>240</FireRecoil>
+  <ShakeCameraOnFire>0.65</ShakeCameraOnFire>
+  <RecoilCameraOnFire>1.75</RecoilCameraOnFire>
+  <RecoilCameraOnFireDuration>0.1</RecoilCameraOnFireDuration>
+  <FireBoneRecoil>10</FireBoneRecoil>
+  <CasingClassfile>Weapons\cannon_casing</CasingClassfile>
+  <SpineWeaponHeadTextureName>gunhead\wephead_cannon01</SpineWeaponHeadTextureName>
+  <SpineWeaponTextureName>gunhead\wep_cannon01</SpineWeaponTextureName>
+
+  <FireSound>Combat_M_AutoCannon_Shot</FireSound>
+
+  <OnFireMuzzleLight>
+    <Type>Spotlight</Type>
+    <Position>
+      <Z>10</Z>
+    </Position>
+    <Color>
+      <X>1</X>
+      <Y>0.8</Y>
+      <Z>0.5</Z>
+      <W>1</W>
+    </Color>
+    <Direction>
+      <X>1</X>
+      <Y>0</Y>
+      <Z>0.3</Z>
+    </Direction>
+    <Strength>20</Strength>
+    <Radius>700</Radius>
+    <RadiusModifier>-120</RadiusModifier>
+    <InnerConeAngle>1</InnerConeAngle>
+    <OuterConeAngle>1.57</OuterConeAngle>
+  </OnFireMuzzleLight>
+</GameObjectClass>

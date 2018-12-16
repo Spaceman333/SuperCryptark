@@ -1,0 +1,89 @@
+﻿<?xml version="1.0"?>
+<CharacterClass xmlns:xsi="http://www.w3.org/2001/XMLSchema-instance" xmlns:xsd="http://www.w3.org/2001/XMLSchema">
+
+  <SpineAnimation>tattletale</SpineAnimation>
+
+  <Health>1.25</Health>
+  <Type>Tattletale</Type>
+  <DisplayName>Tattletale</DisplayName>
+
+  <Width>6</Width>
+  <Height>3.5</Height>
+
+  <Density>0.5</Density>
+  <Inertia>30</Inertia>
+  <BaseMovementForce>1000</BaseMovementForce>
+  <Maxspeed_Fly>60</Maxspeed_Fly>
+  <MinCombatDistance>100</MinCombatDistance>
+  
+  <AlarmDistance>800</AlarmDistance>
+  <AllowGrapple>true</AllowGrapple>
+
+  <AimingBeamClassfile>Beams\tripwire_beam</AimingBeamClassfile>
+  
+  <SidebarTextureName>tattletale</SidebarTextureName>
+  <Description>Early warning drone that emits an alarm trip-laser at the first sign of trouble.</Description>
+  
+  <BodyRotateToFocusPercent>1</BodyRotateToFocusPercent>
+
+  <Light>
+    <Type>Point</Type>
+    <Color>
+      <X>0.75</X>
+      <Y>0.6</Y>
+      <Z>1</Z>
+      <W>1</W>
+    </Color>
+    <Strength>2</Strength>
+    <Radius>150</Radius>
+    <FollowBoneName>head</FollowBoneName>
+  </Light>
+  
+  <AimingLight>
+    <Type>Spotlight</Type>
+    <Position>
+      <Z>20</Z>
+    </Position>
+    <Color>
+      <X>1</X>
+      <Y>0</Y>
+      <Z>0</Z>
+      <W>1</W>
+    </Color>
+    <Direction>
+      <X>1</X>
+      <Y>0</Y>
+      <Z>0.6</Z>
+    </Direction>
+    <InnerConeAngle>0.2</InnerConeAngle>
+    <OuterConeAngle>1.1</OuterConeAngle>
+    <Strength>10</Strength>
+    <SpecularColor>
+      <X>1</X>
+      <Y>0</Y>
+      <Z>0</Z>
+      <W>1</W>
+    </SpecularColor>
+    <Shininess>5</Shininess>
+    <MaxRadius>800</MaxRadius>
+    <RadiusModifier>-10</RadiusModifier>
+    <Radius>0</Radius>
+    <RemoveOnZeroRadius>false</RemoveOnZeroRadius>
+  </AimingLight>
+  
+  <OnRemoveLight>
+    <Type>Point</Type>
+    <Color>
+      <X>0.75</X>
+      <Y>0.6</Y>
+      <Z>1</Z>
+      <W>1</W>
+    </Color>
+    <Strength>20</Strength>
+    <Radius>1500</Radius>
+    <RadiusModifier>-150</RadiusModifier>
+  </OnRemoveLight>
+  
+  <DefaultItems>
+  </DefaultItems>
+</CharacterClass>

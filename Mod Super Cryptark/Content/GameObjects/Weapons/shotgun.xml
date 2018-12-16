@@ -1,0 +1,51 @@
+<?xml version="1.0"?>
+<GameObjectClass>
+  <Type>WEAPON</Type>
+  <Displayname>T1 Shotgun</Displayname>
+  <ShortDisplayName>SG</ShortDisplayName>
+  <ItemInfo>This time tested heavy-gauge boarding shotgun delivers a powerful spread of tungsten pellets at close range. Highly efficient. A single blast from this version is twice better than its auto assault counterpart.</ItemInfo>
+
+  <StartingAmmoBoxes>3</StartingAmmoBoxes>
+  <AmmoBoxQuantity>500</AmmoBoxQuantity>
+  <Price>4</Price>
+  <TechChanceNumber>3</TechChanceNumber>
+  
+  <RateOfFire>1</RateOfFire>
+  <ProjectilesPerShot>12</ProjectilesPerShot>
+  <ProjectileSpread>0.02</ProjectileSpread>
+  <ProjectilePrecision>1</ProjectilePrecision>
+  <ProjectileClassfile>Projectiles\shotgun_bullet</ProjectileClassfile>
+  <LoadoutCategory>Shotguns</LoadoutCategory>
+  
+  <FireSound>Combat_M_Player_Shotgun_Shot</FireSound>
+  <FireBoneRecoil>12</FireBoneRecoil>
+  <MuzzleFlashEffect>_new_muzzle_shotgun</MuzzleFlashEffect>
+  <CasingClassfile>Weapons\shotgun_casing</CasingClassfile>
+  <FireRecoil>300</FireRecoil>
+  <ShakeCameraOnFire>0.8</ShakeCameraOnFire>
+  <SpineWeaponHeadTextureName>gunhead\wephead_shotgun01</SpineWeaponHeadTextureName>
+  <SpineWeaponTextureName>gunhead\wep_shotgun01</SpineWeaponTextureName>
+
+  <OnFireMuzzleLight>
+    <Type>Spotlight</Type>
+    <Position>
+      <Z>10</Z>
+    </Position>
+    <Color>
+      <X>1</X>
+      <Y>0.8</Y>
+      <Z>0.5</Z>
+      <W>1</W>
+    </Color>
+    <Direction>
+      <X>1</X>
+      <Y>0</Y>
+      <Z>0.3</Z>
+    </Direction>
+    <Strength>20</Strength>
+    <Radius>700</Radius>
+    <RadiusModifier>-120</RadiusModifier>
+    <InnerConeAngle>1</InnerConeAngle>
+    <OuterConeAngle>1.57</OuterConeAngle>
+  </OnFireMuzzleLight>
+</GameObjectClass>

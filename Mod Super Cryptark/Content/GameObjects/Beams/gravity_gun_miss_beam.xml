@@ -1,0 +1,14 @@
+﻿<?xml version="1.0" ?>
+<GameObjectClass>
+  <Type>BEAM</Type>
+  <MeshEffects>
+    <string>gravity_gun_beam_1</string>
+    <string>gravity_gun_beam_2</string>
+    <string>gravity_gun_beam_3</string>
+    <string>gravity_gun_beam_4</string>
+  </MeshEffects>
+  <SetLayer>FULLBRIGHT</SetLayer>
+  <FadeOutDuration>0.3</FadeOutDuration>
+  <BeamEndParticleEffect>_new_hit_gravgun</BeamEndParticleEffect>
+  <BeamStartParticleEffect>_new_hit_gravgun</BeamStartParticleEffect>
+</GameObjectClass>

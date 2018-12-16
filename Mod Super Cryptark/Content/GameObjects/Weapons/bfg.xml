@@ -1,0 +1,99 @@
+﻿<?xml version="1.0" ?>
+<GameObjectClass>
+  <Type>WEAPON</Type>
+  <LoadoutCategory>Cannons</LoadoutCategory>
+  <ProjectileClassfile>Projectiles\bfg_p</ProjectileClassfile>
+  <Displayname>T3 BFG-9000</Displayname>
+  <ShortDisplayName>BFG9k</ShortDisplayName>
+  <ItemInfo>The Bio Force Gun 9k or the Big Fucking Gun 9k. Both are valid. This absurdly powerful weapon ejects a magnetically contained mass of bio signed exotic matter that smartly differentiates between friend or foe and vaporizes any foe caught within its arcing fields.</ItemInfo>
+
+  <TechChanceNumber>1</TechChanceNumber>
+  <StartingAmmoBoxes>4</StartingAmmoBoxes>
+  <AmmoBoxQuantity>10</AmmoBoxQuantity>
+  <Price>8</Price>
+  
+  <RateOfFire>3</RateOfFire>
+
+  <FireBoneRecoil>75</FireBoneRecoil>
+  <ProjectilesPerShot>1</ProjectilesPerShot>
+  <ProjectilePrecision>1</ProjectilePrecision>
+  <ProjectileRange>200</ProjectileRange>
+
+  <RechargeRate>60</RechargeRate>
+  <MaxCharge>100</MaxCharge>
+  <MinimumCharge>100</MinimumCharge>
+  <ChargeParticleEffect>_new_charge_bfg</ChargeParticleEffect>
+
+  <FireOnRelease>true</FireOnRelease>
+  <FireRecoil>1000</FireRecoil>
+  <RecoilCameraOnFire>2</RecoilCameraOnFire>
+  <RecoilCameraOnFireDuration>0.2</RecoilCameraOnFireDuration>
+  <ShakeCameraOnFire>0.5</ShakeCameraOnFire>
+  <SpineWeaponHeadTextureName>gunhead\wephead_laser01</SpineWeaponHeadTextureName>
+  <SpineWeaponTextureName>gunhead\wep_laser01</SpineWeaponTextureName>
+
+  <FireSound>StormHammer_Shot</FireSound>
+  <StartFiringSound>StormHammer_BuildUp</StartFiringSound>
+
+  <WeaponChargeLightFalloff>0.25</WeaponChargeLightFalloff>
+
+  <OnFireMuzzleLight>
+    <Type>Spotlight</Type>
+    <Position>
+      <Z>10</Z>
+    </Position>
+    <Color>
+      <X>0</X>
+      <Y>1</Y>
+      <Z>1</Z>
+      <W>1</W>
+    </Color>
+    <SpecularColor>
+      <X>0</X>
+      <Y>1</Y>
+      <Z>1</Z>
+      <W>1</W>
+    </SpecularColor>
+    <Direction>
+      <X>1</X>
+      <Y>0</Y>
+      <Z>0.3</Z>
+    </Direction>
+    <Strength>20</Strength>
+    <Shininess>20</Shininess>
+    <Radius>1000</Radius>
+    <RadiusModifier>-100</RadiusModifier>
+    <InnerConeAngle>0.7</InnerConeAngle>
+    <OuterConeAngle>1</OuterConeAngle>
+  </OnFireMuzzleLight>
+
+  <OnWeaponChargeLight>
+    <Type>Spotlight</Type>
+    <Position>
+      <Z>5</Z>
+    </Position>
+    <Color>
+      <X>0</X>
+      <Y>1</Y>
+      <Z>1</Z>
+      <W>1</W>
+    </Color>
+    <SpecularColor>
+      <X>0</X>
+      <Y>1</Y>
+      <Z>1</Z>
+      <W>1</W>
+    </SpecularColor>
+    <Direction>
+      <X>1</X>
+      <Y>0</Y>
+      <Z>1</Z>
+    </Direction>
+    <MaxRadius>1000</MaxRadius>
+    <Strength>30</Strength>
+    <Shininess>20</Shininess>
+    <InnerConeAngle>0.5</InnerConeAngle>
+    <OuterConeAngle>1.4</OuterConeAngle>
+  </OnWeaponChargeLight>
+
+</GameObjectClass>

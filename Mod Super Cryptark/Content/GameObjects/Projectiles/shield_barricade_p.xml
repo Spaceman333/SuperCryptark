@@ -1,0 +1,44 @@
+﻿<?xml version="1.0" ?>
+<GameObjectClass>
+  <Type>WEAPON</Type>
+  <Solid>true</Solid>
+  <CharacterCollide>true</CharacterCollide>
+  <ProjectileSpeed>44</ProjectileSpeed>
+  <Restitution>1</Restitution>
+  <SetFriction>true</SetFriction>
+  <Friction>0</Friction>
+
+  <ProjectileRemoveOnCollision>false</ProjectileRemoveOnCollision>
+  <AllowProjectileOnProjectileCollision>true</AllowProjectileOnProjectileCollision>
+  <AllowOtherProjectilesToRemove>false</AllowOtherProjectilesToRemove>
+  <IgnoreBrushCollision>true</IgnoreBrushCollision>
+  <NoRotation>true</NoRotation>
+  <IgnoreDoorCollision>true</IgnoreDoorCollision>
+
+  <!--<EclipseBody>true</EclipseBody>-->
+  <Width>26</Width>
+  <Height>4</Height>
+
+  <Density>40</Density>
+  <!--<Health>1</Health>-->
+
+  <LinearDamping>0.6</LinearDamping>
+  <SetLayer>FULLBRIGHT</SetLayer>
+
+  <ParticleEffect>_new_trail_barricade</ParticleEffect>
+  <RotateParticleEffect>true</RotateParticleEffect>
+  <RemoveAfterStarted>9</RemoveAfterStarted>
+  <AmbientSound>Combat_M_Shield_Loop</AmbientSound>
+
+  <OnFireProjectileLight>
+    <Type>Point</Type>
+    <Color>
+      <X>0.5</X>
+      <Y>1</Y>
+      <Z>.7</Z>
+      <W>1</W>
+    </Color>
+    <Strength>2</Strength>
+    <Radius>900</Radius>
+  </OnFireProjectileLight>
+</GameObjectClass>

@@ -1,0 +1,10 @@
+﻿<?xml version="1.0" ?>
+<GameObjectClass>
+  <Type>FLUID_SPRAYER</Type>
+  <SprayerParticlesPerSpray>1</SprayerParticlesPerSpray>
+  <SprayerRate>0.02</SprayerRate>
+  <SprayerForce>1</SprayerForce>
+  <Width>2</Width>
+  <Height>3</Height>
+  <FluidType>BlueSlime</FluidType>
+</GameObjectClass>

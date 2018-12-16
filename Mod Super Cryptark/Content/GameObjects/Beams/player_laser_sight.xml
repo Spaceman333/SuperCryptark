@@ -1,0 +1,13 @@
+﻿<?xml version="1.0" ?>
+<GameObjectClass>
+  <Type>BEAM</Type>
+  <Texture>Beams\laser_sight</Texture>
+  <BeamColor>
+    <X>0.88</X>
+    <Y>0.12</Y>
+    <Z>0.12</Z>
+    <W>0.5</W>
+  </BeamColor>
+  <SetLayer>FULLBRIGHT</SetLayer>
+  <FadeOutDuration>0.01</FadeOutDuration>
+</GameObjectClass>

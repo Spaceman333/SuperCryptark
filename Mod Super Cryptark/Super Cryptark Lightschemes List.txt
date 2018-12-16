@@ -1,0 +1,134 @@
+	// CRYPTARK LEVEL LIGHTSCHEMES LIST
+	
+	// Ambient light only
+	
+	<string>automated01</string>
+	<string>clinical</string>
+	<string>cloaker01</string>
+	<string>cryptark01</string>
+	<string>cryptark02</string>
+	<string>factory_brown</string>
+	<string>factory01</string>
+	<string>factory02</string>
+	<string>factory03</string>
+	<string>factory04</string>
+	<string>gunmetal</string>
+	<string>hazard01</string>
+	<string>heavy01</string>
+	<string>heavy02</string>
+	<string>heavy03</string>
+	<string>heavy04</string>
+	<string>inferno</string>
+	<string>miner01</string>
+	<string>miner02</string>
+	<string>miner03</string>
+	<string>miner04</string>
+	<string>minty</string>
+	<string>nightvision</string>
+	<string>nuke01</string>
+	<string>nuke02</string>
+	<string>olive_blue</string>
+	<string>science01</string>
+	<string>science02</string>
+	<string>scout01</string>
+	<string>scout02</string>
+	<string>scrapyard01</string>
+	<string>scrapyard02</string>
+	<string>sentry01</string>
+	<string>sentry02</string>
+	<string>sentry03</string>
+	<string>sentry04</string>
+	<string>swarm01</string>
+	<string>swarm02</string>
+	<string>swarm03</string>
+	<string>swarm04</string>
+	<string>toxic</string>
+	<string>warship01</string>
+	<string>warship02</string>
+	<string>warship03</string>
+	<string>warship04</string>
+	<string>watermelon</string>
+	<string>wine_pink</string>
+	
+	// ambient + directional lights (usually 2 dir-lights per lightscheme)
+	
+	<string>dir_automated01</string>
+	<string>dir_clinical</string>
+	<string>dir_cloaker01</string>
+	<string>dir_cryptark01</string>
+	<string>dir_cryptark02</string>
+	<string>dir_factory_brown</string>
+	<string>dir_factory01</string>
+	<string>dir_factory02</string>
+	<string>dir_factory03</string>
+	<string>dir_factory04</string>
+	<string>dir_gunmetal</string>
+	<string>dir_hazard01</string>
+	<string>dir_heavy01</string>
+	<string>dir_heavy02</string>
+	<string>dir_heavy03</string>
+	<string>dir_heavy04</string>
+	<string>dir_inferno</string>
+	<string>dir_miner01</string>
+	<string>dir_miner02</string>
+	<string>dir_miner03</string>
+	<string>dir_miner04</string>
+	<string>dir_minty</string>
+	<string>dir_nightvision</string>
+	<string>dir_nuke01</string>
+	<string>dir_nuke02</string>
+	<string>dir_olive_blue</string>
+	<string>dir_science01</string>
+	<string>dir_science02</string>
+	<string>dir_scout01</string>
+	<string>dir_scout02</string>
+	<string>dir_scrapyard01</string>
+	<string>dir_scrapyard02</string>
+	<string>dir_sentry01</string>
+	<string>dir_sentry02</string>
+	<string>dir_sentry03</string>
+	<string>dir_sentry04</string>
+	<string>dir_swarm01</string>
+	<string>dir_swarm02</string>
+	<string>dir_swarm03</string>
+	<string>dir_swarm04</string>
+	<string>dir_toxic</string>
+	<string>dir_warship01</string>
+	<string>dir_warship02</string>
+	<string>dir_warship03</string>
+	<string>dir_warship04</string>
+	<string>dir_watermelon</string>
+	<string>dir_wine_pink</string>
+	
+	<string>inferno</string>
+    <string>dir_inferno</string>
+	
+	
+	//NOTE: ALL BELOW ALREADY INCLUDED IN ABOVE LIST
+	// Common unaffiliated schemes that do no belong to any one particular ship, but might be suitable across different ships.
+	
+	<string>nightvision</string>
+	<string>dir_nightvision</string>
+	
+
+	// Same as above, but these are more stylized and less universal, therefore suitable only to schemes that are similar to them.
+	<string>clinical</string>
+	<string>dir_clinical</string>
+	<string>automated01</string>
+	<string>dir_automated01</string>	
+	<string>gunmetal</string>
+	<string>dir_gunmetal</string>
+	<string>hazard01</string>
+	<string>dir_hazard01</string>
+	<string>factory_brown</string>
+	<string>dir_factory_brown</string>
+	<string>minty</string>
+	<string>dir_minty</string>
+	<string>olive_blue</string>
+	<string>dir_olive_blue</string>
+	<string>toxic</string>
+	<string>dir_toxic</string>
+	<string>watermelon</string>
+	<string>dir_watermelon</string>
+	<string>wine_pink</string>
+	<string>dir_wine_pink</string>

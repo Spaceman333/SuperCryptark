@@ -1,0 +1,24 @@
+﻿<?xml version="1.0"?>
+<GameObjectClass>
+  <Type>ITEM</Type>
+  <Displayname>UPG Precision Plus</Displayname>
+  <ShortDisplayName>PRCIS</ShortDisplayName>
+  <LoadoutCategory>Item</LoadoutCategory>
+  <ItemInfo>All equipped weapons have their accuracy permanently increased by 50%. Passive item.</ItemInfo>
+  <StartItemQuantity>1</StartItemQuantity>
+
+  <Price>5</Price>
+  <TechChanceNumber>2</TechChanceNumber>
+  
+  <HudTextureName>tag_item_gunbarrel</HudTextureName>
+  <ItemType>None</ItemType>
+  <PassiveItem>true</PassiveItem>
+  <PowerupEffects>
+    <PowerupEffectClass>
+      <Type>PrecisionMod</Type>
+      <OverwritesSameType>false</OverwritesSameType>
+      <Amount>0.5</Amount>
+	  <HudDraw>false</HudDraw>
+    </PowerupEffectClass>
+  </PowerupEffects>
+</GameObjectClass>

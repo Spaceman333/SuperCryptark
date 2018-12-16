@@ -1,0 +1,110 @@
+﻿<?xml version="1.0" ?>
+<GameObjectClass>
+  <Type>WEAPON</Type>
+  <LoadoutCategory>Energy</LoadoutCategory>
+  <ProjectileClassfile>Projectiles\stormbolt</ProjectileClassfile>
+  <Displayname>T3 Storm Hammer</Displayname>
+  <ShortDisplayName>STORM</ShortDisplayName>
+  <ItemInfo>Channeling an apocalyptic level of charged electricity, this experimental energy weapon is capable of laying waste to scores of enemies with a single devastating thunderclap. Each shot requires a few seconds to recharge.</ItemInfo>
+
+  <TechChanceNumber>1</TechChanceNumber>
+  <Price>80</Price>
+  
+  <ZapGun>true</ZapGun>
+  <ZapChainAmount>24</ZapChainAmount>
+  <MaxChainAngle>360</MaxChainAngle>
+
+  <AmmoAsPercent>true</AmmoAsPercent>
+  <StartingAmmoBoxes>1</StartingAmmoBoxes>
+  <AmmoBoxQuantity>1</AmmoBoxQuantity>
+  <NextRefillTime>1</NextRefillTime>
+  <RefillRate>.005</RefillRate>
+  <RateOfFire>1.5</RateOfFire>
+
+  <FireBoneRecoil>50</FireBoneRecoil>
+  <ProjectilesPerShot>1</ProjectilesPerShot>
+  <ProjectilePrecision>1</ProjectilePrecision>
+  <ProjectileRange>200</ProjectileRange>
+
+  <RechargeRate>60</RechargeRate>
+  <MaxCharge>100</MaxCharge>
+  <MinimumCharge>100</MinimumCharge>
+
+  <FireOnRelease>true</FireOnRelease>
+  <FireRecoil>1000</FireRecoil>
+  <RecoilCameraOnFire>2</RecoilCameraOnFire>
+  <RecoilCameraOnFireDuration>0.2</RecoilCameraOnFireDuration>
+  <ShakeCameraOnFire>0.5</ShakeCameraOnFire>
+  <ChargeParticleEffect>_new_muzzle_lightning</ChargeParticleEffect>
+  <MuzzleFlashEffect>_new_muzzle_lightning</MuzzleFlashEffect>
+  <NoMuzzleFlashRotation>true</NoMuzzleFlashRotation>
+  <WeaponMeshEffects>
+    <string>stormbolt_1</string>
+    <string>stormbolt_2</string>
+  </WeaponMeshEffects>
+  
+  <SpineWeaponHeadTextureName>gunhead\wephead_laser01</SpineWeaponHeadTextureName>
+  <SpineWeaponTextureName>gunhead\wep_laser01</SpineWeaponTextureName>
+
+  <FireSound>StormHammer_Shot</FireSound>
+  <FiringLoopAfterStartFiringSound>StormHammer_Loop</FiringLoopAfterStartFiringSound>
+  <StartFiringSound>StormHammer_BuildUp</StartFiringSound>
+
+  <OnFireMuzzleLight>
+    <Type>Directional</Type>
+    <Position>
+      <Z>10</Z>
+    </Position>
+    <Color>
+      <X>0.5</X>
+      <Y>0.5</Y>
+      <Z>1</Z>
+      <W>1</W>
+    </Color>
+    <SpecularColor>
+      <X>0.5</X>
+      <Y>0.5</Y>
+      <Z>1</Z>
+      <W>1</W>
+    </SpecularColor>
+    <Direction>
+      <X>1</X>
+      <Y>0</Y>
+      <Z>0.5</Z>
+    </Direction>
+    <Strength>12</Strength>
+    <MaxStrength>12</MaxStrength>
+    <StrengthModifier>-0.8</StrengthModifier>
+    <RemoveOnZeroStrength>true</RemoveOnZeroStrength>
+    <Shininess>6</Shininess>
+  </OnFireMuzzleLight>
+  
+  <OnWeaponChargeLight>
+    <Type>Spotlight</Type>
+    <Position>
+      <Z>5</Z>
+    </Position>
+    <Color>
+      <X>0.5</X>
+      <Y>0.5</Y>
+      <Z>1</Z>
+      <W>1</W>
+    </Color>
+    <SpecularColor>
+      <X>.5</X>
+      <Y>.5</Y>
+      <Z>1</Z>
+      <W>1</W>
+    </SpecularColor>
+    <Direction>
+      <X>1</X>
+      <Y>0</Y>
+      <Z>1</Z>
+    </Direction>
+    <MaxRadius>1000</MaxRadius>
+    <Strength>8</Strength>
+    <Shininess>0</Shininess>
+    <InnerConeAngle>0.5</InnerConeAngle>
+    <OuterConeAngle>1</OuterConeAngle>
+  </OnWeaponChargeLight>
+</GameObjectClass>

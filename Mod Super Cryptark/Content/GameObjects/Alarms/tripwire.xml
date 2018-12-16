@@ -1,0 +1,43 @@
+<?xml version="1.0"?>
+<GameObjectClass>
+  <Displayname>Trip-Laser</Displayname>
+  <SpineAnimation>alarm_laser</SpineAnimation>
+  <Solid>true</Solid>
+  <Type>TRIPWIRE</Type>
+  <IgnoreBrushCollision>true</IgnoreBrushCollision>
+  <Static>true</Static>
+  <Health>4</Health>
+
+  <GibOnDeath>true</GibOnDeath>
+
+  <AmbientSound>FX_M_Alarm_Loop</AmbientSound>
+  <OnRemoveSound>Combat_M_Enemy_Hit</OnRemoveSound>
+  <RemoveParticleEffect>_new_death_enemy</RemoveParticleEffect>
+
+  <OffscreenDistanceMultiply>2</OffscreenDistanceMultiply>
+  
+  <Width>6</Width>
+  <Height>6</Height>
+  
+  <SidebarTextureName>hazard_tripwire</SidebarTextureName>
+  <MinimapDescription>Alarm sensor that will draw the attention of nearby drones if tripped.</MinimapDescription>
+  
+  <AnimationOffset>
+    <X>0</X>
+    <Y>30</Y>
+  </AnimationOffset>
+
+  <AimingBeamClassfile>Beams\tripwire_beam</AimingBeamClassfile>
+  
+  <Light>
+    <Type>Point</Type>
+    <Color>
+      <X>1</X>
+      <Y>0.25</Y>
+      <Z>0</Z>
+      <W>1</W>
+    </Color>
+    <Radius>200</Radius>
+    <Strength>0.8</Strength>
+  </Light>
+</GameObjectClass>

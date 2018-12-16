@@ -1,0 +1,33 @@
+﻿<?xml version="1.0" ?>
+<GameObjectClass>
+  <Type>BEE_HIVE</Type>
+  <Displayname>Hornet Hive</Displayname>
+  <SpineAnimation>hive</SpineAnimation>
+  <SidebarTextureName>hazard_beehive</SidebarTextureName>
+  <MinimapDescription>This clustered pod releases a swarm of Hornet drones when triggered.</MinimapDescription>
+  
+  <Health>1</Health>
+  <Solid>true</Solid>
+  <Static>true</Static>
+  <BoundingBoxBody>base_box</BoundingBoxBody>
+  <CharacterCollide>false</CharacterCollide>
+  <GibOnDeath>true</GibOnDeath>
+
+  <BeeHiveRadius>40</BeeHiveRadius>
+  <BeeHiveSpawnCount>1</BeeHiveSpawnCount>
+  <RemoveParticleEffect>_new_death_enemy</RemoveParticleEffect>
+  <OnRemoveSound>Combat_M_Enemy_DeathExplode</OnRemoveSound>
+  <OnRemoveLight>
+    <Type>Point</Type>
+    <Color>
+      <X>0.75</X>
+      <Y>0.6</Y>
+      <Z>1</Z>
+      <W>1</W>
+    </Color>
+    <Strength>2</Strength>
+    <Radius>500</Radius>
+    <RadiusModifier>-50</RadiusModifier>
+  </OnRemoveLight>
+  
+</GameObjectClass>

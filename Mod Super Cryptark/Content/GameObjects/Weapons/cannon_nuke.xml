@@ -1,0 +1,54 @@
+<?xml version="1.0"?>
+<GameObjectClass>
+  <Type>WEAPON</Type>
+  <Displayname>T3 Nuclear Cannon</Displayname>
+  <ShortDisplayName>CN-NU</ShortDisplayName>
+  <ItemInfo>Tactical nuclear shell cannon. Cannon Nukes offer best range and best impact damage, but area of effect of the initial blast is much smaller and compressed compared to the grenade or rocket versions of similar nuclear weapons.</ItemInfo>
+
+  <StartingAmmoBoxes>3</StartingAmmoBoxes>
+  <AmmoBoxQuantity>20</AmmoBoxQuantity>
+  <Price>10</Price>
+  <TechChanceNumber>1</TechChanceNumber>
+
+  <RateOfFire>1.8</RateOfFire>
+  <ProjectilesPerShot>1</ProjectilesPerShot>
+  <ProjectilePrecision>1</ProjectilePrecision>
+  <ProjectileClassfile>Projectiles\cannon_nuke_bullet</ProjectileClassfile>
+  <LoadoutCategory>Cannons</LoadoutCategory>
+  
+  <MuzzleFlashEffect>_new_muzzle_autocannon</MuzzleFlashEffect>
+  <FireRecoil>12500</FireRecoil>
+  <ShakeCameraOnFire>0.85</ShakeCameraOnFire>
+  <RecoilCameraOnFire>1.8</RecoilCameraOnFire>
+  <RecoilCameraOnFireDuration>0.2</RecoilCameraOnFireDuration>
+  <FireBoneRecoil>45</FireBoneRecoil>
+  <CasingClassfile>Weapons\cannon_casing</CasingClassfile>
+  <SpineWeaponHeadTextureName>gunhead\wephead_cannon01</SpineWeaponHeadTextureName>
+  <SpineWeaponTextureName>gunhead\wep_cannon01</SpineWeaponTextureName>
+   <OnLoadoutTrigger>weapon_nuke</OnLoadoutTrigger>
+
+  <FireSound>Combat_M_AutoCannon_Shot</FireSound>
+
+  <OnFireMuzzleLight>
+    <Type>Spotlight</Type>
+    <Position>
+      <Z>10</Z>
+    </Position>
+    <Color>
+      <X>1</X>
+      <Y>0.8</Y>
+      <Z>0.5</Z>
+      <W>1</W>
+    </Color>
+    <Direction>
+      <X>1</X>
+      <Y>0</Y>
+      <Z>0.3</Z>
+    </Direction>
+    <Strength>40</Strength>
+    <Radius>900</Radius>
+    <RadiusModifier>-120</RadiusModifier>
+    <InnerConeAngle>1</InnerConeAngle>
+    <OuterConeAngle>1.57</OuterConeAngle>
+  </OnFireMuzzleLight>
+</GameObjectClass>

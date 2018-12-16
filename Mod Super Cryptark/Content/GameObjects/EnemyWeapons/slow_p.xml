@@ -1,0 +1,26 @@
+﻿<?xml version="1.0"?>
+<GameObjectClass>
+  <Type>WEAPON</Type>
+  <Texture>ball</Texture>
+  
+  <!--<Solid>true</Solid>-->
+  <FakeProjectile>true</FakeProjectile>
+  
+  <CharacterCollide>true</CharacterCollide>
+  <ProjectileSpeed>35</ProjectileSpeed>
+  <HitForce>10</HitForce>
+  <DamagePerShot>1</DamagePerShot>
+  <RemoveParticleEffect>_new_hit_enemyblaster</RemoveParticleEffect>
+  <SetLayer>FULLBRIGHT</SetLayer>
+
+  <OnFireProjectileLight>
+    <Color>
+      <X>0.2</X>
+      <Y>0.2</Y>
+      <Z>1</Z>
+      <W>1</W>
+    </Color>
+    <Strength>2</Strength>
+    <Radius>75</Radius>
+  </OnFireProjectileLight>
+</GameObjectClass>

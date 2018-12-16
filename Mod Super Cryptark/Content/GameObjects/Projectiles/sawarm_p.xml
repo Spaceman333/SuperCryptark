@@ -1,0 +1,24 @@
+﻿<?xml version="1.0" ?>
+<GameObjectClass>
+  <Type>WEAPON</Type>
+  <Solid>true</Solid>
+  <Width>10</Width>
+  <SolidArcBody>true</SolidArcBody>
+  <ArcRadians>5</ArcRadians>
+  <ArcSides>10</ArcSides>
+  <FollowBoneRotation>true</FollowBoneRotation>
+
+  <CharacterCollide>true</CharacterCollide>
+  <ProjectileRemoveOnCollision>false</ProjectileRemoveOnCollision>
+  <ProjectileAttachToMuzzle>true</ProjectileAttachToMuzzle>
+  <AllowProjectileOnProjectileCollision>true</AllowProjectileOnProjectileCollision>
+  <ProjectileRemovesOtherProjectiles>true</ProjectileRemovesOtherProjectiles>
+  <ProjAllowSpin>true</ProjAllowSpin>
+  <ProjectileDoesKnockback>true</ProjectileDoesKnockback>
+  <KnockbackForce>15000</KnockbackForce>
+  <KnockbackTime>1</KnockbackTime>
+  <DamagePerShot>6</DamagePerShot>
+  
+  <CameraShakeOnHit>1.5</CameraShakeOnHit>
+  <RemoveAfterStarted>0.2</RemoveAfterStarted>
+</GameObjectClass>

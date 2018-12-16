@@ -1,0 +1,41 @@
+﻿<?xml version="1.0" ?>
+<GameObjectClass>
+  <Type>BUMPER</Type>
+  <Displayname>Bumper</Displayname>
+  <SpineAnimation>bumper01</SpineAnimation>
+  
+  <Solid>true</Solid>
+  <EclipseBody>true</EclipseBody>
+  <Width>6</Width>
+  <Height>6</Height>
+  <LinearDamping>0.3</LinearDamping>
+  
+  <ReflectProjectiles>true</ReflectProjectiles>
+  <SwapProjectileTeamOnContact>false</SwapProjectileTeamOnContact>
+  <DamageOnContact>0.1</DamageOnContact>
+  <DamageOnContactForce>200000</DamageOnContactForce>
+  <DamageOnContactNoAirControlTime>1</DamageOnContactNoAirControlTime>
+  <ParticleEffect>_new_bumperfield</ParticleEffect>
+  <SetAnimationOnContact>bump</SetAnimationOnContact>
+  <SetAnimationOnContactTrack>1</SetAnimationOnContactTrack>
+
+  <SidebarTextureName>hazard_bumper</SidebarTextureName>
+  <MinimapDescription>A repulsor buoy that knocks back anything that comes into contact with it.</MinimapDescription>
+  <MinimapTextureName>map-bumper</MinimapTextureName>
+  <MinimapTextureScale>10</MinimapTextureScale>
+  <Light>
+    <Type>Point</Type>
+    <Color>
+      <X>.1</X>
+      <Y>.7</Y>
+      <Z>.8</Z>
+      <W>1</W>
+    </Color>
+    <Shininess>10</Shininess>
+    <MinRadius>400</MinRadius>
+    <MaxRadius>800</MaxRadius>
+    <RadiusCycleScale>3</RadiusCycleScale>
+    <OscillateRadius>true</OscillateRadius>
+    <Strength>2</Strength>
+  </Light>
+</GameObjectClass>

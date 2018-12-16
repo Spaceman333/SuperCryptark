@@ -1,0 +1,80 @@
+﻿<?xml version="1.0" ?>
+<GameObjectClass>
+  <Type>WEAPON</Type>
+  <Texture>Projectiles\energy_spear</Texture>
+  <Solid>true</Solid>
+  <EclipseBody>false</EclipseBody>
+  <Width>1</Width>
+  <Height>3</Height>
+  <Scale>0.7</Scale>
+  <CharacterCollide>true</CharacterCollide>
+  <ProjectileSpeed>175</ProjectileSpeed>
+  <SetFriction>true</SetFriction>
+  <Friction>0</Friction>
+  <LinearDamping>0.5</LinearDamping>
+  <DecalType>Bomb</DecalType>
+  <RemoveAfterStarted>4</RemoveAfterStarted>
+  
+  <ExplodeOnRemove>true</ExplodeOnRemove>
+  <ExplodeForce>90</ExplodeForce>
+  <ExplodeSize>11</ExplodeSize>
+  <ExplosionParticleEffect>_new_explosion_small</ExplosionParticleEffect>
+  <ExplosionSound>Combat_M_AutoCannon_Blast</ExplosionSound>
+  <ExplodeDamage>3</ExplodeDamage>
+
+<!--   <InteractThroughWalls>true</InteractThroughWalls>
+
+  <ProjectileMapTextureName>Ingame\map-projectile-javelin</ProjectileMapTextureName>
+  <ProjectileMapTextureScale>4</ProjectileMapTextureScale> -->
+  <!--<CustomTexOrigin>true</CustomTexOrigin>
+  <TexOriginX>25</TexOriginX>
+  <TexOriginY>10</TexOriginY>-->
+
+  <DamagePerShot>6</DamagePerShot>
+  <ProjectilePiercing>true</ProjectilePiercing>
+  <ProjectileTurnStaticOnAttach>true</ProjectileTurnStaticOnAttach>
+<!--   <ProjectileAllowInfiniteLifetime>true</ProjectileAllowInfiniteLifetime>
+  <ProjectileRemoveOffscreen>false</ProjectileRemoveOffscreen>
+  <RecoverAmmoOnInteract>true</RecoverAmmoOnInteract>
+  <RecoverAmmoAfterAttach>true</RecoverAmmoAfterAttach> -->
+  <ProjectileRemoveOnCollision>false</ProjectileRemoveOnCollision>
+  <ProjectileAttachToBrushes>true</ProjectileAttachToBrushes>
+  <ProjectileAttachToDoors>true</ProjectileAttachToDoors>
+  <ParticleEffect>_new_trail_glowsmoke</ParticleEffect>
+  
+  <ParticleOffset>30</ParticleOffset>
+  <AmbientSound>Javelin_Loop</AmbientSound>
+
+  <OnFireProjectileLight>
+    <Type>Point</Type>
+    <Color>
+      <X>0.3</X>
+      <Y>0.5</Y>
+      <Z>0.9</Z>
+      <W>1</W>
+    </Color>
+    <Shininess>50</Shininess>
+    <Strength>5</Strength>
+    <Radius>400</Radius>
+  </OnFireProjectileLight>
+  
+  <OnExplodeLight>
+    <Type>Point</Type>
+    <Color>
+      <X>0.3</X>
+      <Y>0.5</Y>
+      <Z>0.9</Z>
+      <W>1</W>
+    </Color>
+    <Strength>2</Strength>
+    <Radius>200</Radius>
+    <RadiusModifier>-10</RadiusModifier>
+  </OnExplodeLight>
+
+  <ProjectileColor>
+    <X>0.3</X>
+    <Y>0.3</Y>
+    <Z>1</Z>
+  </ProjectileColor>
+  <SetLayer>FULLBRIGHT</SetLayer>
+</GameObjectClass>

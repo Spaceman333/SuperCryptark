@@ -1,0 +1,9 @@
+﻿<?xml version="1.0" ?>
+<GameObjectClass>
+  <SpineAnimation>piston_med02</SpineAnimation>
+  <Static>true</Static>
+  <Width>25</Width>
+  <Height>15</Height>
+  <SetLayer>BACKGROUND</SetLayer>
+  <UseSpatialSystem>false</UseSpatialSystem>
+</GameObjectClass>

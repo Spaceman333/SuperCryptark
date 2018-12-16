@@ -1,0 +1,15 @@
+﻿<?xml version="1.0" ?>
+<GameObjectClass>
+  <Type>BEAM</Type>
+  <Texture>Beams\heavy_laser_beam</Texture>
+  <BeamColor>
+    <X>1</X>
+    <Y>1</Y>
+    <Z>1</Z>
+    <W>1</W>
+  </BeamColor>
+  <FadeOutDuration>.1</FadeOutDuration>
+  <RemoveOnFadeOut>true</RemoveOnFadeOut>
+  <SetLayer>FULLBRIGHT</SetLayer>
+  <BeamEndParticleEffect>_new_hit_laser</BeamEndParticleEffect>
+</GameObjectClass>

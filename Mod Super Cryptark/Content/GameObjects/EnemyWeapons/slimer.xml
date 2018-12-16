@@ -1,0 +1,14 @@
+﻿<?xml version="1.0"?>
+<GameObjectClass>
+  <Type>WEAPON</Type>
+  <RateOfFire>0.001</RateOfFire>
+  <ProjectilesPerShot>2</ProjectilesPerShot>
+  <ProjectilePrecision>.3</ProjectilePrecision>
+  <CreateFluidOnFire>true</CreateFluidOnFire>
+  <FluidForceMultiply>1</FluidForceMultiply>
+  <MuzzleFlashEffect>_new_muzzle_goo</MuzzleFlashEffect>
+  <AIFiringTime>0.5</AIFiringTime>
+  <AINextFiringTime>1.75</AINextFiringTime>
+  <FiringLoop>Combat_M_SlimeGun_Shot_Loop</FiringLoop>
+  <FluidType>GreenSlime</FluidType>
+</GameObjectClass>

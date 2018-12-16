@@ -1,0 +1,36 @@
+﻿<?xml version="1.0"?>
+<GameObjectClass>
+  <Type>WEAPON</Type>
+  <RateOfFire>0.01</RateOfFire>
+  <ProjectilePrecision>1</ProjectilePrecision>
+  <ProjectileClassfile>EnemyWeapons\flak_turret_p</ProjectileClassfile>
+  <MuzzleFlashEffect>_new_muzzle_enemyblaster</MuzzleFlashEffect>
+  <FireRecoil>7500</FireRecoil>
+  <FireBoneRecoil>25</FireBoneRecoil>
+  <ProjectilesPerShot>1</ProjectilesPerShot>
+
+  <FireSound>Combat_M_AutoCannon_Shot</FireSound>
+
+  <OnFireMuzzleLight>
+    <Type>Spotlight</Type>
+    <Position>
+      <Z>10</Z>
+    </Position>
+    <Color>
+      <X>1</X>
+      <Y>0.8</Y>
+      <Z>0.5</Z>
+      <W>1</W>
+    </Color>
+    <Direction>
+      <X>1</X>
+      <Y>0</Y>
+      <Z>0.3</Z>
+    </Direction>
+    <Strength>20</Strength>
+    <Radius>700</Radius>
+    <RadiusModifier>-120</RadiusModifier>
+    <InnerConeAngle>1</InnerConeAngle>
+    <OuterConeAngle>1.57</OuterConeAngle>
+  </OnFireMuzzleLight>
+</GameObjectClass>

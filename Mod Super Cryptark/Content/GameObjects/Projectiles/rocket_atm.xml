@@ -1,0 +1,79 @@
+﻿<?xml version="1.0" ?>
+<GameObjectClass>
+  <Type>WEAPON</Type>
+  <Texture>Projectiles\rocket_red</Texture>
+  <NormalMap>Projectiles\rocket_norm</NormalMap>
+  <Solid>true</Solid>
+  <CharacterCollide>true</CharacterCollide>
+  <Restitution>0</Restitution>
+  <SetFriction>true</SetFriction>
+  <Friction>0</Friction>
+  <Scale>0.8</Scale>
+
+  <DecalType>Bomb</DecalType>
+  <ProjectileSpeed>150</ProjectileSpeed>
+  <ProjectileBoostMaxSpeed>250</ProjectileBoostMaxSpeed>
+  <ProjectileBoostForce>200</ProjectileBoostForce>
+  <ProjectileBoostStart>0.1</ProjectileBoostStart>
+  
+  <ProjectileRemoveOnCollision>false</ProjectileRemoveOnCollision>
+  <ProjectileRemoveOnCharacterCollision>true</ProjectileRemoveOnCharacterCollision>
+  <ProjectileRemoveOnGameObjectCollision>true</ProjectileRemoveOnGameObjectCollision>
+  <ExplodeOnRemove>true</ExplodeOnRemove>
+
+  <ProjectileFollowTarget>true</ProjectileFollowTarget>
+  <ProjectileTargetSeekRange>60</ProjectileTargetSeekRange>
+  <ProjectileFollowTargetMaxRotate>0.35</ProjectileFollowTargetMaxRotate>
+  <ProjectileFollowTargetRotateDelay>0.01</ProjectileFollowTargetRotateDelay>
+  
+  <RemoveAfterStarted>3</RemoveAfterStarted>
+  
+  <ExplodeOnRemove>true</ExplodeOnRemove>
+  <ExplodeForce>100</ExplodeForce>
+  <ExplodeSize>16</ExplodeSize>
+  <ExplosionParticleEffect>_new_explosion_large</ExplosionParticleEffect>
+  <ExplosionRefraction>shockwave_2</ExplosionRefraction>
+  <ExplosionSound>Combat_M_Rocket_Blast</ExplosionSound>
+  <ExplodeDamage>4</ExplodeDamage>
+
+  <ParticleEffect>_new_trail_rocket</ParticleEffect>
+  <ParticleOffset>-10</ParticleOffset>
+  
+  <AmbientSound>Combat_M_Rocket_FireLoop</AmbientSound>
+  <AmbientSoundStart>0.1</AmbientSoundStart>
+  <AmbientSoundStartSound>Combat_M_Rocket_FireStart</AmbientSoundStartSound>
+  
+  <RotateParticleEffect>true</RotateParticleEffect>
+  <RotateParticleEffectOffset>3.14</RotateParticleEffectOffset>
+  
+  <OnFireProjectileLight>
+    <Type>Point</Type>
+    <Color>
+      <X>1</X>
+      <Y>0.5</Y>
+      <Z>0.1</Z>
+      <W>1</W>
+    </Color>
+    <Radius>150</Radius>
+  </OnFireProjectileLight>
+
+  <OnExplodeLight>
+    <Type>Point</Type>
+    <Color>
+      <X>1</X>
+      <Y>0.5</Y>
+      <Z>0.1</Z>
+      <W>1</W>
+    </Color>
+    <Strength>2</Strength>
+    <Radius>900</Radius>
+    <RadiusModifier>-10</RadiusModifier>
+  </OnExplodeLight>
+  
+  <ProjectileColor>
+    <X>0.1</X>
+    <Y>0.1</Y>
+    <Z>0.6</Z>
+  </ProjectileColor>  
+  
+</GameObjectClass>

@@ -1,0 +1,28 @@
+﻿<?xml version="1.0"?>
+<GameObjectClass>
+  <Type>WEAPON</Type>
+  <ProjectilesPerShot>1</ProjectilesPerShot>
+  <FireSound>FX_M_Systems_Spark</FireSound>
+  <RateOfFire>0.75</RateOfFire>
+  <ZapGun>true</ZapGun>
+  <DamagePerShot>1</DamagePerShot>
+  <ProjectileRange>10</ProjectileRange>
+  
+  <WeaponMeshEffects>
+    <string>lightning_1</string>
+  </WeaponMeshEffects>
+  
+  <MuzzleFlashEffect>_new_trail_taser</MuzzleFlashEffect>
+
+  <OnFireMuzzleLight>
+    <Color>
+      <X>.25</X>
+      <Y>.5</Y>
+      <Z>1</Z>
+      <W>1</W>
+    </Color>
+    <Strength>25</Strength>
+    <Radius>700</Radius>
+    <RadiusModifier>-150</RadiusModifier>
+  </OnFireMuzzleLight>
+</GameObjectClass>

@@ -1,0 +1,52 @@
+﻿<?xml version="1.0" ?>
+<GameObjectClass>
+  <Type>WEAPON</Type>
+  <SpineAnimation>telebeacon</SpineAnimation>
+  <Solid>true</Solid>
+  <ProjectileSpeed>100</ProjectileSpeed>
+  <SetFriction>true</SetFriction>
+  <Friction>0.1</Friction>
+  <LinearDamping>1</LinearDamping>
+  <ProjectileAngularSpeed>5</ProjectileAngularSpeed>
+  
+  <IgnoreBrushCollision>true</IgnoreBrushCollision>
+  <IgnoreDoorCollision>true</IgnoreDoorCollision>
+
+  <ProjectileMapTextureName>Ingame\map-projectile-translocator</ProjectileMapTextureName>
+  <ProjectileMapTextureScale>6</ProjectileMapTextureScale>
+  <ProjectileMapTextureUseRotation>false</ProjectileMapTextureUseRotation>
+
+  <NoOffscreen>true</NoOffscreen>
+
+  <Restitution>0.01</Restitution>
+
+  <ProjectileRemoveOnCollision>false</ProjectileRemoveOnCollision>
+  <ProjectileRemoveOffscreen>false</ProjectileRemoveOffscreen>
+  <ProjectileAllowInfiniteLifetime>true</ProjectileAllowInfiniteLifetime>
+
+  <SpawnObjectOnRemove>Hazards\translocator</SpawnObjectOnRemove>
+
+  <ParticleEffect>_new_trail_telebeacon</ParticleEffect>
+  
+  <AmbientSound>Trabslocator_Loop</AmbientSound>
+
+  <OnFireProjectileLight>
+    <Type>Point</Type>
+    <Color>
+      <X>.4</X>
+      <Y>.75</Y>
+      <Z>1</Z>
+      <W>1</W>
+    </Color>
+    <Radius>1000</Radius>
+    <Shininess>75</Shininess>
+    <Strength>2</Strength>
+  </OnFireProjectileLight>
+
+  <NormalMap>Projectiles\bomb_norm</NormalMap>
+  <ProjectileColor>
+    <X>1</X>
+    <Y>1</Y>
+    <Z>1</Z>
+  </ProjectileColor>
+</GameObjectClass>

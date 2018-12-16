@@ -1,0 +1,36 @@
+﻿<?xml version="1.0"?>
+<GameObjectClass>
+  <Type>SHIELD</Type>
+  <SpineAnimation>shieldfull_drone</SpineAnimation>
+  <SetLayer>FULLBRIGHT</SetLayer>
+  
+  <ShieldFollowBone>body</ShieldFollowBone>
+  
+  <Light>
+    <Type>Point</Type>
+    <Position>
+      <Z>5</Z>
+    </Position>
+    <Color>
+      <X>1</X>
+      <Y>0</Y>
+      <Z>.9</Z>
+      <W>1</W>
+    </Color>
+    <SpecularColor>
+      <X>1</X>
+      <Y>0.3</Y>
+      <Z>0.9</Z>
+      <W>1</W>
+    </SpecularColor>
+    <Strength>2</Strength>
+    <Shininess>9</Shininess>
+    <Radius>500</Radius>
+  </Light>
+
+  <FullShield>true</FullShield>
+  <Solid>true</Solid>
+  <EclipseBody>true</EclipseBody>
+  <Width>10</Width>
+  <Height>10</Height>
+</GameObjectClass>

@@ -1,0 +1,39 @@
+﻿<?xml version="1.0" ?>
+<GameObjectClass>
+  <Type>WEAPON</Type>
+  
+  <Displayname>T2 Homing Rocket</Displayname>
+  <ShortDisplayName>R-HOM</ShortDisplayName>
+  <ItemInfo>These heat-seeking rockets home in on targets and deliver a powerful explosive payload.</ItemInfo>
+  
+  <StartingAmmoBoxes>4</StartingAmmoBoxes>
+  <AmmoBoxQuantity>25</AmmoBoxQuantity>
+  <Price>6</Price>
+  <TechChanceNumber>2</TechChanceNumber>
+  
+  <RateOfFire>1</RateOfFire>
+  <ProjectilesPerShot>1</ProjectilesPerShot>
+  <ProjectilePrecision>1</ProjectilePrecision>
+  <ProjectileClassfile>Projectiles\rocket</ProjectileClassfile>
+  <LoadoutCategory>Rockets</LoadoutCategory>
+  
+  <FireSound>Combat_M_Rocket_Shot</FireSound>
+  <MuzzleFlashEffect>_new_muzzle_autocannon</MuzzleFlashEffect>
+  <FireRecoil>100</FireRecoil>
+  <RecoilCameraOnFire>1</RecoilCameraOnFire>
+  <RecoilCameraOnFireDuration>0.2</RecoilCameraOnFireDuration>
+  <ShakeCameraOnFire>0.5</ShakeCameraOnFire>
+  <SpineWeaponHeadTextureName>gunhead\wephead_rocket01</SpineWeaponHeadTextureName>
+  <SpineWeaponTextureName>gunhead\wep_rocket01</SpineWeaponTextureName>
+  <OnFireMuzzleLight>
+    <Color>
+      <X>1</X>
+      <Y>0.8</Y>
+      <Z>0.5</Z>
+      <W>1</W>
+    </Color>
+    
+    <Radius>200</Radius>
+    <RadiusModifier>-10</RadiusModifier>
+  </OnFireMuzzleLight>
+</GameObjectClass>

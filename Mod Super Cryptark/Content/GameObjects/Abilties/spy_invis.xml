@@ -1,0 +1,16 @@
+﻿<?xml version="1.0"?>
+<GameObjectClass>
+  <Type>ITEM</Type>
+  <LoadoutCategory>None</LoadoutCategory>
+  <HudTextureName>tag_item_cloak</HudTextureName>
+  <ParticleEffect>_new_explosion_heal</ParticleEffect>
+  <InfiniteItemQuantity>true</InfiniteItemQuantity>
+  <PowerupEffects>
+    <PowerupEffectClass>
+      <Type>Invisible</Type>
+      <Duration>180</Duration>
+      <RemoveOnFire>true</RemoveOnFire>
+    </PowerupEffectClass>
+  </PowerupEffects>
+  <ItemType>Invis</ItemType>
+</GameObjectClass>

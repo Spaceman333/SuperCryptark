@@ -1,0 +1,55 @@
+﻿<?xml version="1.0"?>
+<GameObjectClass>
+  <Type>WEAPON</Type>
+  <Displayname>T1 Wave Burst</Displayname>
+  <ShortDisplayName>BRSTW</ShortDisplayName>
+  <ItemInfo>Fires a burst of wave beam bolts that travel through walls and weave as they fly. The bolts stun, damage and knock targets away. Can be used defensively to create some breathing room when surrounded by enemies or offensively, by going into the mids of opponents and unleashing a wave burst to split them apart and weaken them.</ItemInfo>
+ 
+  <Price>13</Price>
+  <TechChanceNumber>3</TechChanceNumber>
+  
+  <ProjectilesPerShot>36</ProjectilesPerShot>
+  <ProjectilePrecision>1</ProjectilePrecision>
+  <ProjectileSpread>0.8</ProjectileSpread>
+  <ProjectileClassfile>Projectiles\blasterbounce_bullet_wonder</ProjectileClassfile>
+  <LoadoutCategory>Melee</LoadoutCategory>
+  <MuzzleFlashEffect>_new_muzzle_blaster</MuzzleFlashEffect>
+  <FireRecoil>100</FireRecoil>
+  <ShakeCameraOnFire>0.02</ShakeCameraOnFire>
+  <RecoilCameraOnFire>0.6</RecoilCameraOnFire>
+  <RecoilCameraOnFireDuration>0.01</RecoilCameraOnFireDuration>
+  <SpineWeaponHeadTextureName>gunhead\wephead_laser01</SpineWeaponHeadTextureName>
+  <SpineWeaponTextureName>gunhead\wep_laser01</SpineWeaponTextureName>
+
+  <FireSound>Combat_M_HelixGun_Shot</FireSound>
+  
+  <AmmoAsPercent>true</AmmoAsPercent>
+  <StartingAmmoBoxes>1</StartingAmmoBoxes>
+  <AmmoBoxQuantity>1</AmmoBoxQuantity>
+  <NextRefillTime>1</NextRefillTime>
+  <RefillRate>.002</RefillRate>
+  <RateOfFire>1.5</RateOfFire>
+
+  <OnFireMuzzleLight>
+    <Type>Spotlight</Type>
+    <Position>
+      <Z>10</Z>
+    </Position>
+    <Color>
+      <X>1</X>
+      <Y>0.6</Y>
+      <Z>1</Z>
+      <W>1</W>
+    </Color>
+    <Direction>
+      <X>1</X>
+      <Y>0</Y>
+      <Z>0.3</Z>
+    </Direction>
+    <Strength>20</Strength>
+    <Radius>700</Radius>
+    <RadiusModifier>-200</RadiusModifier>
+    <InnerConeAngle>1</InnerConeAngle>
+    <OuterConeAngle>1.57</OuterConeAngle>
+  </OnFireMuzzleLight>
+</GameObjectClass>

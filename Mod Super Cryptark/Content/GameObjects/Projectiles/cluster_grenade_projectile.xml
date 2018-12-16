@@ -1,0 +1,21 @@
+﻿<?xml version="1.0" ?>
+<GameObjectClass>
+  <BaseFile>Projectiles\grenade</BaseFile>
+  <Texture>Projectiles\bomb</Texture>
+  <Scale>.75</Scale>
+  <ProjectileMinRandSpeed>5</ProjectileMinRandSpeed>
+  <ProjectileMaxRandSpeed>50</ProjectileMaxRandSpeed>
+  <ProjectileAngularSpeed>5</ProjectileAngularSpeed>
+  <LinearDamping>1</LinearDamping>
+  
+  <ExplodeForce>1</ExplodeForce>
+  <ExplosionParticleEffect>_new_explosion_small</ExplosionParticleEffect>
+  <ExplosionSound>Blast</ExplosionSound>
+  <ExplodeDamage>2.5</ExplodeDamage>
+  <ExplodeSize>13</ExplodeSize>
+  
+  <RemoveAfterStarted>0</RemoveAfterStarted>
+  <MinRandRemoveAfterStarted>0.1</MinRandRemoveAfterStarted>
+  <MaxRandRemoveAfterStarted>2.5</MaxRandRemoveAfterStarted>
+  
+</GameObjectClass>

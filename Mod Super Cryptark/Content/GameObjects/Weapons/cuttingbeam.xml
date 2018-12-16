@@ -1,0 +1,87 @@
+﻿<?xml version="1.0" ?>
+<GameObjectClass>
+  <Type>WEAPON</Type>
+  <Displayname>T2 X-Ray Beam</Displayname>
+  <ShortDisplayName>XRAY</ShortDisplayName>
+  <ItemInfo>An surprisingly powerful damage short range x-ray laser beam. It is capable of penetrating through walls and enemies alike, while being relatively quiet.</ItemInfo>
+
+  <Price>9</Price>
+  <TechChanceNumber>2</TechChanceNumber>
+  
+  <AmmoAsPercent>true</AmmoAsPercent>
+  <StartingAmmoBoxes>1</StartingAmmoBoxes>
+  <AmmoBoxQuantity>250</AmmoBoxQuantity>
+  <NextRefillTime>1.25</NextRefillTime>
+  <RefillRate>2.0</RefillRate>
+  
+  <FireBoneRecoil>0</FireBoneRecoil>
+  <RateOfFire>0.0005</RateOfFire>
+  <RayGun>true</RayGun>
+  <ProjectilesPerShot>1</ProjectilesPerShot>
+  <ProjectilePrecision>1</ProjectilePrecision>
+  <ProjectileRange>26</ProjectileRange>
+  <ProjectileClassfile>Projectiles\laser_beam_cutter</ProjectileClassfile>
+  <LoadoutCategory>Melee</LoadoutCategory>
+
+  <FireNoiseRadius>6</FireNoiseRadius>
+  
+  <SpineWeaponHeadTextureName>gunhead\wephead_laser01</SpineWeaponHeadTextureName>
+  <SpineWeaponTextureName>gunhead\wep_laser01</SpineWeaponTextureName>
+  <OnFireBeamClassfile>Beams\laser_beam_cut</OnFireBeamClassfile>
+  <OnFireMuzzleLight>
+    <Type>Spotlight</Type>
+    <Position>
+      <Z>10</Z>
+    </Position>
+    <Color>
+      <X>1</X>
+      <Y>0.2</Y>
+      <Z>0.2</Z>
+      <W>1</W>
+    </Color>
+    <SpecularColor>
+      <X>1</X>
+      <Y>0.4</Y>
+      <Z>0.4</Z>
+      <W>1</W>
+    </SpecularColor>
+    <Direction>
+      <X>1</X>
+      <Y>0</Y>
+      <Z>0.4</Z>
+    </Direction>
+    <Strength>10</Strength>
+    <Radius>2200</Radius>
+    <RadiusModifier>-1000</RadiusModifier>
+    <InnerConeAngle>0.4</InnerConeAngle>
+    <OuterConeAngle>0.7</OuterConeAngle>
+  </OnFireMuzzleLight>
+
+  <RaygunImpactLight>
+    <Type>Spotlight</Type>
+    <Color>
+      <X>1</X>
+      <Y>0.5</Y>
+      <Z>0.1</Z>
+      <W>1</W>
+    </Color>
+    <Position>
+      <Z>40</Z>
+    </Position>
+    <Direction>
+      <X>1</X>
+      <Y>0</Y>
+      <Z>0.3</Z>
+    </Direction>
+    <Strength>20</Strength>
+    <InnerConeAngle>0.5</InnerConeAngle>
+    <OuterConeAngle>1.5</OuterConeAngle>
+    <Radius>300</Radius>
+    <RadiusModifier>-100</RadiusModifier>
+  </RaygunImpactLight>
+
+  <!--<AimSpeedModifier>-10</AimSpeedModifier>
+  <MinAimSpeedFactor>0.1</MinAimSpeedFactor>-->
+
+  <FiringLoop>Combat_M_LaserGun_Loop</FiringLoop>
+</GameObjectClass>

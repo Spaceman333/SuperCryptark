@@ -1,0 +1,18 @@
+﻿<?xml version="1.0" ?>
+<GameObjectClass>
+  <BaseFile>Weapons\Base\grenade</BaseFile>
+  <Displayname>T1 Cluster Grenades</Displayname>
+  <ShortDisplayName>G-CLU</ShortDisplayName>
+  <ItemInfo>Devastating ordinance that burst into smaller exploding bomblets, covering a wide area. Grenades detonate after 1.5 seconds and can be ‘cooked’ for more precise timing.
+  </ItemInfo>
+  
+  <StartingAmmoBoxes>3</StartingAmmoBoxes>
+  <AmmoBoxQuantity>50</AmmoBoxQuantity>
+  <Price>7</Price>
+  <TechChanceNumber>3</TechChanceNumber>
+  
+  <ProjectileClassfile>Projectiles\cluster_grenade_payload</ProjectileClassfile>
+  <LoadoutCategory>Bombs</LoadoutCategory>
+  <SpineWeaponHeadTextureName>gunhead\wephead_grenade01</SpineWeaponHeadTextureName>
+  <SpineWeaponTextureName>gunhead\wep_grenade01</SpineWeaponTextureName>
+</GameObjectClass>

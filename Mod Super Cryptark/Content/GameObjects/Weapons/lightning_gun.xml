@@ -1,0 +1,75 @@
+﻿<?xml version="1.0" ?>
+<GameObjectClass>
+  <Type>WEAPON</Type>
+  <LoadoutCategory>Energy</LoadoutCategory>
+  <ProjectileClassfile>Projectiles\lightning</ProjectileClassfile>
+  <Displayname>T2 Lightning Spindle</Displayname>
+  <ShortDisplayName>LIGHT</ShortDisplayName>
+  <ItemInfo>Generating massive amounts of static electricity, this short ranged weapon emits arcing forks of lightning. Additional bolts may discharge from the target into other objects in close proximity. Able to hit targets through walls.
+  </ItemInfo>
+
+  <Price>30</Price>
+  <TechChanceNumber>2</TechChanceNumber>
+  
+  <ZapGun>true</ZapGun>
+  <ZapChainAmount>9</ZapChainAmount>
+  <MaxChainAngle>4</MaxChainAngle>
+
+  <AmmoAsPercent>true</AmmoAsPercent>
+  <StartingAmmoBoxes>1</StartingAmmoBoxes>
+  <AmmoBoxQuantity>500</AmmoBoxQuantity>
+  <NextRefillTime>2</NextRefillTime>
+  <RefillRate>1.75</RefillRate>
+  
+  <RateOfFire>.009</RateOfFire>
+  
+  <FiringLoop>Combat_M_LightningGun_Loop</FiringLoop>
+
+  <ProjectilesPerShot>1</ProjectilesPerShot>
+  <ProjectilePrecision>1</ProjectilePrecision>
+  <ProjectileRange>45</ProjectileRange>
+
+  <AimSpeedModifier>-5</AimSpeedModifier>
+  <MinAimSpeedFactor>0.2</MinAimSpeedFactor>
+  <FireRecoil>75</FireRecoil>
+  <ShakeCameraOnFire>0.5</ShakeCameraOnFire>
+
+  <WeaponMeshEffects>
+    <string>lightning_1</string>
+  </WeaponMeshEffects>
+  <MuzzleFlashEffect>_new_muzzle_lightning</MuzzleFlashEffect>
+  <NoMuzzleFlashRotation>true</NoMuzzleFlashRotation>
+  <SpineWeaponHeadTextureName>gunhead\wephead_laser01</SpineWeaponHeadTextureName>
+  <SpineWeaponTextureName>gunhead\wep_laser01</SpineWeaponTextureName>
+
+  <FireSound>FX_M_Systems_Spark</FireSound>
+
+  <OnFireMuzzleLight>
+    <Type>Directional</Type>
+    <Position>
+      <Z>10</Z>
+    </Position>
+    <Color>
+      <X>0.5</X>
+      <Y>0.5</Y>
+      <Z>1</Z>
+      <W>1</W>
+    </Color>
+    <SpecularColor>
+      <X>0.5</X>
+      <Y>0.5</Y>
+      <Z>1</Z>
+      <W>1</W>
+    </SpecularColor>
+    <Direction>
+      <X>1</X>
+      <Y>0</Y>
+      <Z>0.5</Z>
+    </Direction>
+    <Strength>2</Strength>
+    <MaxStrength>5</MaxStrength>
+    <StrengthModifier>-0.4</StrengthModifier>
+    <RemoveOnZeroStrength>true</RemoveOnZeroStrength>
+    <Shininess>6</Shininess>
+  </OnFireMuzzleLight>
+</GameObjectClass>

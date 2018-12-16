@@ -1,0 +1,5 @@
+﻿<?xml version="1.0" ?>
+<GameObjectClass>
+  <BaseFile>Debris\debris01</BaseFile>
+  <SpineAnimation>debris04</SpineAnimation>
+</GameObjectClass>

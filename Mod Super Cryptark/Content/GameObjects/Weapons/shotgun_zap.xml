@@ -1,0 +1,20 @@
+<?xml version="1.0"?>
+<GameObjectClass>
+  <BaseFile>Weapons\shotgun</BaseFile>
+  <Displayname>T1 Zapper Shotgun</Displayname>
+  <ShortDisplayName>SG-ZP</ShortDisplayName>
+  <ItemInfo>The adhesive shock pellets fired from this riot shotgun will wreak havoc to any targets they get attached to.</ItemInfo>
+
+  <StartingAmmoBoxes>5</StartingAmmoBoxes>
+  <AmmoBoxQuantity>250</AmmoBoxQuantity>
+  <Price>4</Price>
+  <TechChanceNumber>3</TechChanceNumber>
+  
+  <ProjectilesPerShot>5</ProjectilesPerShot>
+  <ProjectileSpread>.1</ProjectileSpread>
+  <ProjectilePrecision>.7</ProjectilePrecision>
+  <ProjectileClassfile>Projectiles\shotgun_zap_p</ProjectileClassfile>
+  
+  <FireSound>Combat_M_FragGun_Shot</FireSound>
+
+</GameObjectClass>

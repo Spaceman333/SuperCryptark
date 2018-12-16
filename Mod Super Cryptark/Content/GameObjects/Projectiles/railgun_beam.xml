@@ -1,0 +1,10 @@
+﻿<?xml version="1.0" ?>
+<GameObjectClass>
+  <Type>WEAPON</Type>
+  <HitForce>30</HitForce>
+  <CharacterCollide>true</CharacterCollide>
+  <DamagePerShot>8</DamagePerShot>
+  <ParticleEffect>_new_trail_railgun</ParticleEffect>
+  <IgnoreBrushCollision>true</IgnoreBrushCollision>
+  <IgnoreDoorCollision>true</IgnoreDoorCollision>
+</GameObjectClass>

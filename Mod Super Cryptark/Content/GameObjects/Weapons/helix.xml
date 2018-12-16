@@ -1,0 +1,47 @@
+﻿<?xml version="1.0" ?>
+<GameObjectClass>
+  <Type>WEAPON</Type>
+  <Displayname>T2 Helix Caster</Displayname>
+  <ShortDisplayName>HELIX</ShortDisplayName>
+  <ItemInfo>The twin-linked wave projectors of this flashy energy weapon create an unusual firing pattern that can curve around corners or intersect targets at optimal distances. Highly powerful, but movement is highly slowed down while firing.
+  </ItemInfo>
+
+  <Price>16</Price>
+  <TechChanceNumber>2</TechChanceNumber>
+  
+  <RateOfFire>0.045</RateOfFire>
+  <AmmoAsPercent>true</AmmoAsPercent>
+  <StartingAmmoBoxes>1</StartingAmmoBoxes>
+  <AmmoBoxQuantity>250</AmmoBoxQuantity>
+  <NextRefillTime>1</NextRefillTime>
+  <RefillRate>0.25</RefillRate>
+    
+  <ProjectilesPerShot>6</ProjectilesPerShot>
+  <ProjectilePrecision>1</ProjectilePrecision>
+  <ProjectileClassfile>Projectiles\helix_bullet</ProjectileClassfile>
+  <LoadoutCategory>Energy</LoadoutCategory>
+  
+  <FireSound>Combat_M_HelixGun_Shot</FireSound>
+  <MuzzleFlashEffect>_new_muzzle_blaster</MuzzleFlashEffect>
+  <NoMuzzleFlashRotation>true</NoMuzzleFlashRotation>
+  <FireRecoil>100</FireRecoil>
+<!--   <AimSpeedModifier>-40</AimSpeedModifier>
+  <MinAimSpeedFactor>0.05</MinAimSpeedFactor> -->
+  <RecoilCameraOnFire>1</RecoilCameraOnFire>
+  <RecoilCameraOnFireDuration>0.08</RecoilCameraOnFireDuration>
+  <ShakeCameraOnFire>0.02</ShakeCameraOnFire>
+  <SpineWeaponHeadTextureName>gunhead\wephead_laser01</SpineWeaponHeadTextureName>
+  <SpineWeaponTextureName>gunhead\wep_laser01</SpineWeaponTextureName>
+
+  <OnFireMuzzleLight>
+    <Color>
+      <X>.7</X>
+      <Y>1</Y>
+      <Z>0.5</Z>
+      <W>1</W>
+    </Color>
+    <Strength>2</Strength>
+    <Radius>200</Radius>
+    <RadiusModifier>-50</RadiusModifier>
+  </OnFireMuzzleLight>
+</GameObjectClass>

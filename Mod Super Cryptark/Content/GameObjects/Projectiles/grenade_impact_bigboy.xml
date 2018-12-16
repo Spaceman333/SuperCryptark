@@ -1,0 +1,68 @@
+﻿<?xml version="1.0" ?>
+<GameObjectClass>
+  <Type>WEAPON</Type>
+  <Texture>Projectiles\slug01_yellow</Texture>
+  <Solid>true</Solid>
+  <CharacterCollide>true</CharacterCollide>
+  <ProjectileSpeed>100</ProjectileSpeed>
+  <Restitution>1</Restitution>
+  <SetFriction>true</SetFriction>
+  <Friction>0</Friction>
+  <LinearDamping>.1</LinearDamping>
+  <Scale>3</Scale>
+  
+  <DecalType>Bomb</DecalType>
+
+  <ProjectileRemoveOnCollision>true</ProjectileRemoveOnCollision>
+  
+  <ExplodeOnRemove>true</ExplodeOnRemove>
+  <ExplodeForce>800</ExplodeForce>
+  <ExplodeSize>40</ExplodeSize>
+  <ExplosionParticleEffect>_new_explosion_med</ExplosionParticleEffect>
+  <ExplosionSound>Blast</ExplosionSound>
+  <ExplodeDamage>8</ExplodeDamage>
+  <ExplosionRefraction>shockwave_2</ExplosionRefraction>
+  
+  <Payload>true</Payload>
+  <PayloadType>PROJECTILE_FIRE</PayloadType>
+  <ProjectilesPerShot>16</ProjectilesPerShot>
+  <ProjectileSpread>1</ProjectileSpread>
+  <ProjectilePrecision>0.5</ProjectilePrecision>
+  <ProjectileClassfile>Projectiles\autocannon_bullet</ProjectileClassfile>
+  
+  <ParticleEffect>background-new_trail_grenade</ParticleEffect>
+  <ParticleOffset>10</ParticleOffset>
+  <RemoveAfterStarted>2.5</RemoveAfterStarted>
+
+  <OnFireProjectileLight>
+    <Type>Point</Type>
+    <Color>
+      <X>1</X>
+      <Y>0.5</Y>
+      <Z>0.1</Z>
+      <W>1</W>
+    </Color>
+    <Radius>300</Radius>
+    <Strength>1</Strength>
+  </OnFireProjectileLight>
+
+  <OnExplodeLight>
+    <Type>Point</Type>
+    <Color>
+      <X>1</X>
+      <Y>0.5</Y>
+      <Z>0.1</Z>
+      <W>1</W>
+    </Color>
+    <Strength>25</Strength>
+    <Radius>2000</Radius>
+    <RadiusModifier>-200</RadiusModifier>
+  </OnExplodeLight>
+
+  <ProjectileColor>
+    <X>1</X>
+    <Y>1</Y>
+    <Z>1</Z>
+  </ProjectileColor>
+  <SetLayer>FULLBRIGHT</SetLayer>
+</GameObjectClass>

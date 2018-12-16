@@ -1,0 +1,29 @@
+﻿<?xml version="1.0"?>
+<GameObjectClass>
+  <Type>WEAPON</Type>
+  <Displayname>T1 Gauntlet</Displayname>
+  <ShortDisplayName>GAUNT</ShortDisplayName>
+  <ItemInfo>This energized flail, affectionaly nicknamed "the Gauntlet", provides a brutal answer to close encounters. It can also be used defensively to knock away incoming projectiles.</ItemInfo>
+
+  <Price>5</Price>
+  <TechChanceNumber>3</TechChanceNumber>
+
+  <AmmoAsPercent>true</AmmoAsPercent>
+  <StartingAmmoBoxes>1</StartingAmmoBoxes>
+  <AmmoBoxQuantity>25</AmmoBoxQuantity>
+  <NextRefillTime>2</NextRefillTime>
+  <RefillRate>.1</RefillRate>
+  
+  <LoadoutCategory>Melee</LoadoutCategory>
+
+  <ProjectileClassfile>Projectiles\sawarm_p</ProjectileClassfile>
+  <WeaponAnimation>Weapons\Animations\sawarm</WeaponAnimation>
+  <SetLayer>FULLBRIGHT</SetLayer>
+  <SpineWeaponHeadTextureName>gunhead\wephead_spike01</SpineWeaponHeadTextureName>
+  <SpineWeaponTextureName>gunhead\wep_spike01</SpineWeaponTextureName>
+  <DecalType>None</DecalType>
+  <NoFiringTime>0.3</NoFiringTime>
+  <RateOfFire>0.9</RateOfFire>
+
+  <FireSound>Combat_M_SawArm_Attack</FireSound>
+</GameObjectClass>

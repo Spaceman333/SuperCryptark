@@ -1,0 +1,10 @@
+﻿<?xml version="1.0"?>
+<GameObjectClass>
+  <Type>ARM_DOODAD</Type>
+  <SpineAnimation>arm03</SpineAnimation>
+  <Static>true</Static>
+  <Width>15</Width>
+  <Height>15</Height>
+  <SetLayer>BACKGROUND</SetLayer>
+  <UseSpatialSystem>false</UseSpatialSystem>
+</GameObjectClass>

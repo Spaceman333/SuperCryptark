@@ -1,0 +1,235 @@
+SUPER CRYPTARK: ARMAGEDDON
+MAXIMUM REARMED EXTREME  
+
+
+  <!--Room Regulars-->
+    <SpawnType>
+      <Classfile>Gundog</Classfile>
+      <LocationType>ROOM</LocationType>
+      <Amount>10</Amount>
+      <CharacterStartAIState>WANDER</CharacterStartAIState>
+    </SpawnType>
+    <SpawnType>
+      <Classfile>Jackal</Classfile>
+      <LocationType>ROOM</LocationType>
+      <Amount>10</Amount>
+    </SpawnType>
+    <SpawnType>
+      <Classfile>Bomber</Classfile>
+      <LocationType>ROOM</LocationType>
+      <Amount>10</Amount>
+    </SpawnType>	
+    <SpawnType>
+      <Classfile>Tattletale</Classfile>
+      <LocationType>ROOM</LocationType>
+      <Amount>10</Amount>
+      <CharacterStartAIState>WANDER</CharacterStartAIState>
+    </SpawnType>
+
+    <SpawnType>
+      <Classfile>Sawblade</Classfile>
+      <LocationType>ROOM</LocationType>
+      <Amount>10</Amount>
+      <CharacterStartAIState>WANDER</CharacterStartAIState>
+    </SpawnType>
+    <SpawnType>
+      <Classfile>slimer</Classfile>
+      <LocationType>ROOM</LocationType>
+      <Amount>10</Amount>
+      <CharacterStartAIState>WANDER</CharacterStartAIState>
+    </SpawnType>
+    <SpawnType>
+      <Classfile>Sentinel</Classfile>
+      <LocationType>ROOM</LocationType>
+      <Amount>10</Amount>
+      <CharacterStartAIState>WANDER</CharacterStartAIState>
+    </SpawnType>
+    <SpawnType>
+      <Classfile>Tank</Classfile>
+      <LocationType>ROOM</LocationType>
+      <Amount>10</Amount>
+      <CharacterStartAIState>WANDER</CharacterStartAIState>
+    </SpawnType>
+	
+    <SpawnType>
+      <Classfile>SeekerLauncher</Classfile>
+      <LocationType>ROOM</LocationType>
+      <Amount>10</Amount>
+      <CharacterStartAIState>WANDER</CharacterStartAIState>
+    </SpawnType>
+    <SpawnType>
+      <Classfile>MrFixitr</Classfile>
+      <LocationType>ROOM</LocationType>
+      <Amount>10</Amount>
+      <CharacterStartAIState>WANDER</CharacterStartAIState>
+    </SpawnType>
+    <SpawnType>
+      <Classfile>Bully</Classfile>
+      <LocationType>ROOM</LocationType>
+      <Amount>10</Amount>
+      <CharacterStartAIState>WANDER</CharacterStartAIState>
+    </SpawnType> 
+	
+
+
+    <!--Room Specials-->
+
+	
+    <SpawnType>
+      <Classfile>Blacksuit</Classfile>
+      <LocationType>ROOM</LocationType>
+      <Amount>10</Amount>
+      <MinDistanceToAnotherOne>20</MinDistanceToAnotherOne>
+    </SpawnType>
+    <SpawnType>
+      <Classfile>Pirate</Classfile>
+      <LocationType>ROOM</LocationType>
+      <Amount>10</Amount>
+    </SpawnType>
+    <SpawnType>
+      <Classfile>Pirate_2</Classfile>
+      <LocationType>ROOM</LocationType>
+      <Amount>10</Amount>
+    </SpawnType>
+    <SpawnType>
+      <Classfile>Pirate_3</Classfile>
+      <LocationType>ROOM</LocationType>
+      <Amount>10</Amount>
+    </SpawnType>
+
+    <SpawnType>
+      <Classfile>HelperDronePirate</Classfile>
+      <LocationType>ROOM</LocationType>
+      <Amount>10</Amount>
+    </SpawnType>    
+    <SpawnType>
+      <Classfile>Hazards\mule_skiff</Classfile>
+      <LocationType>ROOM</LocationType>
+      <Amount>10</Amount>
+      <Object>true</Object>
+    </SpawnType>
+    
+	<SpawnType>
+      <Classfile>Hazards\mine</Classfile>
+      <LocationType>ROOM</LocationType>
+      <Amount>10</Amount>
+      <Object>true</Object>
+    </SpawnType>
+    <SpawnType>
+      <Classfile>Debris\debris</Classfile>
+      <LocationType>ROOM</LocationType>
+      <Amount>10</Amount>
+      <Object>true</Object>
+    </SpawnType>
+    <SpawnType>
+      <Classfile>Debris\debris_rock</Classfile>
+      <LocationType>ROOM</LocationType>
+      <Amount>10</Amount>
+      <Object>true</Object>
+    </SpawnType>
+    <SpawnType>
+      <Classfile>Hazards\bumper</Classfile>
+      <LocationType>ROOM</LocationType>
+      <Amount>10</Amount>
+      <Object>true</Object>
+    </SpawnType>
+    
+	
+    <!--Special Modifiers-->
+		<MinTier>2</MinTier>
+		<MinTier>3</MinTier>
+		<CloseToCore>true</CloseToCore>
+		<MinDistanceToAnotherOne>50</MinDistanceToAnotherOne>
+	
+
+	<!--Flak Turret-->	
+    <SpawnType>
+      <Classfile>FlakTurret</Classfile>
+      <LocationType>OUTSIDE_WALL</LocationType>
+      <Amount>10</Amount>
+    </SpawnType>	
+	
+	
+	<!--Wall/Turrets-->
+    <SpawnType>
+      <Classfile>Bomber</Classfile>
+      <LocationType>ON_WALL</LocationType>
+      <Amount>10</Amount>
+      <CharacterStartState>ON_WALL</CharacterStartState>
+    </SpawnType>
+    <SpawnType>
+      <Classfile>Jackal</Classfile>
+      <LocationType>ON_WALL</LocationType>
+      <Amount>10</Amount>
+      <CharacterStartState>ON_WALL</CharacterStartState>
+    </SpawnType>	
+	
+    <SpawnType>
+      <Classfile>Picket</Classfile>
+      <LocationType>ON_WALL</LocationType>
+      <Amount>10</Amount>
+    </SpawnType>
+    <SpawnType>
+      <Classfile>PicketMedium</Classfile>
+      <LocationType>ON_WALL</LocationType>
+      <Amount>10</Amount>
+    </SpawnType>
+    <SpawnType>
+      <Classfile>PicketShielded</Classfile>
+      <LocationType>ON_WALL</LocationType>
+      <Amount>10</Amount>
+    </SpawnType>
+	<SpawnType>
+      <Classfile>Jockey</Classfile>
+      <LocationType>ON_WALL</LocationType>
+      <Amount>10</Amount>
+    </SpawnType>
+    <SpawnType>
+      <Classfile>Hazards\bee_hive</Classfile>
+      <LocationType>ON_WALL</LocationType>
+      <Amount>10</Amount>
+      <Object>true</Object>
+    </SpawnType>
+	
+    <SpawnType>
+      <Classfile>Alarms\tripwire</Classfile>
+      <LocationType>ON_WALL</LocationType>
+      <Amount>10</Amount>
+      <Object>true</Object>
+    </SpawnType>
+    <SpawnType>
+      <Classfile>Hazards\nuke_tank</Classfile>
+      <LocationType>ON_WALL</LocationType>
+      <Amount>10</Amount>
+      <Object>true</Object>
+    </SpawnType>
+	<SpawnType>
+      <Classfile>Hazards\emp_generator</Classfile>
+      <LocationType>ON_WALL</LocationType>
+      <Amount>10</Amount>
+      <Object>true</Object>
+    </SpawnType>	
+    <SpawnType>
+      <Classfile>Hazards\saw01</Classfile>
+      <LocationType>ON_WALL</LocationType>
+      <Amount>10</Amount>
+      <Object>true</Object>
+    </SpawnType>
+	<SpawnType>
+      <Classfile>Hazards\cage_generator</Classfile>
+      <LocationType>ROOM</LocationType>
+      <Amount>10</Amount>
+      <Object>true</Object>
+    </SpawnType>
+    <SpawnType>
+      <Classfile>Doodads\lightbulb</Classfile>
+      <LocationType>ON_WALL</LocationType>
+      <Amount>10</Amount>
+      <Object>true</Object>
+    </SpawnType>
+    <SpawnType>
+      <Classfile>Doodads\doodad</Classfile>
+      <LocationType>ON_WALL</LocationType>
+      <Amount>10</Amount>
+      <Object>true</Object>
+    </SpawnType>

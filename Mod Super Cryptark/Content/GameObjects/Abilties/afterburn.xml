@@ -1,0 +1,39 @@
+﻿<?xml version="1.0" ?>
+<GameObjectClass>
+  <Type>WEAPON</Type>
+  <Solid>true</Solid>
+  <EclipseBody>true</EclipseBody>
+  <Width>3.5</Width>
+  <Height>3.5</Height>
+  <Texture>Projectiles\flame</Texture>
+  <CharacterCollide>true</CharacterCollide>
+  <ProjectileMinRandSpeed>15</ProjectileMinRandSpeed>
+  <ProjectileMaxRandSpeed>55</ProjectileMaxRandSpeed>
+  <ProjectilePiercing>true</ProjectilePiercing>
+  <ProjectileRemoveOnCollision>false</ProjectileRemoveOnCollision>
+  <ProjectileRemoveOnCharacterCollision>false</ProjectileRemoveOnCharacterCollision>
+  <ProjectileRemoveOnGameObjectCollision>false</ProjectileRemoveOnGameObjectCollision>
+  <HitForce>0</HitForce>
+  <AmbientSound>Combat_M_FlameThrower_Particle</AmbientSound>
+  <DamagePerShot>0.15</DamagePerShot>
+  <DamageRate>0.5</DamageRate>
+  <DamageAreaRadius>3.5</DamageAreaRadius>
+  <RemoveAfterStarted>1.25</RemoveAfterStarted>
+  <ParticleEffect>_new_flamethrower_ignite</ParticleEffect>
+  <MuzzleFlashEffect>_new_muzzle_flamethrower</MuzzleFlashEffect>
+  <LinearDamping>3.5</LinearDamping>
+  <DecalType>Flame</DecalType>
+  <NoDebrisOnHit>true</NoDebrisOnHit>
+  <OnFireProjectileLightLimit>true</OnFireProjectileLightLimit>
+  <OnFireProjectileLight>
+    <Color>
+      <X>1</X>
+      <Y>0.5</Y>
+      <Z>0.3</Z>
+      <W>1</W>
+    </Color>
+    <Shininess>75</Shininess>
+    <Strength>2</Strength>
+    <Radius>1000</Radius>
+  </OnFireProjectileLight>
+</GameObjectClass>

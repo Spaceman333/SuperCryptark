@@ -1,0 +1,56 @@
+﻿<?xml version="1.0"?>
+<GameObjectClass>
+  <Type>ITEM</Type>
+  <Displayname>CON Extreme Godforce</Displayname>
+  <ShortDisplayName>X-GOD</ShortDisplayName>
+  <LoadoutCategory>Item</LoadoutCategory>
+  <ItemInfo>Single-use consumable hyper power overcharge core. Gives an All-Aspect God Combat Boost for 3 minutes. Includes: Damage, Rate of Fire, Accuracy, Projectile Velocity, Movement Speed and a Max Heal. All of these bonuses stack over existing bonuses and upgrades. WARNING: FIRING WEAPONS WITH GODFORCE WILL DRAIN YOUR AMMO REALLY FAST!</ItemInfo>
+  
+  <Price>33</Price>
+  <TechChanceNumber>2</TechChanceNumber>
+  
+  <StartItemQuantity>3</StartItemQuantity>  
+  
+  <HudTextureName>tag_item_laser</HudTextureName>
+  <OnUseSound>Combat_M_Player_Boost</OnUseSound>
+  <SpawnOnItemUse>Hazards\knockback</SpawnOnItemUse>  
+  <UseInSpace>true</UseInSpace>
+  <InstantHealAmount>30</InstantHealAmount>
+  
+  <PowerupEffects>
+    <PowerupEffectClass>
+      <Type>MovementSpeedMod</Type>
+      <OverwritesSameType>false</OverwritesSameType>
+      <Amount>2.0</Amount>
+      <Duration>180</Duration>
+    </PowerupEffectClass>
+    <PowerupEffectClass>
+      <Type>RateOfFireMod</Type>
+      <OverwritesSameType>false</OverwritesSameType>
+      <Amount>-2.0</Amount>
+      <Duration>180</Duration>
+	  <HudDraw>false</HudDraw>
+    </PowerupEffectClass>
+    <PowerupEffectClass>
+      <Type>DamageMod</Type>
+      <OverwritesSameType>false</OverwritesSameType>
+      <Amount>9.0</Amount>
+      <Duration>180</Duration>
+	  <HudDraw>false</HudDraw>
+    </PowerupEffectClass>
+    <PowerupEffectClass>
+      <Type>PrecisionMod</Type>
+      <OverwritesSameType>false</OverwritesSameType>
+      <Amount>2.0</Amount>
+      <Duration>180</Duration>
+	  <HudDraw>false</HudDraw>
+    </PowerupEffectClass>
+    <PowerupEffectClass>
+      <Type>ProjectileSpeedMod</Type>
+      <OverwritesSameType>false</OverwritesSameType>
+      <Amount>0.5</Amount>
+      <Duration>180</Duration>
+	  <HudDraw>false</HudDraw>
+    </PowerupEffectClass>
+  </PowerupEffects>
+</GameObjectClass>

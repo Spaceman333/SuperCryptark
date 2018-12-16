@@ -1,0 +1,38 @@
+﻿<?xml version="1.0" ?>
+<GameObjectClass>
+  <Type>HAZARD_POD</Type>
+  <Displayname>Nuclear Containment Cell</Displayname>
+  <SpineAnimation>nuke_tank</SpineAnimation>
+  <DisableFollowBodyRotation>true</DisableFollowBodyRotation>
+  <ForceTakeDamage>true</ForceTakeDamage>
+  <SpawnObjectOnDamaged>Hazards\nuke_tank_rocket</SpawnObjectOnDamaged>
+  <SetNoOffscreenOnDamaged>true</SetNoOffscreenOnDamaged>
+  <SpawnAtBone>tank</SpawnAtBone>
+  <SetSpineTrackOnSpawn>tank_flight</SetSpineTrackOnSpawn>
+  <ParticleEffect>_new_nuke_tank</ParticleEffect>
+  <ParticleEffectBone>plasball</ParticleEffectBone>
+  <Solid>true</Solid>
+  <BoundingBoxBody>tank_box</BoundingBoxBody>
+  <Static>true</Static>
+
+  <SidebarTextureName>hazard_nukecell</SidebarTextureName>
+  <MinimapDescription>Power cell containing a volatile nuclear reactor.</MinimapDescription>
+
+  <Light>
+    <Type>Point</Type>
+    <Color>
+      <X>1</X>
+      <Y>.4</Y>
+      <Z>.7</Z>
+      <W>1</W>
+    </Color>
+    <Shininess>60</Shininess>
+    <MinRadius>500</MinRadius>
+    <MaxRadius>700</MaxRadius>
+    <RadiusCycleScale>3</RadiusCycleScale>
+    <OscillateRadius>true</OscillateRadius>
+    <Strength>2</Strength>
+    <FollowBoneName>plasball</FollowBoneName>
+    <FollowOwnRotation>true</FollowOwnRotation>
+  </Light>
+</GameObjectClass>

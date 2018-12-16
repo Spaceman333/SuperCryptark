@@ -1,0 +1,59 @@
+<?xml version="1.0"?>
+<CharacterClass xmlns:xsi="http://www.w3.org/2001/XMLSchema-instance" xmlns:xsd="http://www.w3.org/2001/XMLSchema">
+
+  <SpineAnimation>jackal</SpineAnimation>
+
+  <Health>3.5</Health>
+  <Type>Jackal</Type>
+  <DisplayName>Jackal</DisplayName>
+  
+  <SidebarTextureName>jackal</SidebarTextureName>
+  <Description>Militarized guard drones pack a deadly burst-fire phase blaster.</Description>
+  
+  <Width>9</Width>
+  <Height>10</Height>
+  
+  <Inertia>100</Inertia>
+  <InertiaNoAirControlMultiply>0.1</InertiaNoAirControlMultiply>
+
+  <AIJukeCombatMovement>true</AIJukeCombatMovement>
+  
+  <Maxspeed_Fly>20</Maxspeed_Fly>
+  
+  <DroneFactory>true</DroneFactory>
+  <FactoryAmount>2</FactoryAmount>
+  <AllowGrapple>true</AllowGrapple>
+  
+  <WallFixtureScale>0.5</WallFixtureScale>
+
+  <Weapon1>EnemyWeapons\blaster_burst</Weapon1>
+
+  <Light>
+    <Type>Point</Type>
+    <Color>
+      <X>0.75</X>
+      <Y>0.6</Y>
+      <Z>1</Z>
+      <W>1</W>
+    </Color>
+    <Strength>2</Strength>
+    <Radius>150</Radius>
+    <FollowBoneName>gun</FollowBoneName>
+  </Light>
+
+  <OnRemoveLight>
+    <Type>Point</Type>
+    <Color>
+      <X>0.75</X>
+      <Y>0.6</Y>
+      <Z>1</Z>
+      <W>1</W>
+    </Color>
+    <Strength>20</Strength>
+    <Radius>1500</Radius>
+    <RadiusModifier>-150</RadiusModifier>
+  </OnRemoveLight>
+  
+  <DefaultItems>
+  </DefaultItems>
+</CharacterClass>

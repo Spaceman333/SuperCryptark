@@ -1,0 +1,58 @@
+﻿<?xml version="1.0"?>
+<CharacterClass xmlns:xsi="http://www.w3.org/2001/XMLSchema-instance" xmlns:xsd="http://www.w3.org/2001/XMLSchema">
+  <SpineAnimation>bee</SpineAnimation>
+
+  <Type>Bee</Type>
+  <Health>0.1</Health>
+  <DieAfter>6</DieAfter>
+  <RandDieAfter>2</RandDieAfter>
+  <DisplayName>Hornet</DisplayName>
+  <Weapon1>EnemyWeapons\zapgun</Weapon1>
+  <IgnoreSameTeamCollision>true</IgnoreSameTeamCollision>
+
+  <CharacterAmbientSound>FX_Enemy_Bee_Loop</CharacterAmbientSound>
+  
+  <SidebarTextureName>bee</SidebarTextureName>
+  <Description>Tiny swarming drones that attack with electrified shocks.</Description>
+
+  <Swarmer>true</Swarmer>
+  <SwarmFireRate>0.5</SwarmFireRate>
+  <Weapon1FireDisabled>true</Weapon1FireDisabled>
+
+  <TailEffects>
+    <TailEffect>
+      <BoneName>tail</BoneName>
+      <TailClass>bee_tail</TailClass>
+    </TailEffect>
+  </TailEffects>
+  
+  <MinimapScale>0.2</MinimapScale>
+   
+  <Width>3.5</Width>
+  <Height>3.5</Height>
+
+  <Inertia>10</Inertia>
+  <InertiaNoAirControlMultiply>0.1</InertiaNoAirControlMultiply>
+
+  <BaseMovementForce>400</BaseMovementForce>
+  <Density>0.05</Density>
+  
+  <BodyRotateToFocusPercent>1</BodyRotateToFocusPercent>
+  <Maxspeed_Fly>40</Maxspeed_Fly>
+  <MinCombatDistance>100</MinCombatDistance>
+
+  <OnRemoveLight>
+    <Type>Point</Type>
+    <Color>
+      <X>0.75</X>
+      <Y>0.6</Y>
+      <Z>1</Z>
+      <W>1</W>
+    </Color>
+    <Strength>15</Strength>
+    <Radius>800</Radius>
+    <RadiusModifier>-150</RadiusModifier>
+  </OnRemoveLight>
+  <DefaultItems>
+  </DefaultItems>
+</CharacterClass>

@@ -1,0 +1,70 @@
+﻿<?xml version="1.0"?>
+<CharacterClass xmlns:xsi="http://www.w3.org/2001/XMLSchema-instance" xmlns:xsd="http://www.w3.org/2001/XMLSchema">
+
+  <SpineAnimation>seeker_launcher</SpineAnimation>
+
+  <Health>5</Health>
+  <Type>SeekerLauncher</Type>
+  <DisplayName>Casket</DisplayName>
+  
+  <CharacterAmbientSound>FX_Enemy_Casket_Loop</CharacterAmbientSound>
+  
+  <Density>200</Density>
+  <Inertia>177</Inertia>
+  <InertiaNoAirControlMultiply>0.1</InertiaNoAirControlMultiply>
+  <BaseMovementForce>8000</BaseMovementForce>
+  <Maxspeed_Fly>30</Maxspeed_Fly>
+
+  <RespondsToAlarm>false</RespondsToAlarm>
+  
+  <SidebarTextureName>seekerlauncher</SidebarTextureName>
+  <Description>Alien stasis tank that unleashes swarms of defensive Hornet drones.</Description>
+  
+  <ToWaypointTimeMultiply>2</ToWaypointTimeMultiply>
+
+  <MinimapScale>2</MinimapScale>
+  
+  <WallFixtureScale>6</WallFixtureScale>
+
+  <Width>2.1</Width>
+  <Height>2.1</Height>
+  <!--<AI_DisableReturn>true</AI_DisableReturn>
+  <AI_DisableFindEnemy>true</AI_DisableFindEnemy>-->
+  <FieldOfVision>360</FieldOfVision>
+  <IgnoreSystemCollision>true</IgnoreSystemCollision>
+  <AbilityDelay>5</AbilityDelay>
+  <MinCombatDistance>500</MinCombatDistance>
+  <DisableOffscreenAI>false</DisableOffscreenAI>
+  
+  <DroneFactory>false</DroneFactory>
+
+  <DefaultItems>
+  </DefaultItems>
+
+  <Light>
+    <Type>Point</Type>
+    <Color>
+      <X>0.75</X>
+      <Y>0.6</Y>
+      <Z>1</Z>
+      <W>1</W>
+    </Color>
+    <Strength>2</Strength>
+    <Radius>250</Radius>
+    <FollowBoneName>root</FollowBoneName>
+  </Light>
+
+  <OnRemoveLight>
+    <Type>Point</Type>
+    <Color>
+      <X>0.75</X>
+      <Y>0.6</Y>
+      <Z>1</Z>
+      <W>1</W>
+    </Color>
+    <Strength>20</Strength>
+    <Radius>1500</Radius>
+    <RadiusModifier>-150</RadiusModifier>
+  </OnRemoveLight>
+  
+</CharacterClass>

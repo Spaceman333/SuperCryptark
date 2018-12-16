@@ -1,0 +1,38 @@
+﻿<?xml version="1.0" ?>
+<GameObjectClass>
+  <Type>SAWBLADE_WALLARM</Type>
+  <Displayname>Sawblade Wall Arm</Displayname>
+  <SpineAnimation>sawblade_wallarm01</SpineAnimation>
+  <MinimapTextureName>map-mine</MinimapTextureName>
+  <SidebarTextureName>hazard_mine</SidebarTextureName>
+  <MinimapDescription>.</MinimapDescription>
+
+  <Solid>true</Solid>
+  <Static>true</Static>
+  <BoundingBoxBody>base_box</BoundingBoxBody>
+  <SawSpinSpeed>10</SawSpinSpeed>
+  <NoFlipping>true</NoFlipping>
+
+  <DebrisToSpawn>
+    <string>Debris\debris_small01</string>
+    <string>Debris\debris_small02</string>
+    <string>Debris\debris_small03</string>
+    <string>Debris\debris_small04</string>
+    <string>Debris\debris_small05</string>
+    <string>Debris\debris_small06</string>
+    <string>Debris\debris_small07</string>
+    <string>Debris\debris_small08</string>
+    <string>Debris\debris_small09</string>
+    <string>Debris\debris_small10</string>
+    <string>Debris\debris_rock_small01</string>
+    <string>Debris\debris_rock_small02</string>
+    <string>Debris\debris_rock_small03</string>
+    <string>Debris\debris_rock_small04</string>
+    <string>Debris\debris_rock_small05</string>
+    <string>Debris\debris_rock_small06</string>
+    <string>Debris\debris_rock_small07</string>
+    <string>Debris\debris_rock_small08</string>
+    <string>Debris\debris_rock_small09</string>
+    <string>Debris\debris_rock_small10</string>
+  </DebrisToSpawn>
+</GameObjectClass>

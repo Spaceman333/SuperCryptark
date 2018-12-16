@@ -1,0 +1,40 @@
+﻿<?xml version="1.0" ?>
+<GameObjectClass>
+  <Type>WEAPON</Type>
+  <Texture>Projectiles\ball_green</Texture>
+  
+  <!--<Solid>true</Solid>-->
+  <FakeProjectile>true</FakeProjectile>
+  
+  <ParticleEffect>_new_trail_blaster</ParticleEffect>
+  <RemoveParticleEffect>_new_hit_laser</RemoveParticleEffect>
+  <CharacterCollide>true</CharacterCollide>
+  <ProjectileSpeed>100</ProjectileSpeed>
+  <ProjectileSineFrequency>10</ProjectileSineFrequency>
+  <ProjectileSineStrength>0.6</ProjectileSineStrength>
+  <ProjectileFlipOddSine>true</ProjectileFlipOddSine>
+  <ProjectileHitDebris>true</ProjectileHitDebris>
+  <HitForce>50</HitForce>
+  <Scale>0.8</Scale>
+  <DamagePerShot>0.135</DamagePerShot>
+  <ExplodeOnRemove>true</ExplodeOnRemove>
+  <ExplodeForce>2</ExplodeForce>
+  <ExplodeSize>4</ExplodeSize>
+  <ExplodeDamage>0.1</ExplodeDamage>
+  <OnFireProjectileLight>
+    <Color>
+      <X>.75</X>
+      <Y>1</Y>
+      <Z>0.5</Z>
+      <W>1</W>
+    </Color>
+    <Strength>1</Strength>
+    <Radius>100</Radius>
+  </OnFireProjectileLight>
+  <ProjectileColor>
+    <X>1</X>
+    <Y>1</Y>
+    <Z>1</Z>
+  </ProjectileColor>
+  <SetLayer>FULLBRIGHT</SetLayer>
+</GameObjectClass>

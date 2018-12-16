@@ -1,0 +1,19 @@
+﻿<GameObjectClass>
+  <Type>ITEM</Type>
+  <Displayname>AI Capsule Turret</Displayname>
+  <ShortDisplayName>TURET</ShortDisplayName>
+  <LoadoutCategory>Item</LoadoutCategory>
+  <ItemInfo>These portable autonomous defence turrets are common sights on stations where security manpower is short. Equipped with an powerful laser and armour plating, they collapse for easy redeployment to trouble zones.
+  </ItemInfo>
+  <HudTextureName>tag_item_turret</HudTextureName>
+
+  <Price>3</Price>
+  <TechChanceNumber>2</TechChanceNumber>
+  
+  <StartItemQuantity>3</StartItemQuantity>
+  <SpawnCharacterOnItemUse>HelperSentry</SpawnCharacterOnItemUse>
+  <RateOfUse>1</RateOfUse>
+  <ItemType>Drone</ItemType>
+
+  <OnUseSound>Combat_ST_PlaceItem</OnUseSound>
+</GameObjectClass>

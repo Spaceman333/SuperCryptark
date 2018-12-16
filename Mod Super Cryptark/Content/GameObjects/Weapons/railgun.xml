@@ -1,0 +1,103 @@
+﻿<?xml version="1.0" ?>
+<GameObjectClass>
+  <Type>WEAPON</Type>
+  <LoadoutCategory>Cannons</LoadoutCategory>
+  <ProjectileClassfile>Projectiles\railgun_beam</ProjectileClassfile>
+  <Displayname>T3 Rail Cannon</Displayname>
+  <ShortDisplayName>RAIL</ShortDisplayName>
+  <ItemInfo>By charging up electro-magnetic rails, this advanced cannon fires a dense solid slug at hypersonic speeds, dealing massive amounts of pinpoint damage. Even solid walls are unable to stop the Rail Cannon’s penetrating power.</ItemInfo>
+
+  <StartingAmmoBoxes>3</StartingAmmoBoxes>
+  <AmmoBoxQuantity>25</AmmoBoxQuantity>
+  <Price>14</Price>
+  
+  <TechChanceNumber>1</TechChanceNumber>
+  
+  <RateOfFire>1.5</RateOfFire>
+
+  <FireBoneRecoil>60</FireBoneRecoil>
+  <RayGun>true</RayGun>
+  <ProjectilesPerShot>1</ProjectilesPerShot>
+  <ProjectilePrecision>1</ProjectilePrecision>
+  <ProjectileRange>300</ProjectileRange>
+  
+  <!--<RechargeRate>100</RechargeRate>
+  <MaxCharge>100</MaxCharge>
+  <MinimumCharge>100</MinimumCharge>
+  <FireOnRelease>true</FireOnRelease>-->
+  
+  <FireRecoil>1000</FireRecoil>
+  <RecoilCameraOnFire>2</RecoilCameraOnFire>
+  <RecoilCameraOnFireDuration>0.2</RecoilCameraOnFireDuration>
+  <ShakeCameraOnFire>0.5</ShakeCameraOnFire>
+  <OnFireBeamClassfile>Beams\railgun</OnFireBeamClassfile>
+  <SpineWeaponHeadTextureName>gunhead\wephead_laser01</SpineWeaponHeadTextureName>
+  <SpineWeaponTextureName>gunhead\wep_laser01</SpineWeaponTextureName>
+  <ChargeParticleEffect>_new_charge_railgun</ChargeParticleEffect>
+
+  <FireSound>Combat_M_RailGun_Shot</FireSound>
+  <!--
+  <FiringLoopAfterStartFiringSound>Combat_M_RailGun_Loop</FiringLoopAfterStartFiringSound>
+  <StartFiringSound>Combat_M_RailGun_BuildUp</StartFiringSound>-->
+
+  <MuzzleFlashEffect>_new_muzzle_autocannon</MuzzleFlashEffect>
+
+  <OnFireMuzzleLight>
+    <Type>Directional</Type>
+    <Position>
+      <Z>10</Z>
+    </Position>
+    <Color>
+      <X>1</X>
+      <Y>0.2</Y>
+      <Z>.2</Z>
+      <W>1</W>
+    </Color>
+    <SpecularColor>
+      <X>1</X>
+      <Y>0.2</Y>
+      <Z>.2</Z>
+      <W>1</W>
+    </SpecularColor>
+    <Direction>
+      <X>1</X>
+      <Y>0</Y>
+      <Z>0.5</Z>
+    </Direction>
+    <Strength>7</Strength>
+    <MaxStrength>7</MaxStrength>
+    <StrengthModifier>-0.4</StrengthModifier>
+    <RemoveOnZeroStrength>true</RemoveOnZeroStrength>
+    <Shininess>6</Shininess>
+  </OnFireMuzzleLight>
+  
+  <!--<OnWeaponChargeLight>
+    <Type>Spotlight</Type>
+    <Position>
+      <Z>5</Z>
+    </Position>
+    <Color>
+      <X>1</X>
+      <Y>0</Y>
+      <Z>0</Z>
+      <W>1</W>
+    </Color>
+    <SpecularColor>
+      <X>1</X>
+      <Y>0</Y>
+      <Z>0</Z>
+      <W>1</W>
+    </SpecularColor>
+    <Direction>
+      <X>1</X>
+      <Y>0</Y>
+      <Z>1</Z>
+    </Direction>
+    <MaxRadius>1000</MaxRadius>
+    <Strength>8</Strength>
+    <Shininess>0</Shininess>
+    <InnerConeAngle>0.5</InnerConeAngle>
+    <OuterConeAngle>1</OuterConeAngle>
+  </OnWeaponChargeLight>-->
+  
+</GameObjectClass>

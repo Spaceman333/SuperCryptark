@@ -1,0 +1,27 @@
+﻿<?xml version="1.0"?>
+<GameObjectClass>
+  <Type>ITEM</Type>
+  <Displayname>CON Extreme Rate of Fire</Displayname>
+  <ShortDisplayName>X-ROF</ShortDisplayName>
+  <LoadoutCategory>Item</LoadoutCategory>
+  <ItemInfo>Single-use consumable super power overcharge core. Gives 220% Rate of Fire Boost for 2 minutes. WARNING: WILL DRAIN AMMO VERY QUICKLY!</ItemInfo>
+  
+  <Price>6</Price>
+  <TechChanceNumber>2</TechChanceNumber>
+  
+  <StartItemQuantity>4</StartItemQuantity>  
+  
+  <HudTextureName>tag_item_laser</HudTextureName>
+  <OnUseSound>Combat_M_Player_Boost</OnUseSound>
+  <SpawnOnItemUse>Hazards\knockback</SpawnOnItemUse>  
+  <UseInSpace>true</UseInSpace>
+  
+  <PowerupEffects>
+    <PowerupEffectClass>
+      <Type>RateOfFireMod</Type>
+      <OverwritesSameType>false</OverwritesSameType>
+      <Amount>-2.2</Amount>
+      <Duration>120</Duration>
+    </PowerupEffectClass>
+  </PowerupEffects>
+</GameObjectClass>

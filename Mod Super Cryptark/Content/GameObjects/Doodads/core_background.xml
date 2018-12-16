@@ -1,0 +1,6 @@
+﻿<?xml version="1.0"?>
+<GameObjectClass>
+  <Type>CORE_DOODAD</Type>
+  <SpineAnimation>core_background</SpineAnimation>
+  <SetLayer>BACKGROUND</SetLayer>
+</GameObjectClass>

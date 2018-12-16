@@ -1,0 +1,43 @@
+﻿<?xml version="1.0" ?>
+<GameObjectClass>
+  <Type>WEAPON</Type>
+  
+  <Displayname>T2 Stinger Pod</Displayname>
+  <ShortDisplayName>STING</ShortDisplayName>
+  <ItemInfo>These small heat-seeking missiles are launched in a salvo of 6, they will relentlessly seek out targets and destroy them.</ItemInfo>
+
+  <StartingAmmoBoxes>2</StartingAmmoBoxes>
+  <AmmoBoxQuantity>200</AmmoBoxQuantity>
+  <Price>7</Price>
+  <TechChanceNumber>2</TechChanceNumber>
+  
+  <RateOfFire>.09</RateOfFire>
+  <ProjectilesPerShot>1</ProjectilesPerShot>
+  <ProjectilePrecision>.5</ProjectilePrecision>
+  <ProjectileSpread>.5</ProjectileSpread>
+  <ProjectileClassfile>Projectiles\stinger_rocket</ProjectileClassfile>
+  <AutoFireCount>6</AutoFireCount>
+  <NumShotsPerReload>6</NumShotsPerReload>
+  <ReloadTime>1</ReloadTime>
+  <LoadoutCategory>Rockets</LoadoutCategory>
+  
+  <FireSound>grenade_fire</FireSound>
+  <MuzzleFlashEffect>_new_muzzle_autocannon</MuzzleFlashEffect>
+  <FireRecoil>100</FireRecoil>
+  <RecoilCameraOnFire>1</RecoilCameraOnFire>
+  <RecoilCameraOnFireDuration>0.2</RecoilCameraOnFireDuration>
+  <ShakeCameraOnFire>0.5</ShakeCameraOnFire>
+  <SpineWeaponHeadTextureName>gunhead\wephead_rocket01</SpineWeaponHeadTextureName>
+  <SpineWeaponTextureName>gunhead\wep_rocket01</SpineWeaponTextureName>
+  <OnFireMuzzleLight>
+    <Color>
+      <X>1</X>
+      <Y>0.8</Y>
+      <Z>0.5</Z>
+      <W>1</W>
+    </Color>
+    
+    <Radius>200</Radius>
+    <RadiusModifier>-10</RadiusModifier>
+  </OnFireMuzzleLight>
+</GameObjectClass>

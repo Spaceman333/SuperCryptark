@@ -1,0 +1,52 @@
+﻿<?xml version="1.0" ?>
+<GameObjectClass>
+  <Type>WEAPON</Type>
+  <Displayname>T1 Canister Cannon</Displayname>
+  <ShortDisplayName>CN-CA</ShortDisplayName>
+  <ItemInfo>This cannon fires specialized fragmentation shells that detonate at the optimal distance from their target, showing it with shrapnel.</ItemInfo>
+  
+  <StartingAmmoBoxes>3</StartingAmmoBoxes>
+  <AmmoBoxQuantity>500</AmmoBoxQuantity>
+  <Price>6</Price>
+  <TechChanceNumber>3</TechChanceNumber>
+  
+  <RateOfFire>0.5</RateOfFire>
+  <ProjectilesPerShot>1</ProjectilesPerShot>
+  <ProjectilePrecision>0.95</ProjectilePrecision>
+  <ProjectileClassfile>Projectiles\canister_shell</ProjectileClassfile>
+  
+  <MuzzleFlashEffect>_new_muzzle_autocannon</MuzzleFlashEffect>
+  <FireRecoil>2500</FireRecoil>
+  <ShakeCameraOnFire>0.65</ShakeCameraOnFire>
+  <RecoilCameraOnFire>1.5</RecoilCameraOnFire>
+  <RecoilCameraOnFireDuration>0.05</RecoilCameraOnFireDuration>
+  <FireBoneRecoil>25</FireBoneRecoil>
+  <CasingClassfile>Weapons\cannon_casing</CasingClassfile>
+  <LoadoutCategory>Cannons</LoadoutCategory>
+  <SpineWeaponHeadTextureName>gunhead\wephead_cannon01</SpineWeaponHeadTextureName>
+  <SpineWeaponTextureName>gunhead\wep_cannon01</SpineWeaponTextureName>
+  <FireSound>Combat_M_AutoCannon_Shot</FireSound>
+
+  <OnFireMuzzleLight>
+    <Type>Spotlight</Type>
+    <Position>
+      <Z>10</Z>
+    </Position>
+    <Color>
+      <X>1</X>
+      <Y>0.8</Y>
+      <Z>0.5</Z>
+      <W>1</W>
+    </Color>
+    <Direction>
+      <X>1</X>
+      <Y>0</Y>
+      <Z>0.3</Z>
+    </Direction>
+    <Strength>20</Strength>
+    <Radius>700</Radius>
+    <RadiusModifier>-120</RadiusModifier>
+    <InnerConeAngle>1</InnerConeAngle>
+    <OuterConeAngle>1.57</OuterConeAngle>
+  </OnFireMuzzleLight>
+</GameObjectClass>

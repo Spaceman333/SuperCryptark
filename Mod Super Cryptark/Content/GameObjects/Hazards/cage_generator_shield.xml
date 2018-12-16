@@ -1,0 +1,24 @@
+﻿<?xml version="1.0" ?>
+<GameObjectClass>
+  <Type>CAGE_GENERATOR_SHIELD</Type>
+  <RefractionMapName>cage_refraction</RefractionMapName>
+  <RefractionScale>3</RefractionScale>
+  <RefractionAlpha>0</RefractionAlpha>
+  <RefractionAlphaMod>0.05</RefractionAlphaMod>
+
+  <Solid>true</Solid>
+  <Static>true</Static>
+  <CustomBody>true</CustomBody>
+  <IgnoreProjectileCollision>true</IgnoreProjectileCollision>
+  <IgnoreGameobjectCollision>true</IgnoreGameobjectCollision>
+  <IgnoreFluid>true</IgnoreFluid>
+  
+  <MeshEffects>
+    <string>cage_1</string>
+    <string>cage_2</string>
+    <!--<string>cage_3</string>-->
+    <string>cage_4</string>
+    <string>cage_5</string>
+    <string>cage_6</string>
+  </MeshEffects>
+</GameObjectClass>

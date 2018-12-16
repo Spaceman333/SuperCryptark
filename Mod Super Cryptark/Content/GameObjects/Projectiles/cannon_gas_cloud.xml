@@ -1,0 +1,29 @@
+﻿<?xml version="1.0"?>
+<GameObjectClass>
+  <Type>WEAPON</Type>
+  <Solid>true</Solid>
+  <EclipseBody>true</EclipseBody>
+  <Width>3</Width>
+  <Height>3</Height>
+  <CharacterCollide>true</CharacterCollide>
+  <ProjectilePiercing>true</ProjectilePiercing>
+  <LinearDamping>.5</LinearDamping>
+  <ProjectileRemoveOnCollision>false</ProjectileRemoveOnCollision>
+  <ProjectileRemoveOnCharacterCollision>false</ProjectileRemoveOnCharacterCollision>
+  <ProjectileRemoveOnGameObjectCollision>false</ProjectileRemoveOnGameObjectCollision>
+  <SetFriction>true</SetFriction>
+  <IgnoreProjectileRefectTeamSwitch>true</IgnoreProjectileRefectTeamSwitch>
+  <Friction>0</Friction>
+  <HitForce>0</HitForce>
+  <Restitution>01</Restitution>
+  <ProjectileMinRandSpeed>35</ProjectileMinRandSpeed>
+  <ProjectileMaxRandSpeed>55</ProjectileMaxRandSpeed>
+  <DamagePerShot>0.35</DamagePerShot>
+  <DamageRate>0.35</DamageRate>
+  <DamageAreaRadius>26</DamageAreaRadius>
+  <ProjKeepVelocity>false</ProjKeepVelocity>
+  <RemoveAfterStarted>3.5</RemoveAfterStarted>
+  <ParticleEffect>_new_gascloud</ParticleEffect>
+  <AmbientSound>GasDiffuser_Particle</AmbientSound>
+  <NoDebrisOnHit>true</NoDebrisOnHit>
+</GameObjectClass>

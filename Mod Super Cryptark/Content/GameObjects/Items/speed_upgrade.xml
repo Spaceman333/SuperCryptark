@@ -1,0 +1,24 @@
+﻿<?xml version="1.0"?>
+<GameObjectClass>
+  <Type>ITEM</Type>
+  <Displayname>UPG Speed Plus</Displayname>
+  <ShortDisplayName>SPEED</ShortDisplayName>
+  <LoadoutCategory>Item</LoadoutCategory>
+  <ItemInfo>Permanently increases exosuit movement speed by 60%, allowing for faster travel. Passive item.</ItemInfo>
+  <StartItemQuantity>1</StartItemQuantity>
+
+  <Price>1</Price>
+  <TechChanceNumber>2</TechChanceNumber>
+  
+  <HudTextureName>tag_item_thruster</HudTextureName>
+  <ItemType>None</ItemType>
+  <PassiveItem>true</PassiveItem>
+  <PowerupEffects>
+    <PowerupEffectClass>
+      <Type>MovementSpeedMod</Type>
+      <OverwritesSameType>false</OverwritesSameType>
+      <Amount>0.6</Amount>
+      <HudDraw>false</HudDraw>
+    </PowerupEffectClass>
+  </PowerupEffects>
+</GameObjectClass>

@@ -1,0 +1,33 @@
+﻿<?xml version="1.0"?>
+<GameObjectClass>
+  <Type>ITEM</Type>
+  <Displayname>UPG Hazard Suit</Displayname>
+  <ShortDisplayName>HAZRD</ShortDisplayName>
+  <LoadoutCategory>Item</LoadoutCategory>
+  <ItemInfo>A mandatory safety feature on most offworld mining facilities; this specialized undercoating protects the hull and pilot from fire and chemical corrosives. Passive Item.</ItemInfo>
+  <StartItemQuantity>1</StartItemQuantity>
+  
+  <Price>3</Price>
+  <TechChanceNumber>2</TechChanceNumber>
+  
+  <HudTextureName>tag_item_hazard</HudTextureName>
+  <ItemType>None</ItemType>
+  <PassiveItem>true</PassiveItem>
+  <PowerupEffects>
+    <PowerupEffectClass>
+      <Type>DensityMod</Type>
+      <OverwritesSameType>false</OverwritesSameType>
+      <Amount>3</Amount>
+    </PowerupEffectClass>
+    <PowerupEffectClass>
+      <Type>ResistFire</Type>
+      <OverwritesSameType>false</OverwritesSameType>
+      <HudDraw>false</HudDraw>
+    </PowerupEffectClass>
+    <PowerupEffectClass>
+      <Type>ResistSlime</Type>
+      <OverwritesSameType>false</OverwritesSameType>
+      <HudDraw>false</HudDraw>
+    </PowerupEffectClass>
+  </PowerupEffects>
+</GameObjectClass>

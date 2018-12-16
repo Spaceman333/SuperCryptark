@@ -1,0 +1,31 @@
+<?xml version="1.0"?>
+<GameObjectClass>
+  <Type>WEAPON</Type>
+  <Displayname>T1 Slime Mortar</Displayname>
+  <ShortDisplayName>SLIMO</ShortDisplayName>
+  <ItemInfo>By lobbing canisters of corrosive gel, this modified mortar can turn an entire room to slag.</ItemInfo>
+
+  <StartingAmmoBoxes>3</StartingAmmoBoxes>
+  <AmmoBoxQuantity>200</AmmoBoxQuantity>
+  <Price>4</Price>
+  <TechChanceNumber>3</TechChanceNumber>
+  <LiquidOnly>true</LiquidOnly>
+  
+  <LoadoutCategory>Cannons</LoadoutCategory>
+  
+  <ExplosionParticleEffect>_new_explosion_googreen_large</ExplosionParticleEffect>
+  
+  <ProjectilesPerShot>3</ProjectilesPerShot>
+  <ProjectileSpread>0.8</ProjectileSpread>
+  <ProjectilePrecision>1</ProjectilePrecision>
+  <FireBoneRecoil>15</FireBoneRecoil>
+  <RateOfFire>1.6</RateOfFire>
+  <FireSound>grenade_fire</FireSound>
+  <ProjectileClassfile>Projectiles\slimebomb</ProjectileClassfile>
+  <MuzzleFlashEffect>_new_muzzle_grenade</MuzzleFlashEffect>
+  <FireRecoil>800</FireRecoil>
+  <ShakeCameraOnFire>0.3</ShakeCameraOnFire>
+  <SpineWeaponHeadTextureName>gunhead\wephead_grenade01</SpineWeaponHeadTextureName>
+  <SpineWeaponTextureName>gunhead\wep_grenade01</SpineWeaponTextureName>
+  <OnLoadoutTrigger>weapon_slimegun</OnLoadoutTrigger>
+</GameObjectClass>

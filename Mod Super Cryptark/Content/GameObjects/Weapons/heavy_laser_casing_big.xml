@@ -1,0 +1,23 @@
+﻿<?xml version="1.0" ?>
+<GameObjectClass>
+  <Type>CASING</Type>
+  <Texture>Weapons\heavy_laser_casing</Texture>
+  <Solid>true</Solid>
+  <CharacterCollide>false</CharacterCollide>
+  <IgnoreProjectileCollision>true</IgnoreProjectileCollision>
+  <SetFriction>true</SetFriction>
+  <Friction>0</Friction>
+  <Restitution>0.5</Restitution>
+  <LinearDamping>0.75</LinearDamping>
+  <CasingEjectSpeed>40</CasingEjectSpeed>
+  <CasingEjectAngle>2.4</CasingEjectAngle>
+  <CasingEjectSpread>0.3</CasingEjectSpread>
+  <FadeOutDuration>0.5</FadeOutDuration>
+  <RemoveOffscreen>true</RemoveOffscreen>
+  <Scale>2</Scale>
+  <ProjectileColor>
+    <X>1.0</X>
+    <Y>0.5</Y>
+    <Z>0.1</Z>
+  </ProjectileColor>  
+</GameObjectClass>

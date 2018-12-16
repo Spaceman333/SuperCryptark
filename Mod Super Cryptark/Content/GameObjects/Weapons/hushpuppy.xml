@@ -1,0 +1,56 @@
+<?xml version="1.0"?>
+<GameObjectClass>
+  <Type>WEAPON</Type>
+  <Displayname>T1 Hushpuppy</Displayname>
+  <ShortDisplayName>HUSH</ShortDisplayName>
+  <ItemInfo>Designed with an efficient sound suppression system and disabling shock-rounds, this stealthy infiltration rifle excels at picking off isolated targets before they can react. This is a silent weapon.</ItemInfo>
+
+  <StartingAmmoBoxes>2</StartingAmmoBoxes>
+  <AmmoBoxQuantity>500</AmmoBoxQuantity>
+  <Price>8</Price>
+  <TechChanceNumber>3</TechChanceNumber>
+  
+  <RateOfFire>0.7</RateOfFire>
+  <ProjectilesPerShot>1</ProjectilesPerShot>
+  <ProjectilePrecision>1</ProjectilePrecision>
+  <ProjectileClassfile>Projectiles\hushpuppy_bullet</ProjectileClassfile>
+  <LoadoutCategory>Cannons</LoadoutCategory>
+  <FireNoiseRadius>0</FireNoiseRadius>
+
+  <FireRecoil>200</FireRecoil>
+  <!--
+  <InaccuracyAdditionCoolDown>0.3</InaccuracyAdditionCoolDown>
+  <InaccuracyAddition>0.25</InaccuracyAddition>
+  <InaccuracyAdditionLimit>1</InaccuracyAdditionLimit>-->
+  <ShakeCameraOnFire>0.1</ShakeCameraOnFire>
+  <RecoilCameraOnFire>1</RecoilCameraOnFire>
+  <RecoilCameraOnFireDuration>0.075</RecoilCameraOnFireDuration>
+  <CasingClassfile>Weapons\machinegun_casing</CasingClassfile>
+  <SpineWeaponHeadTextureName>gunhead\wephead_machinegun01</SpineWeaponHeadTextureName>
+  <SpineWeaponTextureName>gunhead\wep_machinegun01</SpineWeaponTextureName>
+  
+  <FireSound>Hushpuppy_Shot</FireSound>
+
+  <OnFireMuzzleLight>
+    <Type>Spotlight</Type>
+    <Position>
+      <Z>10</Z>
+    </Position>
+    <Color>
+      <X>1</X>
+      <Y>0.8</Y>
+      <Z>0.5</Z>
+      <W>1</W>
+    </Color>
+    <Direction>
+      <X>1</X>
+      <Y>0</Y>
+      <Z>0.3</Z>
+    </Direction>
+    <Strength>20</Strength>
+    <Radius>200</Radius>
+    <RadiusModifier>-120</RadiusModifier>
+    <InnerConeAngle>1</InnerConeAngle>
+    <OuterConeAngle>1.57</OuterConeAngle>
+  </OnFireMuzzleLight>
+</GameObjectClass>

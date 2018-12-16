@@ -1,0 +1,37 @@
+﻿<?xml version="1.0"?>
+<ShipOption xmlns:xsi="http://www.w3.org/2001/XMLSchema-instance" xmlns:xsd="http://www.w3.org/2001/XMLSchema">
+
+  <Level>8</Level>
+  <Tier>3</Tier>
+  
+  <TechAdvances>26</TechAdvances>
+  <TechAdvancesArcade>26</TechAdvancesArcade>
+
+  <Finale>true</Finale>
+  <Mothership>true</Mothership>
+  <Classes>
+    <string>Finale</string>
+  </Classes>
+
+  <LevelNames>
+    <string>hull_medium01</string>
+    <string>hull_medium02</string>
+  </LevelNames>
+  
+  <SystemAmount>0</SystemAmount>
+
+  <HealthStations>3</HealthStations>
+  <AmmoStations>3</AmmoStations>
+  
+  <Bounty>1337</Bounty>
+
+  <ShipImagesNumber>18</ShipImagesNumber>
+  <ShipImages>
+    <string>ship06</string>
+    <string>ship07</string>
+    <string>ship08</string>
+    <string>ship09</string>
+    <string>ship10</string>
+  </ShipImages>
+  
+</ShipOption>

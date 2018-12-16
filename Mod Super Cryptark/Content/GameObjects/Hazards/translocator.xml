@@ -1,0 +1,8 @@
+﻿<?xml version="1.0" ?>
+<GameObjectClass>
+  <Type>TRANSLOCATOR</Type>
+  <SpawnObjectOnAdd>Refractions\shockwave_2</SpawnObjectOnAdd>
+  <!--<TeleportFragRange>0</TeleportFragRange>-->
+  <OnAddSound>FX_M_Teleport</OnAddSound>
+  <NoOffscreen>true</NoOffscreen>
+</GameObjectClass>

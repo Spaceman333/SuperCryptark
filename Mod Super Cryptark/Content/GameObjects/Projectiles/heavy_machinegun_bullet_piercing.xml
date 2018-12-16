@@ -1,0 +1,7 @@
+﻿<?xml version="1.0"?>
+<GameObjectClass>
+
+  <BaseFile>Projectiles\heavy_machinegun_bullet</BaseFile>
+  <ProjectilePiercing>true</ProjectilePiercing>
+  
+</GameObjectClass>

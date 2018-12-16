@@ -1,0 +1,60 @@
+<?xml version="1.0"?>
+<CharacterClass xmlns:xsi="http://www.w3.org/2001/XMLSchema-instance" xmlns:xsd="http://www.w3.org/2001/XMLSchema">
+
+  <SpineAnimation>Gundog</SpineAnimation>
+
+  <Health>1.25</Health>
+  <Type>Gundog</Type>
+  <DisplayName>Spikedog</DisplayName>
+  
+  <Width>7</Width>
+  <Height>4.5</Height>
+  
+  <SidebarTextureName>sawdog</SidebarTextureName>
+  <Description>First response drone that makes quick, jabbing attacks.</Description>
+
+  <MinimapScale>0.7</MinimapScale>
+
+  <TailEffects>
+    <TailEffect>
+      <BoneName>tendril_01</BoneName>
+      <TailClass>test_tail</TailClass>
+    </TailEffect>
+    <TailEffect>
+      <BoneName>tendril_02</BoneName>
+      <TailClass>test_tail</TailClass>
+      <SinOffset>3.14</SinOffset>
+    </TailEffect>
+  </TailEffects>
+
+  <Inertia>30</Inertia>
+  <InertiaNoAirControlMultiply>0.1</InertiaNoAirControlMultiply>
+  
+  <DroneFactory>true</DroneFactory>
+  <FactoryAmount>2</FactoryAmount>
+  <AllowGrapple>true</AllowGrapple>
+
+  <BodyRotateToFocusPercent>1</BodyRotateToFocusPercent>
+  <Maxspeed_Fly>40</Maxspeed_Fly>
+  <MinCombatDistance>20</MinCombatDistance>
+
+  <AI_AimSpeed>1</AI_AimSpeed>
+  
+  <OnRemoveLight>
+    <Type>Point</Type>
+    <Color>
+      <X>0.75</X>
+      <Y>0.6</Y>
+      <Z>1</Z>
+      <W>1</W>
+    </Color>
+    <Strength>20</Strength>
+    <Radius>1500</Radius>
+    <RadiusModifier>-150</RadiusModifier>
+  </OnRemoveLight>
+
+  <Weapon1>EnemyWeapons\gundog</Weapon1>
+  
+  <DefaultItems>
+  </DefaultItems>
+</CharacterClass>

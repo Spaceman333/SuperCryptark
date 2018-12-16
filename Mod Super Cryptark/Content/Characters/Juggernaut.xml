@@ -1,0 +1,66 @@
+<?xml version="1.0"?>
+<CharacterClass xmlns:xsi="http://www.w3.org/2001/XMLSchema-instance" xmlns:xsd="http://www.w3.org/2001/XMLSchema">
+
+  <SpineAnimation>juggernaut</SpineAnimation>
+
+  <Health>52</Health>
+  <Type>Juggernaut</Type>
+  <DisplayName>Juggernaut</DisplayName>
+
+  <Width>9</Width>
+  <Height>13</Height>
+  <Density>6</Density>
+  
+  <CharacterAmbientSound>FX_Enemy_Juggernaut_Loop</CharacterAmbientSound>
+  
+  <SidebarTextureName>juggernaut</SidebarTextureName>
+  <Description>Alpha Threat: Gargantuan hunter drone keen to hunt down and pacify any intruders, wherever they may hide.</Description>
+
+  <Inertia>177</Inertia>
+  <InertiaNoAirControlMultiply>0.1</InertiaNoAirControlMultiply>
+
+  <BaseMovementForce>12000</BaseMovementForce>
+  
+  <Maxspeed_Fly>15</Maxspeed_Fly>
+  <Maxspeed_Fly_Offscreen>9</Maxspeed_Fly_Offscreen>
+  <ForceMultiply_Fly_Offscreen>4</ForceMultiply_Fly_Offscreen>
+  
+  <AI_AimSpeed>.9</AI_AimSpeed>
+  <MinCombatDistance>80</MinCombatDistance>
+
+  <Weapon1>EnemyWeapons\bomb_juggernaut</Weapon1>
+
+  <MinimapTextureName>map-juggernaut</MinimapTextureName>
+  <MinimapScale>4</MinimapScale>
+  
+  <Light>
+    <Type>Point</Type>
+    <Color>
+      <X>1</X>
+      <Y>0.5</Y>
+      <Z>.6</Z>
+      <W>1</W>
+    </Color>
+    <Strength>2</Strength>
+    <Radius>150</Radius>
+    <FollowBoneName>muzzle-fore</FollowBoneName>
+  </Light>
+
+  <SpawnObjectOnRemove>Refractions\shockwave_2</SpawnObjectOnRemove>
+  
+  <OnRemoveLight>
+    <Type>Point</Type>
+    <Color>
+      <X>0.75</X>
+      <Y>0.6</Y>
+      <Z>1</Z>
+      <W>1</W>
+    </Color>
+    <Strength>20</Strength>
+    <Radius>1500</Radius>
+    <RadiusModifier>-150</RadiusModifier>
+  </OnRemoveLight>
+  
+  <DefaultItems>
+  </DefaultItems>
+</CharacterClass>

@@ -1,0 +1,28 @@
+﻿<?xml version="1.0" ?>
+<GameObjectClass>
+  <Type>WEAPON</Type>
+  <Displayname>T2 Mine Rack</Displayname>
+  <ShortDisplayName>MINE</ShortDisplayName>
+  <ItemInfo>Equipped with simple radar fuses, these proximity mines lie in wait, then detonate when a target comes near. Launches 3 mines at once, spreading over a small area.</ItemInfo>
+
+  <StartingAmmoBoxes>3</StartingAmmoBoxes>
+  <AmmoBoxQuantity>200</AmmoBoxQuantity>
+  <Price>6</Price>
+  <TechChanceNumber>2</TechChanceNumber>
+  
+  <ProjectileClassfile>Projectiles\proximity_bomb_projectile</ProjectileClassfile>
+
+  <LoadoutCategory>Bombs</LoadoutCategory>
+  
+  <FireBoneRecoil>15</FireBoneRecoil>
+  <RateOfFire>1</RateOfFire>
+  <ProjectilesPerShot>3</ProjectilesPerShot>
+  <ProjectileSpread>1</ProjectileSpread>
+  
+  <FireSound>Combat_ST_PlaceItem</FireSound>
+  <MuzzleFlashEffect>_new_muzzle_grenade</MuzzleFlashEffect>
+  <FireRecoil>500</FireRecoil>
+  <ShakeCameraOnFire>0.2</ShakeCameraOnFire>
+  <SpineWeaponHeadTextureName>gunhead\wephead_grenade01</SpineWeaponHeadTextureName>
+  <SpineWeaponTextureName>gunhead\wep_grenade01</SpineWeaponTextureName>
+</GameObjectClass>

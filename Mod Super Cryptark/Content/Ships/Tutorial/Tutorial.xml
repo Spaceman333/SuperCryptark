@@ -1,0 +1,33 @@
+﻿<?xml version="1.0"?>
+<ShipOption xmlns:xsi="http://www.w3.org/2001/XMLSchema-instance" xmlns:xsd="http://www.w3.org/2001/XMLSchema">
+
+  <Bounty>100</Bounty>
+  
+  <BaseFile>1\TinySize</BaseFile>
+  
+  <SpawnMultiply>0.4</SpawnMultiply>
+
+  <Tutorial>true</Tutorial>
+  <LevelNames>
+    <string>hull_medium01</string>
+    <string>hull_medium02</string>
+    <string>hull_medium03</string>
+  </LevelNames>
+
+  <TimeMultiply>3.0</TimeMultiply>
+  
+  <ShipImages>
+    <string>ship01</string>
+    <string>ship02</string>
+  </ShipImages>
+  
+  <Classes>
+    <string>Tutorial</string>
+  </Classes>
+
+  <HealthStations>3</HealthStations>
+  <AmmoStations>3</AmmoStations>
+  
+  <SystemAmount>4</SystemAmount>
+  
+</ShipOption>

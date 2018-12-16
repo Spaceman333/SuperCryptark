@@ -1,0 +1,72 @@
+<?xml version="1.0"?>
+<GameObjectClass>
+  <Type>WEAPON</Type>
+  <Displayname>T1 Taser</Displayname>
+  <ShortDisplayName>TASER</ShortDisplayName>
+  <ItemInfo>A short-ranged taser that packs a serious stun for the cost of requiring melee contact, this weapon stuns organics and cybernetics alike for 60 seconds. This is a quiet weapon.</ItemInfo>
+  <Price>4</Price>
+  <TechChanceNumber>3</TechChanceNumber>
+  <LoadoutCategory>Melee</LoadoutCategory>
+  
+  <MeleeHitScale>9</MeleeHitScale>
+  <MeleeHitScaleVector>
+    <X>6</X>
+    <Y>3</Y>
+  </MeleeHitScaleVector>
+
+  <DamagePerShot>0.05</DamagePerShot>
+  <StunTime>60</StunTime>
+  <MeleeStrikeTime>0.3</MeleeStrikeTime>
+  <CameraShakeOnHit>1.5</CameraShakeOnHit>
+  <HitForce>1</HitForce>
+  <HitNoiseRadius>25</HitNoiseRadius>
+  <Melee>true</Melee>
+  <SpineWeaponHeadTextureName>gunhead\wephead_spike01</SpineWeaponHeadTextureName>
+  <SpineWeaponTextureName>gunhead\wep_spike01</SpineWeaponTextureName>
+  <DecalType>Bullet</DecalType>
+  <FireBoneRecoil>0</FireBoneRecoil>
+  <MeleeParticleEffect>_new_trail_taser</MeleeParticleEffect>
+  
+  <FiringLoop>Combat_M_LightningGun_Loop</FiringLoop>
+  <ShakeCameraOnFire>0.2</ShakeCameraOnFire>
+
+  <FireNoiseRadius>10</FireNoiseRadius>
+  
+  <!-- <InvulnerableDuringStrike>true</InvulnerableDuringStrike> -->
+  <AmmoPerShot>1</AmmoPerShot>
+  <AmmoAsPercent>true</AmmoAsPercent>
+  <StartingAmmoBoxes>1</StartingAmmoBoxes>
+  <AmmoBoxQuantity>100</AmmoBoxQuantity>
+  <NextRefillTime>1</NextRefillTime>
+  <RefillRate>0.5</RefillRate>
+
+  <OnFireMuzzleLight>
+    <Type>Spotlight</Type>
+    <Position>
+      <Z>10</Z>
+    </Position>
+    <Color>
+      <X>1</X>
+      <Y>0.2</Y>
+      <Z>0.2</Z>
+      <W>1</W>
+    </Color>
+    <SpecularColor>
+      <X>1</X>
+      <Y>0.4</Y>
+      <Z>0.4</Z>
+      <W>1</W>
+    </SpecularColor>
+    <Direction>
+      <X>1</X>
+      <Y>0</Y>
+      <Z>0.4</Z>
+    </Direction>
+    <Strength>10</Strength>
+    <Radius>2200</Radius>
+    <RadiusModifier>-1000</RadiusModifier>
+    <InnerConeAngle>0.4</InnerConeAngle>
+    <OuterConeAngle>0.7</OuterConeAngle>
+  </OnFireMuzzleLight>
+  
+</GameObjectClass>

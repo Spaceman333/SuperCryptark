@@ -1,0 +1,32 @@
+﻿<?xml version="1.0"?>
+<GameObjectClass>
+  <Type>ITEM</Type>
+  <Displayname>USE Magnetic Rails</Displayname>
+  <ShortDisplayName>MAGRA</ShortDisplayName>
+  <LoadoutCategory>Item</LoadoutCategory>
+  <ItemInfo>This specialized addon temporarily increases the velocity of all launched projectiles by 180% on demand. 35 second recharge time, 30 seconds of active time. Reusable.</ItemInfo>
+
+  <Price>10</Price>
+  <TechChanceNumber>2</TechChanceNumber>
+  
+  <StartItemQuantity>1</StartItemQuantity>
+  <ItemRecharges>true</ItemRecharges>
+  <NextRefillTime>35</NextRefillTime>
+  <RechargeRate>2</RechargeRate>
+  <MaxCharge>60</MaxCharge>
+  <HudTextureName>tag_item_gunbarrel</HudTextureName>
+  <ParticleEffect>_new_muzzle_thruster</ParticleEffect>
+  <OnUseSound>Combat_M_Player_Boost</OnUseSound>
+  <UseInSpace>true</UseInSpace>
+  
+  <ItemType>None</ItemType>
+  <PowerupEffects>
+	<PowerupEffectClass>
+      <Type>ProjectileSpeedMod</Type>
+      <OverwritesSameType>false</OverwritesSameType>
+      <Amount>1.8</Amount>
+      <Duration>30</Duration>
+	  <HudDraw>true</HudDraw>
+    </PowerupEffectClass>
+  </PowerupEffects>
+</GameObjectClass>

@@ -1,0 +1,14 @@
+﻿<?xml version="1.0" ?>
+<GameObjectClass>
+  <Type>SAWBLADE_TRIANGLE</Type>
+  <Displayname>Sawblade Triangle</Displayname>
+  <SpineAnimation>sawblade_triangle</SpineAnimation>
+  <MinimapTextureName>map-mine</MinimapTextureName>
+  <SidebarTextureName>hazard_mine</SidebarTextureName>
+  <MinimapDescription>.</MinimapDescription>
+  <NoFlipping>true</NoFlipping>
+
+  <Solid>true</Solid>
+  <Static>true</Static>
+  <IgnoreCollision>true</IgnoreCollision>
+</GameObjectClass>

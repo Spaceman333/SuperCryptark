@@ -1,0 +1,32 @@
+﻿<?xml version="1.0"?>
+<GameObjectClass>
+  <Type>ITEM</Type>
+  <Displayname>USE Reloader</Displayname>
+  <ShortDisplayName>ROFAC</ShortDisplayName>
+  <LoadoutCategory>Item</LoadoutCategory>
+  <ItemInfo>This specialized addon temporarily gives 50% increased rate of fire to the suits weapon systems on demand. 35 second recharge time, 30 seconds of active time. Reusable.</ItemInfo>
+
+  <Price>10</Price>
+  <TechChanceNumber>2</TechChanceNumber>
+  
+  <StartItemQuantity>1</StartItemQuantity>
+  <ItemRecharges>true</ItemRecharges>
+  <NextRefillTime>35</NextRefillTime>
+  <RechargeRate>2</RechargeRate>
+  <MaxCharge>60</MaxCharge>
+  <HudTextureName>tag_item_speedloader</HudTextureName>
+  <ParticleEffect>_new_muzzle_thruster</ParticleEffect>
+  <OnUseSound>Combat_M_Player_Boost</OnUseSound>
+  <UseInSpace>true</UseInSpace>
+  
+  <ItemType>None</ItemType>
+  <PowerupEffects>
+	<PowerupEffectClass>
+      <Type>RateOfFireMod</Type>
+      <OverwritesSameType>false</OverwritesSameType>
+      <Amount>-0.5</Amount>
+      <Duration>30</Duration>
+	  <HudDraw>true</HudDraw>
+    </PowerupEffectClass>
+  </PowerupEffects>
+</GameObjectClass>

@@ -1,0 +1,22 @@
+﻿<GameObjectClass>
+  <Type>ITEM</Type>
+  <Displayname>USE Electro Pulse</Displayname>
+  <ShortDisplayName>ELECP</ShortDisplayName>
+  <LoadoutCategory>Item</LoadoutCategory>
+  <ItemInfo>Once activated, this reusable emitter will fire off a large EM pulse field, deactivating any enemy units trapped inside. 12 second recharge time.</ItemInfo>
+  <HudTextureName>tag_item_emp</HudTextureName>
+
+  <Price>10</Price>
+  <TechChanceNumber>2</TechChanceNumber>
+  
+  <StartItemQuantity>1</StartItemQuantity>
+  <ItemRecharges>true</ItemRecharges>
+  <RechargeRate>5</RechargeRate>
+  <MaxCharge>60</MaxCharge>
+  <SpawnOnItemUse>Hazards\emp</SpawnOnItemUse>
+  <RateOfUse>1</RateOfUse>
+  <ItemType>EmpBomb</ItemType>
+  <OnLoadoutTrigger>weapon_emp</OnLoadoutTrigger>
+  
+  <OnUseSound>Combat_M_EMP_Blast</OnUseSound>
+</GameObjectClass>

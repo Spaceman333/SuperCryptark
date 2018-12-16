@@ -1,0 +1,23 @@
+﻿<?xml version="1.0"?>
+<GameObjectClass>
+  <Type>ITEM</Type>
+  <Displayname>UPG Stability Plus</Displayname>
+  <ShortDisplayName>STABL</ShortDisplayName>
+  <LoadoutCategory>Item</LoadoutCategory>
+  <ItemInfo>This device drastically reduces the impact of explosives and blows in combat. The wearer is able to maintain their position and isn’t knocked off course. Passive Item. Its free due to its limited usefulness.</ItemInfo>
+  <StartItemQuantity>1</StartItemQuantity>
+
+  <Price>0</Price>
+  <TechChanceNumber>2</TechChanceNumber>
+
+  <HudTextureName>tag_item_buffer</HudTextureName>
+  <ItemType>None</ItemType>
+  <PassiveItem>true</PassiveItem>
+  <PowerupEffects>
+    <PowerupEffectClass>
+      <Type>DensityMod</Type>
+      <OverwritesSameType>false</OverwritesSameType>
+      <Amount>9</Amount>
+    </PowerupEffectClass>
+  </PowerupEffects>
+</GameObjectClass>

@@ -1,0 +1,14 @@
+﻿<?xml version="1.0" ?>
+<GameObjectClass>
+  <Type>BEAM</Type>
+  <Texture>Beams\railgun</Texture>
+  <BeamColor>
+    <X>0.7</X>
+    <Y>0.9</Y>
+    <Z>0.4</Z>
+    <W>1</W>
+  </BeamColor>
+  <Scale>0.25</Scale>
+  <FadeOutDuration>0.22</FadeOutDuration>
+  <SetLayer>FULLBRIGHT</SetLayer>
+</GameObjectClass>

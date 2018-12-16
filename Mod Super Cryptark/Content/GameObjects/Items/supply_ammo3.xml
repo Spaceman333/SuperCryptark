@@ -1,0 +1,18 @@
+﻿<GameObjectClass>
+  <Type>ITEM</Type>
+  <Displayname>CON Ammo Box Medium</Displayname>
+  <ShortDisplayName>AMMO3</ShortDisplayName>
+  <LoadoutCategory>Item</LoadoutCategory>
+  <ItemInfo>Triple reloads! Teleports in an ammo supply unit to your location. Can be used in Rogue Mode to replenish all ammo for free, thrice.</ItemInfo>
+  <HudTextureName>tag_wep_mgun</HudTextureName>
+
+  <Price>8</Price>
+  <TechChanceNumber>2</TechChanceNumber>
+
+  <!--<CampaignModeOnly>true</CampaignModeOnly>-->
+  <StartItemQuantity>3</StartItemQuantity>
+  <SpawnOnItemUse>Stations\station_ammo</SpawnOnItemUse>
+  <RateOfUse>2</RateOfUse>
+  <ParticleEffect>_new_explosion_teleportin</ParticleEffect>
+  <OnUseSound>Combat_ST_PlaceItem</OnUseSound>
+</GameObjectClass>

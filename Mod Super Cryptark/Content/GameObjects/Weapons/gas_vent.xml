@@ -1,0 +1,45 @@
+﻿<?xml version="1.0" ?>
+<GameObjectClass>
+  <Type>WEAPON</Type>
+  <Displayname>T2 Gas Diffuser</Displayname>
+  <ShortDisplayName>GASVE</ShortDisplayName>
+  <ItemInfo>These pressurized tanks of corrosive gas can be vented to create deadly acid clouds to clear the area around you as well as attack targets behind walls. This is a silent weapon.</ItemInfo>
+
+  <StartingAmmoBoxes>3</StartingAmmoBoxes>
+  <AmmoBoxQuantity>100</AmmoBoxQuantity>
+  <Price>8</Price>
+  <TechChanceNumber>2</TechChanceNumber>
+  
+  <RateOfFire>3</RateOfFire>
+  <ProjectilesPerShot>3</ProjectilesPerShot>
+  <ProjectileSpread>3</ProjectileSpread>
+  <ProjectileClassfile>Projectiles\cannon_gas_cloud</ProjectileClassfile>
+  <LoadoutCategory>Projectors</LoadoutCategory>
+  
+  <FireRecoil>10</FireRecoil>
+  <ShakeCameraOnFire>0.1</ShakeCameraOnFire>
+  <SpineWeaponHeadTextureName>gunhead\wephead_flamer01</SpineWeaponHeadTextureName>
+  <SpineWeaponTextureName>gunhead\wep_flamer01</SpineWeaponTextureName>
+
+  <FireNoiseRadius>0</FireNoiseRadius>
+  
+  <FireSound>GasDiffuser_Shot</FireSound>
+
+  <MuzzleFlashEffect>_new_explosion_gas</MuzzleFlashEffect>
+  <NoMuzzleFlashRotation>true</NoMuzzleFlashRotation>
+  
+  <OnFireMuzzleLight>
+    <Color>
+      <X>.5</X>
+      <Y>1</Y>
+      <Z>.5</Z>
+      <W>1</W>
+    </Color>
+
+    <Strength>5</Strength>
+    <Radius>750</Radius>
+    <RadiusModifier>-100</RadiusModifier>
+    
+  </OnFireMuzzleLight>
+  
+</GameObjectClass>

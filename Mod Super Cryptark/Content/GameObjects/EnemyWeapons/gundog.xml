@@ -1,0 +1,17 @@
+<?xml version="1.0"?>
+<GameObjectClass>
+  <Displayname>Chainsaw</Displayname>
+  <AttackAnimation>lunge</AttackAnimation>
+  <MeleeHitScale>3</MeleeHitScale>
+  <MeleeHitScaleVector>
+    <X>4</X>
+    <Y>2</Y>
+  </MeleeHitScaleVector>
+  <DamagePerShot>1</DamagePerShot>
+  <RateOfFire>1.8</RateOfFire>
+  <HitForce>100</HitForce>
+  <Melee>true</Melee>
+  <MeleeParticleEffect>_new_trail_enemyblade02</MeleeParticleEffect>
+  
+  <AttackSound>Combat_M_SawDog_Attack</AttackSound>
+</GameObjectClass>

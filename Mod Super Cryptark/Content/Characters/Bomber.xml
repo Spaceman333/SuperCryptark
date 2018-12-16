@@ -1,0 +1,58 @@
+<?xml version="1.0"?>
+<CharacterClass xmlns:xsi="http://www.w3.org/2001/XMLSchema-instance" xmlns:xsd="http://www.w3.org/2001/XMLSchema">
+
+  <SpineAnimation>bomber</SpineAnimation>
+
+  <Health>3.5</Health>
+  <Type>Bomber</Type>
+  <DisplayName>Bomber</DisplayName>
+  
+  <SidebarTextureName>bomber</SidebarTextureName>
+  <Description>Fire support drone armed with an explosive plasma launcher.</Description>
+
+  <Density>1.5</Density>
+  <Inertia>30</Inertia>
+  <BaseMovementForce>1000</BaseMovementForce>
+  <Maxspeed_Fly>25</Maxspeed_Fly>
+  <Width>6</Width>
+  <Height>6</Height>
+  
+  <DroneFactory>true</DroneFactory>
+  <FactoryAmount>2</FactoryAmount>
+  <AllowGrapple>true</AllowGrapple>
+
+  <WallFixtureScale>0.5</WallFixtureScale>
+  
+  <Weapon1>EnemyWeapons\bomb</Weapon1>
+
+
+  <Light>
+    <Type>Point</Type>
+    <Color>
+      <X>0.75</X>
+      <Y>0.6</Y>
+      <Z>1</Z>
+      <W>1</W>
+    </Color>
+    <Strength>2</Strength>
+    <Radius>150</Radius>
+    <FollowBoneName>root</FollowBoneName>
+  </Light>
+
+
+  <OnRemoveLight>
+    <Type>Point</Type>
+    <Color>
+      <X>0.75</X>
+      <Y>0.6</Y>
+      <Z>1</Z>
+      <W>1</W>
+    </Color>
+    <Strength>20</Strength>
+    <Radius>1500</Radius>
+    <RadiusModifier>-150</RadiusModifier>
+  </OnRemoveLight>
+  
+  <DefaultItems>
+  </DefaultItems>
+</CharacterClass>

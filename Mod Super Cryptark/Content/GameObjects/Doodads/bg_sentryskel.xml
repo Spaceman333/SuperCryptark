@@ -1,0 +1,7 @@
+﻿<?xml version="1.0" ?>
+<GameObjectClass>
+  <SpineAnimation>sentry</SpineAnimation>
+  <Static>true</Static>
+  <SetLayer>BACKGROUND</SetLayer>
+  <UseSpatialSystem>false</UseSpatialSystem>
+</GameObjectClass>

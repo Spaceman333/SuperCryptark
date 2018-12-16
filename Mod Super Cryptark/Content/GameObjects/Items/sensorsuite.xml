@@ -1,0 +1,16 @@
+﻿<GameObjectClass>
+  <Type>ITEM</Type>
+  <Displayname>UPG Sensor Plus</Displayname>
+  <ShortDisplayName>SENSR</ShortDisplayName>
+  <LoadoutCategory>Item</LoadoutCategory>
+  <ItemInfo>Deep-wave radar receptors and an advanced ‘mole-bat’ tunneling processor allow this sensor package to reveal a wider area when faced with an enemy Jammer System. Passive item.</ItemInfo>
+  <HudTextureName>tag_item_sensor</HudTextureName>
+
+  <Price>1</Price>
+  <TechChanceNumber>2</TechChanceNumber>
+  
+  <ItemType>SensorSuite</ItemType>
+  <PassiveItem>true</PassiveItem>
+  <CampaignModeOnly>true</CampaignModeOnly>
+  
+</GameObjectClass>

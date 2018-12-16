@@ -1,0 +1,19 @@
+<?xml version="1.0"?>
+<GameObjectClass>
+  <BaseFile>Weapons\machinegun</BaseFile>
+  <Displayname>T1 Burst Machinegun</Displayname>
+  <ShortDisplayName>MG-B</ShortDisplayName>
+  <ItemInfo>For improved accuracy, this machinegun variant has been outfitted with a burst-capacitor.</ItemInfo>
+
+  <StartingAmmoBoxes>3</StartingAmmoBoxes>
+  <AmmoBoxQuantity>2000</AmmoBoxQuantity>
+  <Price>4</Price>
+  <TechChanceNumber>3</TechChanceNumber>
+  
+  <ProjectilePrecision>.95</ProjectilePrecision>
+  <AutoFireCount>5</AutoFireCount>
+  <RateOfFire>0.035</RateOfFire>
+  <ReloadTime>.25</ReloadTime>
+  <NumShotsPerReload>5</NumShotsPerReload>
+  <SetDamageStat>0.6</SetDamageStat>
+</GameObjectClass>

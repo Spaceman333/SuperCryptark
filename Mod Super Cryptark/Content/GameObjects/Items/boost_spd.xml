@@ -1,0 +1,27 @@
+﻿<?xml version="1.0"?>
+<GameObjectClass>
+  <Type>ITEM</Type>
+  <Displayname>CON Extreme Speed</Displayname>
+  <ShortDisplayName>X-SPD</ShortDisplayName>
+  <LoadoutCategory>Item</LoadoutCategory>
+  <ItemInfo>Single-use consumable super power overcharge core. Gives 250% Speed Boost for 2 minutes.</ItemInfo>
+  
+  <Price>4</Price>
+  <TechChanceNumber>2</TechChanceNumber>
+  
+  <StartItemQuantity>7</StartItemQuantity>  
+  
+  <HudTextureName>tag_item_laser</HudTextureName>
+  <OnUseSound>Combat_M_Player_Boost</OnUseSound>
+  <SpawnOnItemUse>Hazards\knockback</SpawnOnItemUse>  
+  <UseInSpace>true</UseInSpace>
+  
+  <PowerupEffects>
+    <PowerupEffectClass>
+      <Type>MovementSpeedMod</Type>
+      <OverwritesSameType>false</OverwritesSameType>
+      <Amount>2.5</Amount>
+      <Duration>120</Duration>
+    </PowerupEffectClass>
+  </PowerupEffects>
+</GameObjectClass>

@@ -1,0 +1,21 @@
+<?xml version="1.0"?>
+<CharacterClass xmlns:xsi="http://www.w3.org/2001/XMLSchema-instance" xmlns:xsd="http://www.w3.org/2001/XMLSchema">
+  <SpineAnimation>player_turret</SpineAnimation>
+  <MinimapTextureName>map-helper</MinimapTextureName>
+  <MinimapScale>0.5</MinimapScale>
+
+  <Health>15</Health>
+  <Type>HelperSentry</Type>
+  <DisplayName>Canister Turret</DisplayName>
+
+  <Width>5</Width>
+  <Height>8</Height>
+  <Static>true</Static>
+  <CharacterCollide>false</CharacterCollide>
+  <RecoverItemOnInteract>true</RecoverItemOnInteract>
+  <StoreHealthOnRecover>true</StoreHealthOnRecover>
+  <IgnoreSameTeamCollision>true</IgnoreSameTeamCollision>
+
+  <Weapon1>Weapons\laser</Weapon1>
+  
+</CharacterClass>

@@ -1,0 +1,16 @@
+﻿<?xml version="1.0" ?>
+<GameObjectClass>
+  <Type>SAWBLADE_BOTTLENECK</Type>
+  <Displayname>Sawblade Hazard</Displayname>
+  <SpineAnimation>sawblade_bottleneck01</SpineAnimation>
+  <MinimapTextureName>map-mine</MinimapTextureName>
+  <SidebarTextureName>hazard_mine</SidebarTextureName>
+  <MinimapDescription>Spinning sawblade placed at a chokepoint.</MinimapDescription>
+
+  <NoFlipping>true</NoFlipping>
+  <Solid>true</Solid>
+  <Static>true</Static>
+  <BoundingBoxBody>base_box</BoundingBoxBody>
+  <AmbientSound>FX_SpinningSaw_Loop</AmbientSound>
+  <SawSpinSpeed>10</SawSpinSpeed>
+</GameObjectClass>

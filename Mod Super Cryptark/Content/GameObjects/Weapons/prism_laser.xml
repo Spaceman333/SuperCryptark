@@ -1,0 +1,29 @@
+﻿<?xml version="1.0" ?>
+<GameObjectClass>
+  <BaseFile>Weapons\laser</BaseFile>
+  <LoadoutCategory>Energy</LoadoutCategory>
+  <ProjectileClassfile>Projectiles\prism_laser_beam</ProjectileClassfile>
+  <Displayname>T2 Prism Laser</Displayname>
+  <ShortDisplayName>PRISM</ShortDisplayName>
+  <ItemInfo>Shotgun laser</ItemInfo>
+  
+  <Price>13</Price>
+  
+  <StartingAmmoBoxes>1</StartingAmmoBoxes>
+  <AmmoBoxQuantity>50</AmmoBoxQuantity>
+  <NextRefillTime>2</NextRefillTime>
+  <RefillRate>.1</RefillRate>
+  <TechChanceNumber>2</TechChanceNumber>
+  
+  <RateOfFire>0.6</RateOfFire>
+  <FireRecoil>80</FireRecoil>
+  <ProjectilesPerShot>6</ProjectilesPerShot>
+  <ProjectileSpread>0.1</ProjectileSpread>
+  <ProjectilePrecision>1</ProjectilePrecision>
+  <RecoilCameraOnFire>0.1</RecoilCameraOnFire>
+  <RecoilCameraOnFireDuration>0.2</RecoilCameraOnFireDuration>
+  <ShakeCameraOnFire>0.1</ShakeCameraOnFire>
+
+  <MuzzleFlashEffect>_new_muzzle_blaster</MuzzleFlashEffect>
+  <FireSound>Combat_M_RailGun_Shot</FireSound>
+</GameObjectClass>

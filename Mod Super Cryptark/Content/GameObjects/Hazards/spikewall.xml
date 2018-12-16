@@ -1,0 +1,15 @@
+﻿<?xml version="1.0" ?>
+<GameObjectClass>
+  <Type>SPIKEWALL</Type>
+  <Displayname>Spikewall</Displayname>
+  <SpineAnimation>spikewall01</SpineAnimation>
+  <MinimapTextureName>map-mine</MinimapTextureName>
+  <SidebarTextureName>hazard_mine</SidebarTextureName>
+  <MinimapDescription>.</MinimapDescription>
+
+  <Solid>true</Solid>
+  <Static>true</Static>
+  <IgnoreCollision>true</IgnoreCollision>
+  <Width>10</Width>
+  <Height>10</Height>
+</GameObjectClass>

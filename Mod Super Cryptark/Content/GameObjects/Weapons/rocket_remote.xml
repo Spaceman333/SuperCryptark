@@ -1,0 +1,20 @@
+﻿<?xml version="1.0" ?>
+<GameObjectClass>
+  <BaseFile>Weapons\rocket_launcher</BaseFile>
+  
+  <Displayname>T2 Remote Rocket</Displayname>
+  <ShortDisplayName>R-REM</ShortDisplayName>
+  <ItemInfo>This tactical dumbfire rocket can be remotely detonated for precision timing.</ItemInfo>
+
+  <StartingAmmoBoxes>4</StartingAmmoBoxes>
+  <AmmoBoxQuantity>25</AmmoBoxQuantity>
+  <Price>6</Price>
+  <TechChanceNumber>2</TechChanceNumber>
+  
+  <ProjectileClassfile>Projectiles\rocket_remote_p</ProjectileClassfile>
+  
+  <RecordProjectiles>true</RecordProjectiles>
+  <RemoveProjectilesOnSecondFire>true</RemoveProjectilesOnSecondFire>
+  <OnlyShootOnNewInput>true</OnlyShootOnNewInput>
+  
+</GameObjectClass>

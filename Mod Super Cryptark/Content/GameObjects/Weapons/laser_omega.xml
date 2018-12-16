@@ -1,0 +1,99 @@
+﻿<?xml version="1.0" ?>
+<GameObjectClass>
+  <Type>WEAPON</Type>
+  <Displayname>T3-CN Omega</Displayname>
+  <ShortDisplayName>OMEGA</ShortDisplayName>
+  <ItemInfo>CODENAME WEAPON: The ultimate death ray. An apocalyptic mega laser of immense power and force. Firing this thing will alert everyone on the ship to try to stop you. Lets see them try.</ItemInfo>
+
+  <Price>800</Price>
+  <TechChanceNumber>1</TechChanceNumber>
+  
+  <!--<AmmoAsPercent>true</AmmoAsPercent>-->
+  <StartingAmmoBoxes>1</StartingAmmoBoxes>
+  <AmmoBoxQuantity>1000</AmmoBoxQuantity>
+  <!--<NextRefillTime>1.25</NextRefillTime>
+  <RefillRate>1.75</RefillRate>-->
+  
+  <FireBoneRecoil>0.3</FireBoneRecoil>
+  <FireRecoil>15</FireRecoil>
+  <RecoilCameraOnFire>0.75</RecoilCameraOnFire>
+  <RecoilCameraOnFireDuration>0.4</RecoilCameraOnFireDuration>
+  <ShakeCameraOnFire>0.15</ShakeCameraOnFire> 
+  
+  <RateOfFire>0.0001</RateOfFire>
+  <RayGun>true</RayGun>
+  <ProjectilesPerShot>1</ProjectilesPerShot>
+  <ProjectilePrecision>1</ProjectilePrecision>
+  <ProjectileRange>700</ProjectileRange>
+  <ProjectileClassfile>Projectiles\laser_beam_omega</ProjectileClassfile>
+  <LoadoutCategory>Energy</LoadoutCategory>
+
+  <FireNoiseRadius>1200</FireNoiseRadius>
+  
+  <SpineWeaponHeadTextureName>gunhead\wephead_laser01</SpineWeaponHeadTextureName>
+  <SpineWeaponTextureName>gunhead\wep_laser01</SpineWeaponTextureName>
+  <OnFireBeamClassfile>Beams\railgun_omega</OnFireBeamClassfile>
+  
+  <!-- <MuzzleFlashEffect>_new_muzzle_autocannon</MuzzleFlashEffect> -->
+  <MuzzleFlashEffect>_new_muzzle_lightning</MuzzleFlashEffect>
+  <NoMuzzleFlashRotation>true</NoMuzzleFlashRotation>
+
+  <OnFireMuzzleLight>
+    <Type>Directional</Type>
+    <Position>
+      <Z>10</Z>
+    </Position>
+    <Color>
+      <X>1</X>
+      <Y>0.7</Y>
+      <Z>0.0</Z>
+      <W>1</W>
+    </Color>
+    <SpecularColor>
+      <X>1</X>
+      <Y>0.7</Y>
+      <Z>0.0</Z>
+      <W>1</W>
+    </SpecularColor>
+    <Direction>
+      <X>1</X>
+      <Y>0</Y>
+      <Z>0.5</Z>
+    </Direction>
+    <Strength>7</Strength>
+    <MaxStrength>7</MaxStrength>
+    <StrengthModifier>-0.4</StrengthModifier>
+    <RemoveOnZeroStrength>true</RemoveOnZeroStrength>
+    <Shininess>6</Shininess>
+  </OnFireMuzzleLight>
+
+  <RaygunImpactLight>
+    <Type>Spotlight</Type>
+    <Color>
+      <X>1</X>
+      <Y>0.7</Y>
+      <Z>0.0</Z>
+      <W>1</W>
+    </Color>
+    <Position>
+      <Z>40</Z>
+    </Position>
+    <Direction>
+      <X>1</X>
+      <Y>0</Y>
+      <Z>0.3</Z>
+    </Direction>
+    <Strength>20</Strength>
+    <InnerConeAngle>0.5</InnerConeAngle>
+    <OuterConeAngle>1.5</OuterConeAngle>
+    <Radius>300</Radius>
+    <RadiusModifier>-50</RadiusModifier>
+  </RaygunImpactLight>
+
+  <RaygunImpactParticleEffect>_new_hit_laser</RaygunImpactParticleEffect>
+
+  <AimSpeedModifier>-4</AimSpeedModifier>
+  <MinAimSpeedFactor>0.5</MinAimSpeedFactor>
+
+  <FireSound>StormHammer_Shot</FireSound>
+</GameObjectClass>

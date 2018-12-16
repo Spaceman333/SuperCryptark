@@ -1,0 +1,6 @@
+﻿<?xml version="1.0" ?>
+<GameObjectClass>
+  <Type>WEAPON</Type>
+  <BaseFile>EnemyWeapons\sentry_system_gun</BaseFile>
+  <ProjectileClassfile>EnemyWeapons\sentry_system_p_2</ProjectileClassfile>
+</GameObjectClass>

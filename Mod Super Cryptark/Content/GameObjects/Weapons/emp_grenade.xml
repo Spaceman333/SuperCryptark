@@ -1,0 +1,17 @@
+﻿<?xml version="1.0" ?>
+<GameObjectClass>
+  <BaseFile>Weapons\Base\grenade</BaseFile>
+  <Displayname>T2 Grenade EMP</Displayname>
+  <ShortDisplayName>G-EMP</ShortDisplayName>
+  <ItemInfo>Packed with powerful pulse capacitors, these bombs create a swift EMP field that temporarily disables electronics for 30 seconds. Grenades detonate after 1.5 seconds and can be ‘cooked’ for more precise timing.</ItemInfo>
+
+  <StartingAmmoBoxes>4</StartingAmmoBoxes>
+  <AmmoBoxQuantity>25</AmmoBoxQuantity>
+  <Price>5</Price>
+  <TechChanceNumber>2</TechChanceNumber>
+  
+  <ProjectileClassfile>Projectiles\grenade_emp</ProjectileClassfile>
+  <SpineWeaponHeadTextureName>gunhead\wephead_grenade01</SpineWeaponHeadTextureName>
+  <SpineWeaponTextureName>gunhead\wep_grenade01</SpineWeaponTextureName>
+  <OnLoadoutTrigger>weapon_emp</OnLoadoutTrigger>
+</GameObjectClass>

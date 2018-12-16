@@ -1,0 +1,29 @@
+﻿<?xml version="1.0"?>
+<GameObjectClass>
+  <Type>SHIELD</Type>
+  <SpineAnimation>full_shield</SpineAnimation>
+  <SpineAnimationScale>1</SpineAnimationScale>
+
+  <ShieldFollowBone>root</ShieldFollowBone>
+  <SetLayer>FULLBRIGHT</SetLayer>
+  
+  <Light>
+    <Color>
+      <X>0</X>
+      <Y>0.4</Y>
+      <Z>1</Z>
+      <W>1</W>
+    </Color>
+    <Radius>0</Radius>
+    <MaxRadius>240</MaxRadius>
+    <RadiusModifier>80</RadiusModifier>
+    <Strength>4</Strength>
+    <IsEnabled>false</IsEnabled>
+  </Light>
+
+  <FullShield>true</FullShield>
+  <Solid>true</Solid>
+  <EclipseBody>true</EclipseBody>
+  <Width>9</Width>
+  <Height>9</Height>
+</GameObjectClass>

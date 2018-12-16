@@ -1,0 +1,16 @@
+<?xml version="1.0"?>
+<GameObjectClass>
+  <Displayname>T1 Heavy Machinegun AP</Displayname>
+  <BaseFile>Weapons\heavy_machinegun</BaseFile>
+  <ShortDisplayName>HMG-P</ShortDisplayName>
+  <ItemInfo>This heavy-caliber machinegun has been modified to fire high-density piercing ammunition. Autostabilizers are required to compensate for its prodigious recoil, hampering suit maneuverability.</ItemInfo>
+
+  <StartingAmmoBoxes>4</StartingAmmoBoxes>
+  <AmmoBoxQuantity>1000</AmmoBoxQuantity>
+  <Price>8</Price>
+  <TechChanceNumber>3</TechChanceNumber>
+  
+  <ProjectileClassfile>Projectiles\heavy_machinegun_bullet_piercing</ProjectileClassfile>
+  <RateOfFire>0.11</RateOfFire>
+  <FireRecoil>150</FireRecoil>
+</GameObjectClass>

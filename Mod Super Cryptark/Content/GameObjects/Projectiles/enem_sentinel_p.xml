@@ -1,0 +1,50 @@
+﻿<?xml version="1.0"?>
+<GameObjectClass>
+  <Type>WEAPON</Type>
+  <ParticleEffect>_new_trail_enemyblaster</ParticleEffect>
+  <ParticleEffectAmount>5</ParticleEffectAmount>
+  
+  <!--<Solid>true</Solid>-->
+  <FakeProjectile>true</FakeProjectile>
+  
+  <CharacterCollide>true</CharacterCollide>
+  <ProjectileSpeed>180</ProjectileSpeed>
+  <HitForce>100</HitForce>
+  <DamagePerShot>2</DamagePerShot>
+  <RemoveAfterStarted>3</RemoveAfterStarted>
+  <RemoveParticleEffect>_new_hit_enemyblaster</RemoveParticleEffect>
+  <DecalType>Bullet</DecalType>
+  <ProjKeepVelocity>true</ProjKeepVelocity>
+  <Scale>1.5</Scale>
+  <OnFireProjectileLight>
+    <Type>Point</Type>
+    <Color>
+      <X>0.75</X>
+      <Y>0.6</Y>
+      <Z>1</Z>
+      <W>1</W>
+    </Color>
+    <Strength>2</Strength>
+    <Radius>200</Radius>
+  </OnFireProjectileLight>
+
+  <OnRemoveLight>
+    <Type>Point</Type>
+    <Color>
+      <X>.75</X>
+      <Y>0.6</Y>
+      <Z>1</Z>
+      <W>1</W>
+    </Color>
+    <Strength>20</Strength>
+    <Radius>500</Radius>
+    <RadiusModifier>-100</RadiusModifier>
+  </OnRemoveLight>
+
+  <ProjectileColor>
+    <X>1</X>
+    <Y>1</Y>
+    <Z>0.1</Z>
+  </ProjectileColor>
+  <SetLayer>FULLBRIGHT</SetLayer>
+</GameObjectClass>

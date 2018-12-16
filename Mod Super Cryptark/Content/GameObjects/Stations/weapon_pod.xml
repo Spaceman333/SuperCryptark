@@ -1,0 +1,39 @@
+﻿<?xml version="1.0" ?>
+<GameObjectClass>
+  <Type>TECH_PICKUP</Type>
+  <Displayname>Weapon Pod</Displayname>
+  <MinimapTextureName>map-techadvance</MinimapTextureName>
+  <SpineAnimation>weapon_pod01</SpineAnimation>
+  <ShowsInteractOutline>true</ShowsInteractOutline>
+  <MinimapTextureScale>0.5</MinimapTextureScale>
+  <ShowsInteractDisplayname>true</ShowsInteractDisplayname>
+
+  <SendToBack>true</SendToBack>
+
+  <Light>
+    <Type>Spotlight</Type>
+    <Position>
+      <Z>10</Z>
+    </Position>
+    <Color>
+      <X>0.3</X>
+      <Y>1</Y>
+      <Z>0</Z>
+      <W>1</W>
+    </Color>
+    <Direction>
+      <X>0</X>
+      <Y>-1</Y>
+      <Z>0.5</Z>
+    </Direction>
+    <MinRadius>100</MinRadius>
+    <MaxRadius>500</MaxRadius>
+    <RadiusCycleScale>4</RadiusCycleScale>
+    <OscillateRadius>true</OscillateRadius>
+    <Strength>5</Strength>
+    <FollowBoneName>thurster</FollowBoneName>
+    <FollowOwnRotation>true</FollowOwnRotation>
+    <InnerConeAngle>0.6</InnerConeAngle>
+    <OuterConeAngle>2.5</OuterConeAngle>
+  </Light>
+</GameObjectClass>

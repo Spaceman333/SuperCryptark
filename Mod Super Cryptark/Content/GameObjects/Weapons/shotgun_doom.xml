@@ -1,0 +1,21 @@
+<?xml version="1.0"?>
+<GameObjectClass>
+  <BaseFile>Weapons\shotgun</BaseFile>
+  <Displayname>T3 Doom Bringer</Displayname>
+  <ShortDisplayName>DOOM</ShortDisplayName>
+  <ItemInfo>A super nuclear hellbore cannon that fires a single atomic shot at a time that can turn an entire sector of a ship into pure hellfire. Make sure you can run far away after shooting as the gigantic growing explosion expands from the impact point. EXTREMELY DANGEROUS.</ItemInfo>
+
+  <StartingAmmoBoxes>2</StartingAmmoBoxes>
+  <AmmoBoxQuantity>2</AmmoBoxQuantity>
+  <Price>50</Price>
+  <TechChanceNumber>1</TechChanceNumber>
+ 
+  <ProjectilesPerShot>1</ProjectilesPerShot>
+  <ProjectilePrecision>1</ProjectilePrecision>
+  <ProjectileClassfile>Projectiles\shotgun_doom</ProjectileClassfile>
+  
+   <RecoilCameraOnFire>15</RecoilCameraOnFire>
+  <RecoilCameraOnFireDuration>0.5</RecoilCameraOnFireDuration>
+  
+  <FireSound>Combat_M_FragGun_Shot</FireSound>
+</GameObjectClass>

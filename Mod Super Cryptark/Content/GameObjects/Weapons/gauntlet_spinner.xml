@@ -1,0 +1,29 @@
+﻿<?xml version="1.0"?>
+<GameObjectClass>
+  <Type>WEAPON</Type>
+  <Displayname>T2 Fidget Spinner</Displayname>
+  <ShortDisplayName>FIDGE</ShortDisplayName>
+  <ItemInfo>This Gauntlet's strange cousin provides an effective way to smack things far away and leave them dazed and stunned for 20 seconds. While it can stop projectiles better than the Gauntlet, it does not deal much damage at all as the Gauntlet would. It is an excellent defensive tool.</ItemInfo>
+
+  <Price>8</Price>
+  <TechChanceNumber>2</TechChanceNumber>
+
+  <AmmoAsPercent>true</AmmoAsPercent>
+  <StartingAmmoBoxes>1</StartingAmmoBoxes>
+  <AmmoBoxQuantity>50</AmmoBoxQuantity>
+  <NextRefillTime>2</NextRefillTime>
+  <RefillRate>.5</RefillRate>
+  
+  <LoadoutCategory>Melee</LoadoutCategory>
+
+  <ProjectileClassfile>Projectiles\sawarm_spinner_p</ProjectileClassfile>
+  <WeaponAnimation>Weapons\Animations\sawarm</WeaponAnimation>
+  <SetLayer>FULLBRIGHT</SetLayer>
+  <SpineWeaponHeadTextureName>gunhead\wephead_spike01</SpineWeaponHeadTextureName>
+  <SpineWeaponTextureName>gunhead\wep_spike01</SpineWeaponTextureName>
+  <DecalType>None</DecalType>
+  <NoFiringTime>0.2</NoFiringTime>
+  <RateOfFire>0.1</RateOfFire>
+
+  <FireSound>Combat_M_SawArm_Attack</FireSound>
+</GameObjectClass>

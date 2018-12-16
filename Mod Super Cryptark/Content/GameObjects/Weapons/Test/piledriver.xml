@@ -1,0 +1,22 @@
+﻿<?xml version="1.0"?>
+<GameObjectClass>
+  <Type>WEAPON</Type>
+  <Displayname>Piledriver</Displayname>
+  <ShortDisplayName>PILDR</ShortDisplayName>
+  <ItemInfo>ERROR: THIS DOES NOT WORK. Grab an enemy and charge in a direction, smashing it into a wall or other enemies.</ItemInfo>
+  <Price>5</Price>
+  <!-- <LoadoutCategory>Test</LoadoutCategory> -->
+
+  <Melee>true</Melee>
+  <MaxGrappleRange>10</MaxGrappleRange>
+  <FireBoneRecoil>0</FireBoneRecoil>
+  <AttackAnimation>lunge</AttackAnimation>
+  <ForwardPushForceMult>6</ForwardPushForceMult>
+  <GrappleOnLunge>true</GrappleOnLunge>
+  <StopGrappleOnLungeEnd>true</StopGrappleOnLungeEnd>
+  <GrappleDamageOnSolidContact>true</GrappleDamageOnSolidContact>
+  <GrappleDamage>5</GrappleDamage>
+
+  <SpineWeaponHeadTextureName>gunhead\wephead_spike01</SpineWeaponHeadTextureName>
+  <SpineWeaponTextureName>gunhead\wep_spike01</SpineWeaponTextureName>
+</GameObjectClass>

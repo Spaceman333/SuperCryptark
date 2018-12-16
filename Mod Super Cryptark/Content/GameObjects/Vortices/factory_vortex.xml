@@ -1,0 +1,32 @@
+﻿<?xml version="1.0" ?>
+<GameObjectClass>
+  <Type>VORTEX</Type>
+  <RefractionMapName>blackhole_1</RefractionMapName>
+  <Scale>0.04</Scale>
+  <ScaleModifier>0.015</ScaleModifier>
+  <RemoveAfterStarted>4</RemoveAfterStarted>
+  <FadeOutDuration>4</FadeOutDuration>
+  <NoOffscreen>true</NoOffscreen>
+  
+  <VortexForce>300</VortexForce>
+  <VortexForceModifier>10</VortexForceModifier>
+  <VortexRadius>4</VortexRadius>
+  <VortexRadiusModifier>0.25</VortexRadiusModifier>
+  <VortexTeleportOnRemove>true</VortexTeleportOnRemove>
+
+  <AmbientSound>FX_M_DroneFactory_Portal</AmbientSound>
+  
+  <Light>
+    <Color>
+      <X>0.2</X>
+      <Y>0.2</Y>
+      <Z>1</Z>
+      <W>1</W>
+    </Color>
+    <Strength>2</Strength>
+    <Radius>20</Radius>
+    <RadiusModifier>2</RadiusModifier>
+    <UseSpatialSystem>false</UseSpatialSystem>
+    <BoundingBoxUpdateRate>1</BoundingBoxUpdateRate>
+  </Light>
+</GameObjectClass>

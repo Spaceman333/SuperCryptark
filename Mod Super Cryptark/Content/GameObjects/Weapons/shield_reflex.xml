@@ -1,0 +1,56 @@
+﻿<?xml version="1.0"?>
+<GameObjectClass>
+  <Type>SHIELD</Type>
+  <Displayname>T3 Green Shield</Displayname>
+  <ShortDisplayName>S-GRE</ShortDisplayName>
+  <ItemInfo>A unique finite shield that will bounce projectiles away, but not convert them to your side like the red shield does. Can handle up to 1000 hits and provides a larger protective field. Once ammo runs out, it will not recharge.</ItemInfo>
+  
+  <Price>1</Price>
+  <TechChanceNumber>1</TechChanceNumber>
+
+  <LoadoutCategory>Shields</LoadoutCategory>
+  <SpineAnimation>reflect_shield</SpineAnimation>
+  <SetLayer>FULLBRIGHT</SetLayer>
+  
+  <AmmoAsPercent>true</AmmoAsPercent>
+  <AmmoBoxQuantity>1000</AmmoBoxQuantity>
+<!--   <RefillRate>0.5</RefillRate>
+  <NextRefillTime>0.1</NextRefillTime> -->
+
+  <!--<CampaignModeOnly>true</CampaignModeOnly>-->
+  <ReflectProjectiles>true</ReflectProjectiles>
+  <SwapProjectileTeamOnContact>false</SwapProjectileTeamOnContact>
+
+  <SpineWeaponHeadTextureName>gunhead\wephead_shield01</SpineWeaponHeadTextureName>
+  <SpineWeaponTextureName>gunhead\wep_shield01</SpineWeaponTextureName>
+
+  <SpineAnimationScale>1</SpineAnimationScale>
+
+  <Solid>true</Solid>
+  
+<!--   <EclipseBody>true</EclipseBody>
+  <Width>13</Width>
+  <Height>13</Height>   -->
+  
+  <Width>9</Width>
+  <SolidArcBody>true</SolidArcBody>
+  <ArcRadians>6</ArcRadians>
+  <ArcSides>12</ArcSides>
+
+  <Light>
+    <Color>
+      <X>0</X>
+      <Y>1</Y>
+      <Z>.4</Z>
+      <W>1</W>
+    </Color>
+    <Radius>240</Radius>
+
+    <Strength>5</Strength>
+    <IsEnabled>false</IsEnabled>
+  </Light>
+  
+  <FiringLoop>Combat_M_Shield_Loop</FiringLoop>
+  <StartFiringSound>Combat_M_Shield_On</StartFiringSound>
+  <ReleaseFiringSound>Combat_M_Shield_Off</ReleaseFiringSound>
+</GameObjectClass>

@@ -1,0 +1,54 @@
+﻿<?xml version="1.0"?>
+<GameObjectClass>
+  <Type>WEAPON</Type>
+  <Texture>Projectiles\blaster01_green</Texture>
+  
+  <!--<Solid>true</Solid>-->
+  <FakeProjectile>true</FakeProjectile>
+  
+  <CharacterCollide>true</CharacterCollide>
+  <ProjectileSpeed>60</ProjectileSpeed>
+  <HitForce>10</HitForce>
+  <DamagePerShot>0.25</DamagePerShot>
+  <ProjKeepVelocity>false</ProjKeepVelocity>
+  <ProjectileHitDebris>true</ProjectileHitDebris>
+
+  <RemoveParticleEffect>_new_hit_laser</RemoveParticleEffect>
+  
+  <OnFireProjectileLight>
+    <Type>Point</Type>
+    <Color>
+      <X>0.3</X>
+      <Y>0.7</Y>
+      <Z>0.8</Z>
+      <W>1</W>
+    </Color>
+    <SpecularColor>
+      <X>0.2</X>
+      <Y>0.8</Y>
+      <Z>0.9</Z>
+      <W>1</W>
+    </SpecularColor>
+    <Strength>2</Strength>
+    <Radius>30</Radius>
+  </OnFireProjectileLight>
+  <OnRemoveLight>
+    <Type>Point</Type>
+    <Color>
+      <X>0.3</X>
+      <Y>0.7</Y>
+      <Z>0.8</Z>
+      <W>1</W>
+    </Color>
+    <Strength>4</Strength>
+    <Radius>100</Radius>
+    <RadiusModifier>-2</RadiusModifier>
+  </OnRemoveLight>
+
+  <ProjectileColor>
+    <X>0.3</X>
+    <Y>0.7</Y>
+    <Z>0.8</Z>
+  </ProjectileColor>
+  <SetLayer>FULLBRIGHT</SetLayer>
+</GameObjectClass>

@@ -1,0 +1,17 @@
+﻿<?xml version="1.0" ?>
+<GameObjectClass>
+  <Type>DEBRIS</Type>
+  <SpineAnimation>debris_rock_small01</SpineAnimation>
+  <Health>0.8</Health>
+  <RemoveParticleEffect>_new_explosion_rock</RemoveParticleEffect>
+  <OnRemoveSound>Napalm_Explode</OnRemoveSound>
+  <Solid>true</Solid>
+  <BoundingBoxBody>body_box</BoundingBoxBody>
+  <LinearDamping>0.5</LinearDamping>
+  <Density>2</Density>
+  <SetFriction>true</SetFriction>
+  <Friction>0.3</Friction>
+  <Restitution>0.3</Restitution>
+  <AngularDamping>0.1</AngularDamping>
+
+</GameObjectClass>

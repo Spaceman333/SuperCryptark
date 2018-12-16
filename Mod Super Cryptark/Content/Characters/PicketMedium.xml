@@ -1,0 +1,56 @@
+﻿<?xml version="1.0"?>
+<CharacterClass xmlns:xsi="http://www.w3.org/2001/XMLSchema-instance" xmlns:xsd="http://www.w3.org/2001/XMLSchema">
+
+  <SpineAnimation>picket_medium</SpineAnimation>
+
+  <Health>3.5</Health>
+  <Type>Picket</Type>
+  <DisplayName>Warden Picket</DisplayName>
+
+  <Width>8</Width>
+  <Height>12</Height>
+
+  <MinimapScale>0.5</MinimapScale>
+
+  <SidebarTextureName>picketmedium</SidebarTextureName>
+  <Description>Durable point defence turret with advanced blaster.</Description>
+
+  <AnimationOffset>
+    <X>0</X>
+    <Y>50</Y>
+  </AnimationOffset>
+
+  <AI_DeactivateDelay>25</AI_DeactivateDelay>
+
+  <Weapon1>EnemyWeapons\picket_medium</Weapon1>
+<SentryFactory>true</SentryFactory>
+
+  <Light>
+    <Type>Point</Type>
+    <Color>
+      <X>0.75</X>
+      <Y>0.6</Y>
+      <Z>1</Z>
+      <W>1</W>
+    </Color>
+    <Strength>2</Strength>
+    <Radius>150</Radius>
+    <FollowBoneName>gun</FollowBoneName>
+  </Light>
+
+  <OnRemoveLight>
+    <Type>Point</Type>
+    <Color>
+      <X>0.75</X>
+      <Y>0.6</Y>
+      <Z>1</Z>
+      <W>1</W>
+    </Color>
+    <Strength>20</Strength>
+    <Radius>1500</Radius>
+    <RadiusModifier>-150</RadiusModifier>
+  </OnRemoveLight>
+
+  <DefaultItems>
+  </DefaultItems>
+</CharacterClass>

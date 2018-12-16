@@ -1,0 +1,9 @@
+﻿<?xml version="1.0" ?>
+<GameObjectClass>
+  <Type>MULE_SKIFF_CHILD</Type>
+  <Health>30</Health>
+  <FollowBoneRotation>true</FollowBoneRotation>
+
+  <SpawnObjectOnRemove>Hazards\nuke_explosion</SpawnObjectOnRemove>
+  
+</GameObjectClass>

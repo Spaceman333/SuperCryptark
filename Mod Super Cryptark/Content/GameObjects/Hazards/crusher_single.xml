@@ -1,0 +1,21 @@
+﻿<?xml version="1.0" ?>
+<GameObjectClass>
+  <Type>CRUSHER_SINGLE</Type>
+  <Displayname>Crusher Hazard</Displayname>
+  <SpineAnimation>crusher</SpineAnimation>
+  <SidebarTextureName>hazard_mine</SidebarTextureName>
+  <MinimapDescription>Room with a piston that crushes anything in its path.</MinimapDescription>
+
+  <Solid>true</Solid>
+  <Static>true</Static>
+  <Width>4</Width>
+  <Height>4</Height>
+  <IgnoreCollision>true</IgnoreCollision>
+  <NoFlipping>true</NoFlipping>
+
+  <AmbientSound>FX_Hazard_Crusher_BeltShort</AmbientSound>
+
+  <CrusherDamageOnContact>1</CrusherDamageOnContact>
+  <DamageOnContactForce>20000</DamageOnContactForce>
+  <DamageOnContactNoAirControlTime>1</DamageOnContactNoAirControlTime>
+</GameObjectClass>

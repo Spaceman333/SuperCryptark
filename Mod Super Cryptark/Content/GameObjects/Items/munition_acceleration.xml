@@ -1,0 +1,24 @@
+﻿<?xml version="1.0"?>
+<GameObjectClass>
+  <Type>ITEM</Type>
+  <Displayname>UPG Velocity Plus</Displayname>
+  <ShortDisplayName>VELOC</ShortDisplayName>
+  <LoadoutCategory>Item</LoadoutCategory>
+  <ItemInfo>All equipped weapons have their projectile velocity permanently increased by 30%. Passive item.</ItemInfo>
+  <StartItemQuantity>1</StartItemQuantity>
+
+  <Price>5</Price>
+  <TechChanceNumber>2</TechChanceNumber>
+  
+  <HudTextureName>tag_item_gunbarrel</HudTextureName>
+  <ItemType>None</ItemType>
+  <PassiveItem>true</PassiveItem>
+  <PowerupEffects>
+    <PowerupEffectClass>
+      <Type>ProjectileSpeedMod</Type>
+      <OverwritesSameType>false</OverwritesSameType>
+      <Amount>0.3</Amount>
+      <HudDraw>false</HudDraw>
+    </PowerupEffectClass>
+  </PowerupEffects>
+</GameObjectClass>

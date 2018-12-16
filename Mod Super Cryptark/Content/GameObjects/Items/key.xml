@@ -1,0 +1,12 @@
+﻿<?xml version="1.0"?>
+<GameObjectClass>
+  <Type>ITEM</Type>
+  <Displayname>CON Keycode</Displayname>
+  <ShortDisplayName>KEY</ShortDisplayName>
+  <LoadoutCategory>Item</LoadoutCategory>
+  <ItemInfo>Reverse engineered from alien software, this consumable generated keycode virus will bypass the lock of a single secured door or airlock.</ItemInfo>
+  <StartItemQuantity>1</StartItemQuantity>
+  <Price>1</Price>
+  <HudTextureName>tag_item_key</HudTextureName>
+  <ItemType>Key</ItemType>
+</GameObjectClass>

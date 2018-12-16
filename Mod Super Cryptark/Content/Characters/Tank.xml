@@ -1,0 +1,80 @@
+﻿<?xml version="1.0"?>
+<CharacterClass xmlns:xsi="http://www.w3.org/2001/XMLSchema-instance" xmlns:xsd="http://www.w3.org/2001/XMLSchema">
+
+  <SpineAnimation>tank</SpineAnimation>
+
+  <Health>8</Health>
+  <Type>Tank</Type>
+  <DisplayName>Ironclad</DisplayName>
+  <SidebarTextureName>tank</SidebarTextureName>
+  <Description>Heavily shielded drone that requires high-damage weapons to destroy.</Description>
+  <MinimapScale>2</MinimapScale>
+  
+  <CharacterAmbientSound>FX_Enemy_Tank_Loop</CharacterAmbientSound>
+
+  <RespondsToAlarm>false</RespondsToAlarm>
+  
+  <Width>9</Width>
+  <Height>10</Height>
+  <Density>2.5</Density>
+  <WallFixtureScale>0.5</WallFixtureScale>
+  <AI_AimSpeed>1</AI_AimSpeed>
+  
+  <Inertia>177</Inertia>
+  <InertiaNoAirControlMultiply>0.1</InertiaNoAirControlMultiply>
+  <BaseMovementForce>12000</BaseMovementForce>
+  <Maxspeed_Fly>12</Maxspeed_Fly>
+  <MinCombatDistance>50</MinCombatDistance>
+  <AIJukeCombatMovement>true</AIJukeCombatMovement>
+  <AllowGrapple>true</AllowGrapple>
+  <AbilityDelay>20</AbilityDelay>
+  
+  <Weapon1>EnemyWeapons\shotgun</Weapon1>
+
+  <TailEffects>
+    <TailEffect>
+      <BoneName>tail01</BoneName>
+      <TailClass>test_tail</TailClass>
+    </TailEffect>
+    <TailEffect>
+      <BoneName>tail02</BoneName>
+      <TailClass>test_tail</TailClass>
+      <SinOffset>3.14</SinOffset>
+    </TailEffect>
+    <TailEffect>
+      <BoneName>tail03</BoneName>
+      <TailClass>test_tail</TailClass>
+      <SinOffset>6</SinOffset>
+    </TailEffect>
+  </TailEffects>
+
+  <Light>
+    <Type>Point</Type>
+    <Color>
+      <X>0.75</X>
+      <Y>0.6</Y>
+      <Z>1</Z>
+      <W>1</W>
+    </Color>
+    <Strength>2</Strength>
+    <Radius>150</Radius>
+    <FollowBoneName>tank</FollowBoneName>
+  </Light>
+
+  <SpawnObjectOnRemove>Refractions\shockwave_2</SpawnObjectOnRemove>
+  
+  <OnRemoveLight>
+    <Type>Point</Type>
+    <Color>
+      <X>0.75</X>
+      <Y>0.6</Y>
+      <Z>1</Z>
+      <W>1</W>
+    </Color>
+    <Strength>20</Strength>
+    <Radius>1500</Radius>
+    <RadiusModifier>-150</RadiusModifier>
+  </OnRemoveLight>
+  <DefaultItems>
+  </DefaultItems>
+</CharacterClass>

@@ -1,0 +1,50 @@
+﻿<?xml version="1.0"?>
+<GameObjectClass>
+  <Type>SHIELD</Type>
+  <Displayname>T2 Red Shield</Displayname>
+  <ShortDisplayName>S-RED</ShortDisplayName>
+  <ItemInfo>This advanced shield can reflect projectiles back towards their source. While it can deflect only 20 hits before depleting, it can recharge faster than its standardized blue counterpart, roughly twice as fast charging and only 2 seconds to begin regenerating after idle.</ItemInfo>
+  
+  <Price>5</Price>
+  <TechChanceNumber>2</TechChanceNumber>
+  
+  <LoadoutCategory>Shields</LoadoutCategory>
+  <SpineAnimation>reflect_shield</SpineAnimation>
+  <SetLayer>FULLBRIGHT</SetLayer>
+
+  <ReflectProjectiles>true</ReflectProjectiles>
+  <SwapProjectileTeamOnContact>true</SwapProjectileTeamOnContact>
+  
+  <AmmoAsPercent>true</AmmoAsPercent>
+  <RefillRate>0.2</RefillRate>
+  <AmmoBoxQuantity>20</AmmoBoxQuantity>
+  <NextRefillTime>2</NextRefillTime>
+
+  <SpineWeaponHeadTextureName>gunhead\wephead_shield01</SpineWeaponHeadTextureName>
+  <SpineWeaponTextureName>gunhead\wep_shield01</SpineWeaponTextureName>
+
+  <SpineAnimationScale>0.75</SpineAnimationScale>
+
+  <Light>
+    <Color>
+      <X>1</X>
+      <Y>0.4</Y>
+      <Z>0</Z>
+      <W>1</W>
+    </Color>
+    <Radius>240</Radius>
+    
+    <Strength>5</Strength>
+    <IsEnabled>false</IsEnabled>
+  </Light>
+  
+  <Solid>true</Solid>
+  <Width>6</Width>
+  <SolidArcBody>true</SolidArcBody>
+  <ArcRadians>4</ArcRadians>
+  <ArcSides>10</ArcSides>
+  
+  <FiringLoop>Combat_M_Shield_Loop</FiringLoop>
+  <StartFiringSound>Combat_M_Shield_On</StartFiringSound>
+  <ReleaseFiringSound>Combat_M_Shield_Off</ReleaseFiringSound>
+</GameObjectClass>

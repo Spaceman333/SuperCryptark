@@ -1,0 +1,28 @@
+<?xml version="1.0"?>
+<GameObjectClass>
+  <BaseFile>Weapons\Base\grenade</BaseFile>
+  <Type>WEAPON</Type>
+  <Displayname>T3 Nuke Grenades</Displayname>
+  <ShortDisplayName>G-NU</ShortDisplayName>
+  <ItemInfo>Though small, these miniaturized nuclear warheads are more than capable of reducing anything within their blast zone to radioactive dust. Grenades detonate after 1.5 seconds and can be ‘cooked’ for more precise timing. Grenades Nuke offer 2 projectiles for the price of one, but deal less damage during the initial blast compared to the similar cannon and rocket variants of this weapon.</ItemInfo>
+  
+  <StartingAmmoBoxes>3</StartingAmmoBoxes>
+  <AmmoBoxQuantity>20</AmmoBoxQuantity>
+  <Price>15</Price>
+  <TechChanceNumber>1</TechChanceNumber>
+  
+  <LoadoutCategory>Bombs</LoadoutCategory>
+  
+  <FireBoneRecoil>15</FireBoneRecoil>
+  <ProjectilesPerShot>2</ProjectilesPerShot>
+  <ProjectileSpread>0.4</ProjectileSpread>
+  <RateOfFire>1</RateOfFire>
+  <FireSound>grenade_fire</FireSound>
+  <ProjectileClassfile>Projectiles\nuke_bomb</ProjectileClassfile>
+  <MuzzleFlashEffect>_new_muzzle_grenade</MuzzleFlashEffect>
+  <FireRecoil>1000</FireRecoil>
+  <ShakeCameraOnFire>0.3</ShakeCameraOnFire>
+  <SpineWeaponHeadTextureName>gunhead\wephead_grenade01</SpineWeaponHeadTextureName>
+  <SpineWeaponTextureName>gunhead\wep_grenade01</SpineWeaponTextureName>
+  <OnLoadoutTrigger>weapon_nuke</OnLoadoutTrigger>
+</GameObjectClass>

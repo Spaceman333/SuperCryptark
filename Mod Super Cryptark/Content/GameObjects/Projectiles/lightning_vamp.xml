@@ -1,0 +1,21 @@
+﻿<?xml version="1.0" ?>
+<GameObjectClass>
+  <Type>WEAPON</Type>
+  <DamagePerShot>.01</DamagePerShot>
+  
+  <HealAmount>1</HealAmount>
+  <MarkTarget>true</MarkTarget>
+  <PowerupEffects>
+    <PowerupEffectClass>
+      <Type>Marked</Type>
+      <Duration>3</Duration>
+    </PowerupEffectClass>
+  </PowerupEffects>
+
+  <ProjectileColor>
+    <X>1</X>
+    <Y>0.1</Y>
+    <Z>0.1</Z>
+  </ProjectileColor>  
+  
+</GameObjectClass>

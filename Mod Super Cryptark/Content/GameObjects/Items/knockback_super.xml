@@ -1,0 +1,26 @@
+﻿<GameObjectClass>
+  <Type>ITEM</Type>
+  <Displayname>USE AeroBurst Max</Displayname>
+  <ShortDisplayName>AEROM</ShortDisplayName>
+  <LoadoutCategory>Item</LoadoutCategory>
+  <ItemInfo>Blast away nearby enemies and change the course of incoming projectiles with super excessive force in a huge area. Projectiles will change teams, so be careful. 6 second recharge time. Its free for a reason.</ItemInfo>
+  <HudTextureName>tag_item_knockback</HudTextureName>
+
+  <Price>0</Price>
+  <TechChanceNumber>2</TechChanceNumber>
+  
+  <StartItemQuantity>1</StartItemQuantity>
+  <ItemRecharges>true</ItemRecharges>
+  <RechargeRate>10</RechargeRate>
+  <MaxCharge>60</MaxCharge>
+  <RateOfUse>1</RateOfUse>
+  <ItemType>KnockBack</ItemType>
+  <SpawnOnItemUse>Hazards\knockback_super</SpawnOnItemUse>
+  <UseInSpace>true</UseInSpace>
+  
+  <ExplodeForce>9000</ExplodeForce>
+  <ExplodeSize>700</ExplodeSize>
+  <StunTime>7</StunTime>
+  
+  <OnUseSound>Combat_ST_KnockBack</OnUseSound>
+</GameObjectClass>

@@ -1,0 +1,20 @@
+﻿<GameObjectClass>
+  <Type>ITEM</Type>
+  <Displayname>USE Recall Beacon</Displayname>
+  <ShortDisplayName>TBEAC</ShortDisplayName>
+  <LoadoutCategory>Item</LoadoutCategory>
+  <ItemInfo>After placing and activating this local-warp recall buoy, the user can then teleport back to it when triggered again. Practical for quickly backtracking large spaces, or escaping a deadly situation. Recharges in 3 seconds for another use.</ItemInfo>
+  <HudTextureName>tag_item_teleport</HudTextureName>
+
+  <Price>1</Price>
+  <TechChanceNumber>2</TechChanceNumber>
+  
+  <SpawnOnItemUse>Items\teleporter_placed</SpawnOnItemUse>
+  <StartItemQuantity>1</StartItemQuantity>
+  <ItemRecharges>true</ItemRecharges>
+  <RechargeRate>20</RechargeRate>
+  <MaxCharge>60</MaxCharge>
+  <RateOfUse>1</RateOfUse>
+  <ItemType>Teleporter</ItemType>
+  <OnUseSound>Combat_ST_PlaceItem</OnUseSound>
+</GameObjectClass>

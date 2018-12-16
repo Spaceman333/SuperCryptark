@@ -1,0 +1,69 @@
+<?xml version="1.0"?>
+<CharacterClass xmlns:xsi="http://www.w3.org/2001/XMLSchema-instance" xmlns:xsd="http://www.w3.org/2001/XMLSchema">
+  <BaseFile>Player</BaseFile>
+  <SpineAnimation>suit_pyro</SpineAnimation>
+  <DisplayName>Salamander</DisplayName>
+  <PlayerType>Pyro</PlayerType>
+  <ArtifactCost>2</ArtifactCost>
+
+  <MaxHull>18</MaxHull>
+  <StartHull>16</StartHull>
+  
+  <ArmMovementScaleX>0.5</ArmMovementScaleX>
+  <ArmMovementScaleY>0.4</ArmMovementScaleY>
+
+  <Description>
+    Invented by disgruntled corporate workers, this aggressive suit type was widely used by rioters for its heavy firepower and mobility in labyrinthine asteroid mines. It carries a volatile tank of compressed incendiary ore, which it is able to dump and ignite as a crudely effective afterburner weapon.
+    
+-AFTERBURNER: Continuous boost that projects damaging flames.
+-HAZARD COATING (inbuilt): Takes no damage from fire or slime (no Nuclear protection).</Description>
+
+  <SkinAtlases>
+    <SkinAtlas>
+      <Name>Bubblegum</Name>
+      <Atlas>suit_pyro</Atlas>
+    </SkinAtlas>
+    <SkinAtlas>
+      <Name>Crocodile</Name>
+      <Atlas>suit_pyro_02</Atlas>
+    </SkinAtlas>
+    <SkinAtlas>
+      <Name>Command</Name>
+      <Atlas>suit_pyro_03</Atlas>
+    </SkinAtlas>
+    <SkinAtlas>
+      <Name>Overheat</Name>
+      <Atlas>suit_pyro_04</Atlas>
+    </SkinAtlas>
+  </SkinAtlases>
+
+  <StartLoadOut>
+    <string>Weapons\flame_thrower</string>
+    <string>Weapons\gauntlet</string>
+    <string>Weapons\shield</string>
+    <string>Weapons\bomb_proximity</string>
+  </StartLoadOut>
+  
+  <StartLoadOutAmounts>
+    <int>3</int>
+    <int>1</int>
+    <int>1</int>
+    <int>3</int>
+  </StartLoadOutAmounts>
+
+  <StartItemLoadOut>
+    <string>Items\healthpack_small</string>
+    <string>Items\healthpack_small</string>
+    <string>Items\none_item</string>
+    <string>Items\none_item</string>
+  </StartItemLoadOut>
+  
+  <StartLoadOutBase>
+    <string>Items\key</string>
+    <string>Items\healthpack_small</string>
+  </StartLoadOutBase>
+
+  <PassiveItems>
+    <string>Items\hazard_suit</string>
+  </PassiveItems>
+</CharacterClass>

@@ -1,0 +1,46 @@
+﻿<?xml version="1.0"?>
+<GameObjectClass>
+  <Type>WEAPON</Type>
+  
+  <!--<Solid>true</Solid>-->
+  <FakeProjectile>true</FakeProjectile>
+  <FakeProjectileNoBounce>true</FakeProjectileNoBounce>
+  
+  <EclipseBody>true</EclipseBody>
+  <Width>3.5</Width>
+  <Height>3.5</Height>
+  <CharacterCollide>true</CharacterCollide>
+  <ProjectilePiercing>true</ProjectilePiercing>
+  <ProjectileRemoveOnCollision>false</ProjectileRemoveOnCollision>
+  <ProjectileRemoveOnCharacterCollision>false</ProjectileRemoveOnCharacterCollision>
+  <ProjectileRemoveOnGameObjectCollision>false</ProjectileRemoveOnGameObjectCollision>
+  <HitForce>1</HitForce>
+  <ProjectileRange>50</ProjectileRange>
+  <ProjectileMinRandSpeed>100</ProjectileMinRandSpeed>
+  <ProjectileMaxRandSpeed>125</ProjectileMaxRandSpeed>
+  <LinearDamping>3.5</LinearDamping>
+  <DamagePerShot>0.07</DamagePerShot>
+  <DamageRate>0.5</DamageRate>
+  <DamageAreaRadius>3.5</DamageAreaRadius>
+  <ProjKeepVelocity>false</ProjKeepVelocity>
+  <RemoveAfterStarted>1</RemoveAfterStarted>
+  <ParticleEffect>_new_flamethrower_ignite</ParticleEffect>
+  <ParticleLocal>true</ParticleLocal>
+  <AmbientSound>Combat_M_FlameThrower_Particle</AmbientSound>
+  <RemoveEarlierProjectiles>true</RemoveEarlierProjectiles>
+  <EarlierProjectileMaxDistance>10</EarlierProjectileMaxDistance>
+  <DecalType>Flame</DecalType>
+  <NoDebrisOnHit>true</NoDebrisOnHit>
+  <OnFireProjectileLightLimit>true</OnFireProjectileLightLimit>
+  <OnFireProjectileLight>
+    <Color>
+      <X>1</X>
+      <Y>0.5</Y>
+      <Z>0.3</Z>
+      <W>1</W>
+    </Color>
+    <Shininess>75</Shininess>
+    <Strength>2</Strength>
+    <Radius>1000</Radius>
+  </OnFireProjectileLight>
+</GameObjectClass>

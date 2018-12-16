@@ -1,0 +1,27 @@
+﻿<?xml version="1.0"?>
+<GameObjectClass>
+  <Type>ITEM</Type>
+  <Displayname>CON Extreme Projectile Accelerator</Displayname>
+  <ShortDisplayName>X-PAL</ShortDisplayName>
+  <LoadoutCategory>Item</LoadoutCategory>
+  <ItemInfo>Single-use consumable super power overcharge core. Gives 300% Projectile Velocity for 3 minutes.</ItemInfo>
+  
+  <Price>4</Price>
+  <TechChanceNumber>2</TechChanceNumber>
+  
+  <StartItemQuantity>5</StartItemQuantity>  
+  
+  <HudTextureName>tag_item_laser</HudTextureName>
+  <OnUseSound>Combat_M_Player_Boost</OnUseSound>
+  <SpawnOnItemUse>Hazards\knockback</SpawnOnItemUse>  
+  <UseInSpace>true</UseInSpace>
+  
+  <PowerupEffects>
+    <PowerupEffectClass>
+      <Type>ProjectileSpeedMod</Type>
+      <OverwritesSameType>false</OverwritesSameType>
+      <Amount>3.0</Amount>
+      <Duration>180</Duration>
+    </PowerupEffectClass>
+  </PowerupEffects>
+</GameObjectClass>

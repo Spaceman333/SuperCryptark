@@ -1,0 +1,19 @@
+﻿<?xml version="1.0" ?>
+<GameObjectClass>
+  <Type>BEAM</Type>
+  <BeamColor>
+    <X>1</X>
+    <Y>0</Y>
+    <Z>0</Z>
+    <W>1</W>
+  </BeamColor>
+  <SetLayer>FULLBRIGHT</SetLayer>
+  <FadeOutDuration>0.05</FadeOutDuration>
+  <MeshEffects>
+    <string>tripwire_1</string>
+    <string>tripwire_2</string>
+    <string>tripwire_3</string>
+  </MeshEffects>
+  <BeamEndParticleEffect>_new_muzzle_aimlaserred</BeamEndParticleEffect>
+  <BeamStartParticleEffect>_new_muzzle_aimlaserred</BeamStartParticleEffect>
+</GameObjectClass>

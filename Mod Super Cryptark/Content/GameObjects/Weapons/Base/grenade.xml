@@ -1,0 +1,66 @@
+<?xml version="1.0"?>
+<GameObjectClass>
+  <Type>WEAPON</Type>
+  <Price>5</Price>
+
+  <StartingAmmoBoxes>4</StartingAmmoBoxes>
+  <AmmoBoxQuantity>5</AmmoBoxQuantity>
+  
+  <LoadoutCategory>Bombs</LoadoutCategory>
+  
+  <RechargeRate>1</RechargeRate>
+  <MaxCharge>1.5</MaxCharge>
+  <MinimumCharge>0</MinimumCharge>
+  <FireOnRelease>true</FireOnRelease>
+  <ReleaseOnMaxCharge>true</ReleaseOnMaxCharge>
+  <OnlyShootOnNewInput>true</OnlyShootOnNewInput>
+  <StartTimeOnCharge>true</StartTimeOnCharge>
+  <HasChargeSound>true</HasChargeSound>
+
+  <!--
+  <WeaponChargeLightFalloff>0.25</WeaponChargeLightFalloff>
+  <OnWeaponChargeLight>
+    <Color>
+      <X>1</X>
+      <Y>1</Y>
+      <Z>0.5</Z>
+      <W>1</W>
+    </Color>
+    <MaxRadius>800</MaxRadius>
+    <MaxStrength>8</MaxStrength>
+  </OnWeaponChargeLight>-->
+
+  <OnWeaponChargeLight>
+    <Color>
+      <X>1</X>
+      <Y>0</Y>
+      <Z>0</Z>
+      <W>1</W>
+    </Color>
+    <SpecularColor>
+      <X>1</X>
+      <Y>0</Y>
+      <Z>0</Z>
+      <W>1</W>
+    </SpecularColor>
+    <MinStrength>2</MinStrength>
+    <Strength>5</Strength>
+    <MaxStrength>9</MaxStrength>
+    <OscillateStrength>true</OscillateStrength>
+    <StrengthCycleScale>30</StrengthCycleScale>
+    <Shininess>15</Shininess>
+    <Radius>200</Radius>
+    <MaxRadius>400</MaxRadius>
+  </OnWeaponChargeLight>
+  
+  <FireBoneRecoil>15</FireBoneRecoil>
+  <RateOfFire>1</RateOfFire>
+  <FireSound>grenade_fire</FireSound>
+  <FireNoiseRadius>15</FireNoiseRadius> 
+  <ProjectileClassfile>Projectiles\grenade</ProjectileClassfile>
+  <MuzzleFlashEffect>_new_muzzle_grenade</MuzzleFlashEffect>
+  <FireRecoil>1000</FireRecoil>
+  <ShakeCameraOnFire>0.3</ShakeCameraOnFire>
+  <SpineWeaponHeadTextureName>gunhead\wephead_grenade01</SpineWeaponHeadTextureName>
+  <SpineWeaponTextureName>gunhead\wep_grenade01</SpineWeaponTextureName>
+</GameObjectClass>

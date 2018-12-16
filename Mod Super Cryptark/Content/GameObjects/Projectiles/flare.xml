@@ -1,0 +1,45 @@
+﻿<?xml version="1.0"?>
+<GameObjectClass>
+  <Type>WEAPON</Type>
+  <Solid>true</Solid>
+  <EclipseBody>true</EclipseBody>
+  <Width>1</Width>
+  <Height>1</Height>
+  <CharacterCollide>true</CharacterCollide>
+  <ProjectileMinRandSpeed>60</ProjectileMinRandSpeed>
+  <ProjectileMaxRandSpeed>85</ProjectileMaxRandSpeed>
+  
+  <ProjectilePiercing>true</ProjectilePiercing>
+  <LinearDamping>2</LinearDamping>
+  <ProjectileRemoveOnCollision>false</ProjectileRemoveOnCollision>
+  <ProjectileRemoveOnCharacterCollision>false</ProjectileRemoveOnCharacterCollision>
+  <ProjectileRemoveOnGameObjectCollision>false</ProjectileRemoveOnGameObjectCollision>
+  <SetFriction>true</SetFriction>
+  <Friction>0</Friction>
+  <HitForce>0</HitForce>
+  <Restitution>.5</Restitution>
+  
+  <DamagePerShot>0.3</DamagePerShot>
+  <StunTime>2</StunTime>
+  <DamageRate>0.3</DamageRate>
+  <DamageAreaRadius>6</DamageAreaRadius>
+  <ProjKeepVelocity>false</ProjKeepVelocity>
+  <RemoveAfterStarted>7</RemoveAfterStarted>
+  <ParticleEffect>_new_trail_flare</ParticleEffect>
+  <AmbientSound>Combat_M_FlameThrower_Particle</AmbientSound>
+  <NoDebrisOnHit>true</NoDebrisOnHit>
+  <HitNoiseRadius>444</HitNoiseRadius>
+
+  <OnFireProjectileLight>
+    <Color>
+      <X>1</X>
+      <Y>0.4</Y>
+      <Z>0.5</Z>
+      <W>1</W>
+    </Color>
+
+    <Strength>15</Strength>
+    <Shininess>20</Shininess>
+    <Radius>750</Radius>
+  </OnFireProjectileLight>
+</GameObjectClass>

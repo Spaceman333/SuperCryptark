@@ -1,0 +1,61 @@
+﻿<?xml version="1.0" ?>
+<GameObjectClass>
+  <Type>WEAPON</Type>
+  <Solid>true</Solid>
+  <CharacterCollide>true</CharacterCollide>
+  <ProjectileSpeed>20</ProjectileSpeed>
+  <Restitution>0</Restitution>
+  <SetFriction>true</SetFriction>
+  <Friction>0</Friction>
+
+
+  <!--<EclipseBody>true</EclipseBody>-->
+  <AllowProjectileOnProjectileCollision>true</AllowProjectileOnProjectileCollision>
+  
+  <ProjectileRemoveOnCharacterCollision>true</ProjectileRemoveOnCharacterCollision>
+  <ProjectileRemoveOnCollision>false</ProjectileRemoveOnCollision>
+  
+  <ProjectileFollowTarget>true</ProjectileFollowTarget>
+  <ProjectileFollowTargetForce>3000</ProjectileFollowTargetForce>
+  
+  <RemoveAfterStarted>4</RemoveAfterStarted>
+
+  <Health>1</Health>
+  <Width>3</Width>
+  <Height>3</Height>
+  
+  <ExplodeOnRemove>true</ExplodeOnRemove>
+  <ExplodeForce>30</ExplodeForce>
+  <ExplodeSize>18</ExplodeSize>
+  <ExplosionParticleEffect>_new_explosion_med</ExplosionParticleEffect>
+  <ExplosionSound>Blast</ExplosionSound>
+  <ExplodeDamage>2</ExplodeDamage>
+
+  <ParticleEffect>_new_trail_enemybomb</ParticleEffect>
+  <ParticleOffset>20</ParticleOffset>
+  <AmbientSound>bomb_fuse</AmbientSound>
+
+  <OnFireProjectileLight>
+    <Color>
+      <X>1</X>
+      <Y>0.5</Y>
+      <Z>0.1</Z>
+      <W>1</W>
+    </Color>
+    
+    <Radius>150</Radius>
+  </OnFireProjectileLight>
+
+  <OnExplodeLight>
+    <Color>
+      <X>1</X>
+      <Y>0.5</Y>
+      <Z>0.1</Z>
+      <W>1</W>
+    </Color>
+    
+    <Strength>2</Strength>
+    <Radius>900</Radius>
+    <RadiusModifier>-10</RadiusModifier>
+  </OnExplodeLight>
+</GameObjectClass>

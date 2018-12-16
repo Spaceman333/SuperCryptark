@@ -1,0 +1,87 @@
+﻿<?xml version="1.0" ?>
+<GameObjectClass>
+  <Type>WEAPON</Type>
+  <Displayname>T1 Laser 500nm</Displayname>
+  <ShortDisplayName>LAS-G</ShortDisplayName>
+  <ItemInfo>This weaponized industrial laser is able to slice through most materials with ease, provided the user sustain target focus. This is a quiet weapon.</ItemInfo>
+
+  <Price>16</Price>
+  <TechChanceNumber>3</TechChanceNumber>
+  
+  <AmmoAsPercent>true</AmmoAsPercent>
+  <StartingAmmoBoxes>1</StartingAmmoBoxes>
+  <AmmoBoxQuantity>500</AmmoBoxQuantity>
+  <NextRefillTime>1.25</NextRefillTime>
+  <RefillRate>1.75</RefillRate>
+  
+  <FireBoneRecoil>0</FireBoneRecoil>
+  <RateOfFire>0.0003</RateOfFire>
+  <RayGun>true</RayGun>
+  <ProjectilesPerShot>1</ProjectilesPerShot>
+  <ProjectilePrecision>1</ProjectilePrecision>
+  <ProjectileRange>160</ProjectileRange>
+  <ProjectileClassfile>Projectiles\laser_beam</ProjectileClassfile>
+  <LoadoutCategory>Energy</LoadoutCategory>
+
+  <FireNoiseRadius>5</FireNoiseRadius>
+  
+  <MuzzleFlashEffect>_new_muzzle_laser</MuzzleFlashEffect>
+  <NoMuzzleFlashRotation>true</NoMuzzleFlashRotation>
+  
+  <SpineWeaponHeadTextureName>gunhead\wephead_laser01</SpineWeaponHeadTextureName>
+  <SpineWeaponTextureName>gunhead\wep_laser01</SpineWeaponTextureName>
+  <OnFireBeamClassfile>Beams\laser_beam</OnFireBeamClassfile>
+  
+  <OnFireMuzzleLight>
+    <Type>Spotlight</Type>
+    <Position>
+      <Z>10</Z>
+    </Position>
+    <Color>
+      <X>.1</X>
+      <Y>1</Y>
+      <Z>0.1</Z>
+      <W>1</W>
+    </Color>
+    <Direction>
+      <X>1</X>
+      <Y>0</Y>
+      <Z>0.3</Z>
+    </Direction>
+    <Strength>20</Strength>
+    <Radius>1000</Radius>
+    <RadiusModifier>-200</RadiusModifier>
+    <InnerConeAngle>1</InnerConeAngle>
+    <OuterConeAngle>1.57</OuterConeAngle>
+  </OnFireMuzzleLight>
+
+  <RaygunImpactLight>
+    <Type>Spotlight</Type>
+    <Color>
+      <X>.1</X>
+      <Y>1</Y>
+      <Z>0.1</Z>
+      <W>1</W>
+    </Color>
+    <Position>
+      <Z>40</Z>
+    </Position>
+    <Direction>
+      <X>1</X>
+      <Y>0</Y>
+      <Z>0.3</Z>
+    </Direction>
+    <Strength>20</Strength>
+    <InnerConeAngle>0.5</InnerConeAngle>
+    <OuterConeAngle>1.5</OuterConeAngle>
+    <Radius>300</Radius>
+    <RadiusModifier>-50</RadiusModifier>
+  </RaygunImpactLight>
+
+  <RaygunImpactParticleEffect>_new_hit_laser</RaygunImpactParticleEffect>
+
+  <AimSpeedModifier>-4</AimSpeedModifier>
+  <MinAimSpeedFactor>0.5</MinAimSpeedFactor>
+
+  <FiringLoop>Combat_M_LaserGun_Loop</FiringLoop>
+</GameObjectClass>

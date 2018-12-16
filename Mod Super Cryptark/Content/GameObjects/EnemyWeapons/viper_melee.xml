@@ -1,0 +1,29 @@
+﻿<?xml version="1.0"?>
+<GameObjectClass>
+  <Type>WEAPON</Type>
+
+  <RefractionMapName>lunge_wave</RefractionMapName>
+  <UseRefractionOrigin>true</UseRefractionOrigin>
+  <RefractionAlphaMod>0.025</RefractionAlphaMod>
+  <RefractionOrigin>
+    <X>312</X>
+    <Y>108</Y>
+  </RefractionOrigin>
+
+  <AttackSound>saw</AttackSound>
+  <AttackAnimation>lunge</AttackAnimation>
+  <MeleeHitScale>3</MeleeHitScale>
+  <MeleeHitScaleVector>
+    <X>4</X>
+    <Y>2</Y>
+  </MeleeHitScaleVector>
+  
+  <DamagePerShot>2</DamagePerShot>
+  <CameraShakeOnHit>1.5</CameraShakeOnHit>
+  <HitForce>10000</HitForce>
+  <HitNoiseRadius>25</HitNoiseRadius>
+  <Melee>true</Melee>
+  <DecalType>Bullet</DecalType>
+  <MeleeParticleEffect>_new_trail_enemyblade02</MeleeParticleEffect>
+
+</GameObjectClass>

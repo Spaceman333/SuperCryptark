@@ -1,0 +1,25 @@
+﻿<GameObjectClass>
+  <Type>ITEM</Type>
+  <Displayname>USE Warp Vortex</Displayname>
+  <ShortDisplayName>WARP</ShortDisplayName>
+  <LoadoutCategory>Item</LoadoutCategory>
+  <ItemInfo>Engages a reusable random warp vortex, teleporting a player caught in the center to a random location on the map. 6 second recharge time.</ItemInfo>
+  <HudTextureName>tag_item_knockback</HudTextureName>
+  
+  <Price>2</Price>
+  <TechChanceNumber>2</TechChanceNumber>
+  
+  <StartItemQuantity>1</StartItemQuantity>
+  <ItemRecharges>true</ItemRecharges>
+  <RechargeRate>10</RechargeRate>
+  <MaxCharge>60</MaxCharge>
+  <RateOfUse>1</RateOfUse>
+  <ItemType>Blink</ItemType>
+  <ProjectileRange>30</ProjectileRange>
+  <RateOfFire>2</RateOfFire>
+  
+  <SpawnOnItemUse>Hazards\vortexbomb</SpawnOnItemUse>
+  <!--<SpawnOnItemUse>Hazards\knockback</SpawnOnItemUse>-->
+  
+  <ParticleEffect>_new_trail_telebeacon</ParticleEffect>  
+</GameObjectClass>

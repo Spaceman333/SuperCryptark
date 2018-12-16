@@ -1,0 +1,18 @@
+﻿<GameObjectClass>
+  <Type>ITEM</Type>
+  <Displayname>CON Happy Box Small</Displayname>
+  <ShortDisplayName>BOX-1</ShortDisplayName>
+  <LoadoutCategory>Item</LoadoutCategory>
+  <ItemInfo>Teleports in an hull repair pod to your location that can be used to heal yourself fully. Healing costs in Campaign, but is fully free in Rogue. 1 Use.</ItemInfo>
+  <HudTextureName>tag_wep_mgun</HudTextureName>
+
+  <Price>2</Price>
+  <TechChanceNumber>2</TechChanceNumber>
+
+  <!--<CampaignModeOnly>true</CampaignModeOnly>-->
+  <StartItemQuantity>1</StartItemQuantity>
+  <SpawnOnItemUse>Stations\station_health</SpawnOnItemUse>
+  <RateOfUse>2</RateOfUse>
+  <ParticleEffect>_new_explosion_teleportin</ParticleEffect>
+  <OnUseSound>Combat_ST_PlaceItem</OnUseSound>
+</GameObjectClass>

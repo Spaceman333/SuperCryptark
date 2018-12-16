@@ -1,0 +1,25 @@
+<?xml version="1.0"?>
+<GameObjectClass>
+  <BaseFile>Weapons\shotgun</BaseFile>
+  <Displayname>T2 Trench Gun</Displayname>
+  <ShortDisplayName>SG-TR</ShortDisplayName>
+  <ItemInfo>Sawn off quad-barreled shotgun; a brawler classic. Fast and versatile, the trench gun's a brutal one-two-three-four punch can obliterate groups of smaller enemies quite efficiently.</ItemInfo>
+
+  <StartingAmmoBoxes>3</StartingAmmoBoxes>
+  <AmmoBoxQuantity>250</AmmoBoxQuantity>
+  <Price>5</Price>
+  <TechChanceNumber>2</TechChanceNumber>
+ 
+  <RateOfFire>0.20</RateOfFire>
+  <NumShotsPerReload>4</NumShotsPerReload>
+  <AutoFireCount>4</AutoFireCount>
+  <ReloadTime>1.125</ReloadTime>
+  <ProjectilesPerShot>12</ProjectilesPerShot>
+  <ProjectileSpread>0.075</ProjectileSpread>
+  <ProjectilePrecision>1</ProjectilePrecision>
+  
+  <ReloadSound>Combat_M_Shotgun_Reload</ReloadSound>
+  
+  <FireRecoil>400</FireRecoil>
+
+</GameObjectClass>

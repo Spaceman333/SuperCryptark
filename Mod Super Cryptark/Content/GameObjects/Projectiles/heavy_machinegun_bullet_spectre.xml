@@ -1,0 +1,14 @@
+﻿<?xml version="1.0"?>
+<GameObjectClass>
+
+  <BaseFile>Projectiles\heavy_machinegun_bullet</BaseFile>
+  <ProjectilePiercing>true</ProjectilePiercing>
+  <ProjKeepVelocity>true</ProjKeepVelocity>
+  <ProjectileRicochetCount>7</ProjectileRicochetCount>
+  <Restitution>0.75</Restitution>
+  <ProjectileFollowTarget>true</ProjectileFollowTarget>
+  <ProjectileTargetSeekRange>30</ProjectileTargetSeekRange>
+  <ProjectileFollowTargetMaxRotate>0.10</ProjectileFollowTargetMaxRotate>
+  <ProjectileFollowTargetRotateDelay>0.02</ProjectileFollowTargetRotateDelay>
+  
+</GameObjectClass>

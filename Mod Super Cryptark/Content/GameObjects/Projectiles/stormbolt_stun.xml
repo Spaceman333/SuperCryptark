@@ -1,0 +1,6 @@
+﻿<?xml version="1.0" ?>
+<GameObjectClass>
+  <Type>WEAPON</Type>
+  <DamagePerShot>0.1</DamagePerShot>
+  <StunTime>60</StunTime>
+</GameObjectClass>

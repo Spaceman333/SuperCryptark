@@ -1,0 +1,56 @@
+﻿<?xml version="1.0" ?>
+<GameObjectClass>
+  <Type>WEAPON</Type>
+  <Displayname>T1 Ricochet Gun</Displayname>
+  <ShortDisplayName>RICHO</ShortDisplayName>
+  <ItemInfo>A specialized bullet spraying weapon that is focused on bouncy projectiles. While the individual projectiles are weak, the ammo count and high rate of fire make it an adequate gun.</ItemInfo>
+  
+  <StartingAmmoBoxes>3</StartingAmmoBoxes>
+  <AmmoBoxQuantity>2000</AmmoBoxQuantity>
+  <Price>4</Price>
+  <TechChanceNumber>3</TechChanceNumber>  
+  
+  <RateOfFire>0.075</RateOfFire>
+  <ProjectilesPerShot>2</ProjectilesPerShot>
+  <ProjectileSpread>0.6</ProjectileSpread>
+  <ProjectilePrecision>0.3</ProjectilePrecision>
+  <ProjectileClassfile>Projectiles\ricochet_bullet</ProjectileClassfile>
+  <LoadoutCategory>Machineguns</LoadoutCategory>
+  
+  <FireSound>Combat_M_RicochetGun_Shot</FireSound>
+  <MuzzleFlashEffect>_new_muzzle_blaster</MuzzleFlashEffect>
+  <FireRecoil>100</FireRecoil>
+  <SpineWeaponHeadTextureName>gunhead\wephead_machinegun01</SpineWeaponHeadTextureName>
+  <SpineWeaponTextureName>gunhead\wep_machinegun01</SpineWeaponTextureName>
+
+  <InaccuracyAdditionCoolDown>0.3</InaccuracyAdditionCoolDown>
+  <InaccuracyAddition>0.18</InaccuracyAddition>
+  <InaccuracyAdditionLimit>1</InaccuracyAdditionLimit>
+  <ShakeCameraOnFire>0.1</ShakeCameraOnFire>
+  <RecoilCameraOnFire>1</RecoilCameraOnFire>
+  <RecoilCameraOnFireDuration>0.075</RecoilCameraOnFireDuration>
+  <CasingClassfile>Weapons\machinegun_casing</CasingClassfile>
+
+  <OnFireMuzzleLight>
+    <Type>Spotlight</Type>
+    <Position>
+      <Z>10</Z>
+    </Position>
+    <Color>
+      <X>1</X>
+      <Y>0.8</Y>
+      <Z>0.5</Z>
+      <W>1</W>
+    </Color>
+    <Direction>
+      <X>1</X>
+      <Y>0</Y>
+      <Z>0.3</Z>
+    </Direction>
+    <Strength>20</Strength>
+    <Radius>700</Radius>
+    <RadiusModifier>-120</RadiusModifier>
+    <InnerConeAngle>1</InnerConeAngle>
+    <OuterConeAngle>1.57</OuterConeAngle>
+  </OnFireMuzzleLight>
+</GameObjectClass>

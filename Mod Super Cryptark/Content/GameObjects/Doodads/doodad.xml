@@ -1,0 +1,14 @@
+<?xml version="1.0"?>
+<GameObjectClass>
+  <RandomIngameClass>
+    <string>Doodads\doodad_01</string>
+    <string>Doodads\doodad_02</string>
+    <string>Doodads\doodad_03</string>
+    <string>Doodads\doodad_04</string>
+    <string>Doodads\doodad_06</string>
+    <string>Doodads\doodad_07</string>
+    <string>Doodads\doodad_10</string>
+    <string>Doodads\doodad_11</string>
+    <string>Doodads\doodad_14</string>
+  </RandomIngameClass>
+</GameObjectClass>

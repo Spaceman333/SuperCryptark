@@ -1,0 +1,33 @@
+﻿<?xml version="1.0"?>
+<GameObjectClass>
+  <Type>WEAPON</Type>
+  <ProjectilesPerShot>1</ProjectilesPerShot>
+  <ProjectileClassfile>EnemyWeapons\force_cone_p</ProjectileClassfile>
+  <ConeGun>true</ConeGun>
+  <AIFiringTime>1.5</AIFiringTime>
+  <AINextFiringTime>1.8</AINextFiringTime>
+  <FireSound>Combat_M_Bully_Push</FireSound>
+  
+  <OnFireMuzzleLight>
+    <Type>Spotlight</Type>
+    <Position>
+      <Z>10</Z>
+    </Position>
+    <Color>
+      <X>0.8</X>
+      <Y>0.5</Y>
+      <Z>1</Z>
+      <W>1</W>
+    </Color>
+    <Direction>
+      <X>1</X>
+      <Y>0</Y>
+      <Z>0.5</Z>
+    </Direction>
+    <Strength>20</Strength>
+    <Radius>3000</Radius>
+    <RadiusModifier>-50</RadiusModifier>
+    <InnerConeAngle>1</InnerConeAngle>
+    <OuterConeAngle>1.57</OuterConeAngle>
+  </OnFireMuzzleLight>
+</GameObjectClass>

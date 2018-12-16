@@ -1,0 +1,18 @@
+﻿<GameObjectClass>
+  <Type>ITEM</Type>
+  <Displayname>AI Boomslang Drone</Displayname>
+  <ShortDisplayName>DRONE</ShortDisplayName>
+  <LoadoutCategory>Item</LoadoutCategory>
+  <ItemInfo>Lightweight and nimble, these buddy drones give mobile fire support to their controllers. Equipped with an energy blaster, they will doggedly engage nearby threats.</ItemInfo>
+  <HudTextureName>tag_item_drone</HudTextureName>
+
+  <Price>6</Price>
+  <TechChanceNumber>2</TechChanceNumber>
+  
+  <StartItemQuantity>6</StartItemQuantity>
+  <SpawnCharacterOnItemUse>HelperDrone</SpawnCharacterOnItemUse>
+  <RateOfUse>1</RateOfUse>
+  <ItemType>Drone</ItemType>
+  
+  <OnUseSound>Combat_ST_PlaceItem</OnUseSound>
+</GameObjectClass>

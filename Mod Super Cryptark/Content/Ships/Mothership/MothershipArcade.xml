@@ -1,0 +1,38 @@
+﻿<?xml version="1.0"?>
+<ShipOption xmlns:xsi="http://www.w3.org/2001/XMLSchema-instance" xmlns:xsd="http://www.w3.org/2001/XMLSchema">
+
+  <Level>8</Level>
+  <Tier>3</Tier>
+
+  <Mothership>true</Mothership>
+  <Classes>
+    <string>Mothership</string>
+  </Classes>
+  
+  <TechAdvancesArcade>52</TechAdvancesArcade>
+
+  <LevelNames>
+    <string>hull_huge01</string>
+    <string>hull_huge02</string>
+    <string>hull_huge03</string>
+  </LevelNames>
+  
+  <SystemAmount>41</SystemAmount>
+
+  <HealthStations>9</HealthStations>
+  <AmmoStations>9</AmmoStations>
+  
+  <Bounty>1337</Bounty>
+  
+  <SpawnMultiply>1.0</SpawnMultiply>
+
+  <ShipImagesNumber>18</ShipImagesNumber>
+  <ShipImages>
+    <string>ship06</string>
+    <string>ship07</string>
+    <string>ship08</string>
+    <string>ship09</string>
+    <string>ship10</string>
+  </ShipImages>
+  
+</ShipOption>

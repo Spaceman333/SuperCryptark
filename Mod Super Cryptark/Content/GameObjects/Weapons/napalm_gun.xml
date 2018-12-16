@@ -1,0 +1,34 @@
+﻿<?xml version="1.0"?>
+<GameObjectClass>
+  <Type>WEAPON</Type>
+  <Displayname>T1 Napalm Projector</Displayname>
+  <ShortDisplayName>NAPLM</ShortDisplayName>
+  <ItemInfo>Highly flammable and unstable, this sticky gel can be applied to targets before being set alight with another weapon. This is a silent weapon.</ItemInfo>
+
+
+  <StartingAmmoBoxes>4</StartingAmmoBoxes>
+  <AmmoBoxQuantity>2500</AmmoBoxQuantity>
+  <Price>4</Price>
+  <TechChanceNumber>3</TechChanceNumber>
+  <LiquidOnly>true</LiquidOnly>
+  
+  <RateOfFire>0.002</RateOfFire>
+  <ProjectilesPerShot>2</ProjectilesPerShot>
+  <ProjectilePrecision>.9</ProjectilePrecision>
+  <LoadoutCategory>Projectors</LoadoutCategory>
+  <FluidForceMultiply>0.8</FluidForceMultiply>
+
+  <FireNoiseRadius>0</FireNoiseRadius>
+  
+  <!--<NumShotsPerReload>10</NumShotsPerReload>
+  <ReloadTime>.25</ReloadTime>-->
+
+  <MuzzleFlashEffect>_new_muzzle_flamethrower</MuzzleFlashEffect>
+  <SpineWeaponHeadTextureName>gunhead\wephead_flamer01</SpineWeaponHeadTextureName>
+  <SpineWeaponTextureName>gunhead\wep_flamer01</SpineWeaponTextureName>
+  <CreateFluidOnFire>true</CreateFluidOnFire>
+  <FluidType>Napalm</FluidType>
+
+  <FiringLoop>Combat_M_SlimeGun_Shot_Loop</FiringLoop>
+
+</GameObjectClass>

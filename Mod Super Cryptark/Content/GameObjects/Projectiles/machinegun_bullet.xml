@@ -1,0 +1,71 @@
+﻿<?xml version="1.0"?>
+<GameObjectClass>
+  <Type>WEAPON</Type>
+  <Texture>Projectiles\bullet01_orange</Texture>
+  
+  <!--<Solid>true</Solid>-->
+  <FakeProjectile>true</FakeProjectile>
+  
+  <CharacterCollide>true</CharacterCollide>
+  <ProjectileSpeed>150</ProjectileSpeed>
+  <HitForce>50</HitForce>
+  <DamagePerShot>0.18</DamagePerShot>
+  
+  <ProjectileRicochetCount>1</ProjectileRicochetCount>
+  <Restitution>0.8</Restitution>
+
+  <DecalType>Bullet</DecalType>
+  <ProjKeepVelocity>true</ProjKeepVelocity>
+  <ProjectileHitDebris>true</ProjectileHitDebris>
+  <ParticleEffectAmount>2</ParticleEffectAmount>
+  <OnFireProjectileLight>
+    <Type>Point</Type>
+    <Position>
+      <Z>25</Z>
+    </Position>
+    <Color>
+      <X>1</X>
+      <Y>0.5</Y>
+      <Z>0.1</Z>
+      <W>1</W>
+    </Color>
+    <SpecularColor>
+      <X>1</X>
+      <Y>0.5</Y>
+      <Z>0.1</Z>
+      <W>1</W>
+    </SpecularColor>
+    <Strength>4</Strength>
+    <Radius>40</Radius>
+  </OnFireProjectileLight>
+
+  <OnRemoveLight>
+    <Type>Spotlight</Type>
+    <Color>
+      <X>1</X>
+      <Y>0.5</Y>
+      <Z>0.1</Z>
+      <W>1</W>
+    </Color>
+    <Position>
+      <Z>40</Z>
+    </Position>
+    <Direction>
+      <X>1</X>
+      <Y>0</Y>
+      <Z>0.3</Z>
+    </Direction>
+    <Strength>8</Strength>
+    <InnerConeAngle>0.5</InnerConeAngle>
+    <OuterConeAngle>1.5</OuterConeAngle>
+    <Radius>80</Radius>
+    <RadiusModifier>-10</RadiusModifier>
+  </OnRemoveLight>
+
+  <ProjectileColor>
+    <X>1</X>
+    <Y>1</Y>
+    <Z>1</Z>
+  </ProjectileColor> 
+  <SetLayer>FULLBRIGHT</SetLayer>
+</GameObjectClass>

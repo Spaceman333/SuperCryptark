@@ -1,0 +1,60 @@
+﻿<?xml version="1.0" ?>
+<GameObjectClass>
+  <Type>WEAPON</Type>
+  <Texture>Projectiles\energy_spear</Texture>
+  <Solid>true</Solid>
+  <EclipseBody>false</EclipseBody>
+  <Width>2</Width>
+  <Height>10</Height>
+  <CharacterCollide>true</CharacterCollide>
+  <ProjectileSpeed>200</ProjectileSpeed>
+  <SetFriction>true</SetFriction>
+  <Friction>0</Friction>
+  <LinearDamping>0</LinearDamping>
+  <DecalType>Bomb</DecalType>
+  <Scale>8</Scale>
+
+
+  <IgnoreNonShieldGameobjectCollision>true</IgnoreNonShieldGameobjectCollision>
+  
+  <ProjectileRemoveOnCollision>false</ProjectileRemoveOnCollision>
+  <ProjectileRemoveOnCharacterCollision>false</ProjectileRemoveOnCharacterCollision>
+  <ProjectileRemoveOnGameObjectCollision>false</ProjectileRemoveOnGameObjectCollision>
+  <ProjectileRemoveOnShieldCollision>false</ProjectileRemoveOnShieldCollision>
+  <IgnoreBrushCollision>true</IgnoreBrushCollision>
+  <IgnoreDoorCollision>true</IgnoreDoorCollision>
+  
+  <RemoveAfterStarted>20</RemoveAfterStarted>
+
+  <DamagePerShot>100</DamagePerShot>
+  <ProjectilePiercing>true</ProjectilePiercing>
+  
+  <DamageRate>0.5</DamageRate>
+  <DamageAreaRadius>40</DamageAreaRadius>  
+
+  <ProjectileRemoveOffscreen>false</ProjectileRemoveOffscreen>
+  <ParticleEffect>_new_trail_glowsmoke</ParticleEffect>
+  
+  <ParticleOffset>30</ParticleOffset>
+  <AmbientSound>Javelin_Loop</AmbientSound>
+
+  <OnFireProjectileLight>
+    <Type>Point</Type>
+    <Color>
+      <X>1</X>
+      <Y>0.2</Y>
+      <Z>0.1</Z>
+      <W>1</W>
+    </Color>
+    <Shininess>50</Shininess>
+    <Strength>5</Strength>
+    <Radius>900</Radius>
+  </OnFireProjectileLight>
+
+  <ProjectileColor>
+    <X>1.0</X>
+    <Y>0.2</Y>
+    <Z>0.1</Z>
+  </ProjectileColor>
+  <SetLayer>FULLBRIGHT</SetLayer>
+</GameObjectClass>

@@ -1,0 +1,181 @@
+﻿<?xml version="1.0"?>
+<ShipClass xmlns:xsi="http://www.w3.org/2001/XMLSchema-instance" xmlns:xsd="http://www.w3.org/2001/XMLSchema">
+
+  <Name>Not Canon</Name>
+  <Description>This mission and ending is false. I do not accept it as canon. The men in suits are cool. If possible, I'll try to replace the ending cutscene and turn the level itself to represent the "final core vault of the cryptark". It would be the last bonus task recieved from the employer, to attempt to crack the most valuable sealed vault in the heart of the cryptark, filled with the toughest of enemies, with the biggest bonus paycheck and special offer at the end.</Description>
+
+  <LockDoorsCloseToCore>4</LockDoorsCloseToCore>
+  <DoorLockPercentage>0.3</DoorLockPercentage>
+  <DoorBreakablePercentage>0.3</DoorBreakablePercentage>
+  
+  <StarFieldMap>starfield06</StarFieldMap>
+  
+  <MusicTracks>
+    <string>6</string>
+  </MusicTracks>
+
+  <ShipColor>
+    <R>175</R>
+    <G>80</G>
+    <B>250</B>
+    <A>255</A>
+  </ShipColor>
+  <LightSchemes>
+	<string>automated01</string>
+	<string>clinical</string>
+	<string>cloaker01</string>
+	<string>cryptark01</string>
+	<string>cryptark02</string>
+	<string>factory_brown</string>
+	<string>factory01</string>
+	<string>factory02</string>
+	<string>factory03</string>
+	<string>factory04</string>
+	<string>gunmetal</string>
+	<string>hazard01</string>
+	<string>heavy01</string>
+	<string>heavy02</string>
+	<string>heavy03</string>
+	<string>heavy04</string>
+	<string>inferno</string>
+	<string>miner01</string>
+	<string>miner02</string>
+	<string>miner03</string>
+	<string>miner04</string>
+	<string>minty</string>
+	<string>nightvision</string>
+	<string>nuke01</string>
+	<string>nuke02</string>
+	<string>olive_blue</string>
+	<string>science01</string>
+	<string>science02</string>
+	<string>scout01</string>
+	<string>scout02</string>
+	<string>scrapyard01</string>
+	<string>scrapyard02</string>
+	<string>sentry01</string>
+	<string>sentry02</string>
+	<string>sentry03</string>
+	<string>sentry04</string>
+	<string>swarm01</string>
+	<string>swarm02</string>
+	<string>swarm03</string>
+	<string>swarm04</string>
+	<string>toxic</string>
+	<string>warship01</string>
+	<string>warship02</string>
+	<string>warship03</string>
+	<string>warship04</string>
+	<string>watermelon</string>
+	<string>wine_pink</string>
+	<string>dir_automated01</string>
+	<string>dir_clinical</string>
+	<string>dir_cloaker01</string>
+	<string>dir_cryptark01</string>
+	<string>dir_cryptark02</string>
+	<string>dir_factory_brown</string>
+	<string>dir_factory01</string>
+	<string>dir_factory02</string>
+	<string>dir_factory03</string>
+	<string>dir_factory04</string>
+	<string>dir_gunmetal</string>
+	<string>dir_hazard01</string>
+	<string>dir_heavy01</string>
+	<string>dir_heavy02</string>
+	<string>dir_heavy03</string>
+	<string>dir_heavy04</string>
+	<string>dir_inferno</string>
+	<string>dir_miner01</string>
+	<string>dir_miner02</string>
+	<string>dir_miner03</string>
+	<string>dir_miner04</string>
+	<string>dir_minty</string>
+	<string>dir_nightvision</string>
+	<string>dir_nuke01</string>
+	<string>dir_nuke02</string>
+	<string>dir_olive_blue</string>
+	<string>dir_science01</string>
+	<string>dir_science02</string>
+	<string>dir_scout01</string>
+	<string>dir_scout02</string>
+	<string>dir_scrapyard01</string>
+	<string>dir_scrapyard02</string>
+	<string>dir_sentry01</string>
+	<string>dir_sentry02</string>
+	<string>dir_sentry03</string>
+	<string>dir_sentry04</string>
+	<string>dir_swarm01</string>
+	<string>dir_swarm02</string>
+	<string>dir_swarm03</string>
+	<string>dir_swarm04</string>
+	<string>dir_toxic</string>
+	<string>dir_warship01</string>
+	<string>dir_warship02</string>
+	<string>dir_warship03</string>
+	<string>dir_warship04</string>
+	<string>dir_watermelon</string>
+	<string>dir_wine_pink</string>
+  </LightSchemes>
+
+  <IncludedSystems>
+  </IncludedSystems>
+
+  <SpawnTypes>
+    <SpawnType>
+      <Classfile>Blacksuit</Classfile>
+      <LocationType>ROOM</LocationType>
+      <Amount>3</Amount>
+      <MinDistanceToAnotherOne>100</MinDistanceToAnotherOne>
+    </SpawnType>  
+    <SpawnType>
+      <Classfile>Pirate</Classfile>
+      <LocationType>ROOM</LocationType>
+      <Amount>30</Amount>
+      <!--<MinDistanceToAnotherOne>20</MinDistanceToAnotherOne>-->
+    </SpawnType>
+    <SpawnType>
+      <Classfile>Pirate_2</Classfile>
+      <LocationType>ROOM</LocationType>
+      <Amount>30</Amount>
+      <!--<MinDistanceToAnotherOne>20</MinDistanceToAnotherOne>-->
+    </SpawnType>
+    <SpawnType>
+      <Classfile>Pirate_3</Classfile>
+      <LocationType>ROOM</LocationType>
+      <Amount>30</Amount>
+      <!--<MinDistanceToAnotherOne>20</MinDistanceToAnotherOne>-->
+    </SpawnType>
+    
+
+
+    <SpawnType>
+      <Classfile>Doodads\doodad</Classfile>
+      <LocationType>ON_WALL</LocationType>
+      <Amount>40</Amount>
+      <Object>true</Object>
+    </SpawnType>
+    
+    <SpawnType>
+      <Classfile>Hazards\mule_skiff</Classfile>
+      <LocationType>ROOM</LocationType>
+      <Amount>12</Amount>
+      <Object>true</Object>
+      <MinDistanceToAnotherOne>50</MinDistanceToAnotherOne>
+    </SpawnType>
+    
+    <SpawnType>
+      <Classfile>HelperDronePirate</Classfile>
+      <LocationType>ROOM</LocationType>
+      <Amount>8</Amount>
+      <MinDistanceToAnotherOne>50</MinDistanceToAnotherOne>
+    </SpawnType>
+    
+    <SpawnType>
+      <Classfile>Doodads\lightbulb</Classfile>
+      <LocationType>ON_WALL</LocationType>
+      <Amount>40</Amount>
+      <Object>true</Object>
+    </SpawnType>
+  </SpawnTypes>
+
+</ShipClass>

@@ -1,0 +1,27 @@
+<?xml version="1.0"?>
+<GameObjectClass>
+  <BaseFile>Weapons\Base\grenade</BaseFile>
+  <Type>WEAPON</Type>
+  <Displayname>T1 Grenade</Displayname>
+  <ShortDisplayName>G-HE</ShortDisplayName>
+  <ItemInfo>This robust revolver fed launcher is loaded with military standard high-explosive rounds. These grenades detonate after 1.5 seconds and can be ‘cooked’ for more precise timing.</ItemInfo>
+
+  <StartingAmmoBoxes>3</StartingAmmoBoxes>
+  <AmmoBoxQuantity>100</AmmoBoxQuantity>
+  <Price>5</Price>
+  <TechChanceNumber>3</TechChanceNumber>
+  
+  <LoadoutCategory>Bombs</LoadoutCategory>
+  
+  <FireNoiseRadius>15</FireNoiseRadius>   
+  <FireBoneRecoil>15</FireBoneRecoil>
+  <RateOfFire>1</RateOfFire>
+  <FireSound>grenade_fire</FireSound>
+  <ProjectileClassfile>Projectiles\grenade</ProjectileClassfile>
+  <CasingClassfile>Weapons\grenade_casing</CasingClassfile>
+  <MuzzleFlashEffect>_new_muzzle_grenade</MuzzleFlashEffect>
+  <FireRecoil>1000</FireRecoil>
+  <ShakeCameraOnFire>0.3</ShakeCameraOnFire>
+  <SpineWeaponHeadTextureName>gunhead\wephead_grenade01</SpineWeaponHeadTextureName>
+  <SpineWeaponTextureName>gunhead\wep_grenade01</SpineWeaponTextureName>
+</GameObjectClass>

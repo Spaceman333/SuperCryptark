@@ -1,0 +1,6 @@
+﻿<?xml version="1.0" ?>
+<GameObjectClass>
+  <SpineAnimation>pod02</SpineAnimation>
+  <Static>true</Static>
+  <SetLayer>BACKGROUND</SetLayer>
+</GameObjectClass>

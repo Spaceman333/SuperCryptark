@@ -1,0 +1,30 @@
+﻿<?xml version="1.0"?>
+<GameObjectClass>
+  <Type>ITEM</Type>
+  <Displayname>CON Wraith Pack 9</Displayname>
+  <ShortDisplayName>WRAI9</ShortDisplayName>
+  <LoadoutCategory>Item</LoadoutCategory>
+  <ItemInfo>This pack of consumable advanced cloaking devices hides the user for 25 seconds. Does not reveal on attacks, so the user can freely use weapons while cloaked without enemy retaliation. 9 Uses.</ItemInfo>
+  <HudTextureName>tag_item_cloak</HudTextureName>
+
+  <Price>10</Price>
+  <TechChanceNumber>1</TechChanceNumber>
+  
+  <StartItemQuantity>9</StartItemQuantity>
+  <RateOfUse>1</RateOfUse>
+  <OnUseSound>Cloack_Activate</OnUseSound>
+  <ParticleEffect>_new_explosion_heal</ParticleEffect>
+  <UseInSpace>true</UseInSpace>
+  
+  <PowerupEffects>
+    <PowerupEffectClass>
+      <Type>Invisible</Type>
+      <Duration>25</Duration>
+      <RemoveOnFire>false</RemoveOnFire>
+    </PowerupEffectClass>
+  </PowerupEffects>
+  <TwoPlayerPowerup>true</TwoPlayerPowerup>
+  <ItemType>Invis</ItemType>
+  <TechChanceNumber>2</TechChanceNumber>
+  <OnLoadoutTrigger>weapon_cloak</OnLoadoutTrigger>
+</GameObjectClass>

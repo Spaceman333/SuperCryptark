@@ -1,0 +1,29 @@
+<?xml version="1.0"?>
+<GameObjectClass>
+  <Displayname>Fire Vent</Displayname>
+  <SpineAnimation>alarm_laser</SpineAnimation>
+  <Solid>true</Solid>
+  <Type>FIREHAZARD</Type>
+  <IgnoreBrushCollision>true</IgnoreBrushCollision>
+  <Static>true</Static>
+  <Health>4</Health>
+  
+  <ProjectileClassfile>Hazards\flame</ProjectileClassfile>
+  <OnRemoveSound>Combat_M_Enemy_Hit</OnRemoveSound>
+  <RemoveParticleEffect>_new_death_debris</RemoveParticleEffect>
+
+  <GibOnDeath>true</GibOnDeath>
+  
+  <SidebarTextureName>hazard_firevent</SidebarTextureName>
+  <MinimapDescription></MinimapDescription>
+  
+
+  <Width>6</Width>
+  <Height>6</Height>
+  
+  <AnimationOffset>
+    <X>0</X>
+    <Y>30</Y>
+  </AnimationOffset>
+  
+</GameObjectClass>

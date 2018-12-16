@@ -1,0 +1,32 @@
+﻿<?xml version="1.0" ?>
+<GameObjectClass>
+  <Type>ZAPCABLE_SEGMENT</Type>
+  <FollowBoneRotation>true</FollowBoneRotation>
+  <EclipseBody>true</EclipseBody>
+  <Solid>true</Solid>
+  <Width>1.4</Width>
+  <Height>1.4</Height>
+  <Density>0.1</Density>
+  <LinearDamping>1</LinearDamping>
+  
+  <DamageOnContact>1</DamageOnContact>
+  <DamageOnContactForce>5000</DamageOnContactForce>
+  <DamageOnContactNoAirControlTime>0.5</DamageOnContactNoAirControlTime>
+  
+  <CharacterCollide>true</CharacterCollide>
+  <IgnoreSameTypeCollision>true</IgnoreSameTypeCollision>
+  
+  <Light>
+    <Position>
+      <Z>10</Z>
+    </Position>
+    <Color>
+      <X>1</X>
+      <Y>1</Y>
+      <Z>1</Z>
+      <W>1</W>
+    </Color>
+    <Strength>2</Strength>
+    <Radius>200</Radius>
+  </Light>
+</GameObjectClass>

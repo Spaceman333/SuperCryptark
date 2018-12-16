@@ -1,0 +1,69 @@
+﻿<?xml version="1.0" ?>
+<GameObjectClass>
+  <Type>WEAPON</Type>
+  <Texture>Projectiles\rocket_blue</Texture>
+  <NormalMap>Projectiles\rocket_norm</NormalMap>
+  <Solid>true</Solid>
+  <CharacterCollide>true</CharacterCollide>
+  <Restitution>0</Restitution>
+  <SetFriction>true</SetFriction>
+  <Friction>0</Friction>
+  <Scale>0.9</Scale>
+
+  <DecalType>Bomb</DecalType>
+  <ProjectileSpeed>50</ProjectileSpeed>
+  <ProjectileBoostMaxSpeed>150</ProjectileBoostMaxSpeed>
+  <ProjectileBoostForce>200</ProjectileBoostForce>
+  <ProjectileBoostStart>0.5</ProjectileBoostStart>
+
+  <ProjectileFollowTarget>true</ProjectileFollowTarget>
+  <ProjectileTargetSeekRange>30</ProjectileTargetSeekRange>
+  <ProjectileFollowTargetMaxRotate>0.2</ProjectileFollowTargetMaxRotate>
+  <ProjectileFollowTargetRotateDelay>0.02</ProjectileFollowTargetRotateDelay>
+  
+  <RemoveAfterStarted>9</RemoveAfterStarted>
+  
+  <ExplodeOnRemove>true</ExplodeOnRemove>
+  <ExplodeDamage>.5</ExplodeDamage>
+  <ExplodeSize>30</ExplodeSize>
+  <ExplodeForce>10</ExplodeForce>
+  <StunTime>10</StunTime>
+  <ExplosionParticleEffect>_new_explosion_small</ExplosionParticleEffect>
+  <SpawnObjectOnRemove>Hazards\emp</SpawnObjectOnRemove>
+
+  <ExplosionSound>Combat_M_EMP_Blast</ExplosionSound>  
+
+  <ParticleEffect>_new_trail_rocket</ParticleEffect>
+  <ParticleOffset>-10</ParticleOffset>
+  
+  <AmbientSound>Combat_M_Rocket_FireLoop</AmbientSound>
+  <AmbientSoundStart>0.5</AmbientSoundStart>
+  <AmbientSoundStartSound>Combat_M_Rocket_FireStart</AmbientSoundStartSound>
+  
+  <RotateParticleEffect>true</RotateParticleEffect>
+  <RotateParticleEffectOffset>3.14</RotateParticleEffectOffset>
+  
+  <OnFireProjectileLight>
+    <Type>Point</Type>
+    <Color>
+      <X>1</X>
+      <Y>0.5</Y>
+      <Z>0.1</Z>
+      <W>1</W>
+    </Color>
+    <Radius>150</Radius>
+  </OnFireProjectileLight>
+
+  <OnExplodeLight>
+    <Type>Point</Type>
+    <Color>
+      <X>1</X>
+      <Y>0.5</Y>
+      <Z>0.1</Z>
+      <W>1</W>
+    </Color>
+    <Strength>2</Strength>
+    <Radius>900</Radius>
+    <RadiusModifier>-10</RadiusModifier>
+  </OnExplodeLight>
+</GameObjectClass>

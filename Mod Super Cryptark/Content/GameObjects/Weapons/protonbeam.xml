@@ -1,0 +1,49 @@
+﻿<?xml version="1.0" ?>
+<GameObjectClass>
+  <Type>WEAPON</Type>
+  <Displayname>T2 Proton Projector</Displayname>
+  <ShortDisplayName>PROTN</ShortDisplayName>
+  <ItemInfo>Projects disorienting kinetic proton beams that are capable of altering their course to home in on an enemy. Stuns, deals minimal damage, knocks things about and squiggles wildly. Highly experimental, chaotic and wierd. If you're in a rush to get somewhere through a crowded area while comically slapping everyone out of your way, then this device is perfect for the task.</ItemInfo>
+
+  <StartingAmmoBoxes>2</StartingAmmoBoxes>
+  <AmmoBoxQuantity>2000</AmmoBoxQuantity>
+  <Price>3</Price>
+  <TechChanceNumber>2</TechChanceNumber>
+ 
+  <RateOfFire>0.07</RateOfFire>
+  <ProjectilesPerShot>1</ProjectilesPerShot>
+  <ProjectilePrecision>0.02</ProjectilePrecision>
+  <ProjectileClassfile>Projectiles\proton_beam</ProjectileClassfile>
+  
+  <LoadoutCategory>Projectors</LoadoutCategory>
+  <AimSpeedModifier>-8</AimSpeedModifier>
+  <MinAimSpeedFactor>0.6</MinAimSpeedFactor>
+  <FireRecoil>20</FireRecoil>
+  <ShakeCameraOnFire>0.2</ShakeCameraOnFire>
+  <SpineWeaponHeadTextureName>gunhead\wephead_flamer01</SpineWeaponHeadTextureName>
+  <SpineWeaponTextureName>gunhead\wep_flamer01</SpineWeaponTextureName>
+  <MuzzleFlashEffect>_new_muzzle_blaster</MuzzleFlashEffect>
+  <FiringLoop>Combat_M_FlameThrower_Loop</FiringLoop>
+  <StartFiringSound>Combat_M_FlameThrower_Start</StartFiringSound>
+  <ReleaseFiringSound>Combat_M_FlameThrower_End</ReleaseFiringSound>
+
+  <RecordProjectiles>true</RecordProjectiles>
+  <RemoveProjectilesOnSecondFire>true</RemoveProjectilesOnSecondFire>
+  
+  <WeaponMeshEffects>
+    <string>magmagun_1</string>
+    <string>lightning_1</string>
+  </WeaponMeshEffects>
+  
+  <OnFireMuzzleLight>
+    <Color>
+      <X>1</X>
+      <Y>0.25</Y>
+      <Z>0</Z>
+      <W>1</W>
+    </Color>
+    
+    <Radius>200</Radius>
+    <RadiusModifier>-5</RadiusModifier>
+  </OnFireMuzzleLight>
+</GameObjectClass>

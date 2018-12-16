@@ -1,0 +1,11 @@
+﻿<?xml version="1.0" ?>
+<GameObjectClass>
+  <Type>ZAPCABLE_SEGMENT</Type>
+  <FollowBoneRotation>true</FollowBoneRotation>
+  <Solid>true</Solid>
+  <Width>1.4</Width>
+  <Height>1</Height>
+  <IgnoreSameTypeCollision>true</IgnoreSameTypeCollision>
+  
+  <LinearDamping>1</LinearDamping>
+</GameObjectClass>

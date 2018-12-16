@@ -1,0 +1,20 @@
+﻿<?xml version="1.0" ?>
+<GameObjectClass>
+  <Type>WEAPON</Type>
+  <BaseFile>Weapons\rocket_launcher</BaseFile>
+  <Displayname>T2 Submunition Rocket</Displayname>
+  <ShortDisplayName>R-SUB</ShortDisplayName>
+  <ItemInfo>This remotely detonated rocket carries densely packed seeker submunitions that home in on nearby targets.</ItemInfo>
+
+  <StartingAmmoBoxes>3</StartingAmmoBoxes>
+  <AmmoBoxQuantity>25</AmmoBoxQuantity>
+  <Price>7</Price>
+  <TechChanceNumber>2</TechChanceNumber>
+  
+  <ProjectileClassfile>Projectiles\rocket_cluster_p</ProjectileClassfile>
+
+  <RecordProjectiles>true</RecordProjectiles>
+  <RemoveProjectilesOnSecondFire>true</RemoveProjectilesOnSecondFire>
+  <OnlyShootOnNewInput>true</OnlyShootOnNewInput>
+
+</GameObjectClass>

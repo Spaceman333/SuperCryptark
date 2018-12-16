@@ -1,0 +1,39 @@
+﻿<?xml version="1.0"?>
+<GameObjectClass>
+  <Type>WEAPON</Type>
+
+  
+  <RateOfFire>1</RateOfFire>
+  <ProjectilesPerShot>1</ProjectilesPerShot>
+  <ProjectilePrecision>.8</ProjectilePrecision>
+  <ProjectileClassfile>PirateWeapons\blaster_bullet_e</ProjectileClassfile>
+
+  <MuzzleFlashEffect>_new_muzzle_blaster</MuzzleFlashEffect>
+  <NoMuzzleFlashRotation>true</NoMuzzleFlashRotation>
+  <FireRecoil>10</FireRecoil>
+
+  <FireSound>EMPBlaster_Shot</FireSound>
+
+  <OnFireMuzzleLight>
+    <Type>Spotlight</Type>
+    <Position>
+      <Z>10</Z>
+    </Position>
+    <Color>
+      <X>0.3</X>
+      <Y>0.6</Y>
+      <Z>0.8</Z>
+      <W>1</W>
+    </Color>
+    <Direction>
+      <X>1</X>
+      <Y>0</Y>
+      <Z>0.3</Z>
+    </Direction>
+    <Strength>10</Strength>
+    <Radius>40</Radius>
+    <RadiusModifier>-200</RadiusModifier>
+    <InnerConeAngle>1</InnerConeAngle>
+    <OuterConeAngle>1.57</OuterConeAngle>
+  </OnFireMuzzleLight>
+</GameObjectClass>

@@ -1,0 +1,22 @@
+﻿<?xml version="1.0" ?>
+<GameObjectClass>
+  <Type>VORTEX</Type>
+  <RefractionMapName>blackhole_1</RefractionMapName>
+  <Scale>1</Scale>
+  
+  <VortexForce>600</VortexForce>
+  <VortexRadius>20</VortexRadius>
+
+  <Light>
+    <Color>
+      <X>0.2</X>
+      <Y>0.2</Y>
+      <Z>1</Z>
+      <W>1</W>
+    </Color>
+    <Strength>2</Strength>
+    <Radius>500</Radius>
+    <UseSpatialSystem>false</UseSpatialSystem>
+    <BoundingBoxUpdateRate>1</BoundingBoxUpdateRate>
+  </Light>
+</GameObjectClass>

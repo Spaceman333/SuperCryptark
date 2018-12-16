@@ -1,0 +1,8 @@
+﻿<?xml version="1.0"?>
+<GameObjectClass>
+  <Displayname>None</Displayname>
+  <ShortDisplayName>NONE</ShortDisplayName>
+  <LoadoutCategory>Item</LoadoutCategory>
+  <HudTextureName>tag_none</HudTextureName>
+  <ItemInfo></ItemInfo>
+</GameObjectClass>

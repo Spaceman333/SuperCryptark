@@ -1,0 +1,5 @@
+<?xml version="1.0"?>
+<GameObjectClass>
+  <BaseFile>Doodads\lightbulb01</BaseFile>
+  <SpineAnimation>lightbulb04</SpineAnimation>
+</GameObjectClass>

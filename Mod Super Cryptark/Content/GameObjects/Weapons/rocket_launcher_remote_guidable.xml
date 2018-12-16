@@ -1,0 +1,21 @@
+﻿<?xml version="1.0" ?>
+<GameObjectClass>
+  <BaseFile>Weapons\rocket_launcher</BaseFile>
+  
+  <Displayname>T2 Remote Guided Rocket</Displayname>
+  <ShortDisplayName>R-REG</ShortDisplayName>
+  <ItemInfo>After launching, this rocket can be wirelessly guided into targets and detonated with a remote trigger. Though slower and more mentally intensive to use, it does provide a more customized and creative tactical high explosive solution.</ItemInfo>
+
+  <StartingAmmoBoxes>4</StartingAmmoBoxes>
+  <AmmoBoxQuantity>25</AmmoBoxQuantity>
+  <Price>7</Price>
+  
+  <TechChanceNumber>2</TechChanceNumber>
+
+  <ProjectileClassfile>Projectiles\rocket_remote_guided_p</ProjectileClassfile>
+
+  <RecordProjectiles>true</RecordProjectiles>
+  <RemoveProjectilesOnSecondFire>true</RemoveProjectilesOnSecondFire>
+  <OnlyShootOnNewInput>true</OnlyShootOnNewInput>
+  
+</GameObjectClass>

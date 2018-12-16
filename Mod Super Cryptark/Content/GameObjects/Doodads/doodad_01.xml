@@ -1,0 +1,14 @@
+<?xml version="1.0"?>
+<GameObjectClass>
+  <SpineAnimation>doodad_01</SpineAnimation>
+  <LayerSelect>true</LayerSelect>
+  <Solid>true</Solid>
+  <Static>true</Static>
+  <Health>.5</Health>
+  <Width>2</Width>
+  <Height>2</Height>
+  <GibOnDeath>true</GibOnDeath>
+  <RemoveParticleEffect>_new_death_debris</RemoveParticleEffect>
+  <OnRemoveSound>Combat_M_Enemy_Hit</OnRemoveSound>
+  <HideHealth>true</HideHealth>
+</GameObjectClass>

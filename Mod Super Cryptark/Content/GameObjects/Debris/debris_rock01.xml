@@ -1,0 +1,42 @@
+﻿<?xml version="1.0" ?>
+<GameObjectClass>
+  <Type>DEBRIS</Type>
+  <SpineAnimation>debris_rock01</SpineAnimation>
+  <Health>1.5</Health>
+  <RemoveParticleEffect>_new_explosion_rock_large</RemoveParticleEffect>
+  <OnRemoveSound>Napalm_Explode</OnRemoveSound>
+  <Solid>true</Solid>
+  <BoundingBoxBody>body_box</BoundingBoxBody>
+  <Density>2</Density>
+  <SetFriction>true</SetFriction>
+  <Friction>0.3</Friction>
+  <Restitution>0.3</Restitution>
+  <LinearDamping>0.5</LinearDamping>
+  <AngularDamping>0.1</AngularDamping>
+
+  <GibOnDeath>true</GibOnDeath>
+  <DebrisAmount>8</DebrisAmount>
+  <DebrisRandomOffset>
+    <X>3</X>
+    <Y>3</Y>
+  </DebrisRandomOffset>
+  <RandomDebrisDirection>true</RandomDebrisDirection>
+  <DebrisMinRandForceMod>0.5</DebrisMinRandForceMod>
+  <DebrisMaxRandForceMod>1.2</DebrisMaxRandForceMod>
+  
+  <SmallerDebris>
+    <string>debris_rock_small01</string>
+    <string>debris_rock_small02</string>
+    <string>debris_rock_small03</string>
+    <string>debris_rock_small04</string>
+    <string>debris_rock_small05</string>
+    <string>debris_rock_small06</string>
+    <string>debris_rock_small07</string>
+    <string>debris_rock_small08</string>
+    <string>debris_rock_small09</string>
+    <string>debris_rock_small10</string>
+  </SmallerDebris>
+  <NumSmallerDebris>3</NumSmallerDebris>
+  <MinDebrisSpawnBuffer>2</MinDebrisSpawnBuffer>
+  <MaxDebrisSpawnBuffer>5</MaxDebrisSpawnBuffer>
+</GameObjectClass>

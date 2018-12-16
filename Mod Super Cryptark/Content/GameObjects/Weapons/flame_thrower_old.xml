@@ -1,0 +1,39 @@
+﻿<?xml version="1.0" ?>
+<GameObjectClass>
+  <Type>WEAPON</Type>
+  <Displayname>T3 Torch Burner</Displayname>
+  <ShortDisplayName>BURN</ShortDisplayName>
+  <ItemInfo>High intensity medium range flamethrower weapon. Excellent at burning everything to a crisp within microseconds. FLAME ON!</ItemInfo>
+  <Price>5</Price>
+  <RateOfFire>0.03</RateOfFire>
+  <StartingAmmoBoxes>4</StartingAmmoBoxes>
+  <AmmoBoxQuantity>1000</AmmoBoxQuantity>
+  <ProjectilesPerShot>1</ProjectilesPerShot>
+  <ProjectilePrecision>0.99</ProjectilePrecision>
+  <ProjectileClassfile>Projectiles\flame_old</ProjectileClassfile>
+  <LoadoutCategory>Projectors</LoadoutCategory>
+  <AimSpeedModifier>-10</AimSpeedModifier>
+  <MinAimSpeedFactor>0.6</MinAimSpeedFactor>
+  <TechChanceNumber>1</TechChanceNumber>
+  
+  <FireRecoil>100</FireRecoil>
+  <ShakeCameraOnFire>0.3</ShakeCameraOnFire>
+  <SpineWeaponHeadTextureName>gunhead\wephead_flamer01</SpineWeaponHeadTextureName>
+  <SpineWeaponTextureName>gunhead\wep_flamer01</SpineWeaponTextureName>
+  
+  <FiringLoop>Combat_M_FlameThrower_Loop</FiringLoop>
+  <StartFiringSound>Combat_M_FlameThrower_Start</StartFiringSound>
+  <ReleaseFiringSound>Combat_M_FlameThrower_End</ReleaseFiringSound>
+
+  <OnFireMuzzleLight>
+    <Color>
+      <X>1</X>
+      <Y>0.25</Y>
+      <Z>0</Z>
+      <W>1</W>
+    </Color>
+    
+    <Radius>200</Radius>
+    <RadiusModifier>-5</RadiusModifier>
+  </OnFireMuzzleLight>
+</GameObjectClass>

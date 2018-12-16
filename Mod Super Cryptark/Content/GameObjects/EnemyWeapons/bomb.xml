@@ -1,0 +1,34 @@
+<?xml version="1.0"?>
+<GameObjectClass>
+  <Type>WEAPON</Type>
+  <FireBoneRecoil>15</FireBoneRecoil>
+  <RateOfFire>4</RateOfFire>
+  <FireSound>grenade_fire</FireSound>
+  <ProjectileClassfile>EnemyWeapons\bomb_p</ProjectileClassfile>
+  <MuzzleFlashEffect>_new_muzzle_enemyblaster</MuzzleFlashEffect>
+  <FireRecoil>10000</FireRecoil>
+  <RetreatAfterFiringTime>3</RetreatAfterFiringTime>
+
+  <OnFireMuzzleLight>
+    <Type>Spotlight</Type>
+    <Position>
+      <Z>10</Z>
+    </Position>
+    <Color>
+      <X>0.65</X>
+      <Y>0.5</Y>
+      <Z>1</Z>
+      <W>1</W>
+    </Color>
+    <Direction>
+      <X>1</X>
+      <Y>0</Y>
+      <Z>0.3</Z>
+    </Direction>
+    <Strength>20</Strength>
+    <Radius>1000</Radius>
+    <RadiusModifier>-100</RadiusModifier>
+    <InnerConeAngle>1</InnerConeAngle>
+    <OuterConeAngle>1.57</OuterConeAngle>
+  </OnFireMuzzleLight>
+</GameObjectClass>
