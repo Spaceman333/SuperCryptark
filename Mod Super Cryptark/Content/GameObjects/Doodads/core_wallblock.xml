@@ -1,9 +1,0 @@
-﻿<?xml version="1.0"?>
-<GameObjectClass>
-  <Type>CORE_DOODAD</Type>
-  <SpineAnimation>core_wallblock</SpineAnimation>
-  <LayerSelect>true</LayerSelect>
-  <Static>true</Static>
-  <Solid>true</Solid>
-  <BoundingBoxBody>wallblock_box</BoundingBoxBody>
-</GameObjectClass>

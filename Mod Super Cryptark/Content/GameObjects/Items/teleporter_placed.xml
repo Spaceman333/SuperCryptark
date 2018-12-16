@@ -1,7 +1,0 @@
-﻿<?xml version="1.0" ?>
-<GameObjectClass>
-  <Type>TELEPORTER</Type>
-  <SpineAnimation>telebeacon</SpineAnimation>
-  <Static>true</Static>
-  <NoOffscreen>true</NoOffscreen>
-</GameObjectClass>
