@@ -30,12 +30,19 @@
     <A>255</A>
   </ShipColor>
   <LightSchemes>
+    <string>miner01</string>
+    <string>miner02</string>
+    <string>miner03</string>
+    <string>miner04</string>
 	<string>dir_miner01</string>
 	<string>dir_miner02</string>
 	<string>dir_miner03</string>
 	<string>dir_miner04</string>
+	<string>nightvision</string>
 	<string>dir_nightvision</string>
+	<string>hazard01</string>
 	<string>dir_hazard01</string>
+	<string>factory_brown</string>
 	<string>dir_factory_brown</string>
   </LightSchemes>
 

@@ -1,14 +1,14 @@
 ﻿<?xml version="1.0"?>
 <ShipClass xmlns:xsi="http://www.w3.org/2001/XMLSchema-instance" xmlns:xsd="http://www.w3.org/2001/XMLSchema">
 
-  <Name>TURRET ARRAY</Name>
-  <Description>Welcome to turret city. This frontline weapons platform is responsible for providing artillery support, point defence and shoot any enemy ship with its many guns in regular ship to ship combat. Being on the frontline, it relies on fixing drones and mass movers to maintain the ship in working order. Also don't worry, once you get past the guns outside, there will be plenty more inside too.</Description>
+  <Name>COLONY HIVE</Name>
+  <Description>Transporting vast archives of long dead alien populations, this vessel still swarms with the reanimated forms of its cargo. The ships doors are all unlocked, inviting newcomers to join the swarm, with numerous alarm systems quickly causing scores of fast attack drone to stream into the area once a foreign being trips a beam. A bleak fate awaits anyone that ends up perishing in the belly of this ship.</Description>
   
-  <LockDoorsCloseToCore>2</LockDoorsCloseToCore>
-  <DoorLockPercentage>0.5</DoorLockPercentage>
-  <DoorBreakablePercentage>0.7</DoorBreakablePercentage>
+  <LockDoorsCloseToCore>0</LockDoorsCloseToCore>
+  <DoorLockPercentage>0.0</DoorLockPercentage>
+  <DoorBreakablePercentage>1.5</DoorBreakablePercentage>
   
-  <StarFieldMap>starfield02</StarFieldMap>
+  <StarFieldMap>starfield03</StarFieldMap>
   
   <MusicTracks>
     <string>1</string>
@@ -25,51 +25,58 @@
   
   <ShipColor>
     <R>90</R>
-    <G>220</G>
-    <B>90</B>
+    <G>10</G>
+    <B>220</B>
     <A>255</A>
   </ShipColor>
   <LightSchemes>
-	<string>dir_sentry01</string>
-    <string>dir_sentry02</string>
-    <string>dir_sentry03</string>
-    <string>dir_sentry04</string>
+    <string>swarm01</string>
+    <string>swarm02</string>
+    <string>swarm03</string>
+    <string>swarm04</string>
+    <string>dir_swarm01</string>
+    <string>dir_swarm02</string>
+    <string>dir_swarm03</string>
+    <string>dir_swarm04</string>
+	<string>nightvision</string>
 	<string>dir_nightvision</string>
-	<string>dir_gunmetal</string>
+	<string>toxic</string>
 	<string>dir_toxic</string>
+	<string>watermelon</string>
 	<string>dir_watermelon</string>
+	<string>wine_pink</string>
 	<string>dir_wine_pink</string>
   </LightSchemes>
 
   <IncludedSystems>
     <!--tiny 5-->
     <string>shield</string>
-    <string>door</string>
-    <string>hazard</string>
-    <string>sentry</string>
-    <string>flaksystem</string>
-    <!--small 8-->
-    <string>sentry</string>
-    <string>alarm</string>
-    <string>factory_leviathan</string>
-    <!--medium 11-->
     <string>shuffle</string>
-    <string>flaksystem</string>
+    <string>failsafe</string>
+    <string>alarm</string>
+    <string>factory</string>
+    <!--small 8-->
+    <string>repair</string>
+    <string>alarm</string>
+    <string>failsafe</string>
+    <!--medium 11-->
+    <string>factory</string>
+    <string>failsafe</string>
 	<string>alarm</string>
     <!--large 17-->
-	<string>factory_viper</string>
+	<string>shuffle</string>
     <string>alarm</string>
-	<string>factory</string>
-	<string>sentry</string>
+	<string>core</string>
+	<string>shield</string>
     <string>sentry</string>
-	<string>flaksystem</string>
+	<string>repair</string>
     <!--huge 23-->
     <string>alarm</string>
-	<string>sentry</string>
+	<string>alarm</string>
 	<string>sentry</string>
 	<string>shuffle</string>
-    <string>sentry</string>
-	<string>flaksystem</string>
+    <string>core</string>
+	<string>shield</string> 
   </IncludedSystems>
 
   <SpawnTypes>
@@ -78,179 +85,187 @@
     <!--DRONES-->
 	<!--Drones 50, Maximum for smallest T1 ship-->
     <SpawnType>
-      <Classfile>MrFixitr</Classfile>
+      <Classfile>Gundog</Classfile>
+      <LocationType>ROOM</LocationType>
+      <Amount>20</Amount>
+      <CharacterStartAIState>WANDER</CharacterStartAIState>
+    </SpawnType>
+    <SpawnType>
+      <Classfile>Jackal</Classfile>
       <LocationType>ROOM</LocationType>
       <Amount>10</Amount>
-      <CharacterStartAIState>WANDER</CharacterStartAIState>
     </SpawnType>
     <SpawnType>
-      <Classfile>Bully</Classfile>
+      <Classfile>Bomber</Classfile>
       <LocationType>ROOM</LocationType>
       <Amount>10</Amount>
-      <CharacterStartAIState>WANDER</CharacterStartAIState>
-    </SpawnType> 
-    <SpawnType>
-      <Classfile>Tank</Classfile>
-      <LocationType>ROOM</LocationType>
-      <Amount>5</Amount>
-      <CharacterStartAIState>WANDER</CharacterStartAIState>
     </SpawnType>
     <SpawnType>
-      <Classfile>SeekerLauncher</Classfile>
+      <Classfile>Sawblade</Classfile>
       <LocationType>ROOM</LocationType>
-      <Amount>5</Amount>
+      <Amount>6</Amount>
       <CharacterStartAIState>WANDER</CharacterStartAIState>
     </SpawnType>
-	<SpawnType>
-      <Classfile>Hazards\mine</Classfile>
+    <SpawnType>
+      <Classfile>Tattletale</Classfile>
       <LocationType>ROOM</LocationType>
-      <Amount>10</Amount>
-      <Object>true</Object>
+      <Amount>3</Amount>
+      <CharacterStartAIState>WANDER</CharacterStartAIState>
     </SpawnType>
     <SpawnType>
-      <Classfile>Hazards\mule_skiff</Classfile>
-      <LocationType>ROOM</LocationType>
-      <Amount>9</Amount>
-      <Object>true</Object>
-    </SpawnType>
-    <SpawnType>
-      <Classfile>Blacksuit</Classfile>
+      <Classfile>Sentinel</Classfile>
       <LocationType>ROOM</LocationType>
       <Amount>1</Amount>
+      <CharacterStartAIState>WANDER</CharacterStartAIState>
     </SpawnType>
 	
 	<!--Drones 50-120(+70) Range, T1-T2 buffer gap filler-->
     <SpawnType>
-      <Classfile>MrFixitr</Classfile>
+      <Classfile>Gundog</Classfile>
+      <LocationType>ROOM</LocationType>
+      <Amount>30</Amount>
+      <CharacterStartAIState>WANDER</CharacterStartAIState>
+    </SpawnType>
+    <SpawnType>
+      <Classfile>Jackal</Classfile>
       <LocationType>ROOM</LocationType>
       <Amount>15</Amount>
-      <CharacterStartAIState>WANDER</CharacterStartAIState>
     </SpawnType>
     <SpawnType>
-      <Classfile>Bully</Classfile>
+      <Classfile>Bomber</Classfile>
       <LocationType>ROOM</LocationType>
       <Amount>15</Amount>
-      <CharacterStartAIState>WANDER</CharacterStartAIState>
-    </SpawnType> 
+    </SpawnType>
     <SpawnType>
-      <Classfile>Tank</Classfile>
+      <Classfile>Sawblade</Classfile>
       <LocationType>ROOM</LocationType>
-      <Amount>5</Amount>
+      <Amount>6</Amount>
+      <CharacterStartAIState>WANDER</CharacterStartAIState>
+    </SpawnType>
+    <SpawnType>
+      <Classfile>Tattletale</Classfile>
+      <LocationType>ROOM</LocationType>
+      <Amount>3</Amount>
       <CharacterStartAIState>WANDER</CharacterStartAIState>
     </SpawnType>
     <SpawnType>
-      <Classfile>SeekerLauncher</Classfile>
+      <Classfile>Sentinel</Classfile>
       <LocationType>ROOM</LocationType>
-      <Amount>5</Amount>
+      <Amount>1</Amount>
       <CharacterStartAIState>WANDER</CharacterStartAIState>
-    </SpawnType>
-	<SpawnType>
-      <Classfile>Hazards\mine</Classfile>
-      <LocationType>ROOM</LocationType>
-      <Amount>20</Amount>
-      <Object>true</Object>
-    </SpawnType>
-    <SpawnType>
-      <Classfile>Hazards\mule_skiff</Classfile>
-      <LocationType>ROOM</LocationType>
-      <Amount>10</Amount>
-      <Object>true</Object>
     </SpawnType>
 	
 	<!--Drones 120-200(+80) Range, T2 proper-->	
     <SpawnType>
-      <Classfile>Blacksuit</Classfile>
-      <LocationType>ROOM</LocationType>
-      <Amount>1</Amount>
-	  <MinTier>2</MinTier>
-    </SpawnType>
-    <SpawnType>
-      <Classfile>MrFixitr</Classfile>
-      <LocationType>ROOM</LocationType>
-      <Amount>19</Amount>
-      <CharacterStartAIState>WANDER</CharacterStartAIState>
-	  <MinTier>2</MinTier>
-    </SpawnType>
-    <SpawnType>
-      <Classfile>Bully</Classfile>
-      <LocationType>ROOM</LocationType>
-      <Amount>20</Amount>
-      <CharacterStartAIState>WANDER</CharacterStartAIState>
-	  <MinTier>2</MinTier>
-    </SpawnType> 
-    <SpawnType>
-      <Classfile>Tank</Classfile>
+      <Classfile>HelperDronePirate</Classfile>
       <LocationType>ROOM</LocationType>
       <Amount>10</Amount>
-      <CharacterStartAIState>WANDER</CharacterStartAIState>
 	  <MinTier>2</MinTier>
-    </SpawnType>
-    <SpawnType>
-      <Classfile>SeekerLauncher</Classfile>
-      <LocationType>ROOM</LocationType>
-      <Amount>10</Amount>
-      <CharacterStartAIState>WANDER</CharacterStartAIState>
-	  <MinTier>2</MinTier>
-    </SpawnType>
-	<SpawnType>
-      <Classfile>Hazards\mine</Classfile>
-      <LocationType>ROOM</LocationType>
-      <Amount>15</Amount>
-      <Object>true</Object>
-	  <MinTier>2</MinTier>
-    </SpawnType>
+    </SpawnType>    
     <SpawnType>
       <Classfile>Hazards\mule_skiff</Classfile>
       <LocationType>ROOM</LocationType>
-      <Amount>5</Amount>
+      <Amount>10</Amount>
       <Object>true</Object>
+	  <MinTier>2</MinTier>
+    </SpawnType>
+    <SpawnType>
+      <Classfile>Gundog</Classfile>
+      <LocationType>ROOM</LocationType>
+      <Amount>30</Amount>
+      <CharacterStartAIState>WANDER</CharacterStartAIState>
+	  <MinTier>2</MinTier>
+    </SpawnType>
+    <SpawnType>
+      <Classfile>Jackal</Classfile>
+      <LocationType>ROOM</LocationType>
+      <Amount>10</Amount>
+	  <MinTier>2</MinTier>
+    </SpawnType>
+    <SpawnType>
+      <Classfile>Bomber</Classfile>
+      <LocationType>ROOM</LocationType>
+      <Amount>10</Amount>
+	  <MinTier>2</MinTier>
+    </SpawnType>
+    <SpawnType>
+      <Classfile>Sawblade</Classfile>
+      <LocationType>ROOM</LocationType>
+      <Amount>6</Amount>
+      <CharacterStartAIState>WANDER</CharacterStartAIState>
+	  <MinTier>2</MinTier>
+    </SpawnType>
+    <SpawnType>
+      <Classfile>Tattletale</Classfile>
+      <LocationType>ROOM</LocationType>
+      <Amount>3</Amount>
+      <CharacterStartAIState>WANDER</CharacterStartAIState>
+	  <MinTier>2</MinTier>
+    </SpawnType>
+    <SpawnType>
+      <Classfile>Sentinel</Classfile>
+      <LocationType>ROOM</LocationType>
+      <Amount>1</Amount>
+      <CharacterStartAIState>WANDER</CharacterStartAIState>
 	  <MinTier>2</MinTier>
     </SpawnType>
 
 	<!--Drones 200-400(+200) Range, T3 proper-->	
     <SpawnType>
-      <Classfile>Blacksuit</Classfile>
+      <Classfile>HelperDronePirate</Classfile>
       <LocationType>ROOM</LocationType>
-      <Amount>1</Amount>
+      <Amount>30</Amount>
+	  <MinTier>3</MinTier>
+    </SpawnType>    
+    <SpawnType>
+      <Classfile>Hazards\mule_skiff</Classfile>
+      <LocationType>ROOM</LocationType>
+      <Amount>30</Amount>
+      <Object>true</Object>
 	  <MinTier>3</MinTier>
     </SpawnType>
     <SpawnType>
-      <Classfile>MrFixitr</Classfile>
-      <LocationType>ROOM</LocationType>
-      <Amount>69</Amount>
-      <CharacterStartAIState>WANDER</CharacterStartAIState>
-	  <MinTier>3</MinTier>
-    </SpawnType>
-    <SpawnType>
-      <Classfile>Bully</Classfile>
-      <LocationType>ROOM</LocationType>
-      <Amount>50</Amount>
-      <CharacterStartAIState>WANDER</CharacterStartAIState>
-	  <MinTier>3</MinTier>
-    </SpawnType> 
-    <SpawnType>
-      <Classfile>Tank</Classfile>
+      <Classfile>Gundog</Classfile>
       <LocationType>ROOM</LocationType>
       <Amount>30</Amount>
       <CharacterStartAIState>WANDER</CharacterStartAIState>
 	  <MinTier>3</MinTier>
     </SpawnType>
     <SpawnType>
-      <Classfile>SeekerLauncher</Classfile>
+      <Classfile>Jackal</Classfile>
       <LocationType>ROOM</LocationType>
-      <Amount>20</Amount>
-      <CharacterStartAIState>WANDER</CharacterStartAIState>
-	  <MinTier>3</MinTier>
-    </SpawnType>
-	<SpawnType>
-      <Classfile>Hazards\mine</Classfile>
-      <LocationType>ROOM</LocationType>
-      <Amount>20</Amount>
-      <Object>true</Object>
+      <Amount>30</Amount>
 	  <MinTier>3</MinTier>
     </SpawnType>
     <SpawnType>
-      <Classfile>Hazards\mule_skiff</Classfile>
+      <Classfile>Bomber</Classfile>
+      <LocationType>ROOM</LocationType>
+      <Amount>30</Amount>
+	  <MinTier>3</MinTier>
+    </SpawnType>
+    <SpawnType>
+      <Classfile>Sawblade</Classfile>
+      <LocationType>ROOM</LocationType>
+      <Amount>30</Amount>
+      <CharacterStartAIState>WANDER</CharacterStartAIState>
+	  <MinTier>3</MinTier>
+    </SpawnType>
+    <SpawnType>
+      <Classfile>Tattletale</Classfile>
+      <LocationType>ROOM</LocationType>
+      <Amount>8</Amount>
+      <CharacterStartAIState>WANDER</CharacterStartAIState>
+	  <MinTier>3</MinTier>
+    </SpawnType>
+    <SpawnType>
+      <Classfile>Sentinel</Classfile>
+      <LocationType>ROOM</LocationType>
+      <Amount>2</Amount>
+      <CharacterStartAIState>WANDER</CharacterStartAIState>
+	  <MinTier>3</MinTier>
+    </SpawnType>
+    <SpawnType>
+      <Classfile>Hazards\bumper</Classfile>
       <LocationType>ROOM</LocationType>
       <Amount>10</Amount>
       <Object>true</Object>
@@ -259,44 +274,62 @@
 	
 	<!--Drones 400-460(+60) Range, T3 extra final filler-->
     <SpawnType>
-      <Classfile>MrFixitr</Classfile>
+      <Classfile>HelperDronePirate</Classfile>
       <LocationType>ROOM</LocationType>
-      <Amount>5</Amount>
-      <CharacterStartAIState>WANDER</CharacterStartAIState>
+      <Amount>3</Amount>
 	  <MinTier>3</MinTier>
-    </SpawnType>
+    </SpawnType>    
     <SpawnType>
-      <Classfile>Bully</Classfile>
+      <Classfile>Hazards\mule_skiff</Classfile>
       <LocationType>ROOM</LocationType>
-      <Amount>5</Amount>
-      <CharacterStartAIState>WANDER</CharacterStartAIState>
-	  <MinTier>3</MinTier>
-    </SpawnType> 
-    <SpawnType>
-      <Classfile>Tank</Classfile>
-      <LocationType>ROOM</LocationType>
-      <Amount>10</Amount>
-      <CharacterStartAIState>WANDER</CharacterStartAIState>
-	  <MinTier>3</MinTier>
-    </SpawnType>
-    <SpawnType>
-      <Classfile>SeekerLauncher</Classfile>
-      <LocationType>ROOM</LocationType>
-      <Amount>10</Amount>
-      <CharacterStartAIState>WANDER</CharacterStartAIState>
-	  <MinTier>3</MinTier>
-    </SpawnType>
-	<SpawnType>
-      <Classfile>Hazards\mine</Classfile>
-      <LocationType>ROOM</LocationType>
-      <Amount>20</Amount>
+      <Amount>2</Amount>
       <Object>true</Object>
 	  <MinTier>3</MinTier>
     </SpawnType>
     <SpawnType>
-      <Classfile>Hazards\mule_skiff</Classfile>
+      <Classfile>Gundog</Classfile>
       <LocationType>ROOM</LocationType>
-      <Amount>10</Amount>
+      <Amount>25</Amount>
+      <CharacterStartAIState>WANDER</CharacterStartAIState>
+	  <MinTier>3</MinTier>
+    </SpawnType>
+    <SpawnType>
+      <Classfile>Jackal</Classfile>
+      <LocationType>ROOM</LocationType>
+      <Amount>5</Amount>
+	  <MinTier>3</MinTier>
+    </SpawnType>
+    <SpawnType>
+      <Classfile>Bomber</Classfile>
+      <LocationType>ROOM</LocationType>
+      <Amount>5</Amount>
+	  <MinTier>3</MinTier>
+    </SpawnType>
+    <SpawnType>
+      <Classfile>Sawblade</Classfile>
+      <LocationType>ROOM</LocationType>
+      <Amount>5</Amount>
+      <CharacterStartAIState>WANDER</CharacterStartAIState>
+	  <MinTier>3</MinTier>
+    </SpawnType>
+    <SpawnType>
+      <Classfile>Tattletale</Classfile>
+      <LocationType>ROOM</LocationType>
+      <Amount>5</Amount>
+      <CharacterStartAIState>WANDER</CharacterStartAIState>
+	  <MinTier>3</MinTier>
+    </SpawnType>
+    <SpawnType>
+      <Classfile>Sentinel</Classfile>
+      <LocationType>ROOM</LocationType>
+      <Amount>2</Amount>
+      <CharacterStartAIState>WANDER</CharacterStartAIState>
+	  <MinTier>3</MinTier>
+    </SpawnType>
+    <SpawnType>
+      <Classfile>Hazards\bumper</Classfile>
+      <LocationType>ROOM</LocationType>
+      <Amount>8</Amount>
       <Object>true</Object>
 	  <MinTier>3</MinTier>
     </SpawnType>
@@ -307,106 +340,133 @@
 	<SpawnType>
       <Classfile>FlakTurret</Classfile>
       <LocationType>OUTSIDE_WALL</LocationType>
-      <Amount>100</Amount>
+      <Amount>8</Amount>
 	  <MinTier>2</MinTier>
     </SpawnType>
 	<SpawnType>
       <Classfile>FlakTurret</Classfile>
       <LocationType>OUTSIDE_WALL</LocationType>
-      <Amount>100</Amount>
+      <Amount>12</Amount>
 	  <MinTier>3</MinTier>
     </SpawnType>
 	
 	<!--T1 Turrets 100 Max-->
     <SpawnType>
-      <Classfile>Picket</Classfile>
+      <Classfile>Bomber</Classfile>
       <LocationType>ON_WALL</LocationType>
-      <Amount>50</Amount>
+      <Amount>5</Amount>
+      <CharacterStartState>ON_WALL</CharacterStartState>
     </SpawnType>
     <SpawnType>
-      <Classfile>PicketMedium</Classfile>
+      <Classfile>Jackal</Classfile>
       <LocationType>ON_WALL</LocationType>
-      <Amount>20</Amount>
-    </SpawnType>
-    <SpawnType>
-      <Classfile>PicketShielded</Classfile>
-      <LocationType>ON_WALL</LocationType>
-      <Amount>10</Amount>
-    </SpawnType>
-	<SpawnType>
-      <Classfile>Jockey</Classfile>
-      <LocationType>ON_WALL</LocationType>
-      <Amount>16</Amount>
+      <Amount>5</Amount>
+      <CharacterStartState>ON_WALL</CharacterStartState>
     </SpawnType>
     <SpawnType>
       <Classfile>Alarms\tripwire</Classfile>
       <LocationType>ON_WALL</LocationType>
-      <Amount>4</Amount>
+      <Amount>30</Amount>
+      <Object>true</Object>
+    </SpawnType>	
+    <SpawnType>
+      <Classfile>Picket</Classfile>
+      <LocationType>ON_WALL</LocationType>
+      <Amount>30</Amount>
+    </SpawnType>
+	<SpawnType>
+      <Classfile>Jockey</Classfile>
+      <LocationType>ON_WALL</LocationType>
+      <Amount>20</Amount>
+    </SpawnType>
+    <SpawnType>
+      <Classfile>Hazards\bee_hive</Classfile>
+      <LocationType>ON_WALL</LocationType>
+      <Amount>10</Amount>
       <Object>true</Object>
     </SpawnType>
+
 	
 	<!--T2 Turrets 200(+100) Max-->
     <SpawnType>
-      <Classfile>Picket</Classfile>
+      <Classfile>Bomber</Classfile>
       <LocationType>ON_WALL</LocationType>
-      <Amount>30</Amount>
+      <Amount>5</Amount>
+      <CharacterStartState>ON_WALL</CharacterStartState>
 	  <MinTier>2</MinTier>
     </SpawnType>
     <SpawnType>
-      <Classfile>PicketMedium</Classfile>
+      <Classfile>Jackal</Classfile>
       <LocationType>ON_WALL</LocationType>
-      <Amount>30</Amount>
-	  <MinTier>2</MinTier>
-    </SpawnType>
-    <SpawnType>
-      <Classfile>PicketShielded</Classfile>
-      <LocationType>ON_WALL</LocationType>
-      <Amount>20</Amount>
-	  <MinTier>2</MinTier>
-    </SpawnType>
-	<SpawnType>
-      <Classfile>Jockey</Classfile>
-      <LocationType>ON_WALL</LocationType>
-      <Amount>16</Amount>
+      <Amount>5</Amount>
+      <CharacterStartState>ON_WALL</CharacterStartState>
 	  <MinTier>2</MinTier>
     </SpawnType>
     <SpawnType>
       <Classfile>Alarms\tripwire</Classfile>
       <LocationType>ON_WALL</LocationType>
-      <Amount>4</Amount>
+      <Amount>20</Amount>
+      <Object>true</Object>
+	  <MinTier>2</MinTier>
+    </SpawnType>	
+    <SpawnType>
+      <Classfile>Picket</Classfile>
+      <LocationType>ON_WALL</LocationType>
+      <Amount>35</Amount>
+	  <MinTier>2</MinTier>
+    </SpawnType>
+	<SpawnType>
+      <Classfile>Jockey</Classfile>
+      <LocationType>ON_WALL</LocationType>
+      <Amount>20</Amount>
+	  <MinTier>2</MinTier>
+    </SpawnType>
+    <SpawnType>
+      <Classfile>Hazards\bee_hive</Classfile>
+      <LocationType>ON_WALL</LocationType>
+      <Amount>15</Amount>
       <Object>true</Object>
 	  <MinTier>2</MinTier>
     </SpawnType>
 	
 	<!--T3 Turrets 300(+100) Max-->
     <SpawnType>
-      <Classfile>Picket</Classfile>
+      <Classfile>Bomber</Classfile>
       <LocationType>ON_WALL</LocationType>
       <Amount>10</Amount>
+      <CharacterStartState>ON_WALL</CharacterStartState>
 	  <MinTier>3</MinTier>
     </SpawnType>
     <SpawnType>
-      <Classfile>PicketMedium</Classfile>
+      <Classfile>Jackal</Classfile>
       <LocationType>ON_WALL</LocationType>
       <Amount>10</Amount>
-	  <MinTier>3</MinTier>
-    </SpawnType>
-    <SpawnType>
-      <Classfile>PicketShielded</Classfile>
-      <LocationType>ON_WALL</LocationType>
-      <Amount>30</Amount>
-	  <MinTier>3</MinTier>
-    </SpawnType>
-	<SpawnType>
-      <Classfile>Jockey</Classfile>
-      <LocationType>ON_WALL</LocationType>
-      <Amount>46</Amount>
+      <CharacterStartState>ON_WALL</CharacterStartState>
 	  <MinTier>3</MinTier>
     </SpawnType>
     <SpawnType>
       <Classfile>Alarms\tripwire</Classfile>
       <LocationType>ON_WALL</LocationType>
-      <Amount>4</Amount>
+      <Amount>10</Amount>
+      <Object>true</Object>
+	  <MinTier>3</MinTier>
+    </SpawnType>	
+    <SpawnType>
+      <Classfile>Picket</Classfile>
+      <LocationType>ON_WALL</LocationType>
+      <Amount>25</Amount>
+	  <MinTier>3</MinTier>
+    </SpawnType>
+	<SpawnType>
+      <Classfile>Jockey</Classfile>
+      <LocationType>ON_WALL</LocationType>
+      <Amount>25</Amount>
+	  <MinTier>3</MinTier>
+    </SpawnType>
+    <SpawnType>
+      <Classfile>Hazards\bee_hive</Classfile>
+      <LocationType>ON_WALL</LocationType>
+      <Amount>20</Amount>
       <Object>true</Object>
 	  <MinTier>3</MinTier>
     </SpawnType>
@@ -414,166 +474,148 @@
 	<!--TIER1 2X-->
 	<!--Drones 50, Maximum for smallest T1 ship-->
     <SpawnType>
-      <Classfile>MrFixitr</Classfile>
+      <Classfile>Gundog</Classfile>
+      <LocationType>ROOM</LocationType>
+      <Amount>20</Amount>
+      <CharacterStartAIState>WANDER</CharacterStartAIState>
+    </SpawnType>
+    <SpawnType>
+      <Classfile>Jackal</Classfile>
       <LocationType>ROOM</LocationType>
       <Amount>10</Amount>
-      <CharacterStartAIState>WANDER</CharacterStartAIState>
     </SpawnType>
     <SpawnType>
-      <Classfile>Bully</Classfile>
+      <Classfile>Bomber</Classfile>
       <LocationType>ROOM</LocationType>
       <Amount>10</Amount>
-      <CharacterStartAIState>WANDER</CharacterStartAIState>
-    </SpawnType> 
-    <SpawnType>
-      <Classfile>Tank</Classfile>
-      <LocationType>ROOM</LocationType>
-      <Amount>5</Amount>
-      <CharacterStartAIState>WANDER</CharacterStartAIState>
     </SpawnType>
     <SpawnType>
-      <Classfile>SeekerLauncher</Classfile>
+      <Classfile>Sawblade</Classfile>
       <LocationType>ROOM</LocationType>
-      <Amount>5</Amount>
+      <Amount>6</Amount>
       <CharacterStartAIState>WANDER</CharacterStartAIState>
     </SpawnType>
-	<SpawnType>
-      <Classfile>Hazards\mine</Classfile>
+    <SpawnType>
+      <Classfile>Tattletale</Classfile>
       <LocationType>ROOM</LocationType>
-      <Amount>10</Amount>
-      <Object>true</Object>
+      <Amount>3</Amount>
+      <CharacterStartAIState>WANDER</CharacterStartAIState>
     </SpawnType>
     <SpawnType>
-      <Classfile>Hazards\mule_skiff</Classfile>
-      <LocationType>ROOM</LocationType>
-      <Amount>9</Amount>
-      <Object>true</Object>
-    </SpawnType>
-    <SpawnType>
-      <Classfile>Blacksuit</Classfile>
+      <Classfile>Sentinel</Classfile>
       <LocationType>ROOM</LocationType>
       <Amount>1</Amount>
+      <CharacterStartAIState>WANDER</CharacterStartAIState>
     </SpawnType>
 	
 	<!--Drones 50-120(+70) Range, T1-T2 buffer gap filler-->
     <SpawnType>
-      <Classfile>MrFixitr</Classfile>
+      <Classfile>Gundog</Classfile>
+      <LocationType>ROOM</LocationType>
+      <Amount>30</Amount>
+      <CharacterStartAIState>WANDER</CharacterStartAIState>
+    </SpawnType>
+    <SpawnType>
+      <Classfile>Jackal</Classfile>
       <LocationType>ROOM</LocationType>
       <Amount>15</Amount>
-      <CharacterStartAIState>WANDER</CharacterStartAIState>
     </SpawnType>
     <SpawnType>
-      <Classfile>Bully</Classfile>
+      <Classfile>Bomber</Classfile>
       <LocationType>ROOM</LocationType>
       <Amount>15</Amount>
-      <CharacterStartAIState>WANDER</CharacterStartAIState>
-    </SpawnType> 
-    <SpawnType>
-      <Classfile>Tank</Classfile>
-      <LocationType>ROOM</LocationType>
-      <Amount>5</Amount>
-      <CharacterStartAIState>WANDER</CharacterStartAIState>
     </SpawnType>
     <SpawnType>
-      <Classfile>SeekerLauncher</Classfile>
+      <Classfile>Sawblade</Classfile>
       <LocationType>ROOM</LocationType>
-      <Amount>5</Amount>
+      <Amount>6</Amount>
       <CharacterStartAIState>WANDER</CharacterStartAIState>
     </SpawnType>
-	<SpawnType>
-      <Classfile>Hazards\mine</Classfile>
+    <SpawnType>
+      <Classfile>Tattletale</Classfile>
       <LocationType>ROOM</LocationType>
-      <Amount>20</Amount>
-      <Object>true</Object>
+      <Amount>3</Amount>
+      <CharacterStartAIState>WANDER</CharacterStartAIState>
     </SpawnType>
     <SpawnType>
-      <Classfile>Hazards\mule_skiff</Classfile>
+      <Classfile>Sentinel</Classfile>
       <LocationType>ROOM</LocationType>
-      <Amount>10</Amount>
-      <Object>true</Object>
-    </SpawnType>
-	
+      <Amount>1</Amount>
+      <CharacterStartAIState>WANDER</CharacterStartAIState>
+    </SpawnType>	
+
 	<!--TIER1 3X-->
 	<!--Drones 50, Maximum for smallest T1 ship-->
     <SpawnType>
-      <Classfile>MrFixitr</Classfile>
+      <Classfile>Gundog</Classfile>
+      <LocationType>ROOM</LocationType>
+      <Amount>20</Amount>
+      <CharacterStartAIState>WANDER</CharacterStartAIState>
+    </SpawnType>
+    <SpawnType>
+      <Classfile>Jackal</Classfile>
       <LocationType>ROOM</LocationType>
       <Amount>10</Amount>
-      <CharacterStartAIState>WANDER</CharacterStartAIState>
     </SpawnType>
     <SpawnType>
-      <Classfile>Bully</Classfile>
+      <Classfile>Bomber</Classfile>
       <LocationType>ROOM</LocationType>
       <Amount>10</Amount>
-      <CharacterStartAIState>WANDER</CharacterStartAIState>
-    </SpawnType> 
-    <SpawnType>
-      <Classfile>Tank</Classfile>
-      <LocationType>ROOM</LocationType>
-      <Amount>5</Amount>
-      <CharacterStartAIState>WANDER</CharacterStartAIState>
     </SpawnType>
     <SpawnType>
-      <Classfile>SeekerLauncher</Classfile>
+      <Classfile>Sawblade</Classfile>
       <LocationType>ROOM</LocationType>
-      <Amount>5</Amount>
+      <Amount>6</Amount>
       <CharacterStartAIState>WANDER</CharacterStartAIState>
     </SpawnType>
-	<SpawnType>
-      <Classfile>Hazards\mine</Classfile>
+    <SpawnType>
+      <Classfile>Tattletale</Classfile>
       <LocationType>ROOM</LocationType>
-      <Amount>10</Amount>
-      <Object>true</Object>
+      <Amount>3</Amount>
+      <CharacterStartAIState>WANDER</CharacterStartAIState>
     </SpawnType>
     <SpawnType>
-      <Classfile>Hazards\mule_skiff</Classfile>
-      <LocationType>ROOM</LocationType>
-      <Amount>9</Amount>
-      <Object>true</Object>
-    </SpawnType>
-    <SpawnType>
-      <Classfile>Blacksuit</Classfile>
+      <Classfile>Sentinel</Classfile>
       <LocationType>ROOM</LocationType>
       <Amount>1</Amount>
+      <CharacterStartAIState>WANDER</CharacterStartAIState>
     </SpawnType>
 	
 	<!--Drones 50-120(+70) Range, T1-T2 buffer gap filler-->
     <SpawnType>
-      <Classfile>MrFixitr</Classfile>
+      <Classfile>Gundog</Classfile>
+      <LocationType>ROOM</LocationType>
+      <Amount>30</Amount>
+      <CharacterStartAIState>WANDER</CharacterStartAIState>
+    </SpawnType>
+    <SpawnType>
+      <Classfile>Jackal</Classfile>
       <LocationType>ROOM</LocationType>
       <Amount>15</Amount>
-      <CharacterStartAIState>WANDER</CharacterStartAIState>
     </SpawnType>
     <SpawnType>
-      <Classfile>Bully</Classfile>
+      <Classfile>Bomber</Classfile>
       <LocationType>ROOM</LocationType>
       <Amount>15</Amount>
-      <CharacterStartAIState>WANDER</CharacterStartAIState>
-    </SpawnType> 
-    <SpawnType>
-      <Classfile>Tank</Classfile>
-      <LocationType>ROOM</LocationType>
-      <Amount>5</Amount>
-      <CharacterStartAIState>WANDER</CharacterStartAIState>
     </SpawnType>
     <SpawnType>
-      <Classfile>SeekerLauncher</Classfile>
+      <Classfile>Sawblade</Classfile>
       <LocationType>ROOM</LocationType>
-      <Amount>5</Amount>
+      <Amount>6</Amount>
       <CharacterStartAIState>WANDER</CharacterStartAIState>
     </SpawnType>
-	<SpawnType>
-      <Classfile>Hazards\mine</Classfile>
+    <SpawnType>
+      <Classfile>Tattletale</Classfile>
       <LocationType>ROOM</LocationType>
-      <Amount>20</Amount>
-      <Object>true</Object>
+      <Amount>3</Amount>
+      <CharacterStartAIState>WANDER</CharacterStartAIState>
     </SpawnType>
     <SpawnType>
-      <Classfile>Hazards\mule_skiff</Classfile>
+      <Classfile>Sentinel</Classfile>
       <LocationType>ROOM</LocationType>
-      <Amount>10</Amount>
-      <Object>true</Object>
-    </SpawnType>
+      <Amount>1</Amount>
+      <CharacterStartAIState>WANDER</CharacterStartAIState>
+    </SpawnType>	
 
 	
   </SpawnTypes>
