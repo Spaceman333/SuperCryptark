@@ -1,12 +1,12 @@
 ﻿<?xml version="1.0" ?>
 <GameObjectClass>
   <Type>WEAPON</Type>
-  <Displayname>Hyper Translocator MkX</Displayname>
-  <ShortDisplayName>TLOCX</ShortDisplayName>
+  <Displayname>Hyper Translocator Mk9</Displayname>
+  <ShortDisplayName>TLOC9</ShortDisplayName>
   <Price>60</Price>
   <LoadoutCategory>Bombs</LoadoutCategory>
   <StartingAmmoBoxes>1</StartingAmmoBoxes>
-  <AmmoBoxQuantity>5</AmmoBoxQuantity>
+  <AmmoBoxQuantity>9</AmmoBoxQuantity>
   <ItemInfo>Shoots a hyper fast reusable ultra long range ethereal translocator beacon, allowing you to teleport to it when activated. Use this to travel huge distances instantly. You may get stuck in walls while using this, so just use this device again to get unstuck.</ItemInfo>
   <!--<HiddenInLoadout>true</HiddenInLoadout>-->
 

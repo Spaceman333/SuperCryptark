@@ -2,8 +2,8 @@
 <GameObjectClass>
   <Type>WEAPON</Type>
   <SpineAnimation>telebeacon</SpineAnimation>
-  <Solid>false</Solid>
-  <ProjectileSpeed>500</ProjectileSpeed>
+  <Solid>true</Solid>
+  <ProjectileSpeed>444</ProjectileSpeed>
   <SetFriction>true</SetFriction>
   <Friction>0</Friction>
   <LinearDamping>0.2</LinearDamping>
