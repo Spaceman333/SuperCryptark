@@ -27,8 +27,8 @@
       <Z>0.5</Z>
       <W>1</W>
     </Color>
-    <Strength>1</Strength>
-    <Radius>90</Radius>
+    <Strength>2</Strength>
+    <Radius>200</Radius>
   </OnFireProjectileLight>
   <OnRemoveLight>
     <Type>Point</Type>
@@ -38,8 +38,8 @@
       <Z>.5</Z>
       <W>1</W>
     </Color>
-    <Strength>2</Strength>
-    <Radius>600</Radius>
+    <Strength>4</Strength>
+    <Radius>700</Radius>
     <RadiusModifier>-100</RadiusModifier>
   </OnRemoveLight>
 

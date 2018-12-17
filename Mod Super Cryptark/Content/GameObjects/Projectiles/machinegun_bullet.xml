@@ -36,7 +36,7 @@
       <W>1</W>
     </SpecularColor>
     <Strength>4</Strength>
-    <Radius>40</Radius>
+    <Radius>50</Radius>
   </OnFireProjectileLight>
 
   <OnRemoveLight>
@@ -58,7 +58,7 @@
     <Strength>8</Strength>
     <InnerConeAngle>0.5</InnerConeAngle>
     <OuterConeAngle>1.5</OuterConeAngle>
-    <Radius>80</Radius>
+    <Radius>90</Radius>
     <RadiusModifier>-10</RadiusModifier>
   </OnRemoveLight>
 
