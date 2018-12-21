@@ -2,13 +2,13 @@
 <GameObjectClass>
   <Type>SLOW_EXPLOSION</Type>
   
-  <ExplosionGrowRate>6</ExplosionGrowRate>
-  <ExplosionMaxRadius>100</ExplosionMaxRadius>
+  <ExplosionGrowRate>18</ExplosionGrowRate>
+  <ExplosionMaxRadius>400</ExplosionMaxRadius>
   <SlowExplosionDamageRate>0.2</SlowExplosionDamageRate>
   <RemoveAfterStarted>1.1</RemoveAfterStarted>
-  <StunTime>5</StunTime>
+  <StunTime>8</StunTime>
   <NoOffscreen>true</NoOffscreen>  
-  <ExplodeDamage>20</ExplodeDamage>
+  <ExplodeDamage>30</ExplodeDamage>
   <ExplodeDamageObjectMultiply>2</ExplodeDamageObjectMultiply>
   <UseSpatialSystem>false</UseSpatialSystem>
   <DamageEnemies>true</DamageEnemies>
@@ -17,26 +17,26 @@
   <DamageObjects>true</DamageObjects>
 
   <MeshEffects>
-    <string>green_explosion_1</string>
-    <string>slow_explosion_2</string>
+    <string>green_explosion_2</string>
+    <string>slow_explosion_1</string>
   </MeshEffects>
 
   <Light>
     <Type>Point</Type>
     <Color>
-      <X>0.2</X>
-      <Y>0.5</Y>
+      <X>0.5</X>
+      <Y>0.6</Y>
       <Z>0.7</Z>
       <W>1</W>
     </Color>
     <SpecularColor>
-      <X>0.2</X>
-      <Y>0.5</Y>
+      <X>0.5</X>
+      <Y>0.6</Y>
       <Z>0.7</Z>
       <W>1</W>
     </SpecularColor>
-    <Strength>2</Strength>
-    <Shininess>2</Shininess>
-    <Radius>300</Radius>
+    <Strength>3</Strength>
+    <Shininess>3</Shininess>
+    <Radius>700</Radius>
   </Light>
 </GameObjectClass>

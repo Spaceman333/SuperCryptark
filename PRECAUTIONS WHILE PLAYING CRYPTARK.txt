@@ -1,0 +1,24 @@
+PRECAUTIONS WHILE PLAYING CRYPTARK
+//
+//
+
+Summary:
+This is a list of known things that can potentially cause the game to crash and what you should do to prevent it.
+
+Details:
+The game can either crash to desktop or to the main menu. In both cases, progress is lost and the game prematurely ends.
+As a modder I cannot fix these issues, so I regard them as quirks of the engine that I keep in my mind while playing the game to ensure that I will have a stable playthrough from start to finish with no crashes.
+If the information in this document is followed, you will have a good time. I've been able to do about a hundred successful crash-less playthroughs with the mod installed. The game is stable as long as you avoid the following actions listed below...
+
+
+Action list to avoid to prevent a crash:
+* With Gravity Tractor weapon, do NOT throw held enemy into a non-opened Hazard System.
+* After neutralizing the final Cortex Core on a level, DO NOT FIRE ANY WEAPONS during the slow-mo period as the game winds down and prepares to continue on to the next stage. Explosives in particular can trigger a crash if used after a final Cortex kill on any level. You can move, boost and teleport during the slow-mo period, but keep your hands away from the weapons until the loading screen appears.
+* With the Infiltrator Exosuit playable character, avoid hacking doors when wall nukes are near anywhere on the level. If you collect keys normally and use them to open doors instead, you will be safe.
+
+
+Expected crashes:
+* After installing the mod, the game may crash ONCE and only once as it resets itself due to detecting and loading all the new content and changes, discarding the old settings in the process. This is normal and only happens once. Its not elegant, but after this first-time crash, the game will work flawlessly from start to finish, provided the above action list to prevent crashes is respected.
+
+
+Heed the advice in the document and you will have no problems with crashing.

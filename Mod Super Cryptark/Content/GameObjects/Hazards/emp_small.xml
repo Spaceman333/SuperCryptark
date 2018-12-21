@@ -33,6 +33,6 @@
     </SpecularColor>
     <MaxStrength>1</MaxStrength>
     <Shininess>2</Shininess>
-    <Radius>1</Radius>
+    <Radius>300</Radius>
   </Light>
 </GameObjectClass>

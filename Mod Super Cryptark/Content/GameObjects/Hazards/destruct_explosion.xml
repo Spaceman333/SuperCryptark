@@ -30,7 +30,7 @@
       <W>1</W>
     </SpecularColor>
     <Strength>1</Strength>
-    <Shininess>2</Shininess>
-    <Radius>1</Radius>
+    <Shininess>1</Shininess>
+    <Radius>600</Radius>
   </Light>
 </GameObjectClass>

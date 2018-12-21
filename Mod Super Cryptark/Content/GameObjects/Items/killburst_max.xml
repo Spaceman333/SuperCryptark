@@ -1,0 +1,25 @@
+﻿<GameObjectClass>
+  <Type>ITEM</Type>
+  <Displayname>CON Kill Burst Max</Displayname>
+  <ShortDisplayName>KILLM</ShortDisplayName>
+  <LoadoutCategory>Item</LoadoutCategory>
+  <ItemInfo>A single use consumable device that sends away a huge lethal killburst, instantly damaging opponents and debris in the surrounding area, potentially killing a large area of enemies at once around you. Not effective against systems. 1 use.</ItemInfo>
+  <HudTextureName>tag_item_knockback</HudTextureName>
+
+  <Price>0</Price>
+  <TechChanceNumber>1</TechChanceNumber>
+  
+  <StartItemQuantity>1</StartItemQuantity>
+  <RateOfUse>1</RateOfUse>
+  
+  <ItemType>EmpBomb</ItemType>
+  <SpawnOnItemUse>Hazards\killburst_max</SpawnOnItemUse>
+  <UseInSpace>true</UseInSpace>
+  
+  <DamageEnemies>true</DamageEnemies>
+  <DamageSystems>false</DamageSystems>
+  <DamagePlayer>false</DamagePlayer>
+  <DamageObjects>true</DamageObjects>
+  
+  <OnUseSound>Combat_M_EMP_Blast</OnUseSound>
+</GameObjectClass>

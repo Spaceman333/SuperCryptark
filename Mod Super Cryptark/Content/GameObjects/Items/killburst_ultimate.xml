@@ -1,0 +1,25 @@
+﻿<GameObjectClass>
+  <Type>ITEM</Type>
+  <Displayname>CON Kill Burst Ultimate</Displayname>
+  <ShortDisplayName>KILLU</ShortDisplayName>
+  <LoadoutCategory>Item</LoadoutCategory>
+  <ItemInfo>A single use consumable device that sends away a gigantic ship swallowing lethal killburst, instantly damaging opponents and debris in the surrounding area, effectively killing most enemies on the map. Not effective against systems. 1 use.</ItemInfo>
+  <HudTextureName>tag_item_knockback</HudTextureName>
+
+  <Price>0</Price>
+  <TechChanceNumber>1</TechChanceNumber>
+  
+  <StartItemQuantity>1</StartItemQuantity>
+  <RateOfUse>1</RateOfUse>
+  
+  <ItemType>EmpBomb</ItemType>
+  <SpawnOnItemUse>Hazards\killburst_ultimate</SpawnOnItemUse>
+  <UseInSpace>true</UseInSpace>
+  
+  <DamageEnemies>true</DamageEnemies>
+  <DamageSystems>false</DamageSystems>
+  <DamagePlayer>false</DamagePlayer>
+  <DamageObjects>true</DamageObjects>
+  
+  <OnUseSound>Galvanic Fission_Explode</OnUseSound>
+</GameObjectClass>
