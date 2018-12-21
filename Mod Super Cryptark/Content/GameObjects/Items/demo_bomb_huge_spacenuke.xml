@@ -8,9 +8,10 @@
 
   <Price>30</Price>
   <TechChanceNumber>1</TechChanceNumber>
+  <UseInSpace>true</UseInSpace>  
 
   <StartItemQuantity>3</StartItemQuantity>
-  <SpawnOnItemUse>Hazards\demo_bomb_huge</SpawnOnItemUse>
+  <SpawnOnItemUse>Hazards\demo_bomb_huge_spess</SpawnOnItemUse>
   <RateOfUse>1</RateOfUse>
   <ItemType>DemoBomb</ItemType>
   <OnLoadoutTrigger>weapon_nuke</OnLoadoutTrigger>

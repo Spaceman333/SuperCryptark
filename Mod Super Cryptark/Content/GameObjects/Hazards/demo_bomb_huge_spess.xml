@@ -10,7 +10,8 @@
   <ContinuousInteraction>true</ContinuousInteraction>
   <InteractionDistance>8</InteractionDistance>
   <TimerOnCodeComplete>5</TimerOnCodeComplete>
-  <DisableInteractOnCodeComplete>true</DisableInteractOnCodeComplete> 
+  <DisableInteractOnCodeComplete>true</DisableInteractOnCodeComplete>
+  <UseInSpace>true</UseInSpace>
   
   <MinimapTextureName>map-detpack</MinimapTextureName>
   <MinimapTextureScale>4</MinimapTextureScale>
