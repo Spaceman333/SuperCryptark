@@ -138,10 +138,35 @@
 	ambient color		0.1				0.8				0.8
 	Result:				too dark		too bright		good, but maybe 0.7 is better max range.
 	
+	Recommended:
+	============
+	Ambient color - range 0.0 to 0.8 max.
+	Background color - range 0.0 to 2.5 max.
+	Directional light color - 0.0 to 0.5 max.
+	Directional light position - 100 xy to 800xy max , z is always 0, global coords.
+	Directional light direction - aimed at 0.0 to 0.1 on all xyz axis, possible global coords.
+	.conclusion, all lights are placed outside far away-ish or near edges of ship, then pointed towards center.
+	Inner/Outer cone - always unchanged.
+	Radius, actual, min & max - always the same, unchanged too.
+	Shininess - same. unchanged too.
+	Strenght differs between values 1, 2, 3, 4 & 5. Advice using 1 as default, 2 as max. Anything higher felt just a tad too bright.
+	Curiously, Inferno.xml uses shorter directional light definitions, missing the following lines:
+		<UseOwnTime>false</UseOwnTime>
+		<DisableRandomTime>false</DisableRandomTime>
+		<TimeOffset>0</TimeOffset>
+		<UseSpatialSystem>true</UseSpatialSystem>
+		<BoundingBoxUpdateRate>0.5</BoundingBoxUpdateRate>
+	Despite lacking these, the inferno lightmap works fine.
+	As a reminder, Inferno.xml is used for the Hell Fortress (aka Reconstruct class) ship.
+
+	
 	No info on directional lights yet.
-	Observations so far: 
+	
+	(old)Observations so far: 
 	- They have a direction defined with x,y,z coords, but I have no idea why z exists here. 
 	Its actually even used for real. Is this game 2.5D or something?
+	.possibly to create depth by having the light source slight off the same plane as the sprites, 
+	thus allowing light to shine on them that otherwise would have hit the edges?
 	- Version 1.2 uses default directional light values. I think they were too bright back then, 
 	but I have not tested them with the new ambient/bg lights to see how its working out.
 	-vars Radius, Strenght and Shininess have me confused as to how to use them and what are their ranges.

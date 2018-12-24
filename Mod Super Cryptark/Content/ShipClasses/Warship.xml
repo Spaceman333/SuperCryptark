@@ -30,14 +30,22 @@
     <A>255</A>
   </ShipColor>
   <LightSchemes>
+<!--     <string>warship01</string>
+    <string>warship02</string>
+    <string>warship03</string>
+    <string>warship04</string> -->
 	<string>dir_warship01</string>
-    <string>dir_warship02</string>
+<!--     <string>dir_warship02</string>
     <string>dir_warship03</string>
     <string>dir_warship04</string>
+	<string>nightvision</string>
 	<string>dir_nightvision</string>
+	<string>gunmetal</string>
 	<string>dir_gunmetal</string>
+	<string>minty</string>
 	<string>dir_minty</string>
-	<string>dir_olive_blue</string>
+	<string>olive_blue</string>
+	<string>dir_olive_blue</string> -->
   </LightSchemes>
 
   <IncludedSystems>

@@ -34,15 +34,24 @@
     <A>255</A>
   </ShipColor>
   <LightSchemes>
-	<string>dir_factory_brown</string>
+<!--     <string>factory01</string>
+    <string>factory02</string>
+    <string>factory03</string>
+    <string>factory04</string>
+	<string>dir_factory_brown</string> -->
 	<string>dir_factory01</string>
-	<string>dir_factory02</string>
+	<!-- <string>dir_factory02</string>
 	<string>dir_factory03</string>
 	<string>dir_factory04</string>
+	<string>factory_brown</string>
+	<string>nightvision</string>
 	<string>dir_nightvision</string>
+	<string>hazard01</string>
 	<string>dir_hazard01</string>
+	<string>minty</string>
 	<string>dir_minty</string>
-	<string>dir_olive_blue</string>
+	<string>olive_blue</string>
+	<string>dir_olive_blue</string> -->
   </LightSchemes>
 
   <IncludedSystems>

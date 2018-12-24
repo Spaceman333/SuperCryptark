@@ -7,8 +7,8 @@
   </AmbientColor>
   <BackgroundColor>
     <X>0.1</X>
-    <Y>0.1</Y>
-    <Z>0.25</Z>
+    <Y>0.22</Y>
+    <Z>0.31</Z>
     <W>1</W>
   </BackgroundColor>
   <DirectionalLights>
@@ -20,9 +20,9 @@
         <Z>0</Z>
       </Position>
       <Color>
-        <X>0.135318875</X>
-        <Y>0.278163821</Y>
-        <Z>0.367857128</Z>
+        <X>0.13</X>
+        <Y>0.27</Y>
+        <Z>0.36</Z>
         <W>1</W>
       </Color>
       <SpecularColor>
@@ -36,7 +36,7 @@
         <Y>-0.9977585</Y>
         <Z>0.06346094</Z>
       </Direction>
-      <Strength>3</Strength>
+      <Strength>1</Strength>
       <MinStrength>0</MinStrength>
       <MaxStrength>0</MaxStrength>
       <StrengthModifier>0</StrengthModifier>
@@ -69,9 +69,9 @@
         <Z>0</Z>
       </Position>
       <Color>
-        <X>0.882142842</X>
-        <Y>0.403265327</Y>
-        <Z>0.044107154</Z>
+        <X>0.38</X>
+        <Y>0.40</Y>
+        <Z>0.34</Z>
         <W>1</W>
       </Color>
       <SpecularColor>
@@ -85,7 +85,7 @@
         <Y>0.9078608</Y>
         <Z>0.08435062</Z>
       </Direction>
-      <Strength>3</Strength>
+      <Strength>1</Strength>
       <MinStrength>0</MinStrength>
       <MaxStrength>0</MaxStrength>
       <StrengthModifier>0</StrengthModifier>
@@ -118,9 +118,9 @@
         <Z>0</Z>
       </Position>
       <Color>
-        <X>0.882142842</X>
-        <Y>0.74446553</Y>
-        <Z>0.044107154</Z>
+        <X>0.48</X>
+        <Y>0.24</Y>
+        <Z>0.04</Z>
         <W>1</W>
       </Color>
       <SpecularColor>
@@ -134,7 +134,7 @@
         <Y>0.899019837</Y>
         <Z>-0.203961745</Z>
       </Direction>
-      <Strength>2</Strength>
+      <Strength>1</Strength>
       <MinStrength>0</MinStrength>
       <MaxStrength>0</MaxStrength>
       <StrengthModifier>0</StrengthModifier>

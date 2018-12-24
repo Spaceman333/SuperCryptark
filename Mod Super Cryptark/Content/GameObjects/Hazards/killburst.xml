@@ -2,11 +2,10 @@
 <GameObjectClass>
   <Type>SLOW_EXPLOSION</Type>
   
-  <ExplosionGrowRate>6</ExplosionGrowRate>
+  <ExplosionGrowRate>4</ExplosionGrowRate>
   <ExplosionMaxRadius>100</ExplosionMaxRadius>
   <SlowExplosionDamageRate>0.2</SlowExplosionDamageRate>
-  <RemoveAfterStarted>1.1</RemoveAfterStarted>
-  <StunTime>5</StunTime>
+  <RemoveAfterStarted>2.1</RemoveAfterStarted>
   <NoOffscreen>true</NoOffscreen>  
   <ExplodeDamage>20</ExplodeDamage>
   <ExplodeDamageObjectMultiply>2</ExplodeDamageObjectMultiply>

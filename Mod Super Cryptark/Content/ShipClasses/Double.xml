@@ -32,9 +32,9 @@
     <A>255</A>
   </ShipColor>
   <LightSchemes>
-	<string>cloaker01</string>
+<!-- 	<string>cloaker01</string> -->
 	<string>dir_cloaker01</string>
-	<string>hazard01</string>
+	<!-- <string>hazard01</string>
 	<string>dir_hazard01</string>
 	<string>nightvision</string>
 	<string>dir_nightvision</string>
@@ -57,7 +57,7 @@
 	<string>watermelon</string>
 	<string>dir_watermelon</string>
 	<string>wine_pink</string>
-	<string>dir_wine_pink</string>
+	<string>dir_wine_pink</string> -->
   </LightSchemes>
 
   <IncludedSystems>

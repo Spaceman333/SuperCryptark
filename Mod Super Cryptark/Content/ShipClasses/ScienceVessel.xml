@@ -34,12 +34,18 @@
     <A>255</A>
   </ShipColor>
   <LightSchemes>
+<!--     <string>science01</string>
+    <string>science02</string> -->
     <string>dir_science01</string>
-    <string>dir_science02</string>
+<!--     <string>dir_science02</string>
+	<string>nightvision</string>
 	<string>dir_nightvision</string>
+	<string>clinical</string>
 	<string>dir_clinical</string>
+	<string>minty</string>
 	<string>dir_minty</string>
-	<string>dir_olive_blue</string>
+	<string>olive_blue</string>
+	<string>dir_olive_blue</string> -->
   </LightSchemes>
 
   <BountyMultiply>1.2</BountyMultiply>
