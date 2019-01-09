@@ -36,7 +36,7 @@
         <Y>0.51</Y>
         <Z>0.18</Z>
       </Direction>
-      <Strength>1</Strength>
+      <Strength>2</Strength>
       <MinStrength>0</MinStrength>
       <MaxStrength>0</MaxStrength>
       <StrengthCycleScale>1</StrengthCycleScale>
@@ -77,7 +77,7 @@
         <Y>0.8464761</Y>
         <Z>0.05989016</Z>
       </Direction>
-      <Strength>1</Strength>
+      <Strength>2</Strength>
       <MinStrength>0</MinStrength>
       <MaxStrength>0</MaxStrength>
       <StrengthCycleScale>1</StrengthCycleScale>

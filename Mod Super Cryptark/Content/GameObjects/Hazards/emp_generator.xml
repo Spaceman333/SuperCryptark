@@ -27,9 +27,9 @@
       <Z>1</Z>
       <W>1</W>
     </Color>
-    <Shininess>10</Shininess>
-    <MinRadius>300</MinRadius>
-    <MaxRadius>600</MaxRadius>
+    <Shininess>2</Shininess>
+    <MinRadius>400</MinRadius>
+    <MaxRadius>900</MaxRadius>
     <RadiusCycleScale>3</RadiusCycleScale>
     <OscillateRadius>true</OscillateRadius>
     <Strength>2</Strength>

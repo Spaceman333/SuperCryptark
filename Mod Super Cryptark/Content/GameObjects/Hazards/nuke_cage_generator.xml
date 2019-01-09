@@ -32,7 +32,7 @@
     <Strength>2</Strength>
     <MaxStrength>3</MaxStrength>
     <OscillateStrength>true</OscillateStrength>
-    <StrengthCycleScale>20</StrengthCycleScale>
+    <StrengthCycleScale>10</StrengthCycleScale>
     <Radius>400</Radius>
   </Light>
 </GameObjectClass>

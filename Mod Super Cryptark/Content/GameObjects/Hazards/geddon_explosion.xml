@@ -1,8 +1,8 @@
 ﻿<?xml version="1.0" ?>
 <GameObjectClass>
   <Type>SLOW_EXPLOSION</Type>
-  <ExplosionGrowRate>0.42</ExplosionGrowRate>
-  <ExplosionMaxRadius>888</ExplosionMaxRadius>
+  <ExplosionGrowRate>0.52</ExplosionGrowRate>
+  <ExplosionMaxRadius>999</ExplosionMaxRadius>
   <RemoveAfterStarted>66</RemoveAfterStarted>
   <SlowExplosionSparkCountMod>0.2</SlowExplosionSparkCountMod>
   <ExplodeDamage>3</ExplodeDamage>
@@ -26,20 +26,20 @@
   <Light>
     <Type>Point</Type>
     <Color>
-      <X>0</X>
-      <Y>0.1</Y>
-      <Z>1</Z>
+      <X>1.0</X>
+      <Y>1.0</Y>
+      <Z>1.0</Z>
       <W>1</W>
     </Color>
     <SpecularColor>
-      <X>0</X>
-      <Y>0.1</Y>
-      <Z>1</Z>
+      <X>1.0</X>
+      <Y>1.0</Y>
+      <Z>1.0</Z>
       <W>1</W>
     </SpecularColor>
-    <Strength>8</Strength>
-    <Shininess>8</Shininess>
-    <Radius>800</Radius>
+    <Strength>2</Strength>
+    <Shininess>2</Shininess>
+    <Radius>1200</Radius>
     <UseSpatialSystem>false</UseSpatialSystem>
     <BoundingBoxUpdateRate>1</BoundingBoxUpdateRate>
   </Light>

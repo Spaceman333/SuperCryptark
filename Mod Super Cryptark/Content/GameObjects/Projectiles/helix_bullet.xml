@@ -14,11 +14,11 @@
   <ProjectileSineStrength>0.6</ProjectileSineStrength>
   <ProjectileFlipOddSine>true</ProjectileFlipOddSine>
   <ProjectileHitDebris>true</ProjectileHitDebris>
-  <HitForce>50</HitForce>
+  <HitForce>3</HitForce>
   <Scale>0.8</Scale>
   <DamagePerShot>0.135</DamagePerShot>
   <ExplodeOnRemove>true</ExplodeOnRemove>
-  <ExplodeForce>2</ExplodeForce>
+<!--   <ExplodeForce>0</ExplodeForce> -->
   <ExplodeSize>4</ExplodeSize>
   <ExplodeDamage>0.1</ExplodeDamage>
   <OnFireProjectileLight>

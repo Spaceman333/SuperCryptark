@@ -36,7 +36,7 @@
         <Y>-0.730107069</Y>
         <Z>-0.283073217</Z>
       </Direction>
-      <Strength>1</Strength>
+      <Strength>2</Strength>
       <MinStrength>0</MinStrength>
       <MaxStrength>0</MaxStrength>
       <StrengthModifier>0</StrengthModifier>
@@ -85,7 +85,7 @@
         <Y>0.9074134</Y>
         <Z>0.365489423</Z>
       </Direction>
-      <Strength>1</Strength>
+      <Strength>2</Strength>
       <MinStrength>0</MinStrength>
       <MaxStrength>0</MaxStrength>
       <StrengthModifier>0</StrengthModifier>

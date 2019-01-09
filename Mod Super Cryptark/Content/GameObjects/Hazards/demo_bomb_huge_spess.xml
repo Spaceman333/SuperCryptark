@@ -55,11 +55,11 @@
       <Y>0</Y>
       <Z>0.5</Z>
     </Direction>
-    <Strength>16</Strength>
-    <MaxStrength>16</MaxStrength>
+    <Strength>4</Strength>
+    <MaxStrength>4</MaxStrength>
     <StrengthModifier>-0.3</StrengthModifier>
     <RemoveOnZeroStrength>true</RemoveOnZeroStrength>
-    <Shininess>8</Shininess>
+    <Shininess>4</Shininess>
   </OnRemoveLight>
   
 </GameObjectClass>
