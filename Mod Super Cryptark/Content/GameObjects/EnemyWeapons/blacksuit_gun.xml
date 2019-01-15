@@ -12,7 +12,7 @@
   <StartFiringSound>Combat_M_ChainGun_WindUp</StartFiringSound>
   <ReleaseFiringSound>Combat_M_ChainGun_WindDown</ReleaseFiringSound>
   <FireRecoil>30</FireRecoil>
-  <CasingClassfile>Weapons\machinegun_casing</CasingClassfile>
+<!--   <CasingClassfile>Weapons\machinegun_casing</CasingClassfile> -->
 
   <OnFireMuzzleLight>
     <Type>Spotlight</Type>

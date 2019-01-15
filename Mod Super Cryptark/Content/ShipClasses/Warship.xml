@@ -101,7 +101,7 @@
       <CharacterStartAIState>WANDER</CharacterStartAIState>
     </SpawnType>
     <SpawnType>
-      <Classfile>MrFixitr</Classfile>
+      <Classfile>MrFixit</Classfile>
       <LocationType>ROOM</LocationType>
       <Amount>3</Amount>
       <CharacterStartAIState>WANDER</CharacterStartAIState>
@@ -152,7 +152,7 @@
       <CharacterStartAIState>WANDER</CharacterStartAIState>
     </SpawnType>
     <SpawnType>
-      <Classfile>MrFixitr</Classfile>
+      <Classfile>MrFixit</Classfile>
       <LocationType>ROOM</LocationType>
       <Amount>3</Amount>
       <CharacterStartAIState>WANDER</CharacterStartAIState>
@@ -201,7 +201,7 @@
 	  <MinTier>2</MinTier>
     </SpawnType>
     <SpawnType>
-      <Classfile>MrFixitr</Classfile>
+      <Classfile>MrFixit</Classfile>
       <LocationType>ROOM</LocationType>
       <Amount>5</Amount>
       <CharacterStartAIState>WANDER</CharacterStartAIState>
@@ -261,7 +261,7 @@
 	  <MinTier>3</MinTier>
     </SpawnType>
     <SpawnType>
-      <Classfile>MrFixitr</Classfile>
+      <Classfile>MrFixit</Classfile>
       <LocationType>ROOM</LocationType>
       <Amount>5</Amount>
       <CharacterStartAIState>WANDER</CharacterStartAIState>
@@ -321,7 +321,7 @@
 	  <MinTier>3</MinTier>
     </SpawnType>
     <SpawnType>
-      <Classfile>MrFixitr</Classfile>
+      <Classfile>MrFixit</Classfile>
       <LocationType>ROOM</LocationType>
       <Amount>3</Amount>
       <CharacterStartAIState>WANDER</CharacterStartAIState>
@@ -526,7 +526,7 @@
       <CharacterStartAIState>WANDER</CharacterStartAIState>
     </SpawnType>
     <SpawnType>
-      <Classfile>MrFixitr</Classfile>
+      <Classfile>MrFixit</Classfile>
       <LocationType>ROOM</LocationType>
       <Amount>3</Amount>
       <CharacterStartAIState>WANDER</CharacterStartAIState>
@@ -577,7 +577,7 @@
       <CharacterStartAIState>WANDER</CharacterStartAIState>
     </SpawnType>
     <SpawnType>
-      <Classfile>MrFixitr</Classfile>
+      <Classfile>MrFixit</Classfile>
       <LocationType>ROOM</LocationType>
       <Amount>3</Amount>
       <CharacterStartAIState>WANDER</CharacterStartAIState>
@@ -624,7 +624,7 @@
       <CharacterStartAIState>WANDER</CharacterStartAIState>
     </SpawnType>
     <SpawnType>
-      <Classfile>MrFixitr</Classfile>
+      <Classfile>MrFixit</Classfile>
       <LocationType>ROOM</LocationType>
       <Amount>3</Amount>
       <CharacterStartAIState>WANDER</CharacterStartAIState>
@@ -675,7 +675,7 @@
       <CharacterStartAIState>WANDER</CharacterStartAIState>
     </SpawnType>
     <SpawnType>
-      <Classfile>MrFixitr</Classfile>
+      <Classfile>MrFixit</Classfile>
       <LocationType>ROOM</LocationType>
       <Amount>3</Amount>
       <CharacterStartAIState>WANDER</CharacterStartAIState>

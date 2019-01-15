@@ -8,6 +8,8 @@
   <IgnoreBrushCollision>true</IgnoreBrushCollision>
   <IgnoreDoorCollision>true</IgnoreDoorCollision>
   
+  <!-- Name hint: Ridge Gun Turret from Gunmetal -->
+  
   <IgnoreNonShieldGameobjectCollision>true</IgnoreNonShieldGameobjectCollision>
   
   <ProjectileRemoveOnCollision>false</ProjectileRemoveOnCollision>

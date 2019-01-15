@@ -58,7 +58,7 @@ MAXIMUM REARMED EXTREME
       <CharacterStartAIState>WANDER</CharacterStartAIState>
     </SpawnType>
     <SpawnType>
-      <Classfile>MrFixitr</Classfile>
+      <Classfile>MrFixit</Classfile>
       <LocationType>ROOM</LocationType>
       <Amount>10</Amount>
       <CharacterStartAIState>WANDER</CharacterStartAIState>

@@ -87,7 +87,7 @@
     <!--DRONES-->
 	<!--Drones 50, Maximum for smallest T1 ship-->
     <SpawnType>
-      <Classfile>MrFixitr</Classfile>
+      <Classfile>MrFixit</Classfile>
       <LocationType>ROOM</LocationType>
       <Amount>10</Amount>
       <CharacterStartAIState>WANDER</CharacterStartAIState>
@@ -130,7 +130,7 @@
 	
 	<!--Drones 50-120(+70) Range, T1-T2 buffer gap filler-->
     <SpawnType>
-      <Classfile>MrFixitr</Classfile>
+      <Classfile>MrFixit</Classfile>
       <LocationType>ROOM</LocationType>
       <Amount>15</Amount>
       <CharacterStartAIState>WANDER</CharacterStartAIState>
@@ -174,7 +174,7 @@
 	  <MinTier>2</MinTier>
     </SpawnType>
     <SpawnType>
-      <Classfile>MrFixitr</Classfile>
+      <Classfile>MrFixit</Classfile>
       <LocationType>ROOM</LocationType>
       <Amount>19</Amount>
       <CharacterStartAIState>WANDER</CharacterStartAIState>
@@ -224,7 +224,7 @@
 	  <MinTier>3</MinTier>
     </SpawnType>
     <SpawnType>
-      <Classfile>MrFixitr</Classfile>
+      <Classfile>MrFixit</Classfile>
       <LocationType>ROOM</LocationType>
       <Amount>69</Amount>
       <CharacterStartAIState>WANDER</CharacterStartAIState>
@@ -268,7 +268,7 @@
 	
 	<!--Drones 400-460(+60) Range, T3 extra final filler-->
     <SpawnType>
-      <Classfile>MrFixitr</Classfile>
+      <Classfile>MrFixit</Classfile>
       <LocationType>ROOM</LocationType>
       <Amount>5</Amount>
       <CharacterStartAIState>WANDER</CharacterStartAIState>
@@ -423,7 +423,7 @@
 	<!--TIER1 2X-->
 	<!--Drones 50, Maximum for smallest T1 ship-->
     <SpawnType>
-      <Classfile>MrFixitr</Classfile>
+      <Classfile>MrFixit</Classfile>
       <LocationType>ROOM</LocationType>
       <Amount>10</Amount>
       <CharacterStartAIState>WANDER</CharacterStartAIState>
@@ -466,7 +466,7 @@
 	
 	<!--Drones 50-120(+70) Range, T1-T2 buffer gap filler-->
     <SpawnType>
-      <Classfile>MrFixitr</Classfile>
+      <Classfile>MrFixit</Classfile>
       <LocationType>ROOM</LocationType>
       <Amount>15</Amount>
       <CharacterStartAIState>WANDER</CharacterStartAIState>
@@ -505,7 +505,7 @@
 	<!--TIER1 3X-->
 	<!--Drones 50, Maximum for smallest T1 ship-->
     <SpawnType>
-      <Classfile>MrFixitr</Classfile>
+      <Classfile>MrFixit</Classfile>
       <LocationType>ROOM</LocationType>
       <Amount>10</Amount>
       <CharacterStartAIState>WANDER</CharacterStartAIState>
@@ -548,7 +548,7 @@
 	
 	<!--Drones 50-120(+70) Range, T1-T2 buffer gap filler-->
     <SpawnType>
-      <Classfile>MrFixitr</Classfile>
+      <Classfile>MrFixit</Classfile>
       <LocationType>ROOM</LocationType>
       <Amount>15</Amount>
       <CharacterStartAIState>WANDER</CharacterStartAIState>

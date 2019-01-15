@@ -13,6 +13,8 @@
   
   <ProjectileRicochetCount>1</ProjectileRicochetCount>
   <Restitution>0.8</Restitution>
+  
+  <RemoveAfterStarted>2.5</RemoveAfterStarted>
 
   <DecalType>Bullet</DecalType>
   <ProjKeepVelocity>true</ProjKeepVelocity>

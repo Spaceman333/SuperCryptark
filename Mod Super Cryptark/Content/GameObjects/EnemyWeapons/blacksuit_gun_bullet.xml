@@ -2,13 +2,14 @@
 <GameObjectClass>
   <Type>WEAPON</Type>
   <Texture>Projectiles\bullet01_yellow</Texture>
-  <Solid>true</Solid>
+  <!--<Solid>true</Solid>-->
+  <FakeProjectile>true</FakeProjectile>
   <CharacterCollide>true</CharacterCollide>
   <ProjectileSpeed>150</ProjectileSpeed>
   <HitForce>20</HitForce>
   <DamagePerShot>0.35</DamagePerShot>
-<!--   <RemoveAfterStarted>5</RemoveAfterStarted> -->
-<!--   <ProjectileRemoveOffscreen>false</ProjectileRemoveOffscreen> -->
+  <RemoveAfterStarted>2</RemoveAfterStarted>
+  <ProjectileRemoveOffscreen>true</ProjectileRemoveOffscreen>
 <!--   <NoOffscreen>true</NoOffscreen> -->
   <RemoveOffscreen>true</RemoveOffscreen>
 
