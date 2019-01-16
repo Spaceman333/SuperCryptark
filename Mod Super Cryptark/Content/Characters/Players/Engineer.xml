@@ -22,15 +22,15 @@
 
   <SkinAtlases>
     <SkinAtlas>
-      <Name>Barney</Name>
+      <Name>Lavender</Name>
       <Atlas>suit_engineer</Atlas>
     </SkinAtlas>
     <SkinAtlas>
-      <Name>Soylent Green</Name>
+      <Name>Glacier Cold</Name>
       <Atlas>suit_engineer_02</Atlas>
     </SkinAtlas>
     <SkinAtlas>
-      <Name>Command</Name>
+      <Name>Gold Bags</Name>
       <Atlas>suit_engineer_03</Atlas>
     </SkinAtlas>
     <SkinAtlas>

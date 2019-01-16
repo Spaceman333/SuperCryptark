@@ -16,19 +16,19 @@
   
   <SkinAtlases>
     <SkinAtlas>
-      <Name>Softshell</Name>
+      <Name>Terminator</Name>
       <Atlas>suit_crab</Atlas>
     </SkinAtlas>
     <SkinAtlas>
-      <Name>Command</Name>
+      <Name>Void Warper</Name>
       <Atlas>suit_crab_04</Atlas>
     </SkinAtlas>
     <SkinAtlas>
-      <Name>Aquatic</Name>
+      <Name>Phase Racer</Name>
       <Atlas>suit_crab_02</Atlas>
     </SkinAtlas>
     <SkinAtlas>
-      <Name>Sky Rogue</Name>
+      <Name>Ocean Diver</Name>
       <Atlas>suit_crab_03</Atlas>
     </SkinAtlas>
   </SkinAtlases>

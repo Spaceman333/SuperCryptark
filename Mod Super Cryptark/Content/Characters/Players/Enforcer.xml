@@ -19,15 +19,15 @@
 
   <SkinAtlases>
     <SkinAtlas>
-      <Name>Masterchief</Name>
+      <Name>Black Matte</Name>
       <Atlas>suit_enforcer</Atlas>
     </SkinAtlas>
     <SkinAtlas>
-      <Name>Command</Name>
+      <Name>Arctic Snow</Name>
       <Atlas>suit_enforcer_03</Atlas>
     </SkinAtlas>
     <SkinAtlas>
-      <Name>Builder Bob</Name>
+      <Name>RESQ Responder</Name>
       <Atlas>suit_enforcer_02</Atlas>
     </SkinAtlas>
     <SkinAtlas>
