@@ -27,12 +27,12 @@
       <Z>1</Z>
       <W>1</W>
     </Color>
-    <Shininess>2</Shininess>
-    <MinRadius>400</MinRadius>
-    <MaxRadius>900</MaxRadius>
-    <RadiusCycleScale>3</RadiusCycleScale>
+    <Shininess>1</Shininess>
+    <MinRadius>200</MinRadius>
+    <MaxRadius>400</MaxRadius>
+    <RadiusCycleScale>1</RadiusCycleScale>
     <OscillateRadius>true</OscillateRadius>
-    <Strength>2</Strength>
+    <Strength>1</Strength>
     <FollowBoneName>rotator</FollowBoneName>
     <FollowOwnRotation>true</FollowOwnRotation>
   </Light>
