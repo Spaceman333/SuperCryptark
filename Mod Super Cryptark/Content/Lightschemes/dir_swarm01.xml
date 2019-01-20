@@ -1,14 +1,14 @@
 ﻿<ClassLighting>
   <AmbientColor>
-    <X>0.75</X>
-    <Y>0.58</Y>
-    <Z>0.51</Z>
+    <X>0.81</X>
+    <Y>0.64</Y>
+    <Z>0.57</Z>
     <W>1</W>
   </AmbientColor>
   <BackgroundColor>
-    <X>0.20</X>
-    <Y>0.01</Y>
-    <Z>0.28</Z>
+    <X>0.15</X>
+    <Y>0.02</Y>
+    <Z>0.23</Z>
     <W>1</W>
   </BackgroundColor>
   <DirectionalLights>

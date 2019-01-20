@@ -16,7 +16,7 @@
   
   <SkinAtlases>
     <SkinAtlas>
-      <Name>Jehuty</Name>
+      <Name>Prothean</Name>
       <Atlas>suit_boxy</Atlas>
     </SkinAtlas>
     <SkinAtlas>
@@ -24,11 +24,11 @@
       <Atlas>suit_boxy_04</Atlas>
     </SkinAtlas>
     <SkinAtlas>
-      <Name>Dripping Ooze</Name>
+      <Name>Sky Dreamer</Name>
       <Atlas>suit_boxy_03</Atlas>
     </SkinAtlas>
     <SkinAtlas>
-      <Name>Wallace</Name>
+      <Name>Renewable</Name>
       <Atlas>suit_boxy_02</Atlas>
     </SkinAtlas>
   </SkinAtlases>
