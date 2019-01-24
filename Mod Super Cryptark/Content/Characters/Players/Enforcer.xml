@@ -19,7 +19,7 @@
 
   <SkinAtlases>
     <SkinAtlas>
-      <Name>Metal Black</Name>
+      <Name>Data Type</Name>
       <Atlas>suit_enforcer</Atlas>
     </SkinAtlas>
     <SkinAtlas>
@@ -31,7 +31,7 @@
       <Atlas>suit_enforcer_02</Atlas>
     </SkinAtlas>
     <SkinAtlas>
-      <Name>Mr Earth</Name>
+      <Name>Cyberblood</Name>
       <Atlas>suit_enforcer_04</Atlas>
     </SkinAtlas>
   </SkinAtlases>

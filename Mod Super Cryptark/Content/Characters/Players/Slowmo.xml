@@ -16,7 +16,7 @@
   
   <SkinAtlases>
     <SkinAtlas>
-      <Name>Prothean</Name>
+      <Name>The World</Name>
       <Atlas>suit_boxy</Atlas>
     </SkinAtlas>
     <SkinAtlas>
@@ -28,7 +28,7 @@
       <Atlas>suit_boxy_03</Atlas>
     </SkinAtlas>
     <SkinAtlas>
-      <Name>Renewable</Name>
+      <Name>Renewables</Name>
       <Atlas>suit_boxy_02</Atlas>
     </SkinAtlas>
   </SkinAtlases>

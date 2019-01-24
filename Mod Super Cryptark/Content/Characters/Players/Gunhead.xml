@@ -15,7 +15,7 @@
 
   <SkinAtlases>
     <SkinAtlas>
-      <Name>Charshark</Name>
+      <Name>Aznable</Name>
       <Atlas>gunhead</Atlas>
     </SkinAtlas>
     <SkinAtlas>
@@ -23,11 +23,11 @@
       <Atlas>gunhead_04</Atlas>
     </SkinAtlas>
     <SkinAtlas>
-      <Name>Tiger Eye</Name>
+      <Name>Demonical</Name>
       <Atlas>gunhead_02</Atlas>
     </SkinAtlas>
     <SkinAtlas>
-      <Name>Green Dino</Name>
+      <Name>Caring Love</Name>
       <Atlas>gunhead_03</Atlas>
     </SkinAtlas>
   </SkinAtlases>
