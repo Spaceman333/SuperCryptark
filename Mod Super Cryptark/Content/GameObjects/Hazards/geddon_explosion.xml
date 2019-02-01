@@ -39,7 +39,7 @@
     </SpecularColor>
     <Strength>2</Strength>
     <Shininess>2</Shininess>
-    <Radius>1200</Radius>
+    <Radius>1300</Radius>
     <UseSpatialSystem>false</UseSpatialSystem>
     <BoundingBoxUpdateRate>1</BoundingBoxUpdateRate>
   </Light>

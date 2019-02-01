@@ -31,6 +31,6 @@
     </SpecularColor>
     <Strength>1</Strength>
     <Shininess>1</Shininess>
-    <Radius>600</Radius>
+    <Radius>300</Radius>
   </Light>
 </GameObjectClass>

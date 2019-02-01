@@ -3,7 +3,7 @@
   <Type>WEAPON</Type>
   <Displayname>T2 Radium Pulse</Displayname>
   <ShortDisplayName>RAD</ShortDisplayName>
-  <ItemInfo>Fires wide cone pulses of radiation that damages and pushes mobile targets even through walls. Exceptionally effective against hordes of moving enemies. Harmless against systems and turrets.</ItemInfo>
+  <ItemInfo>Fires wide cone pulses of radiation that damages and pushes mobile targets even through walls. Exceptionally effective against hordes of moving enemies. Harmless against systems and turrets. Caution! May malfuntion after teleportation or rate-of-fire overclocking. In rogue-mode, fix this by picking up another weapon and re-equipping this one.</ItemInfo>
 
   <Price>7</Price>
   <StartingAmmoBoxes>2</StartingAmmoBoxes>
@@ -19,7 +19,7 @@
   
   <ProjectileClassfile>Projectiles\radiator_p</ProjectileClassfile>
   
-  <RateOfFire>1.05</RateOfFire>
+  <RateOfFire>1.1</RateOfFire>
   <ConeGun>true</ConeGun>
   <FireBoneRecoil>0</FireBoneRecoil>
   <ShakeCameraOnFire>.1</ShakeCameraOnFire>
