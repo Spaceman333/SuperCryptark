@@ -14,7 +14,7 @@
   <ProjectileMinRandSpeed>150</ProjectileMinRandSpeed>
   <ProjectileMaxRandSpeed>220</ProjectileMaxRandSpeed>
   <LinearDamping>1.5</LinearDamping>
-  <DamagePerShot>0.325</DamagePerShot>
+  <DamagePerShot>0.4</DamagePerShot>
   <ProjKeepVelocity>false</ProjKeepVelocity>
   <ProjectileHitDebris>true</ProjectileHitDebris>
   

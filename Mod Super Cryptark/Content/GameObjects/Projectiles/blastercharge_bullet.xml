@@ -6,7 +6,7 @@
   <CharacterCollide>true</CharacterCollide>
   <ProjectileSpeed>50</ProjectileSpeed>
   <HitForce>500</HitForce>
-  <DamagePerShot>0.1</DamagePerShot>
+  <DamagePerShot>0.15</DamagePerShot>
 
   <DecalType>Bullet</DecalType>
   <ProjKeepVelocity>true</ProjKeepVelocity>

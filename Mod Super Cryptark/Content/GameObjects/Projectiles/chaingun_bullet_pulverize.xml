@@ -9,7 +9,7 @@
   <CharacterCollide>true</CharacterCollide>
   <ProjectileSpeed>160</ProjectileSpeed>
   <HitForce>160</HitForce>
-  <DamagePerShot>0.75</DamagePerShot>
+  <DamagePerShot>0.55</DamagePerShot>
   <ProjectilePiercing>true</ProjectilePiercing>
   <ProjectileFollowTarget>true</ProjectileFollowTarget>
   <ProjectileTargetSeekRange>10</ProjectileTargetSeekRange>

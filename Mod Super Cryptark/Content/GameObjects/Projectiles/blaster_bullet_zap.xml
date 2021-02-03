@@ -20,7 +20,7 @@
   <Height>.5</Height>
   
   <DamagePerShot>0.0</DamagePerShot>
-  <DamageRate>0.1</DamageRate>
+  <DamageRate>0.2</DamageRate>
   <DamageAreaRadius>11</DamageAreaRadius>
   <RemoveAfterStarted>4</RemoveAfterStarted>
   

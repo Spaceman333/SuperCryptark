@@ -7,7 +7,7 @@
   <CharacterCollide>true</CharacterCollide>
   <ProjectileSpeed>310</ProjectileSpeed>
   <HitForce>200</HitForce>
-  <DamagePerShot>1</DamagePerShot>
+  <DamagePerShot>1.25</DamagePerShot>
   <ParticleEffect>_new_trail_bullet</ParticleEffect>
   <RotateParticleEffect>true</RotateParticleEffect>
   <DecalType>Bullet</DecalType>

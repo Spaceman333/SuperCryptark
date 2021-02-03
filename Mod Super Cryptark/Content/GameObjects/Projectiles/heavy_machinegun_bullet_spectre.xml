@@ -5,7 +5,7 @@
   <ProjectilePiercing>true</ProjectilePiercing>
   <ProjKeepVelocity>true</ProjKeepVelocity>
   <ProjectileRicochetCount>7</ProjectileRicochetCount>
-  <Restitution>0.75</Restitution>
+  <Restitution>0.775</Restitution>
   <ProjectileFollowTarget>true</ProjectileFollowTarget>
   <ProjectileTargetSeekRange>30</ProjectileTargetSeekRange>
   <ProjectileFollowTargetMaxRotate>0.10</ProjectileFollowTargetMaxRotate>

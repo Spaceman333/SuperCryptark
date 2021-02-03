@@ -3,5 +3,5 @@
   <Type>WEAPON</Type>
   <HitForce>100</HitForce>
   <CharacterCollide>true</CharacterCollide>
-  <DamagePerShot>2</DamagePerShot>
+  <DamagePerShot>2.25</DamagePerShot>
 </GameObjectClass>

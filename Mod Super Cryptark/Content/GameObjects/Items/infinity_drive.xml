@@ -4,7 +4,7 @@
   <Displayname>Infinity Drive</Displayname>
   <ShortDisplayName>INFIN</ShortDisplayName>
   <LoadoutCategory>Item</LoadoutCategory>
-  <ItemInfo>Activate an on-demand 30 second superpowered overdrive mode for instant 1hp heal, a blastwave of minor stun and damage to nearby targets, godlike +200% movespeed, rate of fire and 6x damage. FEEL THE POWER AND BECOME THE SUPERWEAPON.</ItemInfo>
+  <ItemInfo>Activate an on-demand 30 second superpowered overdrive mode for instant 1hp heal, a blastwave of minor stun and damage to nearby targets, godlike +50% movespeed, rate of fire and 6x damage. FEEL THE POWER AND BECOME THE SUPERWEAPON.</ItemInfo>
 
   <Price>500</Price>
   <TechChanceNumber>1</TechChanceNumber>
@@ -30,13 +30,13 @@
     <PowerupEffectClass>
       <Type>MovementSpeedMod</Type>
       <OverwritesSameType>false</OverwritesSameType>
-      <Amount>2.0</Amount>
+      <Amount>1.25</Amount>
       <Duration>30</Duration>
     </PowerupEffectClass>
     <PowerupEffectClass>
       <Type>RateOfFireMod</Type>
       <OverwritesSameType>false</OverwritesSameType>
-      <Amount>-2.0</Amount>
+      <Amount>-1.25</Amount>
       <Duration>30</Duration>
 	  <HudDraw>false</HudDraw>
     </PowerupEffectClass>

@@ -1,10 +1,10 @@
 ﻿<?xml version="1.0"?>
 <GameObjectClass>
   <Type>ITEM</Type>
-  <Displayname>USE Shadow</Displayname>
-  <ShortDisplayName>SHDOW</ShortDisplayName>
+  <Displayname>USE Wraith</Displayname>
+  <ShortDisplayName>WRAIH</ShortDisplayName>
   <LoadoutCategory>Item</LoadoutCategory>
-  <ItemInfo>This advanced cloaking devices hides the user for 30 seconds and does not reveal on attacks. 90 second recharge time.</ItemInfo>
+  <ItemInfo>This advanced reusable stealth cloaking device hides the user for 30 seconds and does not reveal on attacks. 90 second recharge time.</ItemInfo>
   <HudTextureName>tag_item_cloak</HudTextureName>
 
   <Price>60</Price>

@@ -12,9 +12,16 @@
   <ReleaseFiringSound>Combat_M_Shield_Off</ReleaseFiringSound>
   -->
   <AmmoAsPercent>true</AmmoAsPercent>
-  <RefillRate>2</RefillRate>
-  <AmmoBoxQuantity>2000</AmmoBoxQuantity>
+  <RefillRate>1</RefillRate>
+  <AmmoBoxQuantity>10</AmmoBoxQuantity>
   <NextRefillTime>5</NextRefillTime>
+  
+  <Health>10</Health>
+  <!-- <Solid>true</Solid> -->
+  <!-- <Static>true</Static> -->
+  <!-- <BoundingBoxBody>base_box</BoundingBoxBody> -->
+  <CharacterCollide>false</CharacterCollide>
+  <!-- <GibOnDeath>true</GibOnDeath> -->
   
   <DisableAfter>300</DisableAfter>
   <FullShield>true</FullShield>

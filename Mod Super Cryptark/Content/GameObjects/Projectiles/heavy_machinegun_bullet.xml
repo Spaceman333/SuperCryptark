@@ -10,7 +10,7 @@
   <CharacterCollide>true</CharacterCollide>
   <ProjectileSpeed>170</ProjectileSpeed>
   <HitForce>80</HitForce>
-  <DamagePerShot>0.65</DamagePerShot>
+  <DamagePerShot>0.775</DamagePerShot>
   
   <ProjectileDoesKnockback>true</ProjectileDoesKnockback>
   <KnockbackForce>5</KnockbackForce>

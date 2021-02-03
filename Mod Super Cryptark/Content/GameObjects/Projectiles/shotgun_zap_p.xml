@@ -16,8 +16,8 @@
   <LinearDamping>2</LinearDamping>
   <DecalType>Bullet</DecalType>
   
-  <DamagePerShot>0.1</DamagePerShot>
-  <DamageRate>0.1</DamageRate>
+  <DamagePerShot>0.15</DamagePerShot>
+  <DamageRate>0.125</DamageRate>
   <DamageAreaRadius>1</DamageAreaRadius>
   <RemoveAfterStarted>3</RemoveAfterStarted>
   

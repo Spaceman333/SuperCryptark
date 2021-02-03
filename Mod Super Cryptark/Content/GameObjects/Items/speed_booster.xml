@@ -4,7 +4,7 @@
   <Displayname>USE Nitrous</Displayname>
   <ShortDisplayName>NITRO</ShortDisplayName>
   <LoadoutCategory>Item</LoadoutCategory>
-  <ItemInfo>This specialized addon temporarily gives 250% increased speed to suit thrusters on demand. 35 second recharge time, 30 seconds of active time. Reusable.</ItemInfo>
+  <ItemInfo>This specialized addon temporarily gives 50% increased speed to suit thrusters on demand. 35 second recharge time, 30 seconds of active time. Reusable.</ItemInfo>
 
   <Price>10</Price>
   <TechChanceNumber>2</TechChanceNumber>
@@ -24,7 +24,7 @@
     <PowerupEffectClass>
       <Type>MovementSpeedMod</Type>
       <OverwritesSameType>false</OverwritesSameType>
-      <Amount>2.5</Amount>
+      <Amount>1.5</Amount>
       <Duration>30</Duration>
 	  <HudDraw>true</HudDraw>
     </PowerupEffectClass>

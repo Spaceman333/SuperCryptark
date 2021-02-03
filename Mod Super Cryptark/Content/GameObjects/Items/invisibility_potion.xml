@@ -1,10 +1,10 @@
 ﻿<?xml version="1.0"?>
 <GameObjectClass>
   <Type>ITEM</Type>
-  <Displayname>USE Cloak</Displayname>
-  <ShortDisplayName>CLOAK</ShortDisplayName>
+  <Displayname>USE Veil</Displayname>
+  <ShortDisplayName>VEIL</ShortDisplayName>
   <LoadoutCategory>Item</LoadoutCategory>
-  <ItemInfo>When activated with its one-shot power cell, this optical camouflage renders the wearer invisible to most visual and infrared spectrums. 90 second recharge time.</ItemInfo>
+  <ItemInfo>This basic reusable optical camouflage renders the wearer invisible to most visual and infrared spectrums. 90 second recharge time. Can be used in space to avoid AA fire. The veil will turn off if you fire any weapons or activate remote nukes.</ItemInfo>
   <HudTextureName>tag_item_cloak</HudTextureName>
 
   <Price>10</Price>

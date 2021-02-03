@@ -1,0 +1,78 @@
+==============================
+==============================
+Super Cryptark Armageddon
+==============================
+==============================
+-Todo List
+
+
+======
+About:
+======
+Stuff I want to add/change/remove etc.
+
+
+=====
+Todo:
+=====
+AEGIS as weapon based shield
+
+New wave of weapons
+-new lasers
+-reconfiguring old laser weps to new laser system
+-yellow alien plasma weps
+-atleast 1 new weapon per each new projectile
+-mechwarrior list of stuff. Do all of them.
+-fast launch rocket
+-micromissiles (fast, high tracking)
+
+vac/air burst reworks
+
+Reduce LVL 4-5 derelict loadouts too (takes long to load)
+
+Rad Pulse rework (slow RoF high damage.)
+Flare gun rework (low power, more ammo)
+Moth flare (same as old SCA flare gun)
+
+Shield category repopulation with anything defensive/mobility related (defence mortars, proton, eject, burst wave, gas vent, mines, etc).
+
+New CODENAME super weapons. (all categories and cool ones that would be awesome)
++Lance of longinus super javelin
++Graviton beam emitter
+
+
+
+======
+Later:
+======
+Lightscheme system
+-levels BG ambience
+-first do the main variants only
+-then add the rest of the variants in too
+--extra lights turned on
+---all other lightsources reconfigured to match the aesthetics (weapons, fx, booms, etc.)
+
+(NOTE - Before any of this, do weapons/newcontent first. Figuring out if the schemes worked or not happen ingame (time consuming, reload requiring), so you'll get to test both weps and lights, instead of first lights and then weapons later, doubling the time to test.)
+==LIGHTS workflow
+first do all schemes with ambient light between 0.7-0.8, background color between 0.2-0.3
+then make directional lights be subtle with 0.1-0.2 ranges
+then reduce nuke/emp/railcannon blast lights heavily to make them very subtle, also within 0.2 ranges.
+
+New drones & turrets
+(clones of existing ones with different, suitable weapons)
+
+Super Blacksuit MK2 for Cryptark Excavation (final super boss, like zerucheroar from DMX)
+
+Cool off Hell Fortress by reducing content in it. (enemy & turret spawns)
+
+
+
+=====
+Done:
+=====
+Remove "a" in Super Cryptark desc at the end.
+Helix smaller aoe radius on shots
+Basic blaster faster projectile
+Add descriptions to New Enemies (blacksuit, mule, drone, etc)
+Rename cloaks/veils
+

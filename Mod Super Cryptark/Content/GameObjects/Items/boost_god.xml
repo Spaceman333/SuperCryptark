@@ -9,7 +9,7 @@
   <Price>33</Price>
   <TechChanceNumber>2</TechChanceNumber>
   
-  <StartItemQuantity>3</StartItemQuantity>  
+  <StartItemQuantity>3</StartItemQuantity>
   
   <HudTextureName>tag_item_laser</HudTextureName>
   <OnUseSound>Combat_M_Player_Boost</OnUseSound>
@@ -21,13 +21,13 @@
     <PowerupEffectClass>
       <Type>MovementSpeedMod</Type>
       <OverwritesSameType>false</OverwritesSameType>
-      <Amount>2.0</Amount>
+      <Amount>1.5</Amount>
       <Duration>180</Duration>
     </PowerupEffectClass>
     <PowerupEffectClass>
       <Type>RateOfFireMod</Type>
       <OverwritesSameType>false</OverwritesSameType>
-      <Amount>-2.0</Amount>
+      <Amount>-1.5</Amount>
       <Duration>180</Duration>
 	  <HudDraw>false</HudDraw>
     </PowerupEffectClass>

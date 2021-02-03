@@ -2,7 +2,7 @@
 <ShipClass xmlns:xsi="http://www.w3.org/2001/XMLSchema-instance" xmlns:xsd="http://www.w3.org/2001/XMLSchema">
 
   <Name>SUPER CRYPTARK</Name>
-  <Description>This is it, the Cryptark, one of the gigantic flagships of the alien fleet that guards the unique xenotechnology we’re getting paid to recover. Expect extreme resistance both on the inside and outside. Spare no expense on the equipment and weapons, you'll need it all and then some to take on this monster. Get ready for a TOTAL ARMAGEDDON!</Description>
+  <Description>This is it, the Cryptark, one of the gigantic flagships of the alien fleet that guards the unique xenotechnology we’re getting paid to recover. Expect extreme resistance both on the inside and outside. Spare no expense on the equipment and weapons, you'll need it all and then some to take on this monster. Get ready for TOTAL ARMAGEDDON!</Description>
 
   <LockDoorsCloseToCore>8</LockDoorsCloseToCore>
   <DoorLockPercentage>0.5</DoorLockPercentage>

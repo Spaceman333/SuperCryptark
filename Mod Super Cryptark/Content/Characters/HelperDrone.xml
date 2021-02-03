@@ -7,6 +7,7 @@
   <Health>10</Health>
   <Type>HelperDrone</Type>
   <DisplayName>Boomslang Drone</DisplayName>
+  <Description>Friendly fragile harasser drone equipped with a light blaster.</Description>
   
   <Inertia>35</Inertia>
   <InertiaNoAirControlMultiply>0.1</InertiaNoAirControlMultiply>

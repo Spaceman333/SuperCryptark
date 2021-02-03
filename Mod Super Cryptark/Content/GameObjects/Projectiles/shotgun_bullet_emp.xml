@@ -2,7 +2,7 @@
 <GameObjectClass>
   <BaseFile>Projectiles\shotgun_bullet</BaseFile>
   <StunTime>9</StunTime>
-  <DamagePerShot>0.25</DamagePerShot>
+  <DamagePerShot>0.3</DamagePerShot>
   <HitForce>250</HitForce>
 
   <OnFireProjectileLight>

@@ -14,7 +14,7 @@
   <StunTime>3</StunTime>
   <ProjectileSpeed>100</ProjectileSpeed>
   <LinearDamping>0.3</LinearDamping>
-  <DamagePerShot>0.05</DamagePerShot>
+  <DamagePerShot>0.075</DamagePerShot>
   <ProjKeepVelocity>true</ProjKeepVelocity>
   <ProjectileHitDebris>true</ProjectileHitDebris>
   <OnFireProjectileLight>

@@ -39,7 +39,7 @@
   <PowerupEffects>
     <PowerupEffectClass>
       <Type>Marked</Type>
-      <Duration>3</Duration>
+      <Duration>5</Duration>
     </PowerupEffectClass>
   </PowerupEffects>
 

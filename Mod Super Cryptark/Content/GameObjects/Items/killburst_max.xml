@@ -6,7 +6,7 @@
   <ItemInfo>A single use consumable device that sends away a huge lethal killburst, instantly damaging opponents and debris in the surrounding area, potentially killing a large area of enemies at once around you. Not effective against systems. 1 use.</ItemInfo>
   <HudTextureName>tag_item_knockback</HudTextureName>
 
-  <Price>0</Price>
+  <Price>20</Price>
   <TechChanceNumber>1</TechChanceNumber>
   
   <StartItemQuantity>1</StartItemQuantity>

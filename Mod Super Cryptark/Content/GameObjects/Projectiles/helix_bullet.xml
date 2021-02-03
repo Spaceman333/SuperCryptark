@@ -16,11 +16,11 @@
   <ProjectileHitDebris>true</ProjectileHitDebris>
   <HitForce>3</HitForce>
   <Scale>0.8</Scale>
-  <DamagePerShot>0.135</DamagePerShot>
+  <DamagePerShot>0.25</DamagePerShot>
   <ExplodeOnRemove>true</ExplodeOnRemove>
 <!--   <ExplodeForce>0</ExplodeForce> -->
-  <ExplodeSize>4</ExplodeSize>
-  <ExplodeDamage>0.1</ExplodeDamage>
+  <ExplodeSize>1</ExplodeSize>
+  <ExplodeDamage>0.15</ExplodeDamage>
   <OnFireProjectileLight>
     <Color>
       <X>.75</X>

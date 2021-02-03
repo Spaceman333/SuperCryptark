@@ -5,6 +5,7 @@
   <Health>10</Health>
   <Type>Player</Type>
   <DisplayName>Player</DisplayName>
+  <Description>Veritable badass here to kick some ass.</Description>
   
   <Inertia>10</Inertia>
   <InertiaNoAirControlMultiply>0.1</InertiaNoAirControlMultiply>

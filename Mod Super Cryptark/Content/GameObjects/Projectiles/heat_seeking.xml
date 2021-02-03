@@ -2,7 +2,7 @@
 <GameObjectClass>
   <BaseFile>Projectiles\machinegun_bullet</BaseFile>
   <ProjectileSpeed>200</ProjectileSpeed>
-  <DamagePerShot>0.5</DamagePerShot>
+  <DamagePerShot>0.55</DamagePerShot>
   <ProjectileFollowTarget>true</ProjectileFollowTarget>
   <ProjectileTargetSeekRange>50</ProjectileTargetSeekRange>
   <ProjectileFollowTargetMaxRotate>0.25</ProjectileFollowTargetMaxRotate>

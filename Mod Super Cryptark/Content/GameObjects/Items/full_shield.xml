@@ -1,22 +1,28 @@
-﻿<?xml version="1.0"?>
-<GameObjectClass>
-  <Type>ITEM</Type>
-  <Displayname>CON Aegis Shell</Displayname>
-  <ShortDisplayName>AEGIS</ShortDisplayName>
-  <LoadoutCategory>Item</LoadoutCategory>
-  <ItemInfo>This consumable emergency energy shield has a one-shot power cell, but will protect the wearer from all directions for 5 minutes as well as allow their own weapons to fire through it. May fail randomly.</ItemInfo>
-  <StartItemQuantity>1</StartItemQuantity>
+﻿<!-- <?xml version="1.0"?> -->
+<!-- <GameObjectClass> -->
+  <!-- <Type>ITEM</Type> -->
+  <!-- <Displayname>CON Aegis Shell</Displayname> -->
+  <!-- <ShortDisplayName>AEGIS</ShortDisplayName> -->
+  <!-- <LoadoutCategory>Item</LoadoutCategory> -->
+  <!-- <ItemInfo>This consumable emergency energy shield has a one-shot power cell, but will protect the wearer from all directions for 5 minutes as well as allow their own weapons to fire through it. May fail randomly.</ItemInfo> -->
+  <!-- <StartItemQuantity>1</StartItemQuantity> -->
 
-  <Price>2</Price>
+  <!-- <Price>2</Price> -->
   
-  <HudTextureName>tag_item_shield</HudTextureName>
-  <ItemType>Shield</ItemType>
+  <!-- <StartItemQuantity>20</StartItemQuantity> -->
+  <!-- <RateOfUse>1</RateOfUse> -->
+  <!-- <OnUseSound>Cloack_Activate</OnUseSound> -->
+  <!-- <ParticleEffect>_new_explosion_heal</ParticleEffect> -->
+  <!-- <UseInSpace>true</UseInSpace> -->
+  
+  <!-- <HudTextureName>tag_item_shield</HudTextureName> -->
+  <!-- <ItemType>Shield</ItemType> -->
 
-  <CustomObjectSpawn>Items\full_shield_object</CustomObjectSpawn>
-  <PowerupEffects>
-    <PowerupEffectClass>
-      <Type>None</Type>
-      <Duration>300</Duration>
-    </PowerupEffectClass>
-  </PowerupEffects>
-</GameObjectClass>
+  <!-- <CustomObjectSpawn>Items\full_shield_object</CustomObjectSpawn> -->
+  <!-- <PowerupEffects> -->
+    <!-- <PowerupEffectClass> -->
+      <!-- <Type>None</Type> -->
+      <!-- <Duration>300</Duration> -->
+    <!-- </PowerupEffectClass> -->
+  <!-- </PowerupEffects> -->
+<!-- </GameObjectClass> -->

@@ -9,7 +9,7 @@
   <CharacterCollide>true</CharacterCollide>
   <ProjectileSpeed>150</ProjectileSpeed>
   <HitForce>50</HitForce>
-  <DamagePerShot>0.18</DamagePerShot>
+  <DamagePerShot>0.24</DamagePerShot>
   
   <ProjectileRicochetCount>1</ProjectileRicochetCount>
   <Restitution>0.8</Restitution>

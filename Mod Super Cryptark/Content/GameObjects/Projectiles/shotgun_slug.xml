@@ -14,7 +14,7 @@
   <ProjectileRange>75</ProjectileRange>
   <ProjectileSpeed>150</ProjectileSpeed>
   <LinearDamping>1.75</LinearDamping>
-  <DamagePerShot>2</DamagePerShot>
+  <DamagePerShot>2.5</DamagePerShot>
   <ProjKeepVelocity>false</ProjKeepVelocity>
   <ProjectileHitDebris>true</ProjectileHitDebris>
   <RemoveAfterStarted>1</RemoveAfterStarted>

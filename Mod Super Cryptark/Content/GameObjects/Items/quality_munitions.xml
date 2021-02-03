@@ -4,7 +4,7 @@
   <Displayname>UPG Damage Plus</Displayname>
   <ShortDisplayName>DAMGE</ShortDisplayName>
   <LoadoutCategory>Item</LoadoutCategory>
-  <ItemInfo>All equipped weapons have their damage power permanently increased by 25%. Passive item.</ItemInfo>
+  <ItemInfo>All equipped weapons have their damage power permanently increased by 50%. Passive item.</ItemInfo>
   <StartItemQuantity>1</StartItemQuantity>
 
   <Price>5</Price>
@@ -16,7 +16,7 @@
     <PowerupEffectClass>
       <Type>DamageMod</Type>
       <OverwritesSameType>false</OverwritesSameType>
-      <Amount>0.25</Amount>
+      <Amount>0.5</Amount>
     </PowerupEffectClass>
   </PowerupEffects>
 </GameObjectClass>

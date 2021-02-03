@@ -4,7 +4,8 @@
   <BaseFile>Pirate</BaseFile>
   <SpineAnimation>suit_boxy</SpineAnimation>
 
-  <DisplayName>Salamander</DisplayName>
+  <DisplayName>PDX-40</DisplayName>
+  <Description>PDX-40 exosuit armed with burst blaster. May also use a shield, melee or plasma bomb.</Description>
   
   <Weapon1>EnemyWeapons\blaster_burst</Weapon1>
   <Weapon2>EnemyWeapons\shield_e</Weapon2>

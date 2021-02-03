@@ -12,7 +12,7 @@
   <ProjectileMinRandSpeed>75</ProjectileMinRandSpeed>
   <ProjectileMaxRandSpeed>150</ProjectileMaxRandSpeed>
   <HitForce>30</HitForce>
-  <DamagePerShot>0.12</DamagePerShot>
+  <DamagePerShot>0.175</DamagePerShot>
   <ProjectileRange>60</ProjectileRange>
   <LinearDamping>2</LinearDamping>
   <DecalType>Bullet</DecalType>

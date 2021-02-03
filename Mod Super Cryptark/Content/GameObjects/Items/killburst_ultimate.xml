@@ -6,7 +6,7 @@
   <ItemInfo>A single use consumable device that sends away a gigantic ship swallowing lethal killburst, instantly damaging opponents and debris in the surrounding area, effectively killing most enemies on the map. Not effective against systems. 1 use.</ItemInfo>
   <HudTextureName>tag_item_knockback</HudTextureName>
 
-  <Price>0</Price>
+  <Price>100</Price>
   <TechChanceNumber>1</TechChanceNumber>
   
   <StartItemQuantity>1</StartItemQuantity>

@@ -16,7 +16,7 @@
   <CharacterCollide>true</CharacterCollide>
   <ProjectileSpeed>250</ProjectileSpeed>
   <HitForce>100</HitForce>
-  <DamagePerShot>3.5</DamagePerShot>
+  <DamagePerShot>3.75</DamagePerShot>
   <StunTime>1.5</StunTime>
   <DecalType>Bullet</DecalType>
   <ProjectilePiercing>true</ProjectilePiercing>

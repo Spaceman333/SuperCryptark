@@ -6,7 +6,7 @@
   <ProjectileMinRandSpeed>100</ProjectileMinRandSpeed>
   <ProjectileMaxRandSpeed>125</ProjectileMaxRandSpeed>
   <LinearDamping>3</LinearDamping>
-  <DamagePerShot>0.25</DamagePerShot>
+  <DamagePerShot>0.5</DamagePerShot>
   <ProjectilePiercing>true</ProjectilePiercing>
   <ProjectileRicochetCount>2</ProjectileRicochetCount>
   <Restitution>1</Restitution>

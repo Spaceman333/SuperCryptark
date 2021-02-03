@@ -7,6 +7,7 @@
   <Health>15</Health>
   <Type>HelperSentry</Type>
   <DisplayName>Canister Turret</DisplayName>
+  <Description>Player deployed armed turret drone. Can be picked up.</Description>
 
   <Width>5</Width>
   <Height>8</Height>

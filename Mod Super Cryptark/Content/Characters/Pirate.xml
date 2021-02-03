@@ -8,7 +8,7 @@
   <DisplayName>Gunhead</DisplayName>
 
   <SidebarTextureName>pirate</SidebarTextureName>
-  <Description></Description>
+  <Description>Gunhead exosuit armed with a machinegun. May also use a shield, melee or grenades.</Description>
 
   <Width>9</Width>
   <Height>10</Height>

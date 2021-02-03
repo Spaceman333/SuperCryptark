@@ -12,7 +12,7 @@
   <ProjectileFlipOddSine>true</ProjectileFlipOddSine>
   <ProjectileSpeed>65</ProjectileSpeed>
   <LinearDamping>4</LinearDamping>
-  <DamagePerShot>0.3</DamagePerShot>
+  <DamagePerShot>0.5</DamagePerShot>
   <ProjectileHitDebris>true</ProjectileHitDebris>
   <OnFireProjectileLight>
     <Color>

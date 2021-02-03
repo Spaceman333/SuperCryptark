@@ -11,7 +11,7 @@
   <FakeProjectile>true</FakeProjectile>
   
   <HitForce>210</HitForce>
-  <DamagePerShot>1.65</DamagePerShot>
+  <DamagePerShot>2</DamagePerShot>
   
   <ProjectileRicochetCount>6</ProjectileRicochetCount>
   <Restitution>0.7</Restitution>

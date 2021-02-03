@@ -10,7 +10,7 @@
   <CharacterCollide>true</CharacterCollide>
   <ProjectileSpeed>300</ProjectileSpeed>
   <HitForce>100</HitForce>
-  <DamagePerShot>1.5</DamagePerShot>
+  <DamagePerShot>1.25</DamagePerShot>
   
   <HealAmount>1</HealAmount>
   <MarkTarget>true</MarkTarget>

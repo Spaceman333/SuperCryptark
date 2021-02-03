@@ -7,7 +7,7 @@
   <FakeProjectile>true</FakeProjectile>
   
   <CharacterCollide>true</CharacterCollide>
-  <ProjectileSpeed>100</ProjectileSpeed>
+  <ProjectileSpeed>150</ProjectileSpeed>
   <HitForce>20</HitForce>
   <DamagePerShot>0.34</DamagePerShot>
   <ProjKeepVelocity>true</ProjKeepVelocity>

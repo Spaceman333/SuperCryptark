@@ -1,7 +1,7 @@
 ﻿<?xml version="1.0" ?>
 <GameObjectClass>
   <BaseFile>Projectiles\zipgun_bullet</BaseFile>
-  <DamagePerShot>0.1</DamagePerShot>
+  <DamagePerShot>0.15</DamagePerShot>
   <ProjectileFollowTarget>true</ProjectileFollowTarget>
   <ProjectileTargetSeekRange>35</ProjectileTargetSeekRange>
   <ProjectileFollowTargetMaxRotate>0.4</ProjectileFollowTargetMaxRotate>

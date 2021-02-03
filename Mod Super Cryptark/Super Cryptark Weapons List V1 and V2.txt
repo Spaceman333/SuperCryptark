@@ -101,7 +101,7 @@ zipgun_smart
 
 Cryptark Weapon Listing V2
 
-T2 bfg
+T3 bfg
 T1 blaster
 T1 blasterbounce
 T1 bomb_cluster
@@ -137,7 +137,7 @@ T3 gauntlet_excalibur
 T1 gauntlet_spinner
 T1 gravity_gun
 T1 grenade
-T1 grenade_impact (MORTAR)
+T1 grenade_impact (DEF MORTAR)
 T1 grenade_slime (SLIMO)
 T1 grenade_vortex
 T2 heat_seeking_gun
@@ -159,7 +159,7 @@ T1 prism_laser
 T1 protonbeam
 T2 pulsar
 T2 radiator
-T2 railgun
+T3 railgun
 T2 railgun_auto
 T1 recycler
 T1 ricochet_gun

@@ -1,7 +1,7 @@
 ﻿<?xml version="1.0" ?>
 <GameObjectClass>
   <BaseFile>Projectiles\zipgun_microb</BaseFile>
-  <DamagePerShot>0.1</DamagePerShot>
+  <DamagePerShot>0.125</DamagePerShot>
   <ProjectileFollowTarget>true</ProjectileFollowTarget>
   <ProjectileTargetSeekRange>16</ProjectileTargetSeekRange>
   <ProjectileFollowTargetMaxRotate>0.6</ProjectileFollowTargetMaxRotate>

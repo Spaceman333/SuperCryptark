@@ -5,7 +5,7 @@
   <SpineAnimation>mule</SpineAnimation>
   <MinimapTextureName>map-mine</MinimapTextureName>
   <SidebarTextureName>hazard_mine</SidebarTextureName>
-  <MinimapDescription>Mule salvage skiff.</MinimapDescription>
+  <MinimapDescription>Salvage vessel armed with a heavy burst blaster and missile pod. Will explode as a small nuke if destroyed.</MinimapDescription>
 
   <Static>true</Static>
   <Solid>true</Solid>

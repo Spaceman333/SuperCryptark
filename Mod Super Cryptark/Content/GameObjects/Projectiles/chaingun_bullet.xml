@@ -9,7 +9,7 @@
   <CharacterCollide>true</CharacterCollide>
   <ProjectileSpeed>150</ProjectileSpeed>
   <HitForce>100</HitForce>
-  <DamagePerShot>0.5</DamagePerShot>
+  <DamagePerShot>0.65</DamagePerShot>
 
   <DecalType>Bullet</DecalType>
   <ProjKeepVelocity>true</ProjKeepVelocity>

@@ -3,13 +3,13 @@
   <Type>ITEM</Type>
   <Displayname>AWLES Installation</Displayname>
   <ShortDisplayName>AWLES</ShortDisplayName>
-  <LoadoutCategory>Item</LoadoutCategory>
+  <!-- <LoadoutCategory>Item</LoadoutCategory> -->
   <CampaignModeOnly>true</CampaignModeOnly>
-  <ItemInfo>This is the Advanced Weapon Laser Enhancement System. It provides a low-power targeting laser aids in long range engagements with a visual beam. Additionally, it also increases all equipped weapon's accuracy and damage by 30%. Passive item.</ItemInfo>
+  <ItemInfo>Advanced Weapon Laser Enhancement System. It provides a low-power targeting laser aids in long range engagements with a visual beam. Additionally, it also increases all equipped weapon's accuracy and damage by 30%. Passive item.</ItemInfo>
   <StartItemQuantity>1</StartItemQuantity>
 
   <Price>4</Price>
-  <TechChanceNumber>2</TechChanceNumber>
+  <!-- <TechChanceNumber>2</TechChanceNumber> -->
   
   <HudTextureName>tag_item_laser</HudTextureName>
   <PassiveItem>true</PassiveItem>
@@ -19,7 +19,7 @@
       <Type>DamageMod</Type>
       <OverwritesSameType>false</OverwritesSameType>
       <Amount>0.3</Amount>
-	  <HudDraw>true</HudDraw>
+	  <HudDraw>false</HudDraw>
     </PowerupEffectClass>
     <PowerupEffectClass>
       <Type>PrecisionMod</Type>

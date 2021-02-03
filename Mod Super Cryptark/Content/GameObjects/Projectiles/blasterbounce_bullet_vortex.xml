@@ -5,7 +5,7 @@
   <ProjectileSpeed>160</ProjectileSpeed>
   <HitForce>20</HitForce>
   <StunTime>5</StunTime>
-  <DamagePerShot>0.3</DamagePerShot>  
+  <DamagePerShot>0.35</DamagePerShot>  
   <NoOffscreen>true</NoOffscreen>
   <Restitution>1</Restitution>
   <ProjectileRicochetCount>12</ProjectileRicochetCount>

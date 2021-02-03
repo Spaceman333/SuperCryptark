@@ -13,7 +13,7 @@
   <ProjectilesPerShot>1</ProjectilesPerShot>
   <ProjectilePrecision>1</ProjectilePrecision>
   <ProjectileClassfile>Projectiles\recycler_bullet</ProjectileClassfile>
-  <LoadoutCategory>Energy</LoadoutCategory>
+  <LoadoutCategory>Shields</LoadoutCategory>
   <AmmoAsPercent>true</AmmoAsPercent>
   <MuzzleFlashEffect>_new_muzzle_blaster</MuzzleFlashEffect>
   <NoMuzzleFlashRotation>true</NoMuzzleFlashRotation>

@@ -7,7 +7,7 @@
   <CharacterCollide>true</CharacterCollide>
   <ProjectileSpeed>350</ProjectileSpeed>
   <HitForce>300</HitForce>
-  <DamagePerShot>2</DamagePerShot>
+  <DamagePerShot>3</DamagePerShot>
   <ParticleEffect>_new_trail_bullet</ParticleEffect>
   <RotateParticleEffect>true</RotateParticleEffect>
   <DecalType>Bullet</DecalType>
@@ -15,7 +15,7 @@
   <ExplodeForce>1</ExplodeForce>
   <ExplodeSize>8</ExplodeSize>
   <ExplosionParticleEffect>_new_explosion_small</ExplosionParticleEffect>
-  <ExplodeDamage>1</ExplodeDamage>
+  <ExplodeDamage>1.5</ExplodeDamage>
   <ExplosionSound>Combat_M_AutoCannon_Blast</ExplosionSound>
   <OnFireProjectileLight>
     <Type>Point</Type>

@@ -6,7 +6,7 @@
   <ItemInfo>A single use consumable device that sends away a lethal killburst, instantly damaging opponents and debris in the surrounding area. Not effective against systems. 9 uses.</ItemInfo>
   <HudTextureName>tag_item_knockback</HudTextureName>
 
-  <Price>0</Price>
+  <Price>8</Price>
   <TechChanceNumber>1</TechChanceNumber>
   
   <StartItemQuantity>9</StartItemQuantity>

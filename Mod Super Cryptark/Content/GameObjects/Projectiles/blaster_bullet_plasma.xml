@@ -9,7 +9,7 @@
   <CharacterCollide>true</CharacterCollide>
   <ProjectileSpeed>130</ProjectileSpeed>
   <HitForce>40</HitForce>
-  <DamagePerShot>0.52</DamagePerShot>
+  <DamagePerShot>0.75</DamagePerShot>
   <ProjKeepVelocity>true</ProjKeepVelocity>
   <ProjectileHitDebris>true</ProjectileHitDebris>
   <RemoveAfterStarted>4</RemoveAfterStarted>

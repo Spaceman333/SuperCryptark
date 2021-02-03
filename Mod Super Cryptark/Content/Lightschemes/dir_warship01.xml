@@ -1,14 +1,14 @@
 ﻿<ClassLighting>
   <AmbientColor>
-    <X>0.64</X>
-    <Y>0.67</Y>
-    <Z>0.81</Z>
+    <X>0.7</X>
+    <Y>0.7</Y>
+    <Z>0.8</Z>
     <W>1</W>
   </AmbientColor>
   <BackgroundColor>
-    <X>0.01</X>
-    <Y>0.04</Y>
-    <Z>0.28</Z>
+    <X>0.2</X>
+    <Y>0.2</Y>
+    <Z>0.3</Z>
     <W>1</W>
   </BackgroundColor>
   <DirectionalLights>
@@ -20,9 +20,9 @@
         <Z>0</Z>
       </Position>
       <Color>
-        <X>0.07</X>
-        <Y>0.21</Y>
-        <Z>0.42</Z>
+        <X>0.1</X>
+        <Y>0.1</Y>
+        <Z>0.2</Z>
         <W>1</W>
       </Color>
       <SpecularColor>

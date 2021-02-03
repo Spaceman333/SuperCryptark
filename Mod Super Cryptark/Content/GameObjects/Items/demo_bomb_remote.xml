@@ -6,7 +6,7 @@
   <ItemInfo>This miniaturized nuclear explosive must be manually armed but can be remotely detonated at any time, immolating anything caught within the blast-zone. Medium size and 3 uses.</ItemInfo>
   <HudTextureName>tag_item_nuke</HudTextureName>
 
-  <Price>10</Price>
+  <Price>15</Price>
   <TechChanceNumber>2</TechChanceNumber>
   
   <StartItemQuantity>3</StartItemQuantity>

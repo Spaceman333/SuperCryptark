@@ -5,6 +5,7 @@
   <SpineAnimation>suit_enforcer</SpineAnimation>
 
   <DisplayName>Enforcer</DisplayName>
+  <Description>Enforcer exosuit armed with a shotgun. May also use a shield, bounce orb blaster and viper blaster.</Description>
 
   <Weapon1>PirateWeapons\shotgun</Weapon1>
   <Weapon2>EnemyWeapons\shield_e</Weapon2>

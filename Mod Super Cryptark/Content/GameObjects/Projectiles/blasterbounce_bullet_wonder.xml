@@ -6,7 +6,7 @@
   <HitForce>32000</HitForce>
   <ProjectilePiercing>true</ProjectilePiercing>
   <StunTime>6</StunTime>
-  <DamagePerShot>1</DamagePerShot>  
+  <DamagePerShot>1.1</DamagePerShot>  
   <NoOffscreen>true</NoOffscreen>
   <Restitution>1</Restitution>
   <ProjectileRicochetCount>12</ProjectileRicochetCount>

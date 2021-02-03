@@ -3,7 +3,7 @@
   <BaseFile>Projectiles\blaster_bullet</BaseFile>
   <StunTime>45</StunTime>
   <ProjectileSpeed>220</ProjectileSpeed>
-  <DamagePerShot>0.2</DamagePerShot>
+  <DamagePerShot>0.25</DamagePerShot>
   <Scale>2.5</Scale>
   <HitForce>300</HitForce>
   <OnFireProjectileLight>
