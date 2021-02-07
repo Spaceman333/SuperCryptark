@@ -7,7 +7,7 @@
   <ArtifactCost>2</ArtifactCost>
 
   <MaxHull>14</MaxHull>
-  <StartHull>12</StartHull>
+  <StartHull>14</StartHull>
   
   <ArmMovementScaleX>0.5</ArmMovementScaleX>
   <ArmMovementScaleY>0.4</ArmMovementScaleY>
@@ -18,7 +18,7 @@
 -EXTRA BAGGAGE: 6 item slots..
 -CIVILIAN CHASSIS: Only 2 weapon slots.
 -KNOCKBACK PULSE: Push away incoming enemies and projectiles.
--QUALITY AMMO (inbuilt): 20% extra damage from weapons.</Description>
+-QUALITY AMMO (inbuilt): 50% extra damage from weapons.</Description>
 
   <SkinAtlases>
     <SkinAtlas>
@@ -40,26 +40,26 @@
   </SkinAtlases>
 
   <StartLoadOut>
-    <string>Weapons\heavy_assault_machinegun</string>
+    <string>Weapons\cycle_rifle</string>
     <string>Items\none</string>
-    <string>Weapons\grenade_impact</string>
+    <string>Weapons\boostram</string>
     <string>Items\none</string>
   </StartLoadOut>
 
   <StartLoadOutAmounts>
     <int>3</int>
     <int>1</int>
-    <int>3</int>
+    <int>4</int>
     <int>1</int>
   </StartLoadOutAmounts>
   
   <StartItemLoadOut>
-    <string>Items\healthpack</string>
-    <string>Items\healthpack</string>
-    <string>Items\helperdrone</string>
-    <string>Items\none_item</string>
-    <string>Items\demo_bomb_remote</string>
-    <string>Items\demo_bomb_remote</string>
+    <string>Items\healthpack_smallpack5</string>
+    <string>Items\hazard_coat9</string>
+    <string>Items\killburst_p9</string>
+    <string>Items\boost_spd</string>
+    <string>Items\demo_bomb_remote_compact</string>
+    <string>Items\demo_bomb_remote_huge</string>
   </StartItemLoadOut>
 
   <StartLoadOutBase>

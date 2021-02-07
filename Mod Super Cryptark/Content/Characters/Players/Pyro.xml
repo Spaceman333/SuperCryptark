@@ -7,7 +7,7 @@
   <ArtifactCost>2</ArtifactCost>
 
   <MaxHull>18</MaxHull>
-  <StartHull>16</StartHull>
+  <StartHull>18</StartHull>
   
   <ArmMovementScaleX>0.5</ArmMovementScaleX>
   <ArmMovementScaleY>0.4</ArmMovementScaleY>
@@ -40,22 +40,22 @@
   <StartLoadOut>
     <string>Weapons\flame_thrower</string>
     <string>Weapons\gauntlet</string>
-    <string>Weapons\shield</string>
+    <string>Weapons\flame_thrower_old</string>
     <string>Weapons\bomb_proximity</string>
   </StartLoadOut>
   
   <StartLoadOutAmounts>
     <int>3</int>
     <int>1</int>
-    <int>1</int>
+    <int>3</int>
     <int>3</int>
   </StartLoadOutAmounts>
 
   <StartItemLoadOut>
-    <string>Items\healthpack_small</string>
-    <string>Items\healthpack_small</string>
-    <string>Items\none_item</string>
-    <string>Items\none_item</string>
+    <string>Items\healthpack_smallpack3</string>
+    <string>Items\killburst_p3</string>
+    <string>Items\boost_pal</string>
+    <string>Items\supply_ammo1</string>
   </StartItemLoadOut>
   
   <StartLoadOutBase>

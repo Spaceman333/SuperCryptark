@@ -10,7 +10,7 @@
   <ArmMovementScaleY>0.4</ArmMovementScaleY>
 
   <MaxHull>15</MaxHull>
-  <StartHull>11</StartHull>
+  <StartHull>15</StartHull>
 
   <Description>
     This slim infiltration suit has found underground success with warring corporations for its clandestine abilities. Though not armoured for prolonged combat, it is equipped with advanced stealth gadgets and a short ranged teleporter, allowing canny pilots to slip through weak spots in defences.
@@ -39,16 +39,16 @@
   
   <StartLoadOutAmounts>
     <int>3</int>
-    <int>1</int>
+    <int>3</int>
     <int>1</int>
     <int>3</int>
   </StartLoadOutAmounts>
 
   <StartLoadOut>
     <string>Weapons\hushpuppy</string>
-    <string>Weapons\saw</string>
+    <string>Weapons\shotgun_eject</string>
     <string>Weapons\shield_reflect</string>
-    <string>Weapons\bomb_remote</string>
+    <string>Weapons\shotgun_doom</string>
   </StartLoadOut>
 
   <StartLoadOutAmounts>
@@ -59,10 +59,10 @@
   </StartLoadOutAmounts>
 
   <StartItemLoadOut>
-    <string>Items\healthpack_small</string>
-    <string>Items\healthpack_small</string>
+    <string>Items\healthpack_micpack9</string>
+    <string>Items\hazard_coat3</string>
     <string>Items\invisibility_potion</string>
-    <string>Items\none_item</string>
+    <string>Items\demo_bomb_huge</string>
   </StartItemLoadOut>
   
   <StartLoadOutBase>

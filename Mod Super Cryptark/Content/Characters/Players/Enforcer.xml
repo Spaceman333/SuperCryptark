@@ -7,7 +7,7 @@
   <ArtifactCost>2</ArtifactCost>
 
   <MaxHull>20</MaxHull>
-  <StartHull>18</StartHull>
+  <StartHull>20</StartHull>
   
   <ArmMovementScaleX>0.5</ArmMovementScaleX>
   <ArmMovementScaleY>0.4</ArmMovementScaleY>
@@ -37,24 +37,24 @@
   </SkinAtlases>
 
   <StartLoadOut>
-    <string>Weapons\shotgun_zap</string>
-    <string>Weapons\gravity_gun</string>
-    <string>Weapons\machinegun_assault</string>
+    <string>Weapons\shotgun_auto</string>
     <string>Weapons\bomb_sticky</string>
+    <string>Abilties\translocator_gun_ultra</string>
+    <string>Weapons\bfg</string>
   </StartLoadOut>
 
   <StartLoadOutAmounts>
     <int>3</int>
-    <int>1</int>
     <int>3</int>
+    <int>1</int>
     <int>3</int>
   </StartLoadOutAmounts>
 
   <StartItemLoadOut>
-    <string>Items\healthpack_large</string>
+    <string>Items\healthpack_mega</string>
+    <string>Items\healthpack_mega</string>
     <string>Items\emp_bomb</string>
-    <string>Items\none_item</string>
-    <string>Items\none_item</string>
+    <string>Items\boost_dam</string>
   </StartItemLoadOut>
 
   <StartLoadOutBase>

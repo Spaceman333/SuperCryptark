@@ -42,6 +42,7 @@ New CODENAME super weapons. (all categories and cool ones that would be awesome)
 
 
 
+
 ======
 Later:
 ======
@@ -75,4 +76,6 @@ Helix smaller aoe radius on shots
 Basic blaster faster projectile
 Add descriptions to New Enemies (blacksuit, mule, drone, etc)
 Rename cloaks/veils
-
+Starter char loadouts upgrade:
+1. Give one strong T3 wep
+2. Give one movement enhancer/transporter (wep/item)

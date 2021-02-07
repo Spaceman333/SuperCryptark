@@ -27,10 +27,10 @@
   <InaccuracyAddition>-0.15</InaccuracyAddition>
   <InaccuracyAdditionLimit>-2.2</InaccuracyAdditionLimit>
   <InaccuracyAdditionCoolDown>0.3</InaccuracyAdditionCoolDown>
-  <AimSpeedModifier>-3</AimSpeedModifier>
-  <MinAimSpeedFactor>0.11</MinAimSpeedFactor>
-  <ShakeCameraOnFire>0.05</ShakeCameraOnFire>
-  <ShakeCameraAddition>0.18</ShakeCameraAddition>
+  <!-- <AimSpeedModifier>-3</AimSpeedModifier> -->
+  <!-- <MinAimSpeedFactor>0.11</MinAimSpeedFactor> -->
+  <ShakeCameraOnFire>0.03</ShakeCameraOnFire>
+  <ShakeCameraAddition>0.11</ShakeCameraAddition>
   <ShakeCameraAdditionLimit>1</ShakeCameraAdditionLimit>
   <ShakeCameraAdditionCoolDown>0.3</ShakeCameraAdditionCoolDown>
   <CasingClassfile>Weapons\machinegun_casing</CasingClassfile>

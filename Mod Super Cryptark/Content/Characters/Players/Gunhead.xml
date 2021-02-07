@@ -6,7 +6,7 @@
   <PlayerType>Gunhead</PlayerType>
 
   <MaxHull>17</MaxHull>
-  <StartHull>14</StartHull>
+  <StartHull>17</StartHull>
   
   <Description>
     This dependable military combat exosuit has served with distinction for decades. Though replaced by newer models, the Gunhead is still favoured by mercenary and pirate organizations for its modular components and large catalogue of aftermarket parts.
@@ -36,7 +36,7 @@
     <string>Weapons\machinegun</string>
     <string>Weapons\chainsaw</string>
     <string>Weapons\shield</string>
-    <string>Weapons\grenade</string>
+    <string>Weapons\cannon_nuke</string>
   </StartLoadOut>
   
   <StartLoadOutAmounts>
@@ -49,8 +49,8 @@
   <StartItemLoadOut>
     <string>Items\healthpack</string>
     <string>Items\healthpack</string>
-    <string>Items\none_item</string>
-    <string>Items\none_item</string>
+    <string>Items\boost_rof</string>
+    <string>Items\warp_vortex</string>
   </StartItemLoadOut>
 
   <StartLoadOutBase>

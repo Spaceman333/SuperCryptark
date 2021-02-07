@@ -31,10 +31,10 @@
   <AttackSound>saw</AttackSound>
   <AttackAnimation>lunge</AttackAnimation>
   <MeleeHitScale>3</MeleeHitScale>
-  <DamagePerShot>5</DamagePerShot>
+  <DamagePerShot>9</DamagePerShot>
   <CameraShakeOnHit>1.5</CameraShakeOnHit>
   <HitForce>10000</HitForce>
-  <HitNoiseRadius>25</HitNoiseRadius>
+  <HitNoiseRadius>20</HitNoiseRadius>
   <Melee>true</Melee>
   <InvulnerableDuringStrike>true</InvulnerableDuringStrike>
   <SpineWeaponHeadTextureName>gunhead\wephead_spike01</SpineWeaponHeadTextureName>

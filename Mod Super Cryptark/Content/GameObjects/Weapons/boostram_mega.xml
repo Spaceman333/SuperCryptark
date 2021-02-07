@@ -1,9 +1,9 @@
 <?xml version="1.0"?>
 <GameObjectClass>
   <Type>WEAPON</Type>
-  <Displayname>T3-CN Breaker</Displayname>
+  <Displayname>T3-CN God Breaker</Displayname>
   <ShortDisplayName>BREAK</ShortDisplayName>
-  <ItemInfo>May the whole universe hear you, as you invincibly plow through armies with your mighty BREAKER BOOST RAMMER! CHAAAAARGE!</ItemInfo>
+  <ItemInfo>May the whole universe hear you, as you invincibly plow through armies with your mighty GOD BREAKER BOOST RAMMER! CHAAAAARGE!</ItemInfo>
   
   <Price>200</Price>
   <TechChanceNumber>1</TechChanceNumber>

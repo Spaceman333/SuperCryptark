@@ -1,9 +1,9 @@
 <?xml version="1.0"?>
 <GameObjectClass>
   <Type>WEAPON</Type>
-  <Displayname>T2 Boost Rammer</Displayname>
-  <ShortDisplayName>BOOSR</ShortDisplayName>
-  <ItemInfo>Blast off and smash into stuff to heavy damage, stun for 6 seconds and most importantly, whack anyone far away that dares to stand in your flight path! BECOME UNSTOPPABLE!</ItemInfo>
+  <Displayname>T2 Katana Rammer</Displayname>
+  <ShortDisplayName>KATAN</ShortDisplayName>
+  <ItemInfo>Launch and smash into stuff to deal heavy damage, stun enemies for 6 seconds and most importantly, whack anyone far away that dares to stand in before your blade of death! BECOME THE UNSTOPPABLE SAMURAI!</ItemInfo>
   
   <Price>20</Price>
   <TechChanceNumber>2</TechChanceNumber>

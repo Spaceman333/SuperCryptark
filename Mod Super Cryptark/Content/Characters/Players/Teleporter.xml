@@ -7,7 +7,7 @@
   <ArtifactCost>2</ArtifactCost>
 
   <MaxHull>11</MaxHull>
-  <StartHull>9</StartHull>
+  <StartHull>11</StartHull>
   
   <Description>
     A favoured chassis for hyper-lane racers and bank jackers, this suit features a short range teleportation projector, allowing it to bore small wormholes through realspace. This weaponized model has replaced much of its hot-rodded powerplant for weapon bays, trading speed for firepower.
@@ -50,8 +50,8 @@
   <StartItemLoadOut>
     <string>Items\healthpack_small</string>
     <string>Items\healthpack_small</string>
-    <string>Items\healthpack_small</string>
-    <string>Items\none_item</string>
+    <string>Items\hazard_coat5</string>
+    <string>Items\boost_acc</string>
   </StartItemLoadOut>
   
   <StartLoadOutBase>

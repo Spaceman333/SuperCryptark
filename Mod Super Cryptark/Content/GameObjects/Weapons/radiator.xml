@@ -19,7 +19,7 @@
   
   <ProjectileClassfile>Projectiles\radiator_p</ProjectileClassfile>
   
-  <RateOfFire>1.1</RateOfFire>
+  <RateOfFire>1.5</RateOfFire>
   <ConeGun>true</ConeGun>
   <FireBoneRecoil>0</FireBoneRecoil>
   <ShakeCameraOnFire>.1</ShakeCameraOnFire>
